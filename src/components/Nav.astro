@@ -17,16 +17,16 @@
 
 <style>
   nav {
+    margin: 0 auto;
     text-align: right;
     width: var(--wrap);
-    margin: 0 auto;
   }
 
   ul {
-    max-inline-size: var(--wrap);
-    margin: 0 auto;
-    padding-inline-start: 0;
     display: none;
+    margin: 0 auto;
+    max-inline-size: var(--wrap);
+    padding-inline-start: 0;
   }
 
   li {
@@ -42,21 +42,19 @@
   }
 
   label[for="show-nav"] {
-    transition: all 0.3s;
     cursor: pointer;
     display: inline-block;
-    z-index: 99;
     width: 22px;
 
     span {
-      transition: all 0.3s;
-      position: relative;
+      background-color: var(--brand);
+      box-sizing: border-box;
       float: left;
       height: 3px;
-      width: 100%;
-      background-color: var(--brand);
+      position: relative;
+      transition: all 0.3s;
       user-select: none;
-      box-sizing: border-box;
+      width: 100%;
     }
 
     span:not(:first-child) {
@@ -66,15 +64,15 @@
 
   #show-nav:checked ~ label[for="show-nav"] {
     span:nth-child(1) {
-      transform: rotate(135deg);
       margin-top: 8px;
+      transform: rotate(135deg);
     }
     span:nth-child(2) {
       opacity: 0;
     }
     span:nth-child(3) {
-      transform: rotate(-135deg);
       margin-top: -9px;
+      transform: rotate(-135deg);
     }
   }
 
