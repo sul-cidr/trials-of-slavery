@@ -16,6 +16,53 @@ const { record } = Astro.props;
 ---
 
 <BaseLayout>
-  <p>ID: {record.ID}</p>
-  <p>Name: {record["Name on Document"]}</p>
+  <dl>
+    {Object.entries(record)
+        .filter(([key, value]) => typeof value === 'string')
+        .map(([key, value]) => (
+          <dt>{key}</dt><dd>{value}</dd>
+        ))}
+    {() => {
+      if (record["trial_locations"].length) {
+        return (
+          <dt>Locations:</dt>
+          <dd>{
+            record["trial_locations"].map(
+              (location) =>
+              <p>{location["Location"]} { location["Relation to case"] ? ` -- ${location["Relation to case"]}`: '' }</p>
+            )
+          }</dd>
+        );
+      }
+    }}
+  </dl>
 </BaseLayout>
+
+<style>
+  dl {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  dt,
+  dd {
+    padding: var(--size-2) var(--size-4);
+    margin: 0;
+  }
+
+  dt ~ dt,
+  dd ~ dd {
+    border-top: 1px solid var(--indigo-9);
+  }
+
+  dt {
+    flex-basis: 25%;
+    background: var(--indigo-2);
+    text-align: right;
+  }
+
+  dd {
+    flex-basis: 70%;
+    flex-grow: 1;
+  }
+</style>
