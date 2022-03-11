@@ -1,10 +1,13 @@
 {
+  // Autocomplete CSS variables in VS Code
+  // https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar
   "cssvar.files": [
     "./node_modules/open-props/open-props.min.css",
+    "./node_modules/open-props/media.min.css",
+    "./node_modules/open-props/normalize.min.css",
     "src/styles/variables.css"
   ],
+  "cssvar.extensions": ["css", "html", "jsx", "tsx", "astro"],
 
-  // you can also add support for autocomplete in other file extensions
-  "cssvar.extensions": ["css", "html", "astro"],
   "cSpell.words": ["datatables"]
 }
