@@ -1,20 +1,40 @@
 import neatCsv from "neat-csv";
 
-const sheetUrl =
-  "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv#gid=998295052";
+const sheetIds = {
+  trials: "998295052",
+  locations: "1922392383",
+};
 
-const response = await fetch(sheetUrl);
-const records = await neatCsv(await response.text(), {
-  mapValues: ({ header, index, value }) => (value === "--" ? null : value),
+const sheetUrlBase =
+  "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv&gid=";
+
+const fetchSheet = async (sheetId) => {
+  const response = await fetch(sheetUrlBase + sheetId);
+  return await neatCsv(await response.text(), {
+    mapValues: ({ header, index, value }) => (value === "--" ? null : value),
+  });
+};
+
+const trials = await fetchSheet(sheetIds.trials);
+const locations = await fetchSheet(sheetIds.locations);
+
+const records = trials.map((trial) => {
+  const trial_locations = locations.filter(
+    (location) => location["Case ID"] === trial["ID"],
+  );
+  return {
+    ...trial,
+    trial_locations,
+  };
 });
-
-import path from "path";
-import { fileURLToPath } from "url";
 
 export { records };
 
 // If called as a node script, print records to stdout.
 // See `yarn print-dataset`  (requires node >= v17.5.0)
+import path from "path";
+import { fileURLToPath } from "url";
 const nodePath = path.resolve(process.argv[1]);
 const modulePath = path.resolve(fileURLToPath(import.meta.url));
-if (nodePath === modulePath) console.log(records);
+if (nodePath === modulePath)
+  console.dir(records, { depth: null, colors: true });
