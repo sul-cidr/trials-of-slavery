@@ -1,4 +1,7 @@
 html {
+  --brand: var(--indigo-9);
+  --link: var(--text-1);
+  --link-visited: var(--text-1);
   --wrap: 90vw;
 }
 

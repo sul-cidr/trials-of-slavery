@@ -1,0 +1,10 @@
+a[href],
+a[href]:visited {
+  text-decoration-color: transparent;
+}
+
+a[href]:hover {
+  transition: all 0.2s ease-in-out;
+  color: var(--brand);
+  text-decoration-color: var(--brand);
+}
