@@ -1,0 +1,96 @@
+<nav>
+  <input type="checkbox" id="show-nav" />
+  <label for="show-nav">
+    <span>&nbsp;</span>
+    <span>&nbsp;</span>
+    <span>&nbsp;</span>
+  </label>
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/trials">Trials</a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  nav {
+    text-align: right;
+    width: var(--wrap);
+    margin: 0 auto;
+  }
+
+  ul {
+    max-inline-size: var(--wrap);
+    margin: 0 auto;
+    padding-inline-start: 0;
+    display: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  #show-nav {
+    display: none;
+  }
+
+  #show-nav:checked ~ ul {
+    display: block;
+  }
+
+  label[for="show-nav"] {
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 99;
+    width: 22px;
+
+    span {
+      transition: all 0.3s;
+      position: relative;
+      float: left;
+      height: 3px;
+      width: 100%;
+      background-color: var(--brand);
+      user-select: none;
+      box-sizing: border-box;
+    }
+
+    span:not(:first-child) {
+      margin-top: 3px;
+    }
+  }
+
+  #show-nav:checked ~ label[for="show-nav"] {
+    span:nth-child(1) {
+      transform: rotate(135deg);
+      margin-top: 8px;
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: rotate(-135deg);
+      margin-top: -9px;
+    }
+  }
+
+  /* Not sure why postcss-custom-media doesn't seem to be working here... @media (--sm-n-above) { */
+  @media (min-width: 480px) {
+    label[for="show-nav"] {
+      display: none;
+    }
+
+    ul {
+      display: block;
+    }
+
+    li {
+      display: inline-block;
+      margin-left: var(--size-fluid-2);
+    }
+  }
+</style>

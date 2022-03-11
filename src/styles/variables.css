@@ -1,0 +1,9 @@
+html {
+  --wrap: 90vw;
+}
+
+@media (--lg-n-above) {
+  html {
+    --wrap: 70vw;
+  }
+}

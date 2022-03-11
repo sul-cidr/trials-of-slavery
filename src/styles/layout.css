@@ -1,0 +1,22 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* gap: var(--size-fluid-4); */
+  justify-content: flex-start;
+}
+
+main {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--size-fluid-2);
+  justify-content: flex-start;
+  margin-top: var(--size-fluid-4);
+  width: var(--wrap);
+}
+
+main * {
+  max-inline-size: 100%;
+}

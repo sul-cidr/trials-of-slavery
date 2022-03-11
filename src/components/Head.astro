@@ -1,0 +1,20 @@
+---
+import siteConfig from "../../site-config.json";
+
+let { title, description = siteConfig.defaultDescription } = Astro.props;
+
+title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
+---
+
+<meta charset="UTF-8" />
+<meta name="description" property="og:description" content={description} />
+<meta name="viewport" content="width=device-width" />
+<title>{title}</title>
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href={Astro.resolve("../styles/styles.css")}
+/>

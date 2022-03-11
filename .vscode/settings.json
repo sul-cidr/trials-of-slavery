@@ -1,0 +1,10 @@
+{
+  "cssvar.files": [
+    "./node_modules/open-props/open-props.min.css",
+    "src/styles/variables.css"
+  ],
+
+  // you can also add support for autocomplete in other file extensions
+  "cssvar.extensions": ["css", "html", "astro"],
+  "cSpell.words": ["datatables"]
+}

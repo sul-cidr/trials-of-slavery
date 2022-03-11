@@ -1,0 +1,22 @@
+{
+  "description": "Trials of Slavery Website",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^0.23.0",
+    "autoprefixer": "^10.4.2",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-nested": "^5.0.6",
+    "prettier-plugin-astro": "^0.0.12"
+  },
+  "dependencies": {
+    "neat-csv": "^7.0.0",
+    "open-props": "^1.3.8",
+    "simple-datatables": "^3.2.0"
+  }
+}

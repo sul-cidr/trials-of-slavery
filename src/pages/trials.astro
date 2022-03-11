@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../layouts/base.astro";
+import neatCsv from "neat-csv";
+import "../../node_modules/simple-datatables/dist/style.css";
+
+const sheetUrl =
+  "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv#gid=998295052";
+
+const response = await fetch(sheetUrl);
+const records = await neatCsv(await response.text(), {
+  mapValues: ({ header, index, value }) => (value === "--" ? null : value),
+});
+
+// records.map((record) => JSON.stringify(record));
+---
+
+<BaseLayout bodyClass="trials">
+  <table id="trials">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name on Document</th>
+        <th>Date (Y/M/D)</th>
+        <th>Trial Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      {records.map((record) => (
+        <tr>
+          <td>{record.ID}</td>
+          <td>{record["Name on Document"]}</td>
+          <td>{record["Date (Y/M/D)"]}</td>
+          <td>{record["Trial Location"]}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <script
+    src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
+    type="text/javascript"></script>
+  <script>
+    const dataTable = new simpleDatatables.DataTable("#trials");
+  </script>
+</BaseLayout>
+
+<style global>
+  .trials {
+    .dataTable-selector {
+      background-color: var(--indigo-2);
+      border-radius: var(--radius-2);
+      padding: var(--size-1) var(--size-2);
+    }
+
+    .dataTable-pagination a {
+      color: #333;
+      background-color: var(--indigo-2);
+      border-radius: var(--radius-2);
+    }
+
+    .dataTable-pagination .active a,
+    .dataTable-pagination .active a:focus,
+    .dataTable-pagination .active a:hover {
+      background-color: var(--indigo-4);
+      cursor: default;
+    }
+
+    .dataTable-pagination a:hover {
+      background-color: var(--indigo-4);
+    }
+  }
+
+  /* Not sure why postcss-custom-media doesn't seem to be working here... @media (--md-n-below) { */
+  @media (max-width: 768px) {
+    .trials main {
+      width: 100vw;
+    }
+  }
+</style>
