@@ -1,3 +1,7 @@
+html {
+  font-family: var(--font-serif);
+}
+
 a[href],
 a[href]:visited {
   text-decoration-color: transparent;
@@ -5,6 +9,11 @@ a[href]:visited {
 
 a[href]:hover {
   transition: all 0.2s ease-in-out;
-  color: var(--brand);
+  color: var(--text-1);
   text-decoration-color: var(--brand);
+}
+
+::selection {
+  background-color: var(--indigo-2);
+  color: var(--text-1);
 }
