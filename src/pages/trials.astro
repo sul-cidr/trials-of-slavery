@@ -17,7 +17,7 @@ import { records } from "../dataset.mjs";
     </thead>
     <tbody>
       {records.map((record) => (
-        <tr>
+        <tr data-row-id={record.ID}>
           <td>
             <a href={"/trials/" + record.ID}>{record.ID}</a>
           </td>
@@ -28,15 +28,43 @@ import { records } from "../dataset.mjs";
       ))}
     </tbody>
   </table>
+
   <script
     src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
     type="text/javascript"></script>
+
   <script>
+    /* Row onClick event handlers are set up in vanilla JS here when
+        the table is initialized and when the page changed.
+
+       The cursor style is also set here since this is a progressive
+        enhancement when Javascript is available (otherwise the row's
+        not clickable).
+    */
     const dataTable = new simpleDatatables.DataTable("#trials");
+    const connectRowEvents = () => {
+      document.querySelectorAll("#trials tbody tr").forEach(function (row) {
+        row.style.cursor = "pointer";
+        row.addEventListener(
+          "click",
+          () => (window.location.href = "/trials/" + row.dataset.rowId),
+        );
+      });
+    };
+    dataTable.on("datatable.init", connectRowEvents);
+    dataTable.on("datatable.page", connectRowEvents);
   </script>
 </BaseLayout>
 
-<style global>
+<style>
+  tbody tr:hover {
+    background-color: var(--indigo-0);
+  }
+</style><style global>
+  /* overrides for simple-datatables styles
+     - must be global as these are generated classes
+     - consider vendoring the stylesheet and editing by hand
+  */
   .trials {
     .dataTable-selector {
       background-color: var(--indigo-2);
@@ -62,7 +90,8 @@ import { records } from "../dataset.mjs";
     }
   }
 
-  /* Not sure why postcss-custom-media doesn't seem to be working here... @media (--md-n-below) { */
+  /* Not sure why postcss-custom-media doesn't seem to be working here... */
+  /* @media (--md-n-below) { */
   @media (max-width: 768px) {
     .trials main {
       width: 100vw;

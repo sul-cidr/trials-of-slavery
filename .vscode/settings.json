@@ -9,5 +9,5 @@
   ],
   "cssvar.extensions": ["css", "html", "jsx", "tsx", "astro"],
 
-  "cSpell.words": ["datatables"]
+  "cSpell.words": ["datatable", "datatables"]
 }
