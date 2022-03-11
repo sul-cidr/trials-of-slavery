@@ -1,17 +1,8 @@
 ---
 import BaseLayout from "../layouts/base.astro";
-import neatCsv from "neat-csv";
 import "../../node_modules/simple-datatables/dist/style.css";
 
-const sheetUrl =
-  "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv#gid=998295052";
-
-const response = await fetch(sheetUrl);
-const records = await neatCsv(await response.text(), {
-  mapValues: ({ header, index, value }) => (value === "--" ? null : value),
-});
-
-// records.map((record) => JSON.stringify(record));
+import { records } from "../dataset.js";
 ---
 
 <BaseLayout bodyClass="trials">
