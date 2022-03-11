@@ -52,28 +52,50 @@ const { record } = Astro.props;
 <style>
   dl {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
   }
 
   dt,
   dd {
-    padding: var(--size-2) var(--size-4);
+    padding: var(--size-1) var(--size-4);
     margin: 0;
-  }
-
-  dt ~ dt,
-  dd ~ dd {
-    border-top: 1px solid var(--indigo-9);
   }
 
   dt {
     flex-basis: 25%;
     background: var(--indigo-2);
-    text-align: right;
+    text-align: left;
   }
 
   dd {
     flex-basis: 70%;
     flex-grow: 1;
+    margin-bottom: var(--size-2);
+  }
+
+  /* Not sure why postcss-custom-media doesn't seem to be working here... */
+  /* @media (--md-n-above) { */
+  @media (min-width: 768px) {
+    dl {
+      flex-flow: row wrap;
+    }
+
+    dt,
+    dd {
+      padding: var(--size-2) var(--size-4);
+    }
+
+    dt ~ dt,
+    dd ~ dd {
+      border-top: 1px solid var(--indigo-9);
+    }
+
+    dt {
+      text-align: right;
+    }
+
+    dd {
+      margin-bottom: none;
+    }
   }
 </style>
