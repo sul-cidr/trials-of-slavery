@@ -36,6 +36,17 @@ const { record } = Astro.props;
       }
     }}
   </dl>
+
+  {() => {
+    if (import.meta.env.DEV) {
+      return (
+        <details>
+          <summary style="box-sizing: content-box;">debug</summary>
+          <pre>{JSON.stringify(record, null, 2)}</pre>
+        </details>
+      );
+    }
+  }}
 </BaseLayout>
 
 <style>
