@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/base.astro";
+import { records } from "../../dataset.mjs";
+
+export async function getStaticPaths() {
+  const paths = records.map((record) => ({
+    params: { trial_id: record.ID },
+    props: { record: record },
+  }));
+
+  return paths;
+}
+
+// const { trial_id } = Astro.request.params;
+const { record } = Astro.props;
+---
+
+<BaseLayout>
+  <p>ID: {record.ID}</p>
+  <p>Name: {record["Name on Document"]}</p>
+</BaseLayout>

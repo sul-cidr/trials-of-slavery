@@ -18,7 +18,9 @@ import { records } from "../dataset.mjs";
     <tbody>
       {records.map((record) => (
         <tr>
-          <td>{record.ID}</td>
+          <td>
+            <a href={"/trials/" + record.ID}>{record.ID}</a>
+          </td>
           <td>{record["Name on Document"]}</td>
           <td>{record["Date (Y/M/D)"]}</td>
           <td>{record["Trial Location"]}</td>
