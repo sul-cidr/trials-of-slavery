@@ -29,11 +29,8 @@ import { records } from "../dataset.mjs";
     </tbody>
   </table>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
-    type="text/javascript"></script>
-
-  <script>
+  <script type="module" hoist>
+    import { DataTable } from "simple-datatables";
     /* Row onClick event handlers are set up in vanilla JS here when
         the table is initialized and when the page changed.
 
@@ -41,7 +38,7 @@ import { records } from "../dataset.mjs";
         enhancement when Javascript is available (otherwise the row's
         not clickable).
     */
-    const dataTable = new simpleDatatables.DataTable("#trials");
+    const dataTable = new DataTable("#trials");
     dataTable.on("datatable.init", () => {
       dataTable.pages.forEach((page) => {
         page.forEach((row) => {
