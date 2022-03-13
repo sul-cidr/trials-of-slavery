@@ -80,8 +80,10 @@ const { record } = Astro.props;
 
 <style>
   dl {
+    border-radius: var(--size-2);
     display: flex;
     flex-flow: column wrap;
+    overflow: hidden;
   }
 
   dt,
@@ -94,6 +96,10 @@ const { record } = Astro.props;
     flex-basis: 25%;
     background: var(--indigo-2);
     text-align: left;
+
+    &::selection {
+      background-color: var(--indigo-0);
+    }
   }
 
   dd {
@@ -104,6 +110,7 @@ const { record } = Astro.props;
 
   #map {
     height: 400px;
+    border-radius: var(--size-2);
   }
 
   /* Not sure why postcss-custom-media doesn't seem to be working here... */
