@@ -56,10 +56,12 @@ const { record } = Astro.props;
     const locations = JSON.parse(
       document.querySelector("[data-locations]").dataset.locations,
     );
-    const map = L.map("map").setView(
-      [locations[0]["Latitude"], locations[0]["Longitude"]],
-      13,
-    );
+    const map = L.map("map").fitBounds([
+      locations.map((location) => [
+        location["Latitude"],
+        location["Longitude"],
+      ]),
+    ]);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
