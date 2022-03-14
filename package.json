@@ -9,7 +9,7 @@
     "print-dataset": "node --experimental-fetch src/dataset.mjs"
   },
   "devDependencies": {
-    "astro": "^0.23.0",
+    "astro": "^0.23.7",
     "autoprefixer": "^10.4.2",
     "postcss-custom-media": "^8.0.0",
     "postcss-nested": "^5.0.6",
