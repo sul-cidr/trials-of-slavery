@@ -21,8 +21,8 @@ const { record, prev, next } = Astro.props;
 
 <BaseLayout>
   <nav>
-    {prev ? <a href={Astro.site + "trials/" + prev}>⮜</a> : <a>⮜</a>}
-    {next ? <a href={Astro.site + "trials/" + next}>⮞</a> : <a>⮞</a>}
+    {prev ? <a href={`${Astro.site}trials/${prev}/`}>⮜</a> : <a>⮜</a>}
+    {next ? <a href={`${Astro.site}trials/${next}/`}>⮞</a> : <a>⮞</a>}
   </nav>
   <dl>
     {Object.entries(record)

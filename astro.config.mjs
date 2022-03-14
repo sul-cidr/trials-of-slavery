@@ -7,6 +7,9 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
   buildOptions: {
     site: "http://localhost:3000/",
   },
+  devOptions: {
+    trailingSlash: "always",
+  },
   renderers: [],
   vite: {
     ssr: { external: ["neat-csv"] },

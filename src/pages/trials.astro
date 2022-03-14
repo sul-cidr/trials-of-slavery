@@ -20,7 +20,7 @@ import { records } from "../dataset.mjs";
       {records.map((record) => (
         <tr data-row-id={record.ID}>
           <td>
-            <a href={Astro.site + "trials/" + record.ID}>{record.ID}</a>
+            <a href={`${Astro.site}trials/${record.ID}/`}>{record.ID}</a>
           </td>
           <td>{record["Name on Document"]}</td>
           <td>{record["Date (Y/M/D)"]}</td>
@@ -50,8 +50,7 @@ import { records } from "../dataset.mjs";
           row.addEventListener(
             "click",
             () =>
-              (window.location.href =
-                `${document.baseURI}trials/` + row.dataset.rowId),
+              (window.location.href = `${document.baseURI}trials/${row.dataset.rowId}/`),
           );
         });
       });
