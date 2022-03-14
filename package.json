@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build --experimental-static-build",
+    "build": "astro build --experimental-static-build --config astro.config.prod.mjs",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs"
   },
