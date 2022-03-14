@@ -1,4 +1,12 @@
 import * as L from "leaflet/dist/leaflet-src.esm.js";
+import iconUrl from "leaflet/dist/images/marker-icon.png";
+import shadowUrl from "leaflet/dist/images/marker-shadow.png";
+import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
+
+// Work-around for a long-standing and well-known bundling bug in Leaflet
+//  (see https://github.com/Leaflet/Leaflet/issues/4968)
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({ iconUrl, shadowUrl, iconRetinaUrl });
 
 const locationData =
   document.querySelector("[data-locations]")?.dataset.locations;
