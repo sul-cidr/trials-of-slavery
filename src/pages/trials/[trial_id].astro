@@ -4,19 +4,27 @@ import "leaflet/dist/leaflet.css";
 import { records } from "../../dataset.mjs";
 
 export async function getStaticPaths() {
-  const paths = records.map((record) => ({
+  const paths = records.map((record, index, array) => ({
     params: { trial_id: record.ID },
-    props: { record: record },
+    props: {
+      record: record,
+      prev: array[index - 1]?.ID,
+      next: array[index + 1]?.ID,
+    },
   }));
 
   return paths;
 }
 
 // const { trial_id } = Astro.request.params;
-const { record } = Astro.props;
+const { record, prev, next } = Astro.props;
 ---
 
 <BaseLayout>
+  <nav>
+    {prev ? <a href={"/trials/" + prev}>⮜</a> : <a>⮜</a>}
+    {next ? <a href={"/trials/" + next}>⮞</a> : <a>⮞</a>}
+  </nav>
   <dl>
     {Object.entries(record)
         .filter(([key, value]) => typeof value === 'string')
@@ -86,6 +94,33 @@ const { record } = Astro.props;
 </BaseLayout>
 
 <style>
+  nav {
+    text-align: right;
+    font-variant: small-caps;
+    display: flex;
+    gap: var(--size-2);
+    justify-content: flex-end;
+
+    a {
+      background-color: var(--surface-3);
+      border-radius: var(--radius-2);
+      border: 1px solid transparent;
+      color: var(--text-1);
+      float: left;
+      margin-left: 2px;
+      padding: 6px 12px;
+      position: relative;
+      text-decoration: none;
+
+      &[href] {
+        background-color: var(--indigo-2);
+
+        &:hover {
+          background-color: var(--indigo-4);
+        }
+      }
+    }
+  }
   dl {
     border-radius: var(--size-2);
     display: flex;
