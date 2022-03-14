@@ -6,11 +6,20 @@
     <span>&nbsp;</span>
   </label>
   <ul>
-    <li>
-      <a href="/">Home</a>
+    <li class={Astro.request.canonicalURL.pathname === "/" ? "active" : null}>
+      <a href={Astro.request.canonicalURL.pathname === "/" ? null : "/"}>Home</a
+      >
     </li>
-    <li>
-      <a href="/trials">Trials</a>
+    <li
+      class={Astro.request.canonicalURL.pathname === "/trials/"
+        ? "active"
+        : null}
+    >
+      <a
+        href={Astro.request.canonicalURL.pathname === "/trials/"
+          ? null
+          : "/trials/"}>Trials</a
+      >
     </li>
   </ul>
 </nav>
@@ -24,13 +33,25 @@
 
   ul {
     display: none;
-    margin: 0 auto;
     max-inline-size: var(--wrap);
-    padding-inline-start: 0;
+    padding: 0;
   }
 
   li {
+    border-radius: var(--radius-2);
     list-style: none;
+    margin: 0;
+    padding: 0 var(--size-3);
+    transition: all 0.2s ease-in-out;
+
+    &.active {
+      color: var(--palette-0);
+      background-color: var(--palette-2);
+    }
+
+    &:hover {
+      background-color: var(--palette-0);
+    }
   }
 
   #show-nav {
@@ -67,28 +88,33 @@
       margin-top: 8px;
       transform: rotate(135deg);
     }
+
     span:nth-child(2) {
       opacity: 0;
     }
+
     span:nth-child(3) {
       margin-top: -9px;
       transform: rotate(-135deg);
     }
   }
 
-  /* Not sure why postcss-custom-media doesn't seem to be working here... @media (--sm-n-above) { */
+  /* Not sure why postcss-custom-media doesn't seem to be working here... */
+  /* @media (--sm-n-above) { */
   @media (min-width: 480px) {
     label[for="show-nav"] {
       display: none;
     }
 
     ul {
-      display: block;
+      display: flex;
+      gap: var(--size-fluid-1);
+      justify-content: flex-end;
     }
 
-    li {
-      display: inline-block;
-      margin-left: var(--size-fluid-2);
+    li.active {
+      background-color: transparent;
+      color: var(--palette-4);
     }
   }
 </style>
