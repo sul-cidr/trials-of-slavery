@@ -1,5 +1,16 @@
 html {
-  --brand: var(--indigo-9);
+  --palette-0: var(--indigo-0);
+  --palette-1: var(--indigo-1);
+  --palette-2: var(--indigo-2);
+  --palette-3: var(--indigo-3);
+  --palette-4: var(--indigo-4);
+  --palette-5: var(--indigo-5);
+  --palette-6: var(--indigo-6);
+  --palette-7: var(--indigo-7);
+  --palette-8: var(--indigo-8);
+  --palette-9: var(--indigo-9);
+
+  --brand: var(--palette-9);
   --font-serif: "Noto Serif", serif;
   --link: var(--brand);
   --link-visited: var(--brand);

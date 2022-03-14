@@ -86,10 +86,10 @@ const { record, prev, next } = Astro.props;
       text-decoration: none;
 
       &[href] {
-        background-color: var(--indigo-2);
+        background-color: var(--palette-2);
 
         &:hover {
-          background-color: var(--indigo-4);
+          background-color: var(--palette-4);
         }
       }
     }
@@ -109,13 +109,13 @@ const { record, prev, next } = Astro.props;
   }
 
   dt {
-    background: var(--indigo-2);
+    background: var(--palette-2);
     border-radius: var(--radius-2);
     flex-basis: max(25%, 200px);
     text-align: left;
 
     &::selection {
-      background-color: var(--indigo-0);
+      background-color: var(--palette-0);
     }
   }
 
@@ -164,7 +164,7 @@ const { record, prev, next } = Astro.props;
 
     dt ~ dt,
     dd ~ dd {
-      border-top: 1px solid var(--indigo-9);
+      border-top: 1px solid var(--palette-9);
     }
 
     dt {

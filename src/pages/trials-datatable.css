@@ -1,25 +1,25 @@
 .trials {
   .dataTable-selector {
-    background-color: var(--indigo-2);
+    background-color: var(--palette-2);
     border-radius: var(--radius-2);
     padding: var(--size-1) var(--size-2);
   }
 
   .dataTable-pagination a {
     color: var(--text-2);
-    background-color: var(--indigo-2);
+    background-color: var(--palette-2);
     border-radius: var(--radius-2);
   }
 
   .dataTable-pagination .active a,
   .dataTable-pagination .active a:focus,
   .dataTable-pagination .active a:hover {
-    background-color: var(--indigo-4);
+    background-color: var(--palette-4);
     cursor: default;
   }
 
   .dataTable-pagination a:hover {
-    background-color: var(--indigo-4);
+    background-color: var(--palette-4);
   }
 }
 
