@@ -7,7 +7,8 @@
   </label>
   <ul>
     <li class={Astro.request.canonicalURL.pathname === "/" ? "active" : null}>
-      <a href={Astro.request.canonicalURL.pathname === "/" ? null : "/"}>Home</a
+      <a href={Astro.request.canonicalURL.pathname === "/" ? null : Astro.site}
+        >Home</a
       >
     </li>
     <li
@@ -18,14 +19,16 @@
       <a
         href={Astro.request.canonicalURL.pathname === "/trials/"
           ? null
-          : "/trials/"}>Trials</a
+          : Astro.site + "trials/"}>Trials</a
       >
     </li>
     <li
       class={Astro.request.canonicalURL.pathname === "/map/" ? "active" : null}
     >
-      <a href={Astro.request.canonicalURL.pathname === "/map/" ? null : "/map/"}
-        >Map</a
+      <a
+        href={Astro.request.canonicalURL.pathname === "/map/"
+          ? null
+          : Astro.site + "map/"}>Map</a
       >
     </li>
   </ul>
