@@ -11,23 +11,8 @@ import BaseLayout from "../layouts/base.astro";
   #map {
     height: 800px;
     border-radius: var(--radius-2);
-
-    :global(*) {
-      /* wind off settings from Open Props normalize */
-      max-inline-size: revert;
-      font-family: var(--font-serif);
-    }
-
-    :global(.leaflet-popup-content) {
-      font-size: var(--font-size-1);
-      white-space: nowrap;
-    }
-
-    :global(a.leaflet-popup-close-button) {
-      margin-block: revert;
-      margin-inline: revert;
-    }
   }
 </style><style global>
   @import "leaflet/dist/leaflet.css";
+  @import "../styles/leaflet-overrides.css";
 </style>

@@ -1,0 +1,30 @@
+.leaflet-container {
+  height: 800px;
+  border-radius: var(--radius-2);
+
+  /* wind off settings from Open Props normalize */
+  * {
+    font-family: var(--font-serif);
+    max-inline-size: revert;
+  }
+
+  a.leaflet-popup-close-button {
+    margin-block: revert;
+    margin-inline: revert;
+  }
+
+  /* leaflet label styling */
+  .leaflet-popup-content {
+    font-size: var(--font-size-1);
+
+    header {
+      font-size: var(--font-size-3);
+      font-weight: bold;
+    }
+
+    p {
+      font-size: var(--font-size-1);
+      margin: 0;
+    }
+  }
+}

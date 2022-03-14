@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../../layouts/base.astro";
-import "leaflet/dist/leaflet.css";
 import { records } from "../../dataset.mjs";
 
 export async function getStaticPaths() {
@@ -125,31 +124,6 @@ const { record, prev, next } = Astro.props;
     margin-bottom: var(--size-2);
   }
 
-  #map {
-    height: 400px;
-    border-radius: var(--radius-2);
-
-    :global(*) {
-      /* wind off settings from Open Props normalize */
-      max-inline-size: revert;
-      font-family: var(--font-serif);
-    }
-
-    :global(.leaflet-popup-content header) {
-      font-size: var(--font-size-3);
-      font-weight: bold;
-    }
-
-    :global(.leaflet-popup-content p) {
-      font-size: var(--font-size-1);
-      margin: 0;
-    }
-
-    :global(a.leaflet-popup-close-button) {
-      padding: 10px 24px 0 0;
-    }
-  }
-
   /* Not sure why postcss-custom-media doesn't seem to be working here... */
   /* @media (--md-n-above) { */
   @media (min-width: 768px) {
@@ -176,4 +150,12 @@ const { record, prev, next } = Astro.props;
       margin-bottom: 0;
     }
   }
+
+  #map {
+    height: 400px;
+    border-radius: var(--radius-2);
+  }
+</style><style global>
+  @import "leaflet/dist/leaflet.css";
+  @import "../../styles/leaflet-overrides.css";
 </style>
