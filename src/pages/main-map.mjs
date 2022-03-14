@@ -11,10 +11,8 @@ L.Icon.Default.mergeOptions({ iconUrl, shadowUrl, iconRetinaUrl });
 const response = await fetch("../locations-by-latlong.json");
 const locationsByLatlong = await response.json();
 
-const map = L.map("map").fitBounds(
-  [Object.keys(locationsByLatlong).map((latlong) => latlong.split(","))],
-  { maxZoom: 8 },
-);
+// eyeballed to fit South Africa in the screen
+const map = L.map("map").setView([-28, 24.5], 6);
 
 L.tileLayer(
   "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png",
