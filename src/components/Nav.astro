@@ -21,6 +21,13 @@
           : "/trials/"}>Trials</a
       >
     </li>
+    <li
+      class={Astro.request.canonicalURL.pathname === "/map/" ? "active" : null}
+    >
+      <a href={Astro.request.canonicalURL.pathname === "/map/" ? null : "/map/"}
+        >Map</a
+      >
+    </li>
   </ul>
 </nav>
 
