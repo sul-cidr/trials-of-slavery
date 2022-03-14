@@ -11,6 +11,22 @@ import BaseLayout from "../layouts/base.astro";
   #map {
     height: 800px;
     border-radius: var(--radius-2);
+
+    :global(.leaflet-popup-content) {
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-1);
+
+      :global(p:nth-child(even)) {
+        background-color: var(--palette-0);
+      }
+
+      :global(p) {
+        padding-inline: calc(var(--size-1) * 2) var(--size-1);
+        text-indent: calc(-1 * var(--size-1));
+        min-width: 200px;
+      }
+    }
   }
 </style><style global>
   @import "leaflet/dist/leaflet.css";

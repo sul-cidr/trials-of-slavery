@@ -13,10 +13,13 @@
     margin-inline: revert;
   }
 
+  .leaflet-control * {
+    padding-block: revert;
+  }
+
   /* leaflet label styling */
   .leaflet-popup-content {
     font-size: var(--font-size-1);
-
     header {
       font-size: var(--font-size-3);
       font-weight: bold;
