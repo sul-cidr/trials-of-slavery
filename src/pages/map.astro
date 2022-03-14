@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../layouts/base.astro";
+---
+
+<BaseLayout bodyClass="map">
+  <div id="map"></div>
+  <script type="module" hoist>await import("./main-map.mjs");</script>
+</BaseLayout>
+
+<style>
+  #map {
+    height: 800px;
+    border-radius: var(--radius-2);
+
+    :global(*) {
+      /* wind off settings from Open Props normalize */
+      max-inline-size: revert;
+      font-family: var(--font-serif);
+    }
+
+    :global(.leaflet-popup-content) {
+      font-size: var(--font-size-1);
+    }
+
+    :global(a.leaflet-popup-close-button) {
+      padding: 10px 24px 0 0;
+    }
+  }
+</style><style global>
+  @import "leaflet/dist/leaflet.css";
+</style>
