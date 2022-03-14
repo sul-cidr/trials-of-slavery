@@ -109,8 +109,9 @@ const { record, prev, next } = Astro.props;
   }
 
   dt {
-    flex-basis: 25%;
     background: var(--indigo-2);
+    border-radius: var(--radius-2);
+    flex-basis: max(25%, 200px);
     text-align: left;
 
     &::selection {
@@ -167,6 +168,7 @@ const { record, prev, next } = Astro.props;
     }
 
     dt {
+      border-radius: 0;
       text-align: right;
     }
 
