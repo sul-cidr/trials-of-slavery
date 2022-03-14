@@ -38,7 +38,10 @@ import { records } from "../dataset.mjs";
         enhancement when Javascript is available (otherwise the row's
         not clickable).
     */
-    const dataTable = new DataTable("#trials");
+    const dataTable = new DataTable("#trials", {
+      prevText: "⮜",
+      nextText: "⮞",
+    });
     dataTable.on("datatable.init", () => {
       dataTable.pages.forEach((page) => {
         page.forEach((row) => {
@@ -70,7 +73,7 @@ import { records } from "../dataset.mjs";
     }
 
     .dataTable-pagination a {
-      color: #333;
+      color: var(--text-2);
       background-color: var(--indigo-2);
       border-radius: var(--radius-2);
     }

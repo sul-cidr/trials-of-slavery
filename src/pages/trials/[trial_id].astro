@@ -69,11 +69,10 @@ const { record, prev, next } = Astro.props;
 
 <style>
   nav {
-    text-align: right;
-    font-variant: small-caps;
     display: flex;
     gap: var(--size-2);
     justify-content: flex-end;
+    text-align: right;
 
     a {
       background-color: var(--surface-3);
@@ -95,8 +94,9 @@ const { record, prev, next } = Astro.props;
       }
     }
   }
+
   dl {
-    border-radius: var(--size-2);
+    border-radius: var(--radius-2);
     display: flex;
     flex-flow: column wrap;
     overflow: hidden;
@@ -126,7 +126,7 @@ const { record, prev, next } = Astro.props;
 
   #map {
     height: 400px;
-    border-radius: var(--size-2);
+    border-radius: var(--radius-2);
 
     :global(*) {
       /* wind off settings from Open Props normalize */
@@ -171,7 +171,7 @@ const { record, prev, next } = Astro.props;
     }
 
     dd {
-      margin-bottom: none;
+      margin-bottom: 0;
     }
   }
 </style>
