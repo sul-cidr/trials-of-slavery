@@ -20,10 +20,12 @@ import BaseLayout from "../layouts/base.astro";
 
     :global(.leaflet-popup-content) {
       font-size: var(--font-size-1);
+      white-space: nowrap;
     }
 
     :global(a.leaflet-popup-close-button) {
-      padding: 10px 24px 0 0;
+      margin-block: revert;
+      margin-inline: revert;
     }
   }
 </style><style global>
