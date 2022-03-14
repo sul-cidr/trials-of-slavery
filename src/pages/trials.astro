@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/base.astro";
 import "../../node_modules/simple-datatables/dist/style.css";
+import "./trials-datatable.css"; // overrides for simple-datatables styles
 
 import { records } from "../dataset.mjs";
 ---
@@ -59,42 +60,5 @@ import { records } from "../dataset.mjs";
 <style>
   tbody tr:hover {
     background-color: var(--indigo-0);
-  }
-</style><style global>
-  /* overrides for simple-datatables styles
-     - must be global as these are generated classes
-     - consider vendoring the stylesheet and editing by hand
-  */
-  .trials {
-    .dataTable-selector {
-      background-color: var(--indigo-2);
-      border-radius: var(--radius-2);
-      padding: var(--size-1) var(--size-2);
-    }
-
-    .dataTable-pagination a {
-      color: var(--text-2);
-      background-color: var(--indigo-2);
-      border-radius: var(--radius-2);
-    }
-
-    .dataTable-pagination .active a,
-    .dataTable-pagination .active a:focus,
-    .dataTable-pagination .active a:hover {
-      background-color: var(--indigo-4);
-      cursor: default;
-    }
-
-    .dataTable-pagination a:hover {
-      background-color: var(--indigo-4);
-    }
-  }
-
-  /* Not sure why postcss-custom-media doesn't seem to be working here... */
-  /* @media (--md-n-below) { */
-  @media (max-width: 768px) {
-    .trials main {
-      width: 100vw;
-    }
   }
 </style>
