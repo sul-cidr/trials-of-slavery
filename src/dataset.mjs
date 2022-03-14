@@ -19,9 +19,16 @@ const trials = await fetchSheet(sheetIds.trials);
 const locations = await fetchSheet(sheetIds.locations);
 
 const records = trials.map((trial) => {
-  const trial_locations = locations.filter(
-    (location) => location["Case ID"] === trial["ID"],
-  );
+  const trial_locations = locations
+    .filter((location) => location["Case ID"] === trial["ID"])
+    .map((location) =>
+      Object.fromEntries(
+        Object.entries(location).map(([key, value]) => [
+          key,
+          value.trim().replace(/°$/g, ""),
+        ]),
+      ),
+    );
   return {
     ...trial,
     trial_locations,
