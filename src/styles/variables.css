@@ -1,14 +1,27 @@
+:root {
+  --russian-green-0: #e9eee7;
+  --russian-green-1: #d3ddd0;
+  --russian-green-2: #bdccb8;
+  --russian-green-3: #a7baa0;
+  --russian-green-4: #91a989;
+  --russian-green-5: #77966d;
+  --russian-green-6: #67825e;
+  --russian-green-7: #546a4d;
+  --russian-green-8: #42533c;
+  --russian-green-9: #2f3b2b;
+}
+
 html {
-  --palette-0: var(--indigo-0);
-  --palette-1: var(--indigo-1);
-  --palette-2: var(--indigo-2);
-  --palette-3: var(--indigo-3);
-  --palette-4: var(--indigo-4);
-  --palette-5: var(--indigo-5);
-  --palette-6: var(--indigo-6);
-  --palette-7: var(--indigo-7);
-  --palette-8: var(--indigo-8);
-  --palette-9: var(--indigo-9);
+  --palette-0: var(--russian-green-0);
+  --palette-1: var(--russian-green-1);
+  --palette-2: var(--russian-green-2);
+  --palette-3: var(--russian-green-3);
+  --palette-4: var(--russian-green-4);
+  --palette-5: var(--russian-green-5);
+  --palette-6: var(--russian-green-6);
+  --palette-7: var(--russian-green-7);
+  --palette-8: var(--russian-green-8);
+  --palette-9: var(--russian-green-9);
 
   --brand: var(--palette-9);
   --font-serif: "Noto Serif", serif;
