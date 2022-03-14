@@ -9,6 +9,7 @@
     color: var(--text-2);
     background-color: var(--palette-2);
     border-radius: var(--radius-2);
+    margin: 0 0 var(--size-2) 0;
   }
 
   .dataTable-pagination .active a,
