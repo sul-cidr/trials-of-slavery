@@ -20,8 +20,6 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
   rel="stylesheet"
 />
 
-<link
-  rel="stylesheet"
-  type="text/css"
-  href={Astro.resolve("../styles/styles.css")}
-/>
+<style global>
+  @import "../styles/styles.css";
+</style>

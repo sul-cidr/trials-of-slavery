@@ -50,7 +50,7 @@ const { record, prev, next } = Astro.props;
     if (record["trial_locations"].length) {
       return (
         <div id="map"></div>
-        <script type="module" src={Astro.resolve("./trial-maps.mjs")}></script>
+        <script type="module" hoist>await import("./trial-maps.mjs")</script>
       );
     }
   }}
