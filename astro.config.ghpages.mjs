@@ -4,6 +4,6 @@ import config from "./astro.config.mjs";
 export default /** @type {import('astro').AstroUserConfig} */ ({
   ...config,
   buildOptions: {
-    site: "https://localhost:8080/dist/",
+    site: "https://simonwiles.github.io/trials-of-slavery/",
   },
 });
