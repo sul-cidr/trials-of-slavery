@@ -4,13 +4,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build --experimental-static-build --config astro.config.prod.mjs",
+    "build": "astro build --config astro.config.prod.mjs",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs"
   },
   "devDependencies": {
-    "astro": "^0.23.7",
-    "autoprefixer": "^10.4.2",
+    "astro": "^0.24.1",
+    "autoprefixer": "^10.4.3",
     "postcss-custom-media": "^8.0.0",
     "postcss-nested": "^5.0.6",
     "prettier-plugin-astro": "^0.0.12"
