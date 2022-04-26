@@ -6,27 +6,39 @@
     <span>&nbsp;</span>
   </label>
   <ul>
-    <li class={Astro.request.canonicalURL.pathname === "/" ? "active" : null}>
-      <a href={Astro.request.canonicalURL.pathname === "/" ? null : Astro.site}
-        >Home</a
-      >
-    </li>
     <li
-      class={Astro.request.canonicalURL.pathname === "/trials/"
+      class={Astro.request.canonicalURL.pathname === Astro.site.pathname
         ? "active"
         : null}
     >
       <a
-        href={Astro.request.canonicalURL.pathname === "/trials/"
+        href={Astro.request.canonicalURL.pathname === Astro.site.pathname
+          ? null
+          : Astro.site}>Home</a
+      >
+    </li>
+    <li
+      class={Astro.request.canonicalURL.pathname ===
+      Astro.site.pathname + "trials/"
+        ? "active"
+        : null}
+    >
+      <a
+        href={Astro.request.canonicalURL.pathname ===
+        Astro.site.pathname + "trials/"
           ? null
           : Astro.site + "trials/"}>Trials</a
       >
     </li>
     <li
-      class={Astro.request.canonicalURL.pathname === "/map/" ? "active" : null}
+      class={Astro.request.canonicalURL.pathname ===
+      Astro.site.pathname + "map/"
+        ? "active"
+        : null}
     >
       <a
-        href={Astro.request.canonicalURL.pathname === "/map/"
+        href={Astro.request.canonicalURL.pathname ===
+        Astro.site.pathname + "map/"
           ? null
           : Astro.site + "map/"}>Map</a
       >
