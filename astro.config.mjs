@@ -4,13 +4,9 @@
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ ({
   // Comment out "renderers: []" to enable Astro's default component support.
-  buildOptions: {
-    site: "http://localhost:3000/",
-  },
-  devOptions: {
-    trailingSlash: "always",
-  },
-  renderers: [],
+  site: "http://localhost:3000/",
+  trailingSlash: "always",
+  integrations: [],
   vite: {
     ssr: { external: ["neat-csv"] },
     optimizeDeps: { exclude: ["neat-csv"] },
