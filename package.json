@@ -9,16 +9,16 @@
     "print-dataset": "node --experimental-fetch src/dataset.mjs"
   },
   "devDependencies": {
-    "astro": "^0.24.1",
-    "autoprefixer": "^10.4.3",
+    "astro": "1.0.0-beta.18",
+    "autoprefixer": "^10.4.5",
     "postcss-custom-media": "^8.0.0",
     "postcss-nested": "^5.0.6",
     "prettier-plugin-astro": "^0.0.12"
   },
   "dependencies": {
-    "leaflet": "^1.7.1",
+    "leaflet": "^1.8.0",
     "neat-csv": "^7.0.0",
-    "open-props": "^1.3.9",
+    "open-props": "^1.3.16",
     "simple-datatables": "^3.2.0"
   }
 }
