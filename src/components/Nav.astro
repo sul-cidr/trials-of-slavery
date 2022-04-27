@@ -14,7 +14,7 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname
           ? null
-          : Astro.site}>Home</a
+          : Astro.site.pathname}>Home</a
       >
     </li>
     <li
@@ -25,7 +25,7 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
           ? null
-          : Astro.site + "trials/"}>Trials</a
+          : Astro.site.pathname + "trials/"}>Trials</a
       >
     </li>
     <li
@@ -36,7 +36,7 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
           ? null
-          : Astro.site + "map/"}>Map</a
+          : Astro.site.pathname + "map/"}>Map</a
       >
     </li>
   </ul>

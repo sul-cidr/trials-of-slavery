@@ -11,7 +11,8 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
 <meta name="viewport" content="width=device-width" />
 <title>{title}</title>
 
-<link rel="icon" type="image/x-icon" href={`${Astro.site}/favicon.ico`} />
+<link rel="icon" type="image/x-icon" href={`${Astro.site.pathname}favicon.ico`}
+/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,7 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
   rel="stylesheet"
 />
 
-<base href={Astro.site} />
+<base href={Astro.site.pathname} />
 
 <style is:global>
   @import "../styles/styles.css";
