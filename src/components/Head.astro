@@ -1,6 +1,8 @@
 ---
 import siteConfig from "../../site-config.json";
 
+import "../styles/styles.css";
+
 let { title, description = siteConfig.defaultDescription } = Astro.props;
 
 title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
@@ -22,7 +24,3 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
 />
 
 <base href={Astro.site.pathname} />
-
-<style is:global>
-  @import "../styles/styles.css";
-</style>
