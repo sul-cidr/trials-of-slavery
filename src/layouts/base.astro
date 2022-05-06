@@ -7,9 +7,10 @@ import Footer from "../components/Footer.astro";
 let { bodyClass } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" class="nojs">
   <head>
     <Head title="Home" />
+    <script>document.documentElement.className = "js";</script>
   </head>
   <body class={bodyClass}>
     <Header />

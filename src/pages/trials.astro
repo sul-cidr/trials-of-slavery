@@ -7,7 +7,11 @@ import { records } from "../dataset.mjs";
 ---
 
 <BaseLayout bodyClass="trials">
-  <table id="trials">
+  <!-- anything bundled by Astro is injected into the head, regardless of whether
+       it's in <noscript/> or not, so we're using a static external stylesheet here :( -->
+  <noscript><link rel="stylesheet" href="/nojs.css" /></noscript>
+
+  <table id="trials" style="display:none;">
     <thead>
       <tr>
         <th>ID</th>
@@ -20,7 +24,9 @@ import { records } from "../dataset.mjs";
       {records.map((record) => (
         <tr data-row-id={record.ID}>
           <td>
-            <a href={`${Astro.site}trials/${record.ID}/`}>{record.ID}</a>
+            <a href={`${Astro.site.pathname}trials/${record.ID}/`}>
+              {record.ID}
+            </a>
           </td>
           <td>{record["Name on Document"]}</td>
           <td>{record["Date (Y/M/D)"]}</td>
@@ -39,6 +45,9 @@ import { records } from "../dataset.mjs";
         enhancement when Javascript is available (otherwise the row's
         not clickable).
     */
+    const trialsTable = document.getElementById("trials");
+    trialsTable.style.opacity = "0";
+    trialsTable.style.display = "table";
     const dataTable = new DataTable("#trials", {
       prevText: "⮜",
       nextText: "⮞",
@@ -54,11 +63,18 @@ import { records } from "../dataset.mjs";
           );
         });
       });
+      setTimeout(() => {
+        trialsTable.style.opacity = 1;
+      }, 500);
     });
   </script>
 </BaseLayout>
 
 <style>
+  #trials {
+    transition: opacity 500ms ease;
+  }
+
   tbody tr:hover {
     background-color: var(--palette-0);
   }
