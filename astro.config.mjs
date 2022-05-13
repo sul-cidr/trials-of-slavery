@@ -4,8 +4,8 @@
 // @ts-check
 export default /** @type {import('astro').AstroUserConfig} */ ({
   // Comment out "renderers: []" to enable Astro's default component support.
-  site: "https://simonwiles.su.domains/",
-  base: "/trials/",
+  site: "https://sul-cidr.github.io/",
+  base: "/trials-of-slavery/",
   trailingSlash: "always",
   integrations: [],
   vite: {
