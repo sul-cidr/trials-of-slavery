@@ -9,8 +9,8 @@
     "print-dataset": "node --experimental-fetch src/dataset.mjs"
   },
   "devDependencies": {
-    "astro": "1.0.0-beta.18",
-    "autoprefixer": "^10.4.5",
+    "astro": "1.0.0-beta.27",
+    "autoprefixer": "^10.4.7",
     "postcss-custom-media": "^8.0.0",
     "postcss-nested": "^5.0.6",
     "prettier-plugin-astro": "^0.0.12"
