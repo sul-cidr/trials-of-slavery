@@ -58,8 +58,7 @@ import { records } from "../dataset.mjs";
           row.style.cursor = "pointer";
           row.addEventListener(
             "click",
-            () =>
-              (window.location.href = `${document.baseURI}trials/${row.dataset.rowId}/`),
+            () => (window.location.href = `${row.dataset.rowId}/`),
           );
         });
       });

@@ -44,7 +44,7 @@ Object.entries(locationsByLatlong).forEach(([latlong, locations]) => {
             `<p>${name} - ${locations
               .map(
                 (l) =>
-                  `<a href="${document.baseURI}trials/${l["Case ID"]}/">#${l["Case ID"]}</a>`,
+                  `<a href="../trials/${l["Case ID"]}/">#${l["Case ID"]}</a>`,
               )
               .join(", ")}</p>`,
         )
