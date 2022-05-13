@@ -8,7 +8,7 @@ import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({ iconUrl, shadowUrl, iconRetinaUrl });
 
-const response = await fetch(`${document.baseURI}locations-by-latlong.json`);
+const response = await fetch("../locations-by-latlong.json");
 const locationsByLatlong = await response.json();
 
 // eyeballed to fit South Africa in the screen
