@@ -1,5 +1,5 @@
 html {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
 }
 
 a[href],
@@ -16,4 +16,12 @@ a[href]:hover {
 ::selection {
   background-color: var(--palette-2);
   color: var(--text-1);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  font-weight: 700;
 }

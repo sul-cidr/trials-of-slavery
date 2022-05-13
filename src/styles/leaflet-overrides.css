@@ -4,7 +4,7 @@
 
   /* wind off settings from Open Props normalize */
   * {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     max-inline-size: revert;
   }
 
