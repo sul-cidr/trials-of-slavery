@@ -4,12 +4,36 @@ import "../../node_modules/simple-datatables/dist/style.css";
 import "./trials-datatable.css"; // overrides for simple-datatables styles
 
 import { records } from "../dataset.mjs";
+
+const tags = {};
+records.forEach((record) =>
+  record.Tags?.split("; ").forEach((tag) => {
+    if (!tag) return;
+    if (tag in tags) {
+      tags[tag].push(record.ID);
+    } else {
+      tags[tag] = [record.ID];
+    }
+  }),
+);
 ---
 
 <BaseLayout bodyClass="trials">
   <!-- anything bundled by Astro is injected into the head, regardless of whether
        it's in <noscript/> or not, so we're using a static external stylesheet here :( -->
   <noscript><link rel="stylesheet" href="/nojs.css" /></noscript>
+
+  <div class="tags">
+    <h4>Top 10 Tags ({Object.keys(tags).length} total)</h4>
+    {Object.entries(tags)
+      .sort(([, a], [, b]) => b.length - a.length)
+      .slice(0, 10)
+      .map(([tag, ids]) => (
+        <span class="pill" data-records={ids.join(",")}>
+          {tag} ({ids.length})
+        </span>
+      ))}
+  </div>
 
   <table id="trials" style="display:none;">
     <thead>
@@ -36,37 +60,19 @@ import { records } from "../dataset.mjs";
     </tbody>
   </table>
 
-  <script type="module" hoist>
-    import { DataTable } from "simple-datatables";
-    /* Row onClick event handlers are set up in vanilla JS here when
-        the table is initialized and when the page changed.
+  {() => {
+    if (import.meta.env.DEV) {
+      return (
+        <details>
+          <summary style="box-sizing: content-box;">debug</summary>
+          <pre>{JSON.stringify(tags, null, 2)}</pre>
+        </details>
+      );
+    }
+  }}
 
-       The cursor style is also set here since this is a progressive
-        enhancement when Javascript is available (otherwise the row's
-        not clickable).
-    */
-    const trialsTable = document.getElementById("trials");
-    trialsTable.style.opacity = "0";
-    trialsTable.style.display = "table";
-    const dataTable = new DataTable("#trials", {
-      prevText: "⮜",
-      nextText: "⮞",
-    });
-    dataTable.on("datatable.init", () => {
-      dataTable.pages.forEach((page) => {
-        page.forEach((row) => {
-          row.style.cursor = "pointer";
-          row.addEventListener(
-            "click",
-            () => (window.location.href = `${row.dataset.rowId}/`),
-          );
-        });
-      });
-      setTimeout(() => {
-        trialsTable.style.opacity = 1;
-      }, 500);
-    });
-  </script>
+  <script type="module" hoist>await import("./trials.mjs");</script>
+  <script type="module" hoist> </script>
 </BaseLayout>
 
 <style>
@@ -76,5 +82,23 @@ import { records } from "../dataset.mjs";
 
   tbody tr:hover {
     background-color: var(--palette-0);
+  }
+
+  .pill {
+    background-color: var(--palette-2);
+    border-radius: var(--radius-2);
+    color: var(--text-2);
+    cursor: pointer;
+    display: inline-block;
+    margin: var(--size-2);
+    padding: 0 var(--size-2);
+    transition: background-color 300ms ease;
+  }
+
+  .pill:hover,
+  .pill.active,
+  .pill.active:hover,
+  .pill.active:focus {
+    background-color: var(--palette-4);
   }
 </style>
