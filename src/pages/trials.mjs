@@ -9,11 +9,6 @@ const dataTable = new FilteringDataTable("#trials", {
   nextText: "⮞",
 });
 
-dataTable.setFilter((row) => {
-  console.log(row);
-  return row.ID > 4;
-});
-
 dataTable.on("datatable.init", () => {
   /* Row onClick event handlers are set up in vanilla JS here when
      the table is initialized and when the page changed.
