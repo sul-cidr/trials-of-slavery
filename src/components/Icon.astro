@@ -1,0 +1,66 @@
+---
+const {
+  name,
+  width = "1.5rem",
+  height = "1.5rem",
+  customAttribs = {},
+} = Astro.props;
+
+const defaultAttribs = {
+  viewBox: "0 0 24 24",
+  "stroke-width": 2,
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+};
+
+const icons = {
+  "chevrons-left": {
+    svg: `
+      <polyline points="11 7 6 12 11 17" />
+      <polyline points="17 7 12 12 17 17" />    
+    `,
+  },
+  "caret-left": {
+    svg: `<path d="M18 15l-6 -6l-6 6h12" transform="rotate(270 12 12)" />`,
+  },
+  "caret-right": {
+    svg: `<path d="M18 15l-6 -6l-6 6h12" transform="rotate(90 12 12)" />`,
+  },
+  minus: {
+    svg: `<line x1="5" y1="12" x2="19" y2="12" />`,
+  },
+  plus: {
+    svg: `
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <line x1="5" y1="12" x2="19" y2="12" />
+    `,
+  },
+  cross: {
+    svg: `
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    `,
+  },
+  reset: {
+    svg: `<path d="m 10.953,20.006141 a 8,8 0 1 1 4,-0.5 m 5,0.5 h -5 v -5" />`,
+  },
+};
+const { attribs = {}, svg } = icons[name];
+---
+
+<svg
+  {height}
+  {width}
+  {...defaultAttribs}
+  {...attribs}
+  {...customAttribs}
+  set:html={svg}></svg>
+
+<style>
+  svg {
+    stroke: currentColor;
+    fill: transparent;
+    display: inline-block;
+    vertical-align: middle;
+  }
+</style>
