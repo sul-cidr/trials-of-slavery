@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/base.astro";
+import MetadataDl from "../../components/MetadataDl.astro";
 import Icon from "../../components/Icon.astro";
 import { records } from "../../dataset.mjs";
 
@@ -41,26 +42,8 @@ const { record, prev, next } = Astro.props;
       </a>
     )}
   </nav>
-  <dl>
-    {Object.entries(record)
-        .filter(([key, value]) => typeof value === 'string')
-        .map(([key, value]) => (
-          <dt>{key}</dt><dd>{value}</dd>
-        ))}
-    {() => {
-      if (record["trial_locations"].length) {
-        return (
-          <dt>Locations:</dt>
-          <dd data-locations={JSON.stringify(record["trial_locations"])}>{
-            record["trial_locations"].map(
-              (location) =>
-              <p>{location["Location"]} { location["Relation to case"] ? ` -- ${location["Relation to case"]}`: '' }</p>
-            )
-          }</dd>
-        );
-      }
-    }}
-  </dl>
+
+  <MetadataDl {record} />
 
   {() => {
     if (record["trial_locations"].length) {
@@ -112,63 +95,6 @@ const { record, prev, next } = Astro.props;
           }
         }
       }
-    }
-  }
-
-  dl {
-    border-radius: var(--radius-2);
-    display: flex;
-    flex-flow: column wrap;
-    overflow: hidden;
-  }
-
-  dt,
-  dd {
-    padding: var(--size-1) var(--size-4);
-    margin: 0;
-  }
-
-  dt {
-    background: var(--palette-2);
-    border-radius: var(--radius-2);
-    flex-basis: max(25%, 200px);
-    text-align: left;
-
-    &::selection {
-      background-color: var(--palette-0);
-    }
-  }
-
-  dd {
-    flex-basis: 70%;
-    flex-grow: 1;
-    margin-bottom: var(--size-2);
-  }
-
-  /* Not sure why postcss-custom-media doesn't seem to be working here... */
-  /* @media (--md-n-above) { */
-  @media (min-width: 768px) {
-    dl {
-      flex-flow: row wrap;
-    }
-
-    dt,
-    dd {
-      padding: var(--size-2) var(--size-4);
-    }
-
-    dt ~ dt,
-    dd ~ dd {
-      border-top: 1px solid var(--palette-9);
-    }
-
-    dt {
-      border-radius: 0;
-      text-align: right;
-    }
-
-    dd {
-      margin-bottom: 0;
     }
   }
 
