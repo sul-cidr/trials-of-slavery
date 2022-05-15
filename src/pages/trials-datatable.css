@@ -11,6 +11,14 @@
   margin: 0 0 var(--size-2) 0;
 }
 
+.dataTable-pagination li.pager a {
+  padding: 6px 8px;
+}
+
+.dataTable-pagination li.pager a:hover svg {
+  fill: currentColor;
+}
+
 .dataTable-pagination .active a,
 .dataTable-pagination .active a:focus,
 .dataTable-pagination .active a:hover {

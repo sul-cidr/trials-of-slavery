@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/base.astro";
+import Icon from "../components/Icon.astro";
 import "../../node_modules/simple-datatables/dist/style.css";
 import "./trials-datatable.css"; // overrides for simple-datatables styles
 
@@ -36,6 +37,8 @@ records.forEach((record) =>
   </div>
 
   <table id="trials" style="display:none;">
+    <span id="prev"><Icon name="caret-left" /></span>
+    <span id="next"><Icon name="caret-right" /></span>
     <thead>
       <tr>
         <th>ID</th>
@@ -100,5 +103,10 @@ records.forEach((record) =>
   .pill.active:hover,
   .pill.active:focus {
     background-color: var(--palette-4);
+  }
+
+  span#prev,
+  span#next {
+    display: none;
   }
 </style>

@@ -5,8 +5,8 @@ trialsTable.style.opacity = "0";
 trialsTable.style.display = "table";
 
 const dataTable = new FilteringDataTable("#trials", {
-  prevText: "⮜",
-  nextText: "⮞",
+  prevText: document.getElementById("prev").innerHTML,
+  nextText: document.getElementById("next").innerHTML,
 });
 
 dataTable.on("datatable.init", () => {

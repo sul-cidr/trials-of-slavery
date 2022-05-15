@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/base.astro";
+import Icon from "../../components/Icon.astro";
 import { records } from "../../dataset.mjs";
 
 export async function getStaticPaths() {
@@ -21,8 +22,24 @@ const { record, prev, next } = Astro.props;
 
 <BaseLayout>
   <nav>
-    {prev ? <a href={`${Astro.site}trials/${prev}/`}>⮜</a> : <a>⮜</a>}
-    {next ? <a href={`${Astro.site}trials/${next}/`}>⮞</a> : <a>⮞</a>}
+    {prev ? (
+      <a href={`${Astro.site.pathname}trials/${prev}/`}>
+        <Icon name="caret-left" />
+      </a>
+    ) : (
+      <a>
+        <Icon name="caret-left" />
+      </a>
+    )}
+    {next ? (
+      <a href={`${Astro.site.pathname}trials/${next}/`}>
+        <Icon name="caret-right" />
+      </a>
+    ) : (
+      <a>
+        <Icon name="caret-right" />
+      </a>
+    )}
   </nav>
   <dl>
     {Object.entries(record)
@@ -80,7 +97,7 @@ const { record, prev, next } = Astro.props;
       color: var(--text-1);
       float: left;
       margin-left: 2px;
-      padding: 6px 12px;
+      padding: 4px 8px;
       position: relative;
       text-decoration: none;
 
@@ -89,6 +106,10 @@ const { record, prev, next } = Astro.props;
 
         &:hover {
           background-color: var(--palette-4);
+
+          :global(svg) {
+            fill: var(--palette-8);
+          }
         }
       }
     }
