@@ -32,6 +32,15 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
         .classList.add("shown");
     });
   });
+  document.querySelectorAll("a[data-footnote-ref]").forEach((anchor) => {
+    const id = anchor.href.split("#")[1];
+    anchor.addEventListener("mouseover", () => {
+      document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+    });
+    anchor.addEventListener("mouseout", () => {
+      document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
+    });
+  });
 </script>
 
 <style>
@@ -101,6 +110,7 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     :global(li[id]) {
       transition: background-color 0.2s ease-in-out;
 
+      &.anchor-hovered,
       &:target {
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
