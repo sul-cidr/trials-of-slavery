@@ -1,0 +1,101 @@
+---
+const { Content: Summary } = await import("../documents/01_Summary.md");
+const { Content: Dutch } = await import("../documents/01_Dutch.md");
+const { Content: Translation } = await import("../documents/01_Translation.md");
+---
+
+<div class="md summary">
+  <header>Summary</header>
+  <Summary />
+</div>
+
+<div class="md document">
+  <header>
+    <span data-doc="translation" class="active">Translation</span>
+    <span data-doc="dutch">Dutch</span>
+  </header>
+  <div class="translation shown"><Translation /></div>
+  <div class="dutch"><Dutch /></div>
+</div>
+
+<script>
+  const panels = document.querySelectorAll(".document > div");
+  const tabs = document.querySelectorAll(".document header span");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((_tab) => _tab.classList.remove("active"));
+      panels.forEach((panel) => panel.classList.remove("shown"));
+      tab.classList.add("active");
+      document
+        .querySelector(".document ." + tab.dataset.doc)
+        .classList.add("shown");
+    });
+  });
+</script>
+
+<style>
+  header {
+    font-size: var(--font-size-4);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--palette-8);
+  }
+
+  .summary {
+    background-color: var(--palette-0);
+    padding: var(--size-4) var(--size-5);
+    border-radius: var(--radius-2);
+  }
+
+  .document header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: var(--size-3);
+
+    span {
+      cursor: pointer;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    span.active {
+      border-bottom: 2px solid var(--palette-8);
+      opacity: 1;
+      cursor: default;
+    }
+  }
+
+  .document > div:not(.shown) {
+    display: none;
+  }
+
+  .md {
+    :global(p) {
+      line-height: 1.8;
+    }
+
+    :global(p + p) {
+      margin-top: var(--size-3);
+    }
+
+    :global(section.footnotes) {
+      border-top: 1px solid var(--palette-9);
+      padding-top: var(--size-3);
+      margin-top: var(--size-5);
+    }
+
+    :global(section.footnotes p) {
+      font-size: var(--font-size-1);
+    }
+
+    :global(section.footnotes h2) {
+      font-size: var(--font-size-3);
+      display: none;
+    }
+  }
+</style>
