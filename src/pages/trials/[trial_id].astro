@@ -48,11 +48,7 @@ const { record, prev, next } = Astro.props;
 
   <DocumentViewer {record} />
 
-  {() => {
-    if (record["trial_locations"].length) {
-      return <TrialPlaces {record} />;
-    }
-  }}
+  {(record["trial_locations"].length) ? <TrialPlaces {record} /> : null}
 
   {() => {
     if (import.meta.env.DEV) {
@@ -96,5 +92,13 @@ const { record, prev, next } = Astro.props;
         }
       }
     }
+  }
+
+  :global(section header) {
+    color: var(--palette-8);
+    font-size: var(--font-size-4);
+    font-weight: bold;
+    margin-bottom: var(--size-2);
+    text-transform: uppercase;
   }
 </style>

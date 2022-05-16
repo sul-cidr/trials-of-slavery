@@ -4,19 +4,19 @@ const { Content: Dutch } = await import("../documents/01_Dutch.md");
 const { Content: Translation } = await import("../documents/01_Translation.md");
 ---
 
-<div class="md summary">
+<section class="md summary">
   <header>Summary</header>
   <Summary />
-</div>
+</section>
 
-<div class="md document">
+<section class="md document">
   <header>
     <span data-doc="translation" class="active">Translation</span>
     <span data-doc="dutch">Dutch</span>
   </header>
   <div class="translation shown"><Translation /></div>
   <div class="dutch"><Dutch /></div>
-</div>
+</section>
 
 <script>
   const panels = document.querySelectorAll(".document > div");
@@ -44,14 +44,6 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
 </script>
 
 <style>
-  header {
-    color: var(--palette-8);
-    font-size: var(--font-size-4);
-    font-weight: bold;
-    margin-bottom: var(--size-2);
-    text-transform: uppercase;
-  }
-
   .summary {
     background-color: var(--palette-0);
     border-radius: var(--radius-2);
