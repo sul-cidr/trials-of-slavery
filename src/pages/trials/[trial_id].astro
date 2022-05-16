@@ -17,7 +17,6 @@ export async function getStaticPaths() {
   return paths;
 }
 
-// const { trial_id } = Astro.request.params;
 const { record, prev, next } = Astro.props;
 ---
 
@@ -102,7 +101,7 @@ const { record, prev, next } = Astro.props;
     height: 400px;
     border-radius: var(--radius-2);
   }
-</style><style global>
+</style><style is:global>
   @import "leaflet/dist/leaflet.css";
   @import "../../styles/leaflet-overrides.css";
 </style>
