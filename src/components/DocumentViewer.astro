@@ -45,23 +45,24 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
 
 <style>
   header {
-    font-size: var(--font-size-4);
-    text-transform: uppercase;
-    font-weight: bold;
     color: var(--palette-8);
+    font-size: var(--font-size-4);
+    font-weight: bold;
+    margin-bottom: var(--size-2);
+    text-transform: uppercase;
   }
 
   .summary {
     background-color: var(--palette-0);
-    padding: var(--size-4) var(--size-5);
     border-radius: var(--radius-2);
+    padding: var(--size-4) var(--size-5);
   }
 
   .document header {
+    align-items: center;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: var(--size-3);
+    margin-bottom: var(--size-7);
 
     span {
       cursor: pointer;
@@ -74,8 +75,8 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
 
     span.active {
       border-bottom: 2px solid var(--palette-8);
-      opacity: 1;
       cursor: default;
+      opacity: 1;
     }
   }
 
@@ -109,7 +110,6 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     }
 
     :global(section.footnotes h2) {
-      font-size: var(--font-size-3);
       display: none;
     }
 
