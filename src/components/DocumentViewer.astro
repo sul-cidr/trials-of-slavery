@@ -58,6 +58,19 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     padding: var(--size-4) var(--size-5);
   }
 
+  .document {
+    background-color: var(--palette-0);
+    background-image: url("/paper.png");
+    background-repeat: repeat;
+    border: 5px solid var(--palette-3);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: var(--size-5) var(--size-10);
+  }
+
+  .document > div:not(.shown) {
+    display: none;
+  }
+
   .document header {
     align-items: center;
     display: flex;
@@ -80,14 +93,9 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     }
   }
 
-  .document {
-    border: 5px solid var(--palette-3);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    padding: var(--size-5);
-  }
-
-  .document > div:not(.shown) {
-    display: none;
+  .document :global(p) {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-3);
   }
 
   .md {
