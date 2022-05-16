@@ -1,0 +1,134 @@
+---
+const { Content: Summary } = await import("../documents/01_Summary.md");
+const { Content: Dutch } = await import("../documents/01_Dutch.md");
+const { Content: Translation } = await import("../documents/01_Translation.md");
+---
+
+<div class="md summary">
+  <header>Summary</header>
+  <Summary />
+</div>
+
+<div class="md document">
+  <header>
+    <span data-doc="translation" class="active">Translation</span>
+    <span data-doc="dutch">Dutch</span>
+  </header>
+  <div class="translation shown"><Translation /></div>
+  <div class="dutch"><Dutch /></div>
+</div>
+
+<script>
+  const panels = document.querySelectorAll(".document > div");
+  const tabs = document.querySelectorAll(".document header span");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((_tab) => _tab.classList.remove("active"));
+      panels.forEach((panel) => panel.classList.remove("shown"));
+      tab.classList.add("active");
+      document
+        .querySelector(".document ." + tab.dataset.doc)
+        .classList.add("shown");
+    });
+  });
+  document.querySelectorAll("a[data-footnote-ref]").forEach((anchor) => {
+    const id = anchor.href.split("#")[1];
+    anchor.addEventListener("mouseover", () => {
+      document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+    });
+    anchor.addEventListener("mouseout", () => {
+      document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
+    });
+  });
+</script>
+
+<style>
+  header {
+    color: var(--palette-8);
+    font-size: var(--font-size-4);
+    font-weight: bold;
+    margin-bottom: var(--size-2);
+    text-transform: uppercase;
+  }
+
+  .summary {
+    background-color: var(--palette-0);
+    border-radius: var(--radius-2);
+    padding: var(--size-4) var(--size-5);
+  }
+
+  .document {
+    background-color: var(--palette-0);
+    background-image: url("/paper.png");
+    background-repeat: repeat;
+    border: 5px solid var(--palette-3);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: var(--size-5) var(--size-10);
+  }
+
+  .document > div:not(.shown) {
+    display: none;
+  }
+
+  .document header {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--size-7);
+
+    span {
+      cursor: pointer;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    span.active {
+      border-bottom: 2px solid var(--palette-8);
+      cursor: default;
+      opacity: 1;
+    }
+  }
+
+  .document :global(p) {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-3);
+  }
+
+  .md {
+    :global(p) {
+      line-height: 1.8;
+    }
+
+    :global(p + p) {
+      margin-top: var(--size-3);
+    }
+
+    :global(section.footnotes) {
+      border-top: 1px solid var(--palette-9);
+      padding-top: var(--size-3);
+      margin-top: var(--size-5);
+    }
+
+    :global(section.footnotes p) {
+      font-size: var(--font-size-1);
+    }
+
+    :global(section.footnotes h2) {
+      display: none;
+    }
+
+    :global(li[id]) {
+      transition: background-color 0.2s ease-in-out;
+
+      &.anchor-hovered,
+      &:target {
+        background-color: var(--palette-1);
+        border-radius: var(--radius-2);
+      }
+    }
+  }
+</style>
