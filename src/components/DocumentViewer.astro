@@ -97,5 +97,14 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
       font-size: var(--font-size-3);
       display: none;
     }
+
+    :global(li[id]) {
+      transition: background-color 0.2s ease-in-out;
+
+      &:target {
+        background-color: var(--palette-1);
+        border-radius: var(--radius-2);
+      }
+    }
   }
 </style>
