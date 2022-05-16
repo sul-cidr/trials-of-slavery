@@ -2,7 +2,20 @@
 const { record, sectionId = "places", title = "Places" } = Astro.props;
 ---
 
-<div id="map"></div>
+<section id={sectionId}>
+  <header>{title}</header>
+  <ul data-locations={JSON.stringify(record["trial_locations"])}>
+    {record["trial_locations"].map((location) => (
+      <li>
+        {location["Location"]}{" "}
+        {location["Relation to case"]
+          ? ` -- ${location["Relation to case"]}`
+          : ""}
+      </li>
+    ))}
+  </ul>
+  <div id="map"></div>
+</section>
 
 <script>
   import * as L from "leaflet/dist/leaflet-src.esm.js";
