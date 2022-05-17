@@ -1,16 +1,19 @@
 ---
 const { record, sectionId = "places", title = "Places" } = Astro.props;
+const locations = record["trial_locations"].map((location) => ({
+  name: location.Location,
+  desc: location["Relation to case"],
+  lat: location.Latitude,
+  long: location.Longitude,
+}));
 ---
 
 <section id={sectionId}>
   <header>{title}</header>
   <ul>
-    {record["trial_locations"].map((location) => (
+    {locations.map((location) => (
       <li data-location={JSON.stringify(location)}>
-        {location["Location"]}{" "}
-        {location["Relation to case"]
-          ? ` -- ${location["Relation to case"]}`
-          : ""}
+        {location.name} {location.desc ? ` -- ${location.desc}` : ""}
       </li>
     ))}
   </ul>
@@ -34,18 +37,14 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
     popupAnchor: [0, -45],
   });
 
-  const locations = [...document.querySelectorAll("[data-location]")].map(
-    (el) => JSON.parse(el.dataset.location),
+  const locations = document.querySelectorAll("[data-location]");
+  const locationData = [...locations].map((location) =>
+    JSON.parse(location.dataset.location),
   );
 
-  if (locations) {
+  if (locationData) {
     const map = L.map("map").fitBounds(
-      [
-        locations.map((location) => [
-          location["Latitude"],
-          location["Longitude"],
-        ]),
-      ],
+      [locationData.map((location) => [location.lat, location.long])],
       { maxZoom: 8 },
     );
 
@@ -58,13 +57,9 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
     ).addTo(map);
 
     locations.forEach((location) => {
-      const marker = L.marker([location["Latitude"], location["Longitude"]], {
-        icon: icon,
-      });
-      marker.addTo(map).bindPopup(
-        `<header>${location["Location"]}</header>
-          <p>${location["Relation to case"]}</p>`,
-      );
+      const { lat, long, name, desc } = JSON.parse(location.dataset.location);
+      const marker = L.marker([lat, long], { icon: icon });
+      marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
     });
   }
 </script>
