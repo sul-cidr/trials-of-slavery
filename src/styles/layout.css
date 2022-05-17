@@ -12,7 +12,7 @@ main {
   flex-grow: 1;
   gap: var(--size-fluid-2);
   justify-content: flex-start;
-  margin: var(--size-fluid-2) 0;
+  margin-bottom: var(--size-fluid-2);
   width: var(--wrap);
 }
 
