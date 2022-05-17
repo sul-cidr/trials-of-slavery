@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/base.astro";
 import MetadataDl from "../../components/MetadataDl.astro";
 import DocumentViewer from "../../components/DocumentViewer.astro";
+import TrialPlaces from "../../components/TrialPlaces.astro";
 import Icon from "../../components/Icon.astro";
 import { records } from "../../dataset.mjs";
 
@@ -47,14 +48,7 @@ const { record, prev, next } = Astro.props;
 
   <DocumentViewer {record} />
 
-  {() => {
-    if (record["trial_locations"].length) {
-      return (
-        <div id="map"></div>
-        <script type="module" hoist>await import("./trial-maps.mjs")</script>
-      );
-    }
-  }}
+  {(record["trial_locations"].length) ? <TrialPlaces {record} /> : null}
 
   {() => {
     if (import.meta.env.DEV) {
@@ -100,11 +94,11 @@ const { record, prev, next } = Astro.props;
     }
   }
 
-  #map {
-    height: 400px;
-    border-radius: var(--radius-2);
+  :global(section header) {
+    color: var(--palette-8);
+    font-size: var(--font-size-4);
+    font-weight: bold;
+    margin-bottom: var(--size-2);
+    text-transform: uppercase;
   }
-</style><style is:global>
-  @import "leaflet/dist/leaflet.css";
-  @import "../../styles/leaflet-overrides.css";
 </style>

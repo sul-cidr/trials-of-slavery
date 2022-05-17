@@ -8,19 +8,6 @@ const { record } = Astro.props;
         .map(([key, value]) => (
           <dt>{key}</dt><dd>{value}</dd>
         ))}
-  {() => {
-      if (record["trial_locations"].length) {
-        return (
-          <dt>Locations:</dt>
-          <dd data-locations={JSON.stringify(record["trial_locations"])}>{
-            record["trial_locations"].map(
-              (location) =>
-              <p>{location["Location"]} { location["Relation to case"] ? ` -- ${location["Relation to case"]}`: '' }</p>
-            )
-          }</dd>
-        );
-      }
-    }}
 </dl>
 
 <style>
