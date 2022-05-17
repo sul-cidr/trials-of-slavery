@@ -60,6 +60,8 @@ const locations = record["trial_locations"].map((location) => ({
       const { lat, long, name, desc } = JSON.parse(location.dataset.location);
       const marker = L.marker([lat, long], { icon: icon });
       marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
+      location.classList.add("clickable");
+      location.addEventListener("click", () => map.setView([lat, long], 9));
     });
   }
 </script>
@@ -68,6 +70,10 @@ const locations = record["trial_locations"].map((location) => ({
   #map {
     height: 400px;
     border-radius: var(--radius-2);
+  }
+
+  .clickable {
+    cursor: pointer;
   }
 
   :global(svg.marker) {
