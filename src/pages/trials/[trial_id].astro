@@ -24,6 +24,14 @@ const { record, prev, next } = Astro.props;
 
 <BaseLayout>
   <nav>
+    <a href="#details">Details</a>
+    <a href="#summary">Summary</a>
+    <a href="#documents">Documents</a>
+    {() => {
+      if (record["trial_locations"].length) {
+        return <a href="#places">Places</a>;
+      }
+    }}
     {prev ? (
       <a href={`${Astro.site.pathname}trials/${prev}/`}>
         <Icon name="caret-left" />
@@ -64,20 +72,24 @@ const { record, prev, next } = Astro.props;
 
 <style>
   nav {
+    align-self: flex-end;
+    background: hsla(210deg 17% 98% / 0.8); /* --surface-1 / 0.8 */
+    border-radius: var(--radius-2);
     display: flex;
-    gap: var(--size-2);
+    gap: var(--size-3);
     justify-content: flex-end;
-    text-align: right;
+    margin-right: var(--size-1);
+    padding: var(--size-2);
+    position: sticky;
+    top: var(--size-1);
+    width: fit-content;
+    z-index: 2;
 
     a {
       background-color: var(--surface-3);
       border-radius: var(--radius-2);
-      border: 1px solid transparent;
       color: var(--text-1);
-      float: left;
-      margin-left: 2px;
       padding: 4px 8px;
-      position: relative;
       text-decoration: none;
 
       &[href] {
@@ -92,6 +104,10 @@ const { record, prev, next } = Astro.props;
         }
       }
     }
+  }
+
+  :global(section) {
+    scroll-margin-top: var(--size-6);
   }
 
   :global(section header) {
