@@ -2,13 +2,16 @@
 const { record } = Astro.props;
 ---
 
-<dl>
-  {Object.entries(record)
+<section id="details">
+  <header>Details</header>
+  <dl>
+    {Object.entries(record)
         .filter(([key, value]) => typeof value === 'string')
         .map(([key, value]) => (
           <dt>{key}</dt><dd>{value}</dd>
         ))}
-</dl>
+  </dl>
+</section>
 
 <style>
   dl {

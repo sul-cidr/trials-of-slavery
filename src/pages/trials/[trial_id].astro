@@ -24,6 +24,14 @@ const { record, prev, next } = Astro.props;
 
 <BaseLayout>
   <nav>
+    <a href="#details">Details</a>
+    <a href="#summary">Summary</a>
+    <a href="#documents">Documents</a>
+    {() => {
+      if (record["trial_locations"].length) {
+        return <a href="#places">Places</a>;
+      }
+    }}
     {prev ? (
       <a href={`${Astro.site.pathname}trials/${prev}/`}>
         <Icon name="caret-left" />
