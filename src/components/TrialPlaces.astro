@@ -4,9 +4,9 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
 
 <section id={sectionId}>
   <header>{title}</header>
-  <ul data-locations={JSON.stringify(record["trial_locations"])}>
+  <ul>
     {record["trial_locations"].map((location) => (
-      <li>
+      <li data-location={JSON.stringify(location)}>
         {location["Location"]}{" "}
         {location["Relation to case"]
           ? ` -- ${location["Relation to case"]}`
@@ -28,12 +28,11 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
   delete L.Icon.Default.prototype._getIconUrl;
   L.Icon.Default.mergeOptions({ iconUrl, shadowUrl, iconRetinaUrl });
 
-  const locationData =
-    document.querySelector("[data-locations]")?.dataset.locations;
+  const locations = [...document.querySelectorAll("[data-location]")].map(
+    (el) => JSON.parse(el.dataset.location),
+  );
 
-  if (locationData) {
-    const locations = JSON.parse(locationData);
-
+  if (locations) {
     const map = L.map("map").fitBounds(
       [
         locations.map((location) => [
