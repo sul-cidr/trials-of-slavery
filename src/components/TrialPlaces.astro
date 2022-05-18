@@ -60,7 +60,7 @@ const locations = record["trial_locations"].map((location) => ({
   if (locationData) {
     const map = L.map("map", { minZoom: 6, maxZoom: 12 }).fitBounds(
       [locationData.map((location) => [location.lat, location.long])],
-      { maxZoom: 7 },
+      { maxZoom: 8 },
     );
 
     L.tileLayer(
