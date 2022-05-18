@@ -43,6 +43,8 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
   });
 </script>
 
+<script type="module" hoist>await import("../glossary.mjs");</script>
+
 <style>
   .summary {
     background-color: var(--palette-0);
@@ -121,6 +123,12 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
       }
+    }
+
+    :global(.glossary) {
+      display: inline-block;
+      border-bottom: 2px dashed var(--palette-8);
+      cursor: help;
     }
   }
 </style>
