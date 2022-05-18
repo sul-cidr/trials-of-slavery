@@ -61,7 +61,7 @@ const locations = record["trial_locations"].map((location) => ({
       const marker = L.marker([lat, long], { icon: icon });
       marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
       location.classList.add("clickable");
-      location.addEventListener("click", () => map.setView([lat, long], 9));
+      location.addEventListener("click", () => map.setView([lat, long]));
     });
   }
 </script>
