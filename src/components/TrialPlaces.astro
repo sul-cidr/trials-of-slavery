@@ -77,6 +77,12 @@ const locations = record["trial_locations"].map((location) => ({
       marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
       location.classList.add("clickable");
       location.addEventListener("click", () => map.setView([lat, long]));
+      location.addEventListener("mouseover", () =>
+        L.DomUtil.addClass(marker._icon, "highlight"),
+      );
+      location.addEventListener("mouseout", () =>
+        L.DomUtil.removeClass(marker._icon, "highlight"),
+      );
     });
   }
 </script>
@@ -111,6 +117,7 @@ const locations = record["trial_locations"].map((location) => ({
   .icon {
     grid-row: span 2;
     height: var(--size-9);
+    overflow: visible;
   }
 
   .location-name {
@@ -122,18 +129,30 @@ const locations = record["trial_locations"].map((location) => ({
 
   :global(svg.marker) {
     height: 100%;
+    overflow: visible;
     width: 100%;
   }
 
   :global(path.pin) {
     fill: var(--palette-7);
     stroke: white;
+    transition: fill 0.2s ease, transform 0.2s ease;
+  }
+
+  :global(.highlight path.pin, .clickable:hover path.pin) {
+    fill: rebeccapurple;
+    transform: translateY(-5px);
   }
 
   :global(path.shadow) {
     fill: initial;
     fill-opacity: 0.25;
     stroke: initial;
+    transition: transform 0.2s ease;
+  }
+
+  :global(.highlight path.shadow, .clickable:hover path.shadow) {
+    transform: translate(5px, -5px);
   }
 </style><style is:global>
   @import "leaflet/dist/leaflet.css";
