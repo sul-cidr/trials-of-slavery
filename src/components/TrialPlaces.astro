@@ -1,47 +1,74 @@
 ---
 const { record, sectionId = "places", title = "Places" } = Astro.props;
+const locations = record["trial_locations"].map((location) => ({
+  name: location.Location,
+  desc: location["Relation to case"],
+  lat: location.Latitude,
+  long: location.Longitude,
+}));
 ---
 
 <section id={sectionId}>
   <header>{title}</header>
-  <ul>
-    {record["trial_locations"].map((location) => (
-      <li data-location={JSON.stringify(location)}>
-        {location["Location"]}{" "}
-        {location["Relation to case"]
-          ? ` -- ${location["Relation to case"]}`
-          : ""}
-      </li>
+  <div class="location-rows">
+    {locations.map((location) => (
+      <div class="location-row" data-location={JSON.stringify(location)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          class="icon"
+        >
+          <path
+            class="shadow"
+            d="M16 32s1.427-9.585 3.761-12.025c4.595-4.805 8.685-.99 8.685-.99s4.044 3.964-.526 8.743C25.514 30.245 16 32 16 32z"
+          />
+          <path
+            class="pin"
+            d="M15.938 32S6 17.938 6 11.938C6 .125 15.938 0 15.938 0S26 .125 26 11.875C26 18.062 15.938 32 15.938 32zM16 6a4 4 0 100 8 4 4 0 000-8z"
+          />
+        </svg>
+        <span class="location-name">{location.name}</span>
+        <span class="location-desc">{location.desc}</span>
+      </div>
     ))}
-  </ul>
+  </div>
   <div id="map"></div>
 </section>
 
 <script>
   import * as L from "leaflet/dist/leaflet-src.esm.js";
-  import iconUrl from "leaflet/dist/images/marker-icon.png";
-  import shadowUrl from "leaflet/dist/images/marker-shadow.png";
-  import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 
-  // Work-around for a long-standing and well-known bundling bug in Leaflet
-  //  (see https://github.com/Leaflet/Leaflet/issues/4968)
-  delete L.Icon.Default.prototype._getIconUrl;
-  L.Icon.Default.mergeOptions({ iconUrl, shadowUrl, iconRetinaUrl });
+  const icon = L.divIcon({
+    className: "marker",
+    html: `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="marker">
+        <path class="shadow" d="M16 32s1.427-9.585 3.761-12.025c4.595-4.805 8.685-.99 8.685-.99s4.044 3.964-.526 8.743C25.514 30.245 16 32 16 32z"/>
+        <path class="pin" d="M15.938 32S6 17.938 6 11.938C6 .125 15.938 0 15.938 0S26 .125 26 11.875C26 18.062 15.938 32 15.938 32zM16 6a4 4 0 100 8 4 4 0 000-8z"/>
+      </svg>
+    `,
+    iconSize: [40, 40],
+    iconAnchor: [20, 40],
+    popupAnchor: [0, -45],
+  });
 
-  const locations = [...document.querySelectorAll("[data-location]")].map(
-    (el) => JSON.parse(el.dataset.location),
+  const locations = document.querySelectorAll("[data-location]");
+  const locationData = [...locations].map((location) =>
+    JSON.parse(location.dataset.location),
   );
 
-  if (locations) {
-    const map = L.map("map").fitBounds(
-      [
-        locations.map((location) => [
-          location["Latitude"],
-          location["Longitude"],
-        ]),
-      ],
-      { maxZoom: 8 },
-    );
+  if (locationData) {
+    const map = L.map("map", { minZoom: 5, maxZoom: 12 });
+    let resetButton;
+
+    const setInitialView = () => {
+      map.fitBounds(
+        [locationData.map((location) => [location.lat, location.long])],
+        { maxZoom: 8 },
+      );
+      setTimeout(() => resetButton?.classList.add("hidden"), 400);
+    };
+
+    setInitialView();
 
     L.tileLayer(
       "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png",
@@ -52,10 +79,38 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
     ).addTo(map);
 
     locations.forEach((location) => {
-      L.marker([location["Latitude"], location["Longitude"]]).addTo(map)
-        .bindPopup(`<header>${location["Location"]}</header>
-            <p>${location["Relation to case"]}</p>`);
+      const { lat, long, name, desc } = JSON.parse(location.dataset.location);
+      const marker = L.marker([lat, long], { icon: icon });
+      marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
+      location.classList.add("clickable");
+      location.addEventListener("click", () => map.setView([lat, long]));
+      location.addEventListener("mouseover", () =>
+        L.DomUtil.addClass(marker._icon, "highlight"),
+      );
+      location.addEventListener("mouseout", () =>
+        L.DomUtil.removeClass(marker._icon, "highlight"),
+      );
     });
+
+    const resetButtonControl = L.Control.extend({
+      options: { position: "topleft" },
+      onAdd: function (map) {
+        resetButton = L.DomUtil.create("button");
+        resetButton.title = "Reset Map";
+        resetButton.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="5 12 3 12 12 3 21 12 19 12" />
+            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+          </svg>
+        `;
+        resetButton.className += "reset-map hidden";
+        resetButton.addEventListener("click", setInitialView);
+        return resetButton;
+      },
+    });
+    map.addControl(new resetButtonControl());
+    map.on("moveend", () => resetButton.classList.remove("hidden"));
   }
 </script>
 
@@ -63,6 +118,94 @@ const { record, sectionId = "places", title = "Places" } = Astro.props;
   #map {
     height: 400px;
     border-radius: var(--radius-2);
+  }
+
+  .location-rows {
+    display: grid;
+    gap: var(--size-3);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-bottom: var(--size-3);
+  }
+
+  .location-row {
+    display: grid;
+    gap: 0 var(--size-3);
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "icon name"
+      "icon desc";
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+
+  .icon {
+    grid-row: span 2;
+    height: var(--size-9);
+    overflow: visible;
+  }
+
+  .location-name {
+    color: var(--palette-7);
+    font-size: var(--font-size-3);
+    font-weight: bold;
+    padding-top: var(--size-2);
+  }
+
+  :global(svg.marker) {
+    height: 100%;
+    overflow: visible;
+    width: 100%;
+  }
+
+  :global(path.pin) {
+    fill: var(--palette-7);
+    stroke: white;
+    transition: fill 0.2s ease, transform 0.2s ease;
+  }
+
+  :global(.highlight path.pin, .clickable:hover path.pin) {
+    fill: rebeccapurple;
+    transform: translateY(-5px);
+  }
+
+  :global(path.shadow) {
+    fill: initial;
+    fill-opacity: 0.25;
+    stroke: initial;
+    transition: transform 0.2s ease;
+  }
+
+  :global(.highlight path.shadow, .clickable:hover path.shadow) {
+    transform: translate(5px, -5px);
+  }
+
+  :global(.reset-map) {
+    background-color: white;
+    border-radius: 2px;
+    border: 0 !important;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 8px !important;
+    padding: 0 3px;
+    transition: opacity 0.2s ease;
+    width: 30px;
+
+    &.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+
+  :global(.reset-map svg) {
+    fill: none;
+    stroke: currentColor;
   }
 </style><style is:global>
   @import "leaflet/dist/leaflet.css";
