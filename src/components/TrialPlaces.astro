@@ -10,13 +10,28 @@ const locations = record["trial_locations"].map((location) => ({
 
 <section id={sectionId}>
   <header>{title}</header>
-  <ul>
+  <div class="location-rows">
     {locations.map((location) => (
-      <li data-location={JSON.stringify(location)}>
-        {location.name} {location.desc ? ` -- ${location.desc}` : ""}
-      </li>
+      <div class="location-row" data-location={JSON.stringify(location)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          class="icon"
+        >
+          <path
+            class="shadow"
+            d="M16 32s1.427-9.585 3.761-12.025c4.595-4.805 8.685-.99 8.685-.99s4.044 3.964-.526 8.743C25.514 30.245 16 32 16 32z"
+          />
+          <path
+            class="pin"
+            d="M15.938 32S6 17.938 6 11.938C6 .125 15.938 0 15.938 0S26 .125 26 11.875C26 18.062 15.938 32 15.938 32zM16 6a4 4 0 100 8 4 4 0 000-8z"
+          />
+        </svg>
+        <span class="location-name">{location.name}</span>
+        <span class="location-desc">{location.desc}</span>
+      </div>
     ))}
-  </ul>
+  </div>
   <div id="map"></div>
 </section>
 
@@ -72,8 +87,37 @@ const locations = record["trial_locations"].map((location) => ({
     border-radius: var(--radius-2);
   }
 
+  .location-rows {
+    display: grid;
+    gap: var(--size-3);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-bottom: var(--size-3);
+  }
+
+  .location-row {
+    display: grid;
+    gap: 0 var(--size-3);
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "icon name"
+      "icon desc";
+  }
+
   .clickable {
     cursor: pointer;
+  }
+
+  .icon {
+    grid-row: span 2;
+    height: var(--size-9);
+  }
+
+  .location-name {
+    color: var(--palette-7);
+    font-size: var(--font-size-3);
+    font-weight: bold;
+    padding-top: var(--size-2);
   }
 
   :global(svg.marker) {
