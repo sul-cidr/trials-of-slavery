@@ -5,19 +5,20 @@ const documents = document.querySelectorAll(".document .translation");
 const glossary = {
   heemraden:
     "In the Netherlands, and also in Cape Colony until the 19th century, a member of a council to assist a local magistrate in the government of rural districts.",
+  baas: "An employer, a boss. Frequently as a form of address.",
 };
 
 const showGloss = (event) => {
   const termSpan = event.target;
   const glossSpan = termSpan.nextElementSibling;
-  glossSpan.style.opacity = 1;
+  glossSpan.classList.add("shown");
   update(termSpan, glossSpan);
 };
 
 const hideGloss = (event) => {
   const termSpan = event.target;
   const glossSpan = termSpan.nextElementSibling;
-  glossSpan.style.opacity = 0;
+  glossSpan.classList.remove("shown");
 };
 
 const eventMap = [

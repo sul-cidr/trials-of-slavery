@@ -136,20 +136,26 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
       border: 5px solid var(--palette-3);
       border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
-      opacity: 0;
-      transition: opacity 0.2s ease-in-out;
       font-family: var(--font-sans);
       font-size: var(--font-size-2);
       font-style: normal;
-      padding: var(--size-2);
-      position: absolute;
       max-width: 40%;
+      opacity: 0;
+      padding: var(--size-2);
+      pointer-events: none;
+      position: absolute;
+      transition: opacity 300ms ease-in-out;
 
       :global(.header) {
-        display: block;
-        text-transform: uppercase;
         color: var(--palette-8);
+        display: block;
         font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      &.shown {
+        opacity: 1;
+        pointer-events: all;
       }
     }
   }
