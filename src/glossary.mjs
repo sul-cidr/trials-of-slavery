@@ -3,20 +3,21 @@ import { computePosition, flip, shift, offset } from "@floating-ui/dom";
 const documents = document.querySelectorAll(".document .translation");
 
 const glossary = {
-  heemraden: "Definition of heemraden",
+  heemraden:
+    "In the Netherlands, and also in Cape Colony until the 19th century, a member of a council to assist a local magistrate in the government of rural districts.",
 };
 
 const showGloss = (event) => {
   const termSpan = event.target;
   const glossSpan = termSpan.nextElementSibling;
-  glossSpan.style.display = "block";
+  glossSpan.style.opacity = 1;
   update(termSpan, glossSpan);
 };
 
 const hideGloss = (event) => {
   const termSpan = event.target;
   const glossSpan = termSpan.nextElementSibling;
-  glossSpan.style.display = "";
+  glossSpan.style.opacity = 0;
 };
 
 const eventMap = [
