@@ -1,3 +1,7 @@
+---
+import Icon from "./Icon.astro";
+---
+
 <nav>
   <ul>
     <li
@@ -8,7 +12,8 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname
           ? null
-          : Astro.site.pathname}>Home</a
+          : Astro.site.pathname}
+        ><Icon name="home" className="home-icon" />Home</a
       >
     </li>
     <li
@@ -19,7 +24,7 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
           ? null
-          : Astro.site.pathname + "trials/"}>Trials</a
+          : Astro.site.pathname + "trials/"}><Icon name="scales" />Trials</a
       >
     </li>
     <li
@@ -30,7 +35,7 @@
       <a
         href={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
           ? null
-          : Astro.site.pathname + "map/"}>Map</a
+          : Astro.site.pathname + "map/"}><Icon name="map" />Map</a
       >
     </li>
   </ul>
@@ -61,8 +66,22 @@
       color: var(--palette-4);
     }
 
+    a {
+      white-space: nowrap;
+    }
+
     &:not(.active):hover {
       background-color: var(--palette-0);
+    }
+
+    :global(svg) {
+      height: 1.2rem;
+      margin-top: -2px;
+      width: 1.2rem;
+    }
+
+    :global(svg.home-icon) {
+      margin-top: -5px;
     }
   }
 </style>
