@@ -340,6 +340,18 @@
   resolved "https://registry.npmjs.org/@emmetio/scanner/-/scanner-1.0.0.tgz"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
+"@floating-ui/core@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-0.7.0.tgz#f2442168d65c22daeb48cfb730cbc3a29a846ac7"
+  integrity sha512-W7+i5Suhhvv97WDTW//KqUA43f/2a4abprM1rWqtLM9lIlJ29tbFI8h232SvqunXon0WmKNEKVjbOsgBhTnbLw==
+
+"@floating-ui/dom@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-0.5.0.tgz#e4efd9e609ff3ee6778fbe4273930d6d1c220f2e"
+  integrity sha512-PS75dnMg4GdWjDFOiOs15cDzYJpukRNHqQn0ugrBlsrpk2n+y8bwZ24XrsdLSL7kxshmxxr2nTNycLnmRIvV7g==
+  dependencies:
+    "@floating-ui/core" "^0.7.0"
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.5"
   resolved "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.5.tgz"
