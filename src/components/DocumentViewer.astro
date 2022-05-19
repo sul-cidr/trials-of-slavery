@@ -43,6 +43,8 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
   });
 </script>
 
+<script type="module" hoist>await import("../glossary.mjs");</script>
+
 <style>
   .summary {
     background-color: var(--palette-0);
@@ -120,6 +122,40 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
       &:target {
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
+      }
+    }
+
+    :global(.glossary) {
+      border-bottom: 2px dashed var(--palette-8);
+      cursor: help;
+      display: inline-block;
+    }
+
+    :global(.gloss) {
+      background: var(--surface-1);
+      border: 5px solid var(--palette-3);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
+      font-family: var(--font-sans);
+      font-size: var(--font-size-2);
+      font-style: normal;
+      max-width: 40%;
+      opacity: 0;
+      padding: var(--size-2);
+      pointer-events: none;
+      position: absolute;
+      transition: opacity 300ms ease-in-out;
+
+      :global(.header) {
+        color: var(--palette-8);
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      &.shown {
+        opacity: 1;
+        pointer-events: all;
       }
     }
   }
