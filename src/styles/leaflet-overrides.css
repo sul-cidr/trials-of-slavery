@@ -30,4 +30,51 @@
       margin: 0;
     }
   }
+
+  /* reset map view button */
+  .reset-map {
+    background-color: white;
+    border-radius: 2px;
+    border: 0 !important;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 8px !important;
+    padding: 0 3px;
+    transition: opacity 0.2s ease;
+    width: 30px;
+
+    &.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+
+  .reset-map svg {
+    fill: none;
+    stroke: currentColor;
+  }
+}
+
+/* SVG pin marker styles (not scoped to .leaflet-container so they can be used elsewhere) */
+svg.marker {
+  height: 100%;
+  overflow: visible;
+  width: 100%;
+
+  path.pin {
+    fill: var(--palette-7);
+    stroke: white;
+    transition: fill 0.2s ease, transform 0.2s ease;
+  }
+
+  path.shadow {
+    fill: initial;
+    fill-opacity: 0.25;
+    stroke: initial;
+    transition: transform 0.2s ease;
+  }
 }
