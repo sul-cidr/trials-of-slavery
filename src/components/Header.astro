@@ -9,20 +9,30 @@ import Nav from "../components/Nav.astro";
 
 <style>
   header {
-    display: flex;
-    text-align: left;
-    padding: var(--size-4) 0 0;
-    width: var(--wrap);
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-fluid-2);
+    justify-content: space-between;
+    padding: var(--size-4) 0 0;
+    text-align: center;
+    width: var(--wrap);
   }
 
   h1 {
     flex-grow: 1;
+    width: inherit;
 
     a:hover {
-      text-decoration: none;
       color: var(--palette-7);
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 800px) {
+    header {
+      flex-direction: row;
+      text-align: left;
     }
   }
 </style>
