@@ -28,7 +28,10 @@ const fields = {
       ([key, { label, className, func = (text) => text }]) => (
         <div class={`details-item ${className}`}>
           <div class="details-item-label">{label}:</div>
-          <div class="details-item-value" set:html={func(record[key])}></div>
+          <div
+            class="details-item-value"
+            set:html={func(record[key]) || "--"}
+          ></div>
         </div>
       ),
     )}
