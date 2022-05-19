@@ -43,5 +43,4 @@ import path from "path";
 import { fileURLToPath } from "url";
 const nodePath = path.resolve(process.argv[1]);
 const modulePath = path.resolve(fileURLToPath(import.meta.url));
-if (nodePath === modulePath)
-  console.dir(records, { depth: null, colors: true });
+if (nodePath === modulePath) console.log(JSON.stringify(records, null, 2));
