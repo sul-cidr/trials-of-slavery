@@ -126,9 +126,29 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     }
 
     :global(.glossary) {
-      display: inline-block;
       border-bottom: 2px dashed var(--palette-8);
       cursor: help;
+      display: inline-block;
+    }
+
+    :global(.gloss) {
+      background: var(--surface-1);
+      border: 5px solid var(--palette-3);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
+      display: none;
+      font-family: var(--font-sans);
+      font-size: var(--font-size-2);
+      font-style: normal;
+      padding: var(--size-2);
+      position: absolute;
+
+      :global(.header) {
+        display: block;
+        text-transform: uppercase;
+        color: var(--palette-8);
+        font-weight: bold;
+      }
     }
   }
 </style>
