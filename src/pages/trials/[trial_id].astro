@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/base.astro";
-import MetadataDl from "../../components/MetadataDl.astro";
 import DocumentViewer from "../../components/DocumentViewer.astro";
 import TrialPlaces from "../../components/TrialPlaces.astro";
+import MetadataPanel from "../../components/MetadataPanel.astro";
 import Icon from "../../components/Icon.astro";
 import { records } from "../../dataset.mjs";
 
@@ -56,7 +56,7 @@ const { record, prev, next } = Astro.props;
     </div>
   </nav>
 
-  <MetadataDl {record} />
+  <MetadataPanel {record} />
 
   <DocumentViewer {record} />
 

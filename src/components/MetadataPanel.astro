@@ -1,0 +1,69 @@
+---
+const { record } = Astro.props;
+const fields = {
+  "Name on Document": { label: "Name on Document", className: "name" },
+  "Date (Y/M/D)": { label: "Date", className: "data" },
+  "Type of Document(s)": { label: "Document Type", className: "doctype" },
+  "Primary charge": { label: "Primary Charge", className: "primary-charge" },
+  "Secondary charge(s)": {
+    label: "Secondary Charge",
+    className: "secondary-charge",
+  },
+  Tags: {
+    label: "Tag(s)",
+    className: "tags",
+    func: (text) =>
+      text
+        .split(/\s*;\s*/g)
+        .map((tag) => `<span class="pill">${tag}</span>`)
+        .join(""),
+  },
+};
+---
+
+<section id="details">
+  <header>Details</header>
+  <div class="details">
+    {Object.entries(fields).map(
+      ([key, { label, className, func = (text) => text }]) => (
+        <div class={`details-item ${className}`}>
+          <div class="details-item-label">{label}:</div>
+          <div
+            class="details-item-value"
+            set:html={func(record[key]) || "--"}
+          ></div>
+        </div>
+      ),
+    )}
+  </div>
+</section>
+
+<style>
+  .details {
+    display: grid;
+    gap: var(--size-3);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: var(--size-3);
+  }
+
+  .details-item {
+    display: flex;
+    gap: 0 var(--size-3);
+    flex-direction: column;
+  }
+
+  .details-item-label {
+    font-size: var(--font-size-1);
+    color: var(--palette-7);
+  }
+
+  .details-item:not(.tags) .details-item-value {
+    font-size: var(--font-size-2);
+    font-weight: bold;
+  }
+
+  .details-item.tags .details-item-value {
+    margin-left: calc(var(--size-2) * -1);
+    margin-top: calc(var(--size-2) * -1);
+  }
+</style>
