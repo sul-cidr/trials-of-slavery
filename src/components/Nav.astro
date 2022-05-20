@@ -3,46 +3,34 @@ import Icon from "./Icon.astro";
 ---
 
 <nav>
-  <ul>
-    <li
-      class={Astro.canonicalURL.pathname === Astro.site.pathname
-        ? "active"
-        : null}
-    >
-      <a
-        href={Astro.canonicalURL.pathname === Astro.site.pathname
-          ? null
-          : Astro.site.pathname}
-        ><Icon name="home" className="home-icon" />Home</a
-      >
-    </li>
-    <li
-      class={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
-        ? "active"
-        : null}
-    >
-      <a
-        href={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
-          ? null
-          : Astro.site.pathname + "trials/"}><Icon name="scales" />Trials</a
-      >
-    </li>
-    <li
-      class={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
-        ? "active"
-        : null}
-    >
-      <a
-        href={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
-          ? null
-          : Astro.site.pathname + "map/"}><Icon name="map" />Map</a
-      >
-    </li>
-  </ul>
+  <a
+    class={Astro.canonicalURL.pathname === Astro.site.pathname
+      ? "active"
+      : null}
+    href={Astro.canonicalURL.pathname === Astro.site.pathname
+      ? null
+      : Astro.site.pathname}><Icon name="home" className="home-icon" />Home</a
+  >
+  <a
+    class={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
+      ? "active"
+      : null}
+    href={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
+      ? null
+      : Astro.site.pathname + "trials/"}><Icon name="scales" />Trials</a
+  >
+  <a
+    class={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
+      ? "active"
+      : null}
+    href={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
+      ? null
+      : Astro.site.pathname + "map/"}><Icon name="map" />Map</a
+  >
 </nav>
 
 <style>
-  ul {
+  nav {
     display: flex;
     gap: var(--size-3);
     justify-content: flex-end;
@@ -50,21 +38,17 @@ import Icon from "./Icon.astro";
     padding: 0;
   }
 
-  li {
-    list-style: none;
+  a {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
+    white-space: nowrap;
     width: max-content;
 
     &.active {
       background-color: transparent;
       color: var(--palette-4);
-    }
-
-    a {
-      white-space: nowrap;
     }
 
     &:not(.active):hover {
