@@ -11,6 +11,16 @@ export async function getStaticPaths() {
     params: { trial_id: record.ID },
     props: {
       record: record,
+      // for each tag, count the occurrences of that tag across all records
+      tags: Object.fromEntries(
+        record.Tags.split("; ").map((tag) => [
+          tag,
+          records
+            .map((record) => record.Tags.split("; "))
+            .flat()
+            .filter((_tag) => _tag === tag).length,
+        ]),
+      ),
       prev: array[index - 1]?.ID,
       next: array[index + 1]?.ID,
     },
@@ -19,7 +29,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { record, prev, next } = Astro.props;
+const { record, tags, prev, next } = Astro.props;
 const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
   record["Name on Document"]
 }`;
@@ -61,7 +71,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
 
   <header><h2>{pageTitle}</h2></header>
 
-  <MetadataPanel {record} />
+  <MetadataPanel {record} {tags} />
 
   <DocumentViewer {record} />
 
@@ -73,6 +83,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
         <details>
           <summary style="box-sizing: content-box;">debug</summary>
           <pre>{JSON.stringify(record, null, 2)}</pre>
+          <pre>{JSON.stringify(tags, null, 2)}</pre>
         </details>
       );
     }

@@ -1,5 +1,5 @@
 ---
-const { record } = Astro.props;
+const { record, tags } = Astro.props;
 const fields = {
   "Name on Document": { label: "Name on Document", className: "name" },
   "Date (Y/M/D)": { label: "Date", className: "data" },
@@ -15,7 +15,12 @@ const fields = {
     func: (text) =>
       text
         .split(/\s*;\s*/g)
-        .map((tag) => `<span class="pill">${tag}</span>`)
+        .map(
+          (tag) =>
+            `<a class="pill" href="${
+              Astro.site.pathname + "trials/?tag=" + tag
+            }">${tag} (${tags[tag]})</a>`,
+        )
         .join(""),
   },
 };
