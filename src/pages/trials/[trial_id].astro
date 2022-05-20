@@ -78,7 +78,7 @@ const { record, prev, next } = Astro.props;
     display: flex;
     gap: var(--size-3);
     justify-content: flex-end;
-    margin-right: var(--size-1);
+    margin-right: calc(var(--size-2) * -1);
     margin-top: var(--size-1);
     padding: var(--size-2);
     position: sticky;
@@ -107,7 +107,7 @@ const { record, prev, next } = Astro.props;
     }
   }
 
-  :global(section) {
+  :global(main > section) {
     scroll-margin-top: var(--size-6);
   }
 
@@ -117,5 +117,10 @@ const { record, prev, next } = Astro.props;
     font-weight: bold;
     margin-bottom: var(--size-2);
     text-transform: uppercase;
+  }
+
+  /* lift the secondary nav up into the header area */
+  :global(main > nav) {
+    margin-top: -40px !important;
   }
 </style>

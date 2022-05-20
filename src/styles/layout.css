@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: var(--size-fluid-2);
 }
 
 main {
@@ -12,10 +13,16 @@ main {
   flex-grow: 1;
   gap: var(--size-fluid-2);
   justify-content: flex-start;
-  margin-bottom: var(--size-fluid-2);
   width: var(--wrap);
 }
 
 main * {
   max-inline-size: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
 }

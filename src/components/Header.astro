@@ -1,21 +1,38 @@
+---
+import Nav from "../components/Nav.astro";
+---
+
 <header role="banner">
   <h1><a href={Astro.site.pathname}>Trials of Slavery</a></h1>
+  <Nav />
 </header>
 
 <style>
   header {
-    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-fluid-2);
+    justify-content: space-between;
     padding: var(--size-4) 0 0;
-    width: 100%;
+    text-align: center;
+    width: var(--wrap);
   }
 
   h1 {
-    max-inline-size: var(--wrap);
-    margin: 0 auto;
+    flex-grow: 1;
+    width: inherit;
 
     a:hover {
-      text-decoration: none;
       color: var(--palette-7);
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 800px) {
+    header {
+      flex-direction: row;
+      text-align: left;
     }
   }
 </style>
