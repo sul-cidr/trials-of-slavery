@@ -15,7 +15,7 @@ Object.entries(locationsByLatlong).forEach(([latlong, locations]) => {
   const locationsByName = locations.reduce(
     (result, location) => ({
       ...result,
-      [location.Location]: [...(result[location.Location] || []), location],
+      [location.name]: [...(result[location.name] || []), location],
     }),
     {},
   );
@@ -27,10 +27,7 @@ Object.entries(locationsByLatlong).forEach(([latlong, locations]) => {
         .map(
           ([name, locations]) =>
             `<p>${name} - ${locations
-              .map(
-                (l) =>
-                  `<a href="../trials/${l["Case ID"]}/">#${l["Case ID"]}</a>`,
-              )
+              .map((l) => `<a href="../trials/${l.caseId}/">#${l.caseId}</a>`)
               .join(", ")}</p>`,
         )
         .join(""),

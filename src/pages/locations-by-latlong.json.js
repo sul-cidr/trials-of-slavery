@@ -9,10 +9,9 @@ const locationsByLatlong = locations.reduce(
     [`${location.Latitude},${location.Longitude}`]: [
       ...(result[`${location.Latitude},${location.Longitude}`] || []),
       (() => {
-        // iife to remove Latitude and Longitude properties
-        // (further properties could be removed here too)
-        const { Latitude, Longitude, ...rest } = location;
-        return { ...rest };
+        // iife to pick only needed properties
+        const { "Case ID": caseId, Location: name, ...rest } = location;
+        return { caseId, name };
       })(),
     ],
   }),

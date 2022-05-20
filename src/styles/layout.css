@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--size-fluid-2);
+  width: 100vw;
 }
 
 main {
@@ -20,6 +21,11 @@ main * {
   max-inline-size: 100%;
 }
 
+/* add margin if scroll bar not visible
+   Note: leaving space for a scroll bar can result in obviously uneven margins
+   on smaller screens when there is no scroll bar.  This is a non-issue on
+   mobile or other environments with overlay scrollbars, but it's probably worth
+   putting this behind a media query for the sake of smaller desktop screens. */
 @media screen and (min-width: 640px) {
   html {
     margin-left: calc(100vw - 100%);

@@ -24,32 +24,36 @@ const { record, prev, next } = Astro.props;
 
 <BaseLayout>
   <nav>
-    <a href="#details">Details</a>
-    <a href="#summary">Summary</a>
-    <a href="#documents">Documents</a>
-    {() => {
-      if (record["trial_locations"].length) {
-        return <a href="#places">Places</a>;
-      }
-    }}
-    {prev ? (
-      <a href={`${Astro.site.pathname}trials/${prev}/`}>
-        <Icon name="caret-left" />
-      </a>
-    ) : (
-      <a>
-        <Icon name="caret-left" />
-      </a>
-    )}
-    {next ? (
-      <a href={`${Astro.site.pathname}trials/${next}/`}>
-        <Icon name="caret-right" />
-      </a>
-    ) : (
-      <a>
-        <Icon name="caret-right" />
-      </a>
-    )}
+    <div>
+      <a href="#details">Details</a>
+      <a href="#summary">Summary</a>
+      <a href="#documents">Documents</a>
+      {() => {
+        if (record["trial_locations"].length) {
+          return <a href="#places">Places</a>;
+        }
+      }}
+    </div>
+    <div>
+      {prev ? (
+        <a href={`${Astro.site.pathname}trials/${prev}/`}>
+          <Icon name="caret-left" />
+        </a>
+      ) : (
+        <a>
+          <Icon name="caret-left" />
+        </a>
+      )}
+      {next ? (
+        <a href={`${Astro.site.pathname}trials/${next}/`}>
+          <Icon name="caret-right" />
+        </a>
+      ) : (
+        <a>
+          <Icon name="caret-right" />
+        </a>
+      )}
+    </div>
   </nav>
 
   <MetadataDl {record} />
@@ -72,12 +76,13 @@ const { record, prev, next } = Astro.props;
 
 <style>
   nav {
-    align-self: flex-end;
+    align-self: center;
     background: hsla(210deg 17% 98% / 0.8); /* --surface-1 / 0.8 */
     border-radius: var(--radius-2);
     display: flex;
+    flex-wrap: wrap;
     gap: var(--size-3);
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: calc(var(--size-2) * -1);
     margin-top: var(--size-1);
     padding: var(--size-2);
@@ -85,6 +90,13 @@ const { record, prev, next } = Astro.props;
     top: var(--size-1);
     width: fit-content;
     z-index: 2;
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--size-3);
+      justify-content: center;
+    }
 
     a {
       background-color: var(--surface-3);
@@ -120,7 +132,11 @@ const { record, prev, next } = Astro.props;
   }
 
   /* lift the secondary nav up into the header area */
-  :global(main > nav) {
-    margin-top: -40px !important;
+  @media (min-width: 1280px) {
+    nav {
+      align-self: flex-end;
+      margin-top: -40px !important;
+      justify-content: flex-end;
+    }
   }
 </style>
