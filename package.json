@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
-    "gh-deploy": "bin/astro-gh-deploy.sh"
+    "netlify-deploy": "astro build && netlify deploy --dir dist --prod"
   },
   "devDependencies": {
     "astro": "1.0.0-beta.27",
