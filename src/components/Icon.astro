@@ -4,6 +4,7 @@ const {
   width = "1.5rem",
   height = "1.5rem",
   customAttribs = {},
+  className,
 } = Astro.props;
 
 const defaultAttribs = {
@@ -44,6 +45,29 @@ const icons = {
   reset: {
     svg: `<path d="m 10.953,20.006141 a 8,8 0 1 1 4,-0.5 m 5,0.5 h -5 v -5" />`,
   },
+  scales: {
+    svg: `
+      <line x1="7" y1="20" x2="17" y2="20" />
+      <path d="M6 6l6 -1l6 1" />
+      <line x1="12" y1="3" x2="12" y2="20" />
+      <path d="M9 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
+      <path d="M21 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
+    `,
+  },
+  map: {
+    svg: `
+      <polyline points="3 7 9 4 15 7 21 4 21 17 15 20 9 17 3 20 3 7" />
+      <line x1="9" y1="4" x2="9" y2="17" />
+      <line x1="15" y1="7" x2="15" y2="20" />
+    `,
+  },
+  home: {
+    svg: `
+      <polyline points="5 12 3 12 12 3 21 12 19 12" />
+      <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+      <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+    `,
+  },
 };
 const { attribs = {}, svg } = icons[name];
 ---
@@ -54,6 +78,7 @@ const { attribs = {}, svg } = icons[name];
   {...defaultAttribs}
   {...attribs}
   {...customAttribs}
+  class={className ? className : ""}
   set:html={svg}></svg>
 
 <style>
