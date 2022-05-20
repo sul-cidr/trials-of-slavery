@@ -25,3 +25,12 @@ h4 {
   font-family: var(--font-serif);
   font-weight: 700;
 }
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: var(--font-size-6);
+  }
+  h2 {
+    font-size: var(--font-size-4);
+  }
+}
