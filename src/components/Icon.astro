@@ -75,9 +75,9 @@ const { attribs = {}, svg } = icons[name];
 <svg
   {height}
   {width}
-  {...defaultAttribs}
-  {...attribs}
   {...customAttribs}
+  {...attribs}
+  {...defaultAttribs}
   class={className ? className : ""}
   set:html={svg}></svg>
 
