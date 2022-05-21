@@ -20,6 +20,9 @@ export async function getStaticPaths() {
 }
 
 const { record, prev, next } = Astro.props;
+const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
+  record["Name on Document"]
+}`;
 ---
 
 <BaseLayout>
@@ -55,6 +58,8 @@ const { record, prev, next } = Astro.props;
       )}
     </div>
   </nav>
+
+  <header><h2>{pageTitle}</h2></header>
 
   <MetadataPanel {record} />
 
@@ -116,6 +121,37 @@ const { record, prev, next } = Astro.props;
           }
         }
       }
+    }
+  }
+
+  header {
+    margin: var(--size-4) 0;
+  }
+
+  h2 {
+    overflow: hidden;
+    text-align: center;
+
+    &:before,
+    &:after {
+      background-color: var(--palette-4);
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+    }
+
+    &:before {
+      /* background: linear-gradient(to right, rgba(0, 0, 0, 0), #000); */
+      margin-left: -50%;
+      right: var(--size-4);
+    }
+
+    &:after {
+      left: var(--size-4);
+      margin-right: -50%;
     }
   }
 
