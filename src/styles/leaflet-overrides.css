@@ -61,9 +61,7 @@
 
 /* SVG pin marker styles (not scoped to .leaflet-container so they can be used elsewhere) */
 svg.marker {
-  height: 100%;
   overflow: visible;
-  width: 100%;
 
   path.pin {
     fill: var(--palette-7);
@@ -77,4 +75,9 @@ svg.marker {
     stroke: initial;
     transition: transform 0.2s ease;
   }
+}
+
+.leaflet-container svg.marker {
+  height: 100%;
+  width: 100%;
 }

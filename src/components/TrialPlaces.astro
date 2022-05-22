@@ -70,6 +70,12 @@ const locations = record["trial_locations"].map((location) => ({
     gap: var(--size-3);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-bottom: var(--size-3);
+
+    .marker {
+      grid-row: span 2;
+      height: var(--size-9);
+      width: var(--size-9);
+    }
   }
 
   .location-row {
@@ -84,12 +90,6 @@ const locations = record["trial_locations"].map((location) => ({
 
   .clickable {
     cursor: pointer;
-  }
-
-  .marker {
-    grid-row: span 2;
-    height: var(--size-9);
-    overflow: visible;
   }
 
   .location-name {
