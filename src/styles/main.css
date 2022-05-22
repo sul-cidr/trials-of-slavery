@@ -26,14 +26,30 @@ h4 {
   font-weight: 700;
 }
 
+main > section {
+  scroll-margin-top: var(--size-6);
+}
+
+section > header {
+  color: var(--palette-8);
+  font-size: var(--font-size-4);
+  font-weight: bold;
+  margin-bottom: var(--size-2);
+  text-transform: uppercase;
+}
+
 .pill {
   background-color: var(--palette-2);
   border-radius: var(--radius-2);
   color: var(--text-2);
   cursor: pointer;
   display: inline-block;
-  margin: var(--size-2);
-  padding: 0 var(--size-2);
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 3px var(--size-2) 0;
+  text-transform: uppercase;
   transition: background-color 300ms ease;
 }
 
