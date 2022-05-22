@@ -83,19 +83,19 @@ const { attribs = {}, svg } = icons[name];
 ---
 
 <svg
-  {height}
-  {width}
   {...customAttribs}
   {...attribs}
   {...defaultAttribs}
   class={className ? className : ""}
   set:html={svg}></svg>
 
-<style>
+<style define:vars={{ height, width }}>
   svg {
-    stroke: currentColor;
-    fill: transparent;
     display: inline-block;
+    fill: transparent;
+    height: var(--height);
+    stroke: currentColor;
     vertical-align: middle;
+    width: var(--width);
   }
 </style>
