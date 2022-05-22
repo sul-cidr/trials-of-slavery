@@ -1,4 +1,6 @@
 ---
+import Icon from "../components/Icon.astro";
+
 const { record, sectionId = "places", title = "Places" } = Astro.props;
 const locations = record["trial_locations"].map((location) => ({
   name: location.Location,
@@ -13,20 +15,7 @@ const locations = record["trial_locations"].map((location) => ({
   <div class="location-rows">
     {locations.map((location) => (
       <div class="location-row" data-location={JSON.stringify(location)}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 32 32"
-          class="icon marker"
-        >
-          <path
-            class="shadow"
-            d="M16 32s1.427-9.585 3.761-12.025c4.595-4.805 8.685-.99 8.685-.99s4.044 3.964-.526 8.743C25.514 30.245 16 32 16 32z"
-          />
-          <path
-            class="pin"
-            d="M15.938 32S6 17.938 6 11.938C6 .125 15.938 0 15.938 0S26 .125 26 11.875C26 18.062 15.938 32 15.938 32zM16 6a4 4 0 100 8 4 4 0 000-8z"
-          />
-        </svg>
+        <Icon name="marker" className="marker" />
         <span class="location-name">{location.name}</span>
         <span class="location-desc">{location.desc}</span>
       </div>
@@ -81,6 +70,12 @@ const locations = record["trial_locations"].map((location) => ({
     gap: var(--size-3);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-bottom: var(--size-3);
+
+    .marker {
+      grid-row: span 2;
+      height: var(--size-9);
+      width: var(--size-9);
+    }
   }
 
   .location-row {
@@ -95,12 +90,6 @@ const locations = record["trial_locations"].map((location) => ({
 
   .clickable {
     cursor: pointer;
-  }
-
-  .icon {
-    grid-row: span 2;
-    height: var(--size-9);
-    overflow: visible;
   }
 
   .location-name {

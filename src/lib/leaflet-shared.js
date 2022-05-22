@@ -2,12 +2,7 @@ import * as L from "leaflet/dist/leaflet-src.esm.js";
 
 export const icon = L.divIcon({
   className: "marker",
-  html: `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="marker">
-        <path class="shadow" d="M16 32s1.427-9.585 3.761-12.025c4.595-4.805 8.685-.99 8.685-.99s4.044 3.964-.526 8.743C25.514 30.245 16 32 16 32z"/>
-        <path class="pin" d="M15.938 32S6 17.938 6 11.938C6 .125 15.938 0 15.938 0S26 .125 26 11.875C26 18.062 15.938 32 15.938 32zM16 6a4 4 0 100 8 4 4 0 000-8z"/>
-      </svg>
-    `,
+  html: document.querySelector("svg.marker").outerHTML,
   iconSize: [40, 40],
   iconAnchor: [20, 40],
   popupAnchor: [0, -45],
@@ -28,12 +23,12 @@ const resetButtonControl = L.Control.extend({
     const resetButton = L.DomUtil.create("button");
     resetButton.title = "Reset Map";
     resetButton.innerHTML = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="5 12 3 12 12 3 21 12 19 12" />
-            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-          </svg>
-        `;
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="5 12 3 12 12 3 21 12 19 12" />
+        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+      </svg>
+    `;
     return resetButton;
   },
 });

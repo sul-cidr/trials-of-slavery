@@ -1,9 +1,12 @@
 ---
 import BaseLayout from "../layouts/base.astro";
+import Icon from "../components/Icon.astro";
 ---
 
 <BaseLayout bodyClass="map">
-  <div id="map"></div>
+  <div id="map">
+    <Icon name="marker" className="marker" />
+  </div>
   <script type="module" hoist>await import("./main-map.mjs");</script>
 </BaseLayout>
 
@@ -13,6 +16,10 @@ import BaseLayout from "../layouts/base.astro";
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     box-shadow: 0 0 20px var(--palette-9), 8px 8px 8px rgb(0 0 0 / 80%);
     height: 800px;
+
+    & > .marker {
+      display: none;
+    }
 
     :global(.leaflet-popup-content) {
       display: flex;
