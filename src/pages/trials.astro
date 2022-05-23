@@ -29,6 +29,18 @@ records.forEach((record) =>
     }
   }),
 );
+
+const sCharges = {};
+records.forEach((record) =>
+  record["Secondary charge(s)"]?.split("; ").forEach((sCharge) => {
+    sCharge = sCharge || "[none]";
+    if (sCharge in sCharges) {
+      sCharges[sCharge].push(record.ID);
+    } else {
+      sCharges[sCharge] = [record.ID];
+    }
+  }),
+);
 ---
 
 <BaseLayout bodyClass="trials">
@@ -65,6 +77,26 @@ records.forEach((record) =>
             data-records={ids.join(",")}
           >
             {pCharge} ({ids.length})
+          </span>
+        ))}
+    </div>
+  </section>
+
+  <section class="filter secondary-charges">
+    <header>
+      Top 10 secondary Charges ({Object.keys(sCharges).length} total)
+    </header>
+    <div>
+      {Object.entries(sCharges)
+        .sort(([, a], [, b]) => b.length - a.length)
+        .slice(0, 10)
+        .map(([sCharge, ids]) => (
+          <span
+            class="pill"
+            data-secondary-charge={sCharge}
+            data-records={ids.join(",")}
+          >
+            {sCharge} ({ids.length})
           </span>
         ))}
     </div>
@@ -111,6 +143,11 @@ records.forEach((record) =>
         <details>
           <summary style="box-sizing: content-box;">primary charges</summary>
           <pre>{JSON.stringify(pCharges, null, 2)}</pre>
+        </details>
+
+        <details>
+          <summary style="box-sizing: content-box;">secondary charges</summary>
+          <pre>{JSON.stringify(sCharges, null, 2)}</pre>
         </details>
       );
     }
