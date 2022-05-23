@@ -38,6 +38,32 @@ section > header {
   text-transform: uppercase;
 }
 
+h2.page-heading {
+  overflow: hidden;
+  text-align: center;
+
+  &:before,
+  &:after {
+    background-color: var(--palette-4);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  &:before {
+    margin-left: -50%;
+    right: var(--size-4);
+  }
+
+  &:after {
+    left: var(--size-4);
+    margin-right: -50%;
+  }
+}
+
 .pill {
   background-color: var(--palette-2);
   border-radius: var(--radius-2);
