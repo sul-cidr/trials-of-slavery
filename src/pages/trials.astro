@@ -17,6 +17,18 @@ records.forEach((record) =>
     }
   }),
 );
+
+const pCharges = {};
+records.forEach((record) =>
+  record["Primary charge"]?.split("; ").forEach((pCharge) => {
+    pCharge = pCharge || "[none]";
+    if (pCharge in pCharges) {
+      pCharges[pCharge].push(record.ID);
+    } else {
+      pCharges[pCharge] = [record.ID];
+    }
+  }),
+);
 ---
 
 <BaseLayout bodyClass="trials">
@@ -24,7 +36,7 @@ records.forEach((record) =>
        it's in <noscript/> or not, so we're using a static external stylesheet here :( -->
   <noscript><link rel="stylesheet" href="/nojs.css" /></noscript>
 
-  <section class="tags">
+  <section class="filter tags">
     <header>Top 10 Tags ({Object.keys(tags).length} total)</header>
     <div>
       {Object.entries(tags)
@@ -33,6 +45,26 @@ records.forEach((record) =>
         .map(([tag, ids]) => (
           <span class="pill" data-tag={tag} data-records={ids.join(",")}>
             {tag} ({ids.length})
+          </span>
+        ))}
+    </div>
+  </section>
+
+  <section class="filter primary-charges">
+    <header>
+      Top 10 Primary Charges ({Object.keys(pCharges).length} total)
+    </header>
+    <div>
+      {Object.entries(pCharges)
+        .sort(([, a], [, b]) => b.length - a.length)
+        .slice(0, 10)
+        .map(([pCharge, ids]) => (
+          <span
+            class="pill"
+            data-primary-charge={pCharge}
+            data-records={ids.join(",")}
+          >
+            {pCharge} ({ids.length})
           </span>
         ))}
     </div>
@@ -72,8 +104,13 @@ records.forEach((record) =>
     if (import.meta.env.DEV) {
       return (
         <details>
-          <summary style="box-sizing: content-box;">debug</summary>
+          <summary style="box-sizing: content-box;">tags</summary>
           <pre>{JSON.stringify(tags, null, 2)}</pre>
+        </details>
+
+        <details>
+          <summary style="box-sizing: content-box;">primary charges</summary>
+          <pre>{JSON.stringify(pCharges, null, 2)}</pre>
         </details>
       );
     }
@@ -96,13 +133,13 @@ records.forEach((record) =>
     display: none;
   }
 
-  .tags {
+  .filter {
     background-color: var(--palette-0);
     border-radius: var(--radius-2);
     padding: var(--size-4) var(--size-5);
   }
 
-  .tags div {
+  .filter div {
     display: flex;
     flex-wrap: wrap;
     gap: var(--size-2);
