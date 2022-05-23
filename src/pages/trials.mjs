@@ -9,9 +9,12 @@ const dataTable = new FilteringDataTable("#trials", {
   nextText: document.getElementById("next").innerHTML,
 });
 
-dataTable.on("datatable.init", () => {
+const goToTrial = (event) =>
+  (window.location.href = `${event.currentTarget.dataset.rowId}/`);
+
+const addEventsToRows = () => {
   /* Row onClick event handlers are set up in vanilla JS here when
-     the table is initialized and when the page changed.
+     the table is initialized or filtered.
 
      The cursor style is also set here since this is a progressive
      enhancement when Javascript is available (otherwise the row's
@@ -20,12 +23,14 @@ dataTable.on("datatable.init", () => {
   dataTable.pages.forEach((page) => {
     page.forEach((row) => {
       row.style.cursor = "pointer";
-      row.addEventListener(
-        "click",
-        () => (window.location.href = `${row.dataset.rowId}/`),
-      );
+      /* named function to ensure that event handlers aren't multiplied */
+      row.addEventListener("click", goToTrial);
     });
   });
+};
+
+dataTable.on("datatable.init", () => {
+  addEventsToRows();
   setTimeout(() => (trialsTable.style.opacity = 1), 100);
 });
 
@@ -43,6 +48,7 @@ pills.forEach((pill) => {
       );
     }
     dataTable.search();
+    addEventsToRows();
   });
 });
 
