@@ -19,8 +19,10 @@ allFileContents.split(/\r?\n/).forEach((line) => {
   }
 });
 
-export async function get() {
+async function get() {
   return {
     body: JSON.stringify(glossary),
   };
 }
+
+export { get, glossary };
