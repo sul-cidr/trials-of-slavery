@@ -31,7 +31,7 @@ records.forEach((record) =>
         .sort(([, a], [, b]) => b.length - a.length)
         .slice(0, 10)
         .map(([tag, ids]) => (
-          <span class="pill" data-records={ids.join(",")}>
+          <span class="pill" data-tag={tag} data-records={ids.join(",")}>
             {tag} ({ids.length})
           </span>
         ))}
@@ -51,7 +51,10 @@ records.forEach((record) =>
     </thead>
     <tbody>
       {records.map((record) => (
-        <tr data-row-id={record.ID}>
+        <tr
+          data-row-id={record.ID}
+          data-tags={record.Tags?.split("; ").join("|")}
+        >
           <td>
             <a href={`${Astro.site.pathname}trials/${record.ID}/`}>
               {record.ID}

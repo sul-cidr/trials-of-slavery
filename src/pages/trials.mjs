@@ -45,3 +45,13 @@ pills.forEach((pill) => {
     dataTable.search();
   });
 });
+
+const QueryString = window.location.search;
+const urlParams = new URLSearchParams(QueryString);
+if (urlParams.has("tag")) {
+  const tag = urlParams.get("tag");
+  const pill = document.querySelector(`[data-tag="${tag}"]`);
+  dataTable.setFilter((row) => row.dataset.tags.split("|").includes(tag));
+  dataTable.search();
+  pill?.classList.add("active");
+}
