@@ -24,17 +24,19 @@ records.forEach((record) =>
        it's in <noscript/> or not, so we're using a static external stylesheet here :( -->
   <noscript><link rel="stylesheet" href="/nojs.css" /></noscript>
 
-  <div class="tags">
-    <h4>Top 10 Tags ({Object.keys(tags).length} total)</h4>
-    {Object.entries(tags)
-      .sort(([, a], [, b]) => b.length - a.length)
-      .slice(0, 10)
-      .map(([tag, ids]) => (
-        <span class="pill" data-records={ids.join(",")}>
-          {tag} ({ids.length})
-        </span>
-      ))}
-  </div>
+  <section class="tags">
+    <header>Top 10 Tags ({Object.keys(tags).length} total)</header>
+    <div>
+      {Object.entries(tags)
+        .sort(([, a], [, b]) => b.length - a.length)
+        .slice(0, 10)
+        .map(([tag, ids]) => (
+          <span class="pill" data-records={ids.join(",")}>
+            {tag} ({ids.length})
+          </span>
+        ))}
+    </div>
+  </section>
 
   <table id="trials" style="display:none;">
     <span id="prev"><Icon name="caret-left" /></span>
@@ -89,5 +91,17 @@ records.forEach((record) =>
   span#prev,
   span#next {
     display: none;
+  }
+
+  .tags {
+    background-color: var(--palette-0);
+    border-radius: var(--radius-2);
+    padding: var(--size-4) var(--size-5);
+  }
+
+  .tags div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
   }
 </style>
