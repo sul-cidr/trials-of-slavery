@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../layouts/base.astro";
+
+import fs from "node:fs";
+
+const renderStrong = (text) => {
+  return text
+    .split("**")
+    .map((part, i) => {
+      if (i % 2 === 0) return part;
+      return `<strong>${part}</strong>`;
+    })
+    .join("");
+};
+
+const renderEmphasis = (text) => {
+  return text
+    .split("*")
+    .map((part, i) => {
+      if (i % 2 === 0) return part;
+      return `<em>${part}</em>`;
+    })
+    .join("");
+};
+
+const renderSuperscript = (text) => {
+  return text
+    .split("^")
+    .map((part, i) => {
+      if (i % 2 === 0) return part;
+      return `<sup>${part}</sup>`;
+    })
+    .join("");
+};
+
+const renderMarkdown = (text) => {
+  text = renderStrong(text);
+  text = renderEmphasis(text);
+  text = renderSuperscript(text);
+  return text;
+};
+
+const fileContents = fs.readFileSync("src/documents/Bibliography.md", "utf-8");
+
+const bibliography = [];
+
+fileContents.split(/\r?\n/).forEach((line) => {
+  if (line === "") return;
+  bibliography.push(renderMarkdown(line.replace(/^-\s*/, "")));
+});
+---
+
+<BaseLayout>
+  <header>
+    <h2 class="page-heading">Bibliography</h2>
+  </header>
+  <section>
+    <ul>
+      {bibliography.map((item) => <li set:html={item} />)}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  ul {
+    list-style: none;
+    padding: 0 var(--size-fluid-2);
+    margin: 0 0 var(--size-fluid-4);
+
+    :global(li) {
+      margin: 0 0 var(--size-fluid-2);
+      text-indent: calc(var(--size-fluid-5) * -1);
+      padding-left: var(--size-fluid-5);
+      font-size: var(--font-size-3);
+    }
+
+    :global(strong) {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--palette-8);
+      font-size: var(--font-size-3);
+    }
+
+    :global(sup) {
+      font-size: var(--font-size-0);
+    }
+  }
+</style>
