@@ -8,6 +8,9 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
   base: "/trials-of-slavery/",
   trailingSlash: "always",
   integrations: [],
+  markdown: {
+    remarkPlugins: ["remark-gfm", "remark-supersub"],
+  },
   vite: {
     ssr: { external: ["neat-csv"] },
     optimizeDeps: { exclude: ["neat-csv"] },
