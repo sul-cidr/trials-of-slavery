@@ -3415,6 +3415,13 @@ remark-smartypants@^2.0.0:
     retext-smartypants "^5.1.0"
     unist-util-visit "^4.1.0"
 
+remark-supersub@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/remark-supersub/-/remark-supersub-1.0.0.tgz#b2009884781961a37990f5581360cbe0e1632ab1"
+  integrity sha512-3SYsphMqpAWbr8AZozdcypozinl/lly3e7BEwPG3YT5J9uZQaDcELBF6/sr/OZoAlFxy2nhNFWSrZBu/ZPRT3Q==
+  dependencies:
+    unist-util-visit "^4.0.0"
+
 resolve@^1.10.0, resolve@^1.17.0, resolve@^1.22.0:
   version "1.22.0"
   resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz"
