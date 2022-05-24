@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/base.astro";
+import Icon from "../components/Icon.astro";
 
 import fs from "node:fs";
 
@@ -52,7 +53,7 @@ fileContents.split(/\r?\n/).forEach((line) => {
 
 <BaseLayout>
   <header>
-    <h2 class="page-heading">Bibliography</h2>
+    <h2 class="page-heading"><Icon name="books" />Bibliography</h2>
   </header>
   <section>
     <ul>
