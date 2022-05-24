@@ -27,13 +27,31 @@ import Icon from "./Icon.astro";
       ? null
       : Astro.site.pathname + "map/"}><Icon name="map" />Map</a
   >
+  <a
+    class={Astro.canonicalURL.pathname === Astro.site.pathname + "glossary/"
+      ? "active"
+      : null}
+    href={Astro.canonicalURL.pathname === Astro.site.pathname + "glossary/"
+      ? null
+      : Astro.site.pathname + "glossary/"}><Icon name="book" />Glossary</a
+  >
+  <a
+    class={Astro.canonicalURL.pathname === Astro.site.pathname + "bibliography/"
+      ? "active"
+      : null}
+    href={Astro.canonicalURL.pathname === Astro.site.pathname + "bibliography/"
+      ? null
+      : Astro.site.pathname + "bibliography/"}
+    ><Icon name="books" />Bibliography</a
+  >
 </nav>
 
 <style>
   nav {
     display: flex;
-    gap: var(--size-3);
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: var(--size-1) var(--size-3);
+    justify-content: center;
     max-inline-size: var(--wrap);
     padding: 0;
   }
@@ -63,6 +81,12 @@ import Icon from "./Icon.astro";
 
     :global(svg.home-icon) {
       margin-top: -5px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    nav {
+      justify-content: flex-end;
     }
   }
 </style>
