@@ -4,9 +4,12 @@ import Icon from "../components/Icon.astro";
 ---
 
 <BaseLayout bodyClass="map">
-  <div id="map">
+  <header>
+    <h2 class="page-heading"><Icon name="map" />Map of Places</h2>
+  </header>
+  <section id="map">
     <Icon name="marker" className="marker" />
-  </div>
+  </section>
   <script type="module" hoist>await import("./main-map.mjs");</script>
 </BaseLayout>
 
@@ -16,6 +19,7 @@ import Icon from "../components/Icon.astro";
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     box-shadow: 0 0 20px var(--palette-9), 8px 8px 8px rgb(0 0 0 / 80%);
     height: 800px;
+    margin-top: var(--size-fluid-2);
 
     & > .marker {
       display: none;
