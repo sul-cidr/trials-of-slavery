@@ -1,6 +1,6 @@
 **1/STB 3/8** Criminele Verklaringen, 1702-1749, unpaginated.
 
-<p>Op Saturdag, den 29<sup>e</sup> Augustus <em>anno</em> 1705.</p>
+Op Saturdag, den 29^e^ Augustus *anno* 1705.
 
 Examen gedaan door den edele landdrost Johannes Starrenburg ten overstaan van den heemraaden Guilliam du Toit en Ferdinandus Appel wegens de slaav van den landbouwer Arij van Wijk, genaamt Cinna, dewelke ’t naar volgende belijd:
 
