@@ -2,9 +2,6 @@ import { computePosition, flip, shift, offset } from "@floating-ui/dom";
 
 const documents = document.querySelectorAll(".document .translation");
 
-const response = await fetch("../../glossary.json");
-const glossary = await response.json();
-
 const showGloss = (event) => {
   const termSpan = event.target;
   const glossSpan = termSpan.nextElementSibling;
@@ -37,31 +34,7 @@ const update = (termSpan, glossSpan) => {
   });
 };
 
-const renderEmphasis = (text) => {
-  return text
-    .split("*")
-    .map((part, i) => {
-      if (i % 2 === 0) return part;
-      return `<em>${part}</em>`;
-    })
-    .join("");
-};
-
-const markupDoc = (doc) => {
-  Object.entries(glossary).forEach(([terms, gloss]) => {
-    terms.split(",").forEach((term) => {
-      console.log(term);
-      doc.innerHTML = doc.innerHTML.replace(
-        new RegExp(term, "g"),
-        `<span class="glossary" aria-describedby="tooltip">${term}</span>
-         <span role="tooltip" class="gloss">
-           <span class="header">${term}</span>
-           ${renderEmphasis(gloss)}
-         </span>`,
-      );
-    });
-  });
-
+const addGlossaryEvents = (doc) => {
   doc.querySelectorAll(".glossary").forEach((termSpan) => {
     eventMap.forEach(([event, listener]) => {
       termSpan.addEventListener(event, listener);
