@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/base.astro";
 import { glossary } from "../../lib/glossary-md-parser.mjs";
 
+// The only markup in the glosses is emphasis, so this is simpler than invoking
+//  the entire remark-rehype pipeline.
 const renderEmphasis = (text) => {
   return text
     .split("*")

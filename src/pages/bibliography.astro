@@ -3,6 +3,11 @@ import BaseLayout from "../layouts/base.astro";
 
 import fs from "node:fs";
 
+/* Since we don't want to render Bibliography.md to HTML exactly as is,
+ *  we're going to parse it line by line and render the limited markup
+ *  by hand here.
+ */
+
 const renderStrong = (text) => {
   return text
     .split("**")
