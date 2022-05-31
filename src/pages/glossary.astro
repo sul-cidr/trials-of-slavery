@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/base.astro";
+import { glossary } from "../../lib/glossary-md-parser.mjs";
+
+const renderEmphasis = (text) => {
+  return text
+    .split("*")
+    .map((part, i) => {
+      if (i % 2 === 0) return part;
+      return `<em>${part}</em>`;
+    })
+    .join("");
+};
+---
+
+<BaseLayout>
+  <header><h2 class="page-heading">Glossary</h2></header>
+  <section>
+    <dl>
+      {Object.entries(glossary).map(
+      ([key, value]) => (
+        <dt>{key.split(",").join(", ")}</dt>
+        <dd set:html={renderEmphasis(value)}></dd>
+      ),
+    )}
+    </dl>
+  </section>
+</BaseLayout>
+
+<style>
+  dl {
+    padding: 0 var(--size-fluid-2);
+    margin-bottom: var(--size-fluid-4);
+  }
+
+  dt {
+    text-transform: uppercase;
+    color: var(--palette-8);
+    font-weight: bold;
+    font-size: var(--font-size-4);
+  }
+
+  dd + dt {
+    margin-top: var(--size-8);
+  }
+
+  dd {
+    font-size: var(--font-size-2);
+  }
+</style>
