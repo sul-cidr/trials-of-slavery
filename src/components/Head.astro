@@ -1,24 +1,40 @@
 ---
+import { execSync } from "node:child_process";
+
 import siteConfig from "../../site-config.json";
 
 import "../styles/styles.css";
+
+const commit = execSync("git rev-parse --short HEAD").toString().trim();
+const datetime = new Date().toISOString();
 
 let { title, description = siteConfig.defaultDescription } = Astro.props;
 
 title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
 ---
 
-<meta charset="UTF-8" />
-<meta name="description" property="og:description" content={description} />
-<meta name="viewport" content="width=device-width" />
-<title>{title}</title>
+<head prefix="dcterms: http://purl.org/dc/terms/#">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
 
-<link rel="icon" type="image/x-icon" href={`${Astro.site.pathname}favicon.ico`}
-/>
+  <meta name="description" property="og:description" content={description} />
+  <title>{title}</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Martel:wght@400;600&display=swap"
-  rel="stylesheet"
-/>
+  <meta name="version" content={commit} />
+  <meta name="dcterms.modified" content={datetime} />
+
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href={`${Astro.site.pathname}favicon.ico`}
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Martel:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <script>document.documentElement.className = "js";</script>
+</head>
