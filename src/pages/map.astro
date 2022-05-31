@@ -4,9 +4,12 @@ import Icon from "../components/Icon.astro";
 ---
 
 <BaseLayout bodyClass="map">
-  <div id="map">
+  <header>
+    <h2 class="page-heading"><Icon name="map" />Map of Places</h2>
+  </header>
+  <section id="map">
     <Icon name="marker" className="marker" />
-  </div>
+  </section>
   <script type="module" hoist>await import("./main-map.mjs");</script>
 </BaseLayout>
 
