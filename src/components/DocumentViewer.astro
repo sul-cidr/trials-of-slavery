@@ -1,12 +1,22 @@
 ---
-const { Content: Summary } = await import("../documents/01_Summary.md");
-const { Content: Dutch } = await import("../documents/01_Dutch.md");
-const { Content: Translation } = await import("../documents/01_Translation.md");
+import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
+
+const summary = await documentMdToHtml(
+  "src/documents/01_Summary.md",
+  "summary",
+);
+
+const dutch = await documentMdToHtml("src/documents/01_Dutch.md", "dutch");
+
+const translation = await documentMdToHtml(
+  "src/documents/01_Translation.md",
+  "translation",
+);
 ---
 
 <section id="summary" class="md summary">
   <header>Summary</header>
-  <Summary />
+  <div set:html={summary}></div>
 </section>
 
 <section id="documents" class="md document">
@@ -14,8 +24,8 @@ const { Content: Translation } = await import("../documents/01_Translation.md");
     <span data-doc="translation" class="active">Translation</span>
     <span data-doc="dutch">Dutch</span>
   </header>
-  <div class="translation shown"><Translation /></div>
-  <div class="dutch"><Dutch /></div>
+  <div class="translation shown"><div set:html={translation}></div></div>
+  <div class="dutch"><div set:html={dutch}></div></div>
 </section>
 
 <script>
