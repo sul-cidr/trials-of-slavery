@@ -9,7 +9,18 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
   trailingSlash: "always",
   integrations: [],
   vite: {
-    ssr: { external: ["neat-csv"] },
+    ssr: {
+      external: [
+        "neat-csv",
+        "unified",
+        "remark-parse",
+        "remark-gfm",
+        "remark-supersub",
+        "remark-rehype",
+        "rehype-stringify",
+        "mdast-util-to-hast",
+      ],
+    },
     optimizeDeps: { exclude: ["neat-csv"] },
   },
 });
