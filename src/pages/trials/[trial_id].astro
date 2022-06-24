@@ -43,7 +43,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
       <a href="#documents">Documents</a>
       {() => {
         if (record["trial_locations"].length) {
-          return <a href="#places">Places</a>;
+          return <a href="#places">Places</a>
         }
       }}
     </div>
@@ -75,7 +75,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
 
   <DocumentViewer {record} />
 
-  {(record["trial_locations"].length) ? <TrialPlaces {record} /> : null}
+  {record["trial_locations"].length ? <TrialPlaces record={record} /> : null}
 
   {() => {
     if (import.meta.env.DEV) {
@@ -85,7 +85,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
           <pre>{JSON.stringify(record, null, 2)}</pre>
           <pre>{JSON.stringify(tags, null, 2)}</pre>
         </details>
-      );
+      )
     }
   }}
 </BaseLayout>
