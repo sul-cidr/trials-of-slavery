@@ -30,6 +30,8 @@ html {
   --link-visited: var(--brand);
   --wrap: 90vw;
 
+  --custom-border: 255px 15px 225px 15px/15px 225px 15px 255px;
+
   /* undo dark-mode styles */
   --text-1: var(--gray-9);
   --text-2: var(--gray-7);

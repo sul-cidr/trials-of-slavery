@@ -30,7 +30,9 @@ const translation = await documentMdToHtml(
 
 <script>
   const panels = document.querySelectorAll(".document > div");
-  const tabs = document.querySelectorAll(".document header span");
+  const tabs: NodeListOf<HTMLElement> = document.querySelectorAll(
+    ".document header span",
+  );
 
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -42,18 +44,23 @@ const translation = await documentMdToHtml(
         .classList.add("shown");
     });
   });
-  document.querySelectorAll("a[data-footnote-ref]").forEach((anchor) => {
-    const id = anchor.href.split("#")[1];
-    anchor.addEventListener("mouseover", () => {
-      document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+
+  document
+    .querySelectorAll("a[data-footnote-ref]")
+    .forEach((anchor: HTMLAnchorElement) => {
+      const id = anchor.href.split("#")[1];
+      anchor.addEventListener("mouseover", () => {
+        document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+      });
+      anchor.addEventListener("mouseout", () => {
+        document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
+      });
     });
-    anchor.addEventListener("mouseout", () => {
-      document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
-    });
-  });
 </script>
 
-<script type="module" hoist>await import("../glossary.mjs");</script>
+<script type="module" hoist>
+  await import("../glossary.mjs");
+</script>
 
 <style>
   .summary {
@@ -67,7 +74,7 @@ const translation = await documentMdToHtml(
     background-image: url("/paper.png");
     background-repeat: repeat;
     border: 5px solid var(--palette-3);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: var(--custom-border);
     padding: var(--size-5) var(--size-10);
   }
 
@@ -145,14 +152,14 @@ const translation = await documentMdToHtml(
     :global(.gloss) {
       background: var(--surface-1);
       border: 5px solid var(--palette-3);
-      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      border-radius: var(--custom-border);
       box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
       font-family: var(--font-sans);
       font-size: var(--font-size-2);
       font-style: normal;
       max-width: 40%;
       opacity: 0;
-      padding: var(--size-2);
+      padding: var(--size-3) var(--size-4) var(--size-3);
       pointer-events: none;
       position: absolute;
       transition: opacity 300ms ease-in-out;
