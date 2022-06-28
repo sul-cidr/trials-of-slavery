@@ -1,0 +1,5 @@
+# BAATJOE
+
+*This case of theft of paper money is revealing of the many trading transactions undertaken by slaves in and around Cape Town and the network of links which existed between them, despite belonging to different owners who lived far apart from each other. It is a striking example of what records such as this can reveal about the way some slaves were able to lead lives of their own, ways which went largely unnoticed in traveller accounts or in the official accounts of the colony.*
+
+*Ships in Table Bay were an important source of petty trading goods which were not widely available at the Cape. These ranged from the silk kerchief which so delighted Rosetta to second-hand blankets – after a lengthy sea voyage these could not have been in a very good condition but were nonetheless clearly valued in the Cape Town informal trading network.*
