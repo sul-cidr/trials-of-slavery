@@ -1,0 +1,7 @@
+# JAN LATEGAAN
+
+*Jan Lategaan ordered his slave Julij van Bengalen to whip his female slave Regina van Ternaten for absenteeism. She later disappeared and her body was found in the veld. This tragic case is an example of the cruelty that slaves could experience from their owners: both the physical violence which led to Regina’s death, and the psychological impact on Julij who was ordered to carry out the whipping but who tried to care for Regina afterwards.*
+
+*The fiscal recommended that, since some of the evidence was uncertain, Lategaan could only be fined, although he also stated that Julij van Bengalen should be sold and never again be permitted to come under Lategaan or his family’s ownership.[^1]*
+
+[^1]: CJ 357, f. 462. The evidence given to the Stellenbosh landdrost was sent to the Council of Justice, including that printed here, as well as the testimony of Jacob Pienaar and a post-mortem report on Regina’s body, CJ 357, ff. 460-69. The *regstrollen* recorded the recommendations of the *eijsch* and ordered that Julij van Bengalen be sold under these terms, but there is no record of any further punishment for Jan Lategaan, CJ 31, ff. 106-8. Fines were the usual punishment for owners who severely maltreated their slaves (for example, 1729 Jan Botma).

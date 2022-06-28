@@ -1,0 +1,32 @@
+---
+doc_no: 1/STB 3/11
+citation: Criminele Verklaringen, 1759-1782, unpaginated.
+---
+
+# JULIJ VAN TIMOR
+
+**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
+
+Statement, given on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the burgher Johan Hendrik Ehlers, of competent age, which is of the following contents, namely:
+
+That about five months ago now, the testifier bought a slave, by the name of Julij van Timor, from the burgher at the Cape, Coenraad Eb, for the sum of one hundred and ninety-seven rixdollars, on the condition that the testifier could keep the said slave on trial for four to five months and if the slave did not please him, he could then return him to the aforementioned seller, on condition that he paid four rixdollars per month for hiring the said *jongen*.
+
+The said slave Julij behaved himself well at the testifier’s until last Sunday, the 31^st^ of the just passed month of March, on which occasion the testifier went to bed at half past eight in the evening, without having noticed anything wrong on his farm and lay down to sleep with his little *voorzoon[^1] * Jacobus Dafel (since the testifier’s wife was not at home at this time), until he was awakened at about twelve o’clock that night, hearing a movement as if something was being dragged in the room. That the testifier kept silent and shortly thereafter heard something fall, sounding like a key, when he roused his said son and told him to light the candle which had been put before the bed, and when the same got up and could not find any candle, and the testifier then heard some movement at the door as if somebody was leaving the room, he himself got up and went outside through the kitchen, without having noticed anything.
+
+That the testifier then lit a candle, which is when he discovered that the cabinet, which is in the said room, was opened and that the keys which were kept in it had been taken away, as well as that a new felly of a wagon wheel was lying on the floor of the said room. Upon this, the testifier called the wagonmaker, Jan Wagemakers, who lived with him and was sleeping in an outer room, and showed him this; whereafter they went to the slave house to investigate, since the testifier was of the opinion that the slave Eva van de Caab, who had made the bed in the room that evening, would know something about this case or might even have been involved with it, but when the said slave Eva, as also her husband, Amsterdam van Mosambicque, were taken from their bed and their goods searched, nothing could be discovered; while the aforesaid Julij, against whom nothing was yet suspected, was at this time lying in his bed as if he were asleep. After this, the testifier again went to his bedroom, and likewise the aforementioned Jan Wagemakers to his; until about half an hour thereafter when the testifier heard some noise at the outside as if somebody was beating with a stick or *kirrij* on the water barrel standing there and running around the house; when he again went outside without, however, having discovered anybody, whereupon the testifier went back to lie down; but when he heard a heavy blow on the front door, as if the same was being beaten in, he again went to the outside and called before the door, asking who was there, yet, not receiving any answer, nor having seen anybody, the testifier came inside and locked the door. After about a quarter of an hour had passed, he again heard somebody beating upon the door as before, and when he asked who was there, received as an answer (by your leave): “Motherfucker, open up!”, upon which the testifier again asked: “Who are you then?” and was answered: “Son of a bitch, open up!” That the testifier upon this called to his children: “Take a musket and shoot him so that the smoke comes from his throat!” but did not hear anything else being said at the door. That after this, the testifier remained inside the house and, when he heard some shouting outside, he had the slave Alij, who was in the kitchen, go outside to find out what was going on, which is when the aforesaid Jan Wagemakers came inside and told the testifier what the aforementioned slave Julij had been busy doing out there, that he had stabbed at the *volk*, who in the meantime had got up, with an *assegaaij*, that he first stabbed the testifier’s *voorzoon* Christoffel Dafel, while asking why he was looking at him, in the chest, without however injuring him since that weapon had become blunt, and that Julij then stormed Jan Wagemakers after he had asked the said Julij: “What *volk*?”, and: “What is going on?”, and also stabbed at the said Wagemakers, while he then beat and stabbed at the said Julij with a pitchfork in such a way that the aforementioned slave fell down three to four times, but then took off in flight very swiftly, without him being caught up with during the chase and hunt. Further, that on the following morning they found on the ground, at the place where the aforementioned Julij had stabbed Christoffel Dafel with the *assegaaij*, the knife of Julij, still in its sheath.[^2]
+
+Finally, that yesterday morning, the third of this month, the testifier’s wife found the keys, which were missing from the cabinet, in the slave house above the bed of the aforementioned Julij amongst the wood piled on top of the beams.
+
+There being nothing more to declare, the testifier asserts to be convinced of the certainty of his statement as in the text, being willing to subsequently confirm the above with a solemn oath, if so required.
+
+Thus related at the office of the secretary at Stellenbosch on 4 April 1776 in the presence of the messenger of the court Morits Herman Otto Woeke and the burgher Hendrik Stoltenkamp, as witnesses.
+
+\[signed\] Johan Hendrik Ehlers.
+
+As witnesses, \[signed\] M.H.O. Woeke, Hendk. Stoltenkamp.
+
+With my cognisance, \[signed\] A. Faure, secretary.
+
+[^1]: Literally ‘pre/before son’. Children born to a person before his or her marriage were called *voorkinderen*, but so too children brought into a marriage by one or the other of the spouses from a previous one, as in this case. Ehlers was married to Johanna Catharina Nel who had nine children by her previous husband, Johann Christian Davel (Hoge 1946: 68 and 85).
+
+[^2]: Assuming that *sheur* is *scheur*, and that this was a synonym for *schede* (which interpretation is supported by the *sententie* where the word *schede* is used).

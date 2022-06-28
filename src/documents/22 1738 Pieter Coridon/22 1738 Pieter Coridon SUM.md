@@ -1,0 +1,5 @@
+# PIETER CORIDON
+
+*A further example of the intensification of social control by the authorities in late 1730s Cape Town is shown here. Two free blacks and three slaves were found in the streets after 10 p.m., in contravention of the law.[^1] Although they claimed they had only been drinking a tot together after a fishing trip, they were whipped and sent home to work in chains. The case gives a brief glimpse into social relations between free blacks and slaves, part of Cape Town’s large underclass, as well as the dangers that late-night socialising involved for them.*
+
+[^1]: The fiscal cites article 82 of the general *plakkaat* of 1727 (*Kaapse Plakkaatboek* II: 126-27), but this case is equally about contravening article 51 of the same *plakkaat* (*Kaapse Plakkaatboek* II: 119), which prohibited ‘zamenrottinge’ or gatherings of slaves. See also 1736 Table Valley slaves, n. 2.

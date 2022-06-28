@@ -1,0 +1,72 @@
+---
+doc_no: CJ 349
+citation: Criminele Process Stukken, 1744, ff. 104-8.
+---
+
+# BARKAT VAN TIMOR
+
+**CJ 349** Criminele Process Stukken, 1744, ff. 104-8.
+
+Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbaren Raad van Justitie des Casteels de Goede Hoop, Parkat van Timor[^1] lijfeijgen van den oud burgerraad, sieur Abraham Cloppenburg, oud naar gissing 30 jaar, denwelken, ter requisitie van den Heer Independent Fiscaal Pieter Reede van Oudshoorn, confesseerde hoe waar is:
+
+Dat sijn confessants lijfheer op Saturdag, den 22^e^ deeser maand Februarij, ’s avonds omtrent thien uuren, te huijs gekoomen sijnde, eerst in de caamer bij sijn lijfvrouw is gegaan en, kort daarop weederom daar uijt koomende, bij hem confessant, die sig in ’t voorhuijs bevond en de tafel aldaar gedekt hadde, is gekomen, vragende aan hem confessant waarom dat de kost niet op taafel was, repliceerende hij confessant daarop dat ’t nog niet door hem, sinjeur Cloppenburg, belast was, krijgende gemelten sijn lijfheer hierop hem immediaat bij het hair en, naar hem eenige slaagen met de hand in ’t gesigt gegeeven te hebben, bragt hij den confessant dusdaanigh in de combuijs, ordonneerende aan eenige sijner meedeslaaven hem confessant uijt te trecken en op een, in de combuijs staande, leer te binden, welke slaaven hem hierop immediaat hebben aangevat om denselve vast te binden en te slaan, biddende hij confessant ondertusschen aan sijn lijfheer om vergiffenis, dog sulx niet kunnende helpen, heeft den confessant sig uijt de handen dier slaaven los geruckt, neemende alsdoen uijt disperatie een mes dat in die combuijs op tafel lag, en liep daarmede na sijn lijfheer, die sig meede nog in de combuijs bevond, toe, van meening sijnde denselven daar meede om ’t leeven te brengen, om daar door selfs uijt de waarelt te koomen, dewijl ’t niet langer bij gemelten sijn lijfheer uijthouden konde, hebbende hierop met het voormelten mes ook naar voormelten sijn meester gestooken, sonder te weeten waarin of denselven geraakt heeft, sijnde hierop sijn lijfheer uijt de combuijs na de galdereij geloopen, gevolgt werdende door den cock Julij, die de combuijs deur agter hem toemaakte, lopende de ander slaaven insgelijx na agteren op de plaats en maakten die deur meede agter haar toe.
+
+Dat den confessant sig dus alleenig in de combuijs bevindenden en van sints sijnde na de solder te gaan vlugten, dog bij de leer gekoomen sijnde, troff hij den slaaf Julij, die van de solder door behulp van die leer afquam, aan, ende hij Julij oversulx den confessant in de weg sijnde, bragt hij denselven met dat eijgenste mes meede twee steecken toe, sonder te weeten waar off denselven getroffen heeft, begeevende hij confessant sig hierop immediaat na de solder met het mes in de hand, sonder te weeten dat hij te dier tijd ijmand verder gequetst heeft.
+
+Dat den confessant, op zolder koomende, na de leer beneede in de combuijs te hebben laaten vallen, het luijk immediaat met eenige kisten, op die solder sig bevindende, toegemaakt heeft, van meening sijnde om sig so lange te verbergen en te verweeren als hij konde, hebbende hij confessant gestaadig in steede van die kisten die van onderen af gearbijd wierden, aanstons anderen in de plaats geset, ook heeft differente maalen met hetgeene dat hem confessant voor de hand quam, als potten, bottels, steenen etc. uijt de solder venster na de menschen gegooijde die sig aldaar ten huijse bij den anderen vervoegd hadden.
+
+Dat, na een ruijmen tusschenpoosingh, de kisten die op het luijk stonden met meer afgearbeijd wierden, hij confessant verscheijde saamenspraaken met die, in de combuijs sig bevindende, persoonen gehouden en gevoert heeft, hebbende hij confessant een Europiaans persoon, in een wit hembd sijnde, agter na de plaats sien gaan om met de caffers, die sig aldaar bevonden, te spreeken, welken persoon hem teffens uijtschold, weshalven hij confessant een pot genoomen en gemelten persoon daarmeede op ’t het hoofd gesmeeten heeft.
+
+Dat met het aanbreeken van den dag hij confessant gesien heeft dat ijmand door behulp van een leer, die van buijte aan ’t solder venster geset was, met een scherp instrument aan dat venster gekapt heeft, sonder meer van voormelten persoon als de arm en het instrument gesien te hebben, dewijl hij confessant op sijde van ’t venster stond, ter dier tijd in de hand hebbende een scherpe beusemstok met dewelke hij confessant naar gesegde persoon tot twee à drie maalen gestooken en ook gevoelt heeft, dat denselven geraakt was, waarop vervolgens weederom in de combuijs de kisten, die nog op het luijk stond, na beneden toe gearbeijd wierden, mitsgdaders wierd door Schipper Kroos, die op een plat dakjen, vanwaar hij op de solder sien konden, na hem confessant in ’t gesigt te hebben gekreegen, geschooten, sonder egter denselven te treffen, waarop den confessant benaauwt werdende en een bamboese sommereelstock, daar eenige goed op hing, gesien hebbende, die stock afgenoomen en denselven aan de een seijden scherp gemaakt heeft om sig daarmeede te verweeren teegens diegeenen die hem wilden vangen, siende en hoorende hij confessant kort daarop dat er twee gaaten in de muur gebrooken en dat er een ander gat buijten de luijk in de solder gemaakt wierd, weshalven hij confessant in de hoek bij de schoorsteen daar de gaaten gemaakt wierden, sig begaff, het mes en de bamboes in de hand hebbende, werdende alsdoen op het onvoorsienst door een caffer teegens het hooft geslagen, niet beeter weetende off sulx is met een houwer geschied, waarop met dien caffer aan ’t worstelen is geraakt (geduurig het mes in de hand hebbende dog niet weetende of gemelten caffer gequetst heeft ofte niet) tot soo lange dat nog een ander caffer daar bij is gekoomen en hem meede aangevat heeft, koomende Schipper Kroos insgelijx op die solder dewelke den confessant met een, in de hand hebbende, pistool op de arm heeft geslaagen, waardoor buijten staat is geraakt om sig langer te kunnen verweeren en dus in handen van de justitie is gekomen.
+
+Laastelijk betuijgt den confessant niet te weeten of het aan hem thans verthoond werdende mes ’t eijgenste is waarmeede sijn lijfheer en meede slaaff gequetst heeft, dog segt dat wanneer er bloet aan was, seekerlijk ’t eijgenste moeste sijn, sijnde hem confessant ’t wijders leed dat diergelijke misdaad bedreeven hadden, waaroover hij schuld was bekennende.
+
+Aldus geconfesseert in de Maleijtse taale, door den tweeden ondergeteekende gecommitteerden, de edele Jan Lourens Bestbier, in het Duijts vertolkt, aan Cabo de Goede Hoop, den 24^e^ Februarij 1744 voor d’ edele D. d’Aillij en J.L. Bestbier, die de minute deeses, beneevens de confessant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+Recollement
+
+Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbaren Raad van Justitie des Casteels de Goede Hoop, Parkat van Timor, slaaf van den oud burgerraad, sieur Abraham Cloppenburg, denwelken deese, sijne gegeevene confessie, van woorde tot woorde voorgeleesen zijnde en door de edele Jan Lourens Bestbier in de Maleijtse taale weederom vertolkt werdende, verklaarde daarbij volkomen te persisteeren, niet begeerende oversulx dat er iets meer bijgevoegt ofte van gedaan werden sal, en betuijgde alle het vooraanstaande de opregte waarhijd te behelsen.
+
+Aldus gerecolleert aan Cabo de Goede Hoop, den 28^e^ Februarij 1744 voor de edele D. d’Aillij en J.L. Bestbier, die de minute deeses, beneevens den confessant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+’Twelk ik getuijge, \[get.\] Jn. Fr. Tiemmendorf, secretaris.
+
+**CJ 349** Criminele Process Stukken, 1744, ff. 109-10.
+
+Relaas gegeven, ter requisitie van den heer Independent Fiscaal Pieter Reede van Oudshoorn, door den oud burgerraad, sieur Abraham Cloppenburg, zijnde ’tselve van deesen volgenden inhoud, als:
+
+Dat hij relatant deesen avond omtrent te thien uuren te huijs gekomen zijnde, aen desselfs huijsvrouw, die in de agterkamer te leesen sat, afgevraagt heeft, of de taafel niet gedeckt was, en van deselve ten andwoort bekomen hebbende dat de taafel in het voorhuijs gedeckt en dat desselfs slaaf Parcat van Timor haar ten dien eijnde de sleutel van de silver cas al lange afgeëijscht hadden, en den relatant hierop repliceerende dat sulx niet geschiet was, liet hij den slaaf Parcat in de galderij roepen, vraagende alsdoen aen denselven, waarom dat de taafel niet gedeckt hadde en, van hem, met eenige brutaliteijd, ten andwoort bekomen hebbende dat de taafel voor de knegt gedeckt hadde, wierd den relatant hierop eenigsints moeijlijk, seggende teegens meergemelten slaaff Parcat dat sig maar na de combuijs begeeven soude, roepende meteen den slaaf Achilles om een sjambock te haalen ten eijnde meergemelten Parcat over sijne assurantie in de combuijs te laten corrigeeren en, aldaar gekoomen sijnde, wierd de sjambock door gemelten Achilles gebragt, waarop den slaaf Parcat nae des relatants lijf is toegeschooten, denckende hij relatant dat hij hem wilde te voet vallen en om vergiffenis bidden, dog in steede van dien, bragt denselven hem relatant met een mes, hetwelke in de hand was hebbende, en ’tgeene den relatant niet gesien heeft, een steek in ’t midden van de borst, een wijnig nae de lincker sijde toe, quetsende denselven meteenen met dat mes in de regter arm, hebbende den relatant sig op die bekomene wonden aenstonts uijt de combuijs na vooren begeeven, sonder dat weet te seggen wat er wijders voorgevallen is.
+
+Anders niet relateerende, geeft den comparant voor reedenen van weetenschap als in den text, met praesentatie van dit, sijn gerelateerde, ten allen tijden, sulx vereijscht werdende, naader te sullen gestand doen.
+
+Aldus gerelateert aan Cabo de Goede Hoop, ten woonhuijse van den relatant, den 22^e^ Februarij 1744, voor d’ edele D. d’Aillij en J.L. Bestbier, leeden uijt den edelagtbare Raad van Justitie deeses gouvernements, die de minute deeses, beneevens den relatant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+Recollement
+
+Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbare Raad van Justitie des Casteels de Goede Hoop, den oud burgerraad, sieur Abraham Cloppenburg, denwelken dit, zijn gegeeven relaas, van woorde tot woorde claar en duijdelijke voorgeleesen zijnde, verclaarde daarbij volkoomen te persisteeren, niet begeerende oversulx datter iets meer bijgevoegt ofte van gedaan werde sal, en betuijgde alle het bovenstaande de suijvere waarheijd te zijn.
+
+Aldus gerecolleert aen Cabo de Goede Hoop, den 28^e^ Februarij 1744 voor d’ edele D. d’Aillij en J.L. Bestbier, leeden uijt voormelten Raad, die de minute deeses, beneevens den relatant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+’Twelk ik getuijge, \[get.\]. Jn. Fr. Tiemmendorf, secretaris.
+
+**CJ 349** Criminele Process Stukken, 1744, ff. 115-16v.
+
+Relaas gegeeven, ter requisitie van den heer Independent Fiscael, Pieter Reede van Oudshoorn, door den bandiet Pannaij van Boegies, van competenten ouderdom, zijnde ’tselve van deese volgende inhoud, als:
+
+Dat hij relatant, als caffer bij den heer Fiscaal dienst doende, met eenige sijner meede mackers en ’s heeren geweldiger, sig op Saturdag avond, sijnde den 22^e^ deeser maand Februarij, de clocke omtrent halff elff uuren, vervoegt heeft ten huijse van den oud burgerraad, sieur Abraham Cloppenburg, ten eijnde een slaaff, die gemelten sieur Cloppenburg gequetst hadde en denwelken sig op de combuijs solder was bevindende, te helpen gevangen neemen.
+
+Dat sijlieden de gantse nagt daarop vrugteloos gepast hebbende, hij relatant eijndelijk op Sondag morgen, wanneer ’t dag was, door behulp van een leer, die van buijten aen een venster geset was, naar die solder is geklommen, om meergemelten slaaff te apprehendeeren, vindende hij relatant denselven, wanneer op die solder quam, op de hoek van de schoorsteen sitten loeren met een mes in sijn hand, ende hij relatant van denselven niet gesien werdende, so begaff hij sig naar voormelten slaaff en bragt denselven op ’t onvoorsienst een slagh met de in de hand hebbende stock op desselfs linker arm toe, waarop gedagte slaaff opspringende, den relatant heeft aengegreepen, en is met hem aen ’t worstelen geraakt, waardoor den relatant van geciteerde slaaff, met ’t in de hand hebbende mes, een steek aen de linker sijde van de hals heeft bekoomen, ligtende gedagte slaaff de hant weederom op om den relatant voor de tweede maale een steek toe te brengen, dog hij sulx soo veel doenlijk was afweerende en om hulp roepende, is hij door sijn meede mackers ontset en van de solder koomende, heeft sig immediaat laaten verbinden.
+
+Anders niet relateerende, geeft den relatant voor reedenen van weetenschap als in den text, berijd zijnde dit, zijn gerelateerde, ten allen tijden, sulx vereijscht werdende, nader gestand te doen.
+
+Aldus gerelateert aan Cabo de Goede Hoop, den 24^e^ Februarij 1744, ten overstaan der clercquen Otto Wilhem Rotenburg en Oloff Christoff Karnspek, als getuijgen, die de minute deeses, beneevens den relatant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+Recollement
+
+Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbaren Raad van Justitie des Casteels de Goede Hoop, den bandiet Pannaij van Boegies, denwelken dit, zijn gegeeven relaas, van woorde tot woorde claar en duijdelijk voorgeleesen zijnde, verclaarde daarbij volkoomen te persisteeren, oversulx niet begeerende datter iets meer bijgevoegt ofte van gedaan werden zal, als eenelijk dat hij comparant, wanneer met gemelten slaaff Parcat aan ’t worstelen raakte, hem ’t mes dat in de hand hadde, ontweldigt en meede van die solder gebragt heeft, en betuijgde in ’t bijweesen van meergemelten Parcat alle ’t bovenstaande de suijvere waarhijd te zijn.
+
+Aldus gerecolleert aen Cabo de Goede Hoop, den 28^e^ Februarij 1744, voor d’ edele D. d’Aillij en J.L. Bestbier, leeden uijt voormelten Raad, die de minute deeses, beneevens den relatant ende mij, secretaris, meede behoorlijk hebben onderteekent.
+
+’Twelk ik getuijge, \[get.\] Jn. Fr. Tiemmendorf, secretaris.
+
+[^1]: The name is spelt both as Parkat and Barkat throughout the documentation, but is given as Barkat in the most formal, the *regtsrollen*, CJ 26, f. 19. The letters *b* and *p*, like *d* and *t*, were often interchanged by seventeenth- and eighteenth-century Dutch writers.

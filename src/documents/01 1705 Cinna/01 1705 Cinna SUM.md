@@ -1,0 +1,7 @@
+# CINNA
+
+*This cross-examination of the elderly slave Cinna (his place of origin is not recorded) took place in Stellenbosch. It provides a brief glimpse into the way in which owners treated one of their slaves who had lived beyond his most productive labouring years. Cinna ran away to his sister in Cape Town (we do not know if she was a free woman or not), a telling insight into slave family lives and the connections between slaves separated by circumstances and location. He then briefly worked for another burgher, Hans Hendrik Hatting, who seems to have treated him better and wanted to buy him. Hendrik’s need for Cinna, despite his age, suggests a shortage of readily available labourers in this period.*
+
+*As so often in the judicial records, this is a fragmentary glimpse of a telling episode. The case was not sent to the Council of Justice and we do not know whether Hendrik got his wish or what happened to Cinna. No other records of this case survive, so we do not know if Cinna was punished for his actions.[^1]*
+
+[^1]: The case was not considered serious enough to send to the Council of Justice (there is no mention of it in the *regtsrollen*, CJ 4, or Documents in Criminal Cases, CJ 308), and so was presumably dealt with by the landdrost in Stellenbosch. This testimony is a single fragment which survived by chance in the Stellenbosch archive, bound in the front of a volume of other testimonies from the 1740s.
