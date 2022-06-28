@@ -9,5 +9,5 @@
   ],
   "cssvar.extensions": ["css", "html", "jsx", "tsx", "astro"],
 
-  "cSpell.words": ["datatable", "datatables", "latlong"]
+  "cSpell.words": ["datatable", "datatables", "frontmatters", "latlong"]
 }
