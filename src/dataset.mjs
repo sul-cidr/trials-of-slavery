@@ -55,13 +55,12 @@ const getFiles = (caseId) => {
     path: filename,
   }));
 
-  // convert list of frontmatter objects to an object grouped by doc_no
+  // convert list of frontmatter objects to an object grouped by citation
   const documents = docFrontmatters.reduce(
     (hash, obj) => ({
       ...hash,
-      [obj.doc_no]: {
-        ...hash[obj.doc_no],
-        citation: obj.citation,
+      [obj.citation]: {
+        ...hash[obj.citation],
         [obj.path.match(/[^_]+\s(EN|DU)/)[1]]: path.join(
           documentsBasePath,
           paths[0],
