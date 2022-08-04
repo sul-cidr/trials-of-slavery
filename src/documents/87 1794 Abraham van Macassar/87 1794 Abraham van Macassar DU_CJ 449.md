@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 449
-citation: Criminele Process Stukken, 1792-1794, ff. 419-21.
+title: ABRAHAM VAN MACASSAR
+citation: CJ 449 Criminele Process Stukken, 1792-1794, ff. 419-21.
 ---
-
-# ABRAHAM VAN MACASSAR
-
-**CJ 449** Criminele Process Stukken, 1792-1794, ff. 419-21.
 
 Relaas gegeeven, ten overstaan van de ondergeteekende gecommitteerde heemraaden, d’ edele Pieter Gerard Wium en Christman Joël Ackerman, en ter requisitie van den landdrost alhier, de heer Hendrik Lodewijk Bletterman, door ende van weegens den burger Dirk Hoffman, van competenten ouderdom, luijdende hetzelve als volgt:
 

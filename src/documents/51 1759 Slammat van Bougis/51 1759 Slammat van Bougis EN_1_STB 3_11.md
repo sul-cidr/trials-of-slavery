@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: SLAMMAT VAN BOUGIS
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# SLAMMAT VAN BOUGIS
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given, on the requisition of the honourable landdrost, Adriaan van Schoor, by the burgher Andries Nolte, of competent age, containing the following:
 

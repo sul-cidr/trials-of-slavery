@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 18/157
-citation: Notariële Verklaringen, 1715-1720, unpaginated.
+title: ANTHONIJ
+citation: 1/STB 18/157 Notariële Verklaringen, 1715-1720, unpaginated.
 ---
-
-# ANTHONIJ
-
-**1/STB 18/157** Notariële Verklaringen, 1715-1720, unpaginated.
 
 Today, 6 February in the year 1715, there appears before me, Ernst Fredrik de Swart, secretary of Stellenbosch and Drakenstein etc., in the presence of the witnesses named below, the burgher Jacob Mundes, who, on the requisition of the burgher and surgeon Dirk Snith, declares it to be true and truthful:
 

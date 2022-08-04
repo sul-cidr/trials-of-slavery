@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 263-70.
+title: CUPIDO VAN MALLABAAR
+citation: CJ 786 Sententiën, 1736-1743, ff. 263-70.
 ---
-
-# CUPIDO VAN MALLABAAR
-
-**CJ 786** Sententiën, 1736-1743, ff. 263-70.
 
 Since Cupido van Mallabaar, slave of the burgher Jan van Straeten, 28 years old at a guess, currently their honours’ prisoner, has voluntarily confessed without torture or force of bonds, of irons, or even the least threat of suchlike, and since it has appeared as clear as daylight to the honourable Council of Justice of this government:
 

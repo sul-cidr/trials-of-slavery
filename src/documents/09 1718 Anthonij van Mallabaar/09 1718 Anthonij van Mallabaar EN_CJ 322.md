@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 322
-citation: Criminele Process Stukken, 1718, document 78.
+title: ANTHONIJ VAN MALLABAAR
+citation: CJ 322 Criminele Process Stukken, 1718, document 78.
 ---
-
-# ANTHONIJ VAN MALLABAAR
-
-**CJ 322** Criminele Process Stukken, 1718, document 78.
 
 Questions on which, on the requisition of the landdrost Jacob Voet, are to be heard and examined the slave Anthoni van Mallebaar, belonging to the famer Hendrick Moel.
 

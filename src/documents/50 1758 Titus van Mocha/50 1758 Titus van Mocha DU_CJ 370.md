@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 370
-citation: Criminele Process Stukken, 1758, ff. 172-74v.
+title: TITUS VAN MOCHA
+citation: CJ 370 Criminele Process Stukken, 1758, ff. 172-74v.
 ---
-
-# TITUS VAN MOCHA
-
-**CJ 370** Criminele Process Stukken, 1758, ff. 172-74v.
 
 Relaas gegeeven, ter requisitie van den heer Independent Fiscaal, Pieter Reede van Oudshoorn, door ’s edel Compagnies lijfeijgen, Coetoe van Madagascar, van competenten ouderdom, luijdende als volgt:
 

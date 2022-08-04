@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 151-56.
+title: NEPTUNUS VAN BENGALEN
+citation: CJ 788 Sententiën, 1750-1755, ff. 151-56.
 ---
-
-# NEPTUNUS VAN BENGALEN
-
-**CJ 788** Sententiën, 1750-1755, ff. 151-56.
 
 Alsoo Neptunus van Bengalen, slaaf van den oud heemraad Philip du Preez, oud naar gissing 36 jaaren, thans ’s heeren gevangen, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedrijging van dien, vrijwillig heeft beleeden, ende het den edelagtbaare Raad van Justitie deeses gouvernements ook evidentelijk is gebleeken:
 

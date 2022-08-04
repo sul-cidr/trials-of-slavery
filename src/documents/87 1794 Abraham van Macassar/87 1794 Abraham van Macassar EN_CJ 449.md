@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 449
-citation: Criminele Process Stukken, 1792-1794, ff. 419-21.
+title: ABRAHAM VAN MACASSAR
+citation: CJ 449 Criminele Process Stukken, 1792-1794, ff. 419-21.
 ---
-
-# ABRAHAM VAN MACASSAR
-
-**CJ 449** Criminele Process Stukken, 1792-1794, ff. 419-21.
 
 Statement, given in the presence of the undersigned deputised *heemraden*, the honourables Pieter Gerard Wium and Christman Joël Ackerman, on the requisition of the landdrost here, the honourable Hendrik Lodewijk Bletterman, by the burgher Dirk Hoffman, of competent age, which goes as follows:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 121-25.
+title: TITUS VAN MOCHA
+citation: CJ 789 Sententiën, 1756-1760, ff. 121-25.
 ---
-
-# TITUS VAN MOCHA
-
-**CJ 789** Sententiën, 1756-1760, ff. 121-25.
 
 Dewijl uijt de vrijwillige gerecolleerde confessie van Titus van Mocha, lijfeijgen van den landbouwer Jacobus du Toij \[*sic*\], oud naar gissing 27 jaaren, thans ’s heeren gevangen, en andere stucken ten processe gefourneert, het den edelachtbaare Raad van Justitie deeses gouvernements middagklaer is komen te blijken:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 784
-citation: Sententiën, 1717-1725, ff. 131-38.
+title: JONAS VAN MANADO
+citation: CJ 784 Sententiën, 1717-1725, ff. 131-38.
 ---
-
-# JONAS VAN MANADO
-
-**CJ 784** Sententiën, 1717-1725, ff. 131-38.
 
 Alsoo Jonas van Manado, oud naar gissing omtrent de dertigh jaaren, lijfeijgen van Hermina Herwigh, weduwe van Jan Basilius Creitsmar, althans ’s heeren gevange, buijten pijn of dwang van banden, van eijser, ofte eenige bedreijgingh van dien, vrijwillig heeft geconfesseert ende beleeden, overzulx den agtbaare Raad van Justitie ten vollen gebleeken is:
 

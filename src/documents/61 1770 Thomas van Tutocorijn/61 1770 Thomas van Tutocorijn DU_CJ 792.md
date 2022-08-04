@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 792
-citation: Sententiën, 1768-1771, ff. 154-76.
+title: THOMAS VAN TUTOCORIJN
+citation: CJ 792 Sententiën, 1768-1771, ff. 154-76.
 ---
-
-# THOMAS VAN TUTOCORIJN
-
-**CJ 792** Sententiën, 1768-1771, ff. 154-76.
 
 Alsoo Thomas van Tutucorijn, slaaf van Adriana Debits, weeduwe van wijlen den landbouwer Andries Bester de jonge, oud naar gissing veertig jaaren, thans ’s heeren gevangen, vrijwillig beleeden heeft, en den edelachtbaare Raad van Justitie deeses gouvernements, uijt de verdere, ten processe gefourneerde, stucken evident gebleeken is:
 

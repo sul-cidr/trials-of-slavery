@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 365
-citation: Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
+title: JANUARIJ VAN BOEGIES
+citation: CJ 365 Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
 ---
-
-# JANUARIJ VAN BOEGIES
-
-**CJ 365** Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
 
 Statement given, on the requisition of the honourable independent fiscal, Pieter Reede van Oudshoorn, by Clara van Macassar, slave of the late captain lieutenant of the military, Godfried Gerhard Schindelaar, going as follows:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 782
-citation: Sententiën, 1705-1713, ff. 136-141.
+title: JAN DE THUILOT
+citation: CJ 782 Sententiën, 1705-1713, ff. 136-141.
 ---
-
-# JAN DE THUILOT
-
-**CJ 782** Sententiën, 1705-1713, ff. 136-141.
 
 I, the undersigned Jean de Thuile, have been summonsed by the landdrost to appear at the Cape before the honourable d’Ableing and his honourable Council at the latest Thursday, 22 December, but through my indisposition it is impossible for me, and therefore I considered it necessary to send my reasons in writing to the honourable d’Ableing and his honourable Council – my reasons are these:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 347
-citation: Criminele Process Stukken, 1742, ff. 18-19v.
+title: FORTUIJN VAN BENGALEN
+citation: CJ 347 Criminele Process Stukken, 1742, ff. 18-19v.
 ---
-
-# FORTUIJN VAN BENGALEN
-
-**CJ 347** Criminele Process Stukken, 1742, ff. 18-19v.
 
 Huijden, den 26^e^ December 1741, compareerde voor mij, Arnold Schephausen, secretaris van Stellenbosch en Draakensteijn, in ’t bijweesen van de naartenoemene getuijgen, Christijn van de Caab, lijfeijgene van den landbouwer Pieter Venter, oud omtrent 25 jaaren, dewelke, ter requisitie van den landdrost sieur Pieter Lourensz, verklaarde hoe waar is:
 

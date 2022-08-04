@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 792
-citation: Sententiën, 1768-1771, ff. 36-42.
+title: FRANS VAN MADAGASCAR
+citation: CJ 792 Sententiën, 1768-1771, ff. 36-42.
 ---
-
-# FRANS VAN MADAGASCAR
-
-**CJ 792** Sententiën, 1768-1771, ff. 36-42.
 
 Nademaal uijt de libere confessie van Frans van Madagascar, slaaf van den heemraad Marten Melk, oud naar gissing 23 jaaren, thans ’s heeren gevangen, en de verdere, ten processe gevoegde, stucken, alle behoorlijk gerecolleerd, den edelagtbaare Raad van Justitie evident gebleeken is:
 

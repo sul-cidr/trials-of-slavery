@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 793
-citation: Sententiën, 1771-1776, ff. 270-85.
+title: JULIJ VAN TIMOR
+citation: CJ 793 Sententiën, 1771-1776, ff. 270-85.
 ---
-
-# JULIJ VAN TIMOR
-
-**CJ 793** Sententiën, 1771-1776, ff. 270-85.
 
 Since Julij van Boegies, slave of the burgher Johan Hendrik Elers, twenty-six years old at a guess, currently their honours’ prisoner, has voluntarily confessed and since, from the other documents produced in the case, it has appeared evident to the honourable Council of Justice:
 

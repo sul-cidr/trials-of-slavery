@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: PETRUS JOUBERT
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# PETRUS JOUBERT
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Statement, given in the presence of the undersigned deputised *heemraden*, the honourables Johan Bernard Hoffman and Pieter Gerh. Wium, and on the requisition of the landdrost here, the honourable *koopman* Hendrik Lodewijk Bletterman, by and on behalf of the burgher Johs. Hendrik Roux, of competent age, going as follows: That on the past Tuesday, the 4^th^ of this month, when the testifier was going from his garden to the house with a spade over his shoulder, he saw the burgher Petrus Joubert, who is the *voorzoon[^1] * of his neighbour, the burgher Gerrit Victor, following two of his own slave *jongens*, with a so-called hind oxen *sjambok* in his hand,[^2] and going in the direction of the testifier’s herd of cattle grazing on the opposite side of the Dwars River[^3] on the honourable Company’s veld, fully a thousand paces, at a guess, from the property of the aforesaid Victor. Whereupon the testifier became worried that the said Joubert, as has happened before, might be planning to punish and maltreat the testifier’s cattle herder without any reason; and he therefore rushed home to put away the spade, with the aim to then rush again thither with some of his slaves in order to stop the said Joubert in his intention and to prevent the maltreatment of his slave. And when he had just come out of the house, he noticed very clearly how the aforesaid Joubert had his cattle herder, by the name of Adam, held down to the ground by three of his slaves, while he was busy beating him with the aforesaid *sjambok*.
 

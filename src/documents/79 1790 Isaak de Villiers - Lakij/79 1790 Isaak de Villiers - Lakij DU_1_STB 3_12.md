@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: ISAAK DE VILLIERS JANSZ
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# ISAAK DE VILLIERS JANSZ
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Relaas gegeeven, ter requisitie van den koopman titulair en landdrost, de heer Hendrik Lodewijk Bletterman, en ten overstaan van de ondergeteekende heemraden, d’ edele Christman Joël Ackerman en Pieter Gerhard Wium, door het slaven jongetjen Lakij, oud circa twaalf jaren, toebehorende den burger Isaak de Villiers Jansz luijdende aldus:
 

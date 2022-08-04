@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 286-96.
+title: CERES VAN MADAGASCAR & APRIL VAN CEIJLON
+citation: CJ 795 Sententiën, 1782-1789, ff. 286-96.
 ---
-
-# CERES VAN MADAGASCAR & APRIL VAN CEIJLON
-
-**CJ 795** Sententiën, 1782-1789, ff. 286-96.
 
 As Ceres van Madagascar, 30 years old at a guess, and April van Ceijlon, 40 years old at a guess, both slaves of the burgher Olthman Ahlers, currently their honours’ prisoners, have voluntarily confessed and further, since it appeared evident to the honourable Council of Justice of this government:
 

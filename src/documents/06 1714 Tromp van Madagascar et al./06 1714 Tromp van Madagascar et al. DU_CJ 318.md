@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 318
-citation: Criminele Process Stukken, 1714, ff. 90-7.
+title: TROMP VAN MADAGASCAR ET AL.
+citation: CJ 318 Criminele Process Stukken, 1714, ff. 90-7.
 ---
-
-# TROMP VAN MADAGASCAR ET AL.
-
-**CJ 318** Criminele Process Stukken, 1714, ff. 90-7.
 
 Interrogatoriën, gedaan maaken omme daarop, ter requisitie van den Independent Fiscaal Cornelis van Beaumont, gehoor en geëxamineert te werden, Thomas, lijfeijgen van den burger Christoffel Esterhuijsen.
 

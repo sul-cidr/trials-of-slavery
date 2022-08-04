@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 2490
-citation: Inkoomende Brieven, 1789-1790, Deel 6, ff. 177-78.
+title: SEPTEMBER VAN BOEGIES
+citation: CJ 2490 Inkoomende Brieven, 1789-1790, Deel 6, ff. 177-78.
 ---
-
-# SEPTEMBER VAN BOEGIES
-
-**CJ 2490** Inkoomende Brieven, 1789-1790, Deel 6, ff. 177-78.
 
 Honourable lord!
 

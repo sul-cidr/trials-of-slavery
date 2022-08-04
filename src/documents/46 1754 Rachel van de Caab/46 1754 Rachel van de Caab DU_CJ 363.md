@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 363
-citation: Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
+title: RACHEL VAN DE CAAB
+citation: CJ 363 Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
 ---
-
-# RACHEL VAN DE CAAB
-
-**CJ 363** Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbaare Raad van Justitie deeses gouvernements, Rachel van de Caab, slavin van den burger Jacobus van Rheenen de jonge, oud 20 à 21 jaaren, dewelke, ter requisitie van den heer Independent Fiscaal Pieter Reede van Oudshoorn, confesseerde hoe waar is:
 

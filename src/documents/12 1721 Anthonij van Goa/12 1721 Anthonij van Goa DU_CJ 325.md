@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 325
-citation: Criminele Process Stukken, 1721, ff. 57-64.
+title: ANTHONIJ VAN GOA
+citation: CJ 325 Criminele Process Stukken, 1721, ff. 57-64.
 ---
-
-# ANTHONIJ VAN GOA
-
-**CJ 325** Criminele Process Stukken, 1721, ff. 57-64.
 
 Vraagpointen \[*sic*\], omme daerop, ter requisitie van den landdrost Jacob Voet, gehoort en g’examineert te worden, den slaav Anthonij van Goa, toebehoorende de burgeresse Beatrix Verweij.
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 784
-citation: Sententiën, 1717-1725, ff. 81-4.
+title: ANTHONIJ VAN MALLABAAR
+citation: CJ 784 Sententiën, 1717-1725, ff. 81-4.
 ---
-
-# ANTHONIJ VAN MALLABAAR
-
-**CJ 784** Sententiën, 1717-1725, ff. 81-4.
 
 Alzoo Anthoni van Mallabaar, oud naar gissing 24 jaaren, lijfeijgen van den landbouwer Hendrik Moel, althans ’s heeren gevangen, buijten pijn of dwang van banden, van ijsers, ofte eenige bedrijging van dien, liber en vrij beleeden heeft, mitsgaders den agtbaaren Raad van Justitie deeses gouvernements volkomen gebleeken is:
 

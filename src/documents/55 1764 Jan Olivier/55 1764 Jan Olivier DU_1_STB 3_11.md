@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JAN OLIVIER
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JAN OLIVIER
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Today, 25 January 1764, there appears before me, Abraham Faure, secretary of Stellenbosch and Drakenstein, in the presence of the witnesses named below, the burgher Jan Lodewijk Pretorius, of competent age, who, on the requisition of the honourable landdrost, *Meester* Jacobus Johannes le Suëur, declares it to be the truth:
 

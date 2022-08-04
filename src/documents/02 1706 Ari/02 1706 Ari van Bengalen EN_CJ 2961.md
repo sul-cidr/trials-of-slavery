@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 2961
-citation: Minuut Justitieële Attestatiën, Actens etc., 1706, ff. 73-76.
+title: ARI
+citation: CJ 2961 Minuut Justitieële Attestatiën, Actens etc., 1706, ff. 73-76.
 ---
-
-# ARI
-
-**CJ 2961** Minuut Justitieële Attestatiën, Actens etc., 1706, ff. 73-76.
 
 Today, 28 May 1706, there appears before me, Abraham Poulle, secretary of the honourable Council of Justice of this government, in the presence of the witnesses named below, Jacobus van der Heijden, *heemraad* of Stellenbosch, who, on the requisition of the honourable independent fiscal Joan Blesius, declares it to be true:
 

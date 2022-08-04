@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: COENRAAD APPEL
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# COENRAAD APPEL
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Huijden, den 25^e^ Januarij 1775, compareerde voor mij Abraham Faure, secretaris van Stellenbosch en Drakenstein, present de nagen. getuijgen, den slaaf October van Boegies, van competenten ouderdom, toebehorende den landbouwer Coenraad Appel, denwelken, ter requisitie van den heer landdrost, Marthinus Adrianus Bergh, verklaarde hoe waar is:
 

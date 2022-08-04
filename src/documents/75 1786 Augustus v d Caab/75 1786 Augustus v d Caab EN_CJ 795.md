@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 376-406.
+title: AUGUSTUS VAN DE CAAB ET AL.
+citation: CJ 795 Sententiën, 1782-1789, ff. 376-406.
 ---
-
-# AUGUSTUS VAN DE CAAB ET AL.
-
-**CJ 795** Sententiën, 1782-1789, ff. 376-406.
 
 Since August van de Caab, bondsman of the burgher David Benjamin d’Aillij, 26 years old at a guess, Andries van Calkuta,[^1] slave of the dragoon Christiaan Velbron, 25 years old at a guess, Jonas van Batavia, bondsman of the burgher Willem van Reenen, 30 years old at a guess, Damon van Bougies, slave of the burgher Jochem Janeke, 28 years old at a guess, Saripa van Mandhaar, bondsman of the burgher Jan Bierman, 30 years old at a guess, Welkom van Ternate, slave of the widow of Daniel Beets, 27 years old at a guess, currently their honours’ prisoners, have voluntarily confessed and since, from the other documents produced in the case, it has appeared evident to the honourable Council of Justice:
 

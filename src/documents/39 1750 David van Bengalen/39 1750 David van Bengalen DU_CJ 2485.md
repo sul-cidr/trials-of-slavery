@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 2485
-citation: Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
+title: DAVID VAN BENGALEN
+citation: CJ 2485 Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
 ---
-
-# DAVID VAN BENGALEN
-
-**CJ 2485** Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
 
 Rapport aan den weledele gestrenge heere \[*sic*\] Rijk Tulbagh, geëligeert gouverneur aan Cabo de Goede Hoop en den ressorte van dien etc., door ende van weegens den ondergetekende Jan Andries Horak, als landdrost van Swellendam gedaan, over en ter saake van aan hem aangebragt moedwillig doodslaan, ’tgeen gepleegt soude sijn door den burger Jan Lodewijk Bouwer, aan sijn slave jongen, genaamt Alexander van Mallebaar.
 

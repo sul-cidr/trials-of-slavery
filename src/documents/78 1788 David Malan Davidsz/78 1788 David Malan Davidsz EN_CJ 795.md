@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 531-36.
+title: DAVID MALAN DAVIDSZ
+citation: CJ 795 Sententiën, 1782-1789, ff. 531-36.
 ---
-
-# DAVID MALAN DAVIDSZ
-
-**CJ 795** Sententiën, 1782-1789, ff. 531-36.
 
 Since, during the night of the 11^th^ and 12^th^ of August of the recently passed year 1788, the cornet of the Stellenbosch burgher cavalry, David Malan Davidsz, supplied with a rifle, gunpowder and shot, as well as some clothes, quietly departed from his farm Vergelegen and proceeded to the residence of the keeper of Hottentots Holland kloof, by the name of Jan de Vos, where at this time was to be found the slave Sara, belonging to the burgher Jurgen Radijn (and with which slave the said Malan, according to undeniable proof of this, had already previously been living in adultery).
 

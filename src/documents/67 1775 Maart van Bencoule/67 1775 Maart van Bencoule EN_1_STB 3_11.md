@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: MAART VAN BENCOULE
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MAART VAN BENCOULE
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the *veldcorporaal* Gerrit Smit, of competent age, being of the following contents, namely:
 

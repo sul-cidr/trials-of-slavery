@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JAN OLIVIER
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JAN OLIVIER
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Huijden, den 25^e^ Januarij 1764, compareerde voor mij Abraham Faure, secretaris van Stellenbosch en Drakenstein, present de nagenoemde getuijgen, den burger Jan Lodewijk Pretorius, van competenten ouderdom, dewelke, ter requisitie van den heer landdrost, meester Jacobus Johannes le Suëur, verklaarde de waarheid te zijn:
 

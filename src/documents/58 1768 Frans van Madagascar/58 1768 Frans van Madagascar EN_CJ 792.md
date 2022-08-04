@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 792
-citation: Sententiën, 1768-1771, ff. 36-42.
+title: FRANS VAN MADAGASCAR
+citation: CJ 792 Sententiën, 1768-1771, ff. 36-42.
 ---
-
-# FRANS VAN MADAGASCAR
-
-**CJ 792** Sententiën, 1768-1771, ff. 36-42.
 
 Since, from the willing confession of Frans van Madagascar, slave of the *heemraad* Marten Melk, 23 years old at a guess, currently their honours’ prisoner, and from the other documents produced in the case, it has appeared evident to the Council of Justice:
 

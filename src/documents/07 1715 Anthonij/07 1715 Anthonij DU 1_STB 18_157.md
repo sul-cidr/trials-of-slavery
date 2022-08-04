@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 18/157
-citation: Notariële Verklaringen, 1715-1720, unpaginated.
+title: ANTHONIJ
+citation: 1/STB 18/157 Notariële Verklaringen, 1715-1720, unpaginated.
 ---
-
-# ANTHONIJ
-
-**1/STB 18/157** Notariële Verklaringen, 1715-1720, unpaginated.
 
 Huijden, den 6^e^ Februarij anno 1715, compareerde voor mij, Ernst Fredrik de Swart, secretaris van Stellenbosch en Drakenstijn etc., present de naargenoemde getuijgen, de burger Jacob Mundes, d’welke, per requisitie van den burger en chirurgijn Dirk Snith, verklaart hoe waar en waaraghtigh is:
 

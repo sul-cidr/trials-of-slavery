@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 377-83.
+title: FORTUIJN VAN BENGALEN
+citation: CJ 786 Sententiën, 1736-1743, ff. 377-83.
 ---
-
-# FORTUIJN VAN BENGALEN
-
-**CJ 786** Sententiën, 1736-1743, ff. 377-83.
 
 Since, from the voluntary and verified confession of Fortuijn van Bengalen, bondsman of the farmer Abraham de Villiers, 28 years old at a guess, currently their honours’ prisoner, given without torture or force of bonds, of irons, or even the least threat of suchlike, and from other documents serving the case, it has appeared evident:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 33
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
+title: JAN VAN DE CAAB
+citation: CJ 33 Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
 ---
-
-# JAN VAN DE CAAB
-
-**CJ 33** Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
 
 Thursday, 18 February 1751, in the morning, present the honourable lord president Rijk Tulbagh, nominated governor of this place, and all the members, except for the honourable Willem van Kerckhoff, through indisposition, with the burgher councillors joining in.
 

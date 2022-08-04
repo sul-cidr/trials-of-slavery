@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 341
-citation: Criminele Process Stukken, 1737, ff. 397-98.
+title: JANUARIJ VAN TUTOCORIJN
+citation: CJ 341 Criminele Process Stukken, 1737, ff. 397-98.
 ---
-
-# JANUARIJ VAN TUTOCORIJN
-
-**CJ 341** Criminele Process Stukken, 1737, ff. 397-98.
 
 Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbare Raad van Justitie des Casteels de Goede Hoop, Januarij van Tutocorijn, slaaff van de weduwe Melt van der Spuij, oud naer gissing 20 jaeren, dewelke, ter requisitie van den heer Independent Fiscaal, meester Daniel van den Henghel, confesseeerde hoe waer is:
 

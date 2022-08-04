@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 357
-citation: Criminele Process Stukken, 1749, ff. 428-29.
+title: SALAOOS VAN SAMBOUWA
+citation: CJ 357 Criminele Process Stukken, 1749, ff. 428-29.
 ---
-
-# SALAOOS VAN SAMBOUWA
-
-**CJ 357** Criminele Process Stukken, 1749, ff. 428-29.
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbaare Raad van Justitie des Casteels de Goede Hoop, den Chinees Limoeijko, oud volgens gissing 40 jaaren, denwelken, ter requisitie van den heer Independent Fiscaal Pieter Reede van Oudshoorn, confesseerde hoe waar is:
 

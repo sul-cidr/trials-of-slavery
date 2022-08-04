@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 323
-citation: Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
+title: JONAS VAN MANADO
+citation: CJ 323 Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
 ---
-
-# JONAS VAN MANADO
-
-**CJ 323** Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
 
 Huijden, den 16^e^ October 1719, compareerde voor mij, Daniel Thibault, secretaris van den agtbare Raad van Justitie deeses gouvernements, ter presentie van de naargenoemde getuijge, Hermina Herwig van Amsterdam, weduwe wijlen den burger alhier, Jan Basilius Creitsmar, dewelke, ter requisitie van den heer Independent Fiscaal Cornelis van Beaumont, verklaarde hoe waar is:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 34
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
+title: JACOB VAN DE CAAB
+citation: CJ 34 Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
 ---
-
-# JACOB VAN DE CAAB
-
-**CJ 34** Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
 
 Donderdag, den 20^e^ April 1752, ’s voormiddaags present den heer Isack Meinertzhagen, en alle de leeden, behalven den edelagtbaare heer Praesident Sergius Swellengrebel en d’ heer Hendrik Ruijter, bij occupatie, mitsgaders d’ edele Willem van Kerckhoff, bij indispositie.
 

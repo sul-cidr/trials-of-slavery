@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 20
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
+title: PIETER CORIDON
+citation: CJ 20 Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
 ---
-
-# PIETER CORIDON
-
-**CJ 20** Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
 
 Thursday, 2 January 1738, present the honourable lord president Hendrik Swellengrebel and all the members, with the three burgher councillors, the honourables Hendrik Oostwalt Eksteen, Henning Joachim Prehn and Abraham Cloppenburg, joining in.[^1]
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 793
-citation: Sententiën, 1771-1776, ff. 270-85.
+title: JULIJ VAN TIMOR
+citation: CJ 793 Sententiën, 1771-1776, ff. 270-85.
 ---
-
-# JULIJ VAN TIMOR
-
-**CJ 793** Sententiën, 1771-1776, ff. 270-85.
 
 Nademaal Julij van Boegies, slaaf van den burger Johan Hendrik Elers \[*sic*\], oud naar gissing ses en twintig jaaren, thans ’s heeren gevangen, vrijwillig beleeden heeft, en den edelagtbaare Raad van Justitie deeses gouvernements, uijt de verdere, ten processe gevoegde stucken, evident gebleeken is:
 

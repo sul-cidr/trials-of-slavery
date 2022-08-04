@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 33
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
+title: JAN VAN DE CAAB
+citation: CJ 33 Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
 ---
-
-# JAN VAN DE CAAB
-
-**CJ 33** Crimineele Regtsrolle des Casteels de Goede Hoop, 1751, ff. 31-3.
 
 Donderdag, den 18^e^ Februarij 1751, ’s voormiddaags, praesent den edelen heere praesident Rijk Tulbagh, geëligeert gouverneur deeser plaatse, en alle de leeden, dempto d’ edele Willem van Kerckhoff, bij indispositie, assumptis de burgerraden.
 

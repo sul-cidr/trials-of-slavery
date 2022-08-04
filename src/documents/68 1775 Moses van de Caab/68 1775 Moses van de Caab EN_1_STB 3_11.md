@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB
-citation: **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
+title: MOSES VAN DE CAAB
+citation: 1/STB **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MOSES VAN DE CAAB
-
-**1/STB** **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the slave October van de Caab, of competent age, belonging to the burgher Anna Hesselaar, widow of the late burgher Christoffel Groenewald, which is of the following content, namely:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 354
-citation: Criminele Process Stukken, 1746, Deel 2, ff. 464-67.
+title: JANUARIJ VAN BOEGIES ET AL.
+citation: CJ 354 Criminele Process Stukken, 1746, Deel 2, ff. 464-67.
 ---
-
-# JANUARIJ VAN BOEGIES ET AL.
-
-**CJ 354** Criminele Process Stukken, 1746, Deel 2, ff. 464-67.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of this government, Baatjoe van Samboua, bondsman of the burgher Christiaan Victor, 40 years old at a guess, who, on the requisition of the honourable independent fiscal, Pieter Reede van Oudshoorn, confesses it to be the whole truth:
 

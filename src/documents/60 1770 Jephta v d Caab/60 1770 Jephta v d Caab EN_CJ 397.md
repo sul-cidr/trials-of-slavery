@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 397
-citation: Criminele Process Stukken, 1770, ff. 172-81v.
+title: JEPHTA VAN DE CAAB
+citation: CJ 397 Criminele Process Stukken, 1770, ff. 172-81v.
 ---
-
-# JEPHTA VAN DE CAAB
-
-**CJ 397** Criminele Process Stukken, 1770, ff. 172-81v.
 
 To the honourable Jan Willem Cloppenburg, president, as well as the honourable Council of Justice of this government.
 

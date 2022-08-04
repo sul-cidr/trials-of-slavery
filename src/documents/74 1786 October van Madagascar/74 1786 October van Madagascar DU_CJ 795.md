@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 329-52.
+title: OCTOBER VAN MADAGASCAR ET AL.
+citation: CJ 795 Sententiën, 1782-1789, ff. 329-52.
 ---
-
-# OCTOBER VAN MADAGASCAR ET AL.
-
-**CJ 795** Sententiën, 1782-1789, ff. 329-52.
 
 Nademaal October van Madagascar, lijfeijgen van den burger Simon van Blerck, Felix van Timor, slaaf van den burger Jan Lavocade, Pieter van Manade \[*sic*\], slaaf van den oud burgerraad, de heer Jan Karnspek, Anthonij van Bengalen, lijfeijgen van den burger brandmeester, sieur Arend van Wielig, ieder oud na gissing dertig jaaren, Jan van Bengalen, slaaf van voornoemde burger brandmeester, sieur Arend van Wielig, Maij van Mosambicque, slaav van den burger Jan Krige, ieder oud na gissing 25 jaaren, Carolus van Madagascar, slaav van den burger Jacobus Louw, oud na gissing 30 jaren, Damon van Bougies, slaav van den burger Jacobus Bierman, oud na gissing 40 jaaren, en October van Nias[^1], lijfeijgen van den burger, Jan Bierman, oud na gissing 25 jaar, thans ’s heeren gevangens, vrijwillig beleeden hebben, en den edelachtbaare Raad van Justitie evident gebleeken is:
 

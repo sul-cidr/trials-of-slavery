@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 413
-citation: Criminele Process Stukken, 1779, deel 2, ff. 315-19.
+title: ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
+citation: CJ 413 Criminele Process Stukken, 1779, deel 2, ff. 315-19.
 ---
-
-# ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
-
-**CJ 413** Criminele Process Stukken, 1779, deel 2, ff. 315-19.
 
 Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbaare Raad van Justitie deeses gouvernements, den slaven jongen Adonis van de Caab, toebehorende den burger Jan Nieuwout, van competenten ouderdom, denwelken, ter requisitie van den onderkoopman en landdrost van Stellenbosch, d’edele Olof Godlieb de Wet, verklaarde hoe waar is:
 

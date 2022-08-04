@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 365
-citation: Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
+title: JANUARIJ VAN BOEGIES
+citation: CJ 365 Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
 ---
-
-# JANUARIJ VAN BOEGIES
-
-**CJ 365** Criminele Process Stukken, Deel 2, 1755, ff. 730-31v.
 
 Relaas gegeeven, ter requisitie van den heer Independent Fiscaal Pieter Reede van Oudshoorn, door Clara van Maccasser, slavinne van wijlen den capitain lieutenant militair, Godfried Gerhard Schindelaar, luijdende als volgt:
 

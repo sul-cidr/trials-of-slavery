@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 318
-citation: Criminele Process Stukken, 1714, ff. 90-7.
+title: TROMP VAN MADAGASCAR ET AL.
+citation: CJ 318 Criminele Process Stukken, 1714, ff. 90-7.
 ---
-
-# TROMP VAN MADAGASCAR ET AL.
-
-**CJ 318** Criminele Process Stukken, 1714, ff. 90-7.
 
 Interrogation, on the requisition of the Independent Fiscal, Cornelis van Beaumont, in which is to be heard and examined Thomas, bondsman of the burgher Christoffel Esterhuijsen.
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 239-49.
+title: SPADILJE VAN SIAM
+citation: CJ 795 Sententiën, 1782-1789, ff. 239-49.
 ---
-
-# SPADILJE VAN SIAM
-
-**CJ 795** Sententiën, 1782-1789, ff. 239-49.
 
 Since Spadiltje, slave of the free black Albert Isaaksz, twenty five years old at a guess, currently their honours’ prisoners, has voluntarily confessed and, from the other evidence produced in the case, it has appeared evident to the honourable Council of Justice:
 

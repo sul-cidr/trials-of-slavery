@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 20
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
+title: PIETER CORIDON
+citation: CJ 20 Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
 ---
-
-# PIETER CORIDON
-
-**CJ 20** Crimineele Regtsrolle des Casteels de Goede Hoop, 1738, ff. 1-3.
 
 Donderdag, den 2^e^ Januarij 1738, present den edelachtbare heer President, Hendrik Swellengrebel, en alle de leeden, assumptis de drie burgerraden, d’ Edele Hendrik Oostwalt Eksteen, Henning Joachim Prehn en Abraham Cloppenburg:
 

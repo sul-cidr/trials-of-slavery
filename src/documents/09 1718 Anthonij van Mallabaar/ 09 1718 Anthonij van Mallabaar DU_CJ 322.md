@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 322
-citation: Criminele Process Stukken, 1718, document 78.
+title: ANTHONIJ VAN MALLABAAR
+citation: CJ 322 Criminele Process Stukken, 1718, document 78.
 ---
-
-# ANTHONIJ VAN MALLABAAR
-
-**CJ 322** Criminele Process Stukken, 1718, document 78.
 
 Vraagpointen \[*sic*\], omme daarop, ter requisitie van den landdrost Jacob Voet, gehoort en g’examineert te worden, den slaav Anthoni van Mallebaar, toebehoorende de landbouwer Hendrick Moel.
 

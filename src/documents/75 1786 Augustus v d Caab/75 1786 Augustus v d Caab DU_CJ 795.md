@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 376-406.
+title: AUGUSTUS VAN DE CAAB ET AL.
+citation: CJ 795 Sententiën, 1782-1789, ff. 376-406.
 ---
-
-# AUGUSTUS VAN DE CAAB ET AL.
-
-**CJ 795** Sententiën, 1782-1789, ff. 376-406.
 
 Alzoo August van de Caab, lijfeigene van den burger David Benjamin d’Aillij, oud na gissing 26 jaaren, Andries van Calkuta, slaaf van den dragonder Christiaan Velbron, oud na gissing 25 jaaren, Jonas van Batavia, lijfeijgen van den burger Willem van Reenen, oud na gissing 30 jaaren, Damon van Bougies, slaaf van den burger Jochem Janeke, oud na gissing 28 jaaren, Saripa van Mandhaar, lijfeijgen van den burger Jan Bierman, oud na gissing 30 jaaren, Welkom van Ternate, slaaf van de weduwe Daniel Beets, oud na gissing 27 jaaren; thans ’s heeren gevangens, vrijwillig beleeden hebben en ’t den edelachtbare Raade van Justitie, uijt de verdere ten processe gefourneerde stucken, evident gebleeken is:
 

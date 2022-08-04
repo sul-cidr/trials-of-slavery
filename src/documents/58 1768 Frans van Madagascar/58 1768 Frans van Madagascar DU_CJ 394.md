@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 394
-citation: Criminele Process Stukken, 1768, ff. 516-17v.
+title: FRANS VAN MADAGASCAR
+citation: CJ 394 Criminele Process Stukken, 1768, ff. 516-17v.
 ---
-
-# FRANS VAN MADAGASCAR
-
-**CJ 394** Criminele Process Stukken, 1768, ff. 516-17v.
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbaare Raad van Justitie deeses gouvernements, den slaaf Frans van Madagascar, toebehoorende den oud heemraad, monsieur Marten Melk, oud naar gissing drie en twintig jaaren, denwelken, ter requisitie van den landdrost tot Stellenbosch en Drakensteijn, meester Jacobus Johannes le Suëur, confesseerde hoe waar is:
 

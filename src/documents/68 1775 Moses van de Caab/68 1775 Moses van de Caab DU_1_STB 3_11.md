@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB
-citation: **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
+title: MOSES VAN DE CAAB
+citation: 1/STB **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MOSES VAN DE CAAB
-
-**1/STB** **3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Relaas gegeven ter requisitie van den heer landdrost, Marthinus Adrianus Bergh, door den slaaf October van de Caab, van competenten ouderdom, toebehoorende de burgeresse Anna Hasselaar, weduwe wijlen den burger Christoffel Groenewald, zijnde van den volgende inhoud, namentlijk:
 

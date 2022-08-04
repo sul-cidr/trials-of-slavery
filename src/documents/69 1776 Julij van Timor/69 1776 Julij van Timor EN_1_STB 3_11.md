@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JULIJ VAN TIMOR
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JULIJ VAN TIMOR
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement, given on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the burgher Johan Hendrik Ehlers, of competent age, which is of the following contents, namely:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 212-19.
+title: PATIENTIE VAN MANACABO AND DECEMBER VAN BOEGIES
+citation: CJ 788 Sententiën, 1750-1755, ff. 212-19.
 ---
-
-# PATIENTIE VAN MANACABO AND DECEMBER VAN BOEGIES
-
-**CJ 788** Sententiën, 1750-1755, ff. 212-19.
 
 Since Patientie van Manacabo,[^1] bondsman of the burgher Jan Brouwer, 30 \[years\] old at a guess, and December van Bougies, slave of the burgher Frederick Simon Plaagman, about 26 years old, currently their honours’ prisoners, voluntarily confessed, without torture or coercion of bonds, of irons, or even the least threat of suchlike, and since it has also appeared evident to the honourable Council of Justice of this government:
 

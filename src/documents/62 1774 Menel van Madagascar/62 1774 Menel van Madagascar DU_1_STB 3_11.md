@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: MENEL VAN MADAGASCAR
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MENEL VAN MADAGASCAR
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Relaas gegeven, ter requisitie van den heer landdrost, Marthinus Adrianus Bergh, door den slaaf Julij van Bengalen, van competenten ouderdom, lijfeigen van den burger Christoffel Lombard, zijnde van den volgenden inhoud, namentlijk:
 

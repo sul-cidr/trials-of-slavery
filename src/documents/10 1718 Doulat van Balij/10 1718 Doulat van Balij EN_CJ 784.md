@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 784
-citation: Sententiën, 1717-1725, ff. 64-71.
+title: DOULAT VAN BALIJ
+citation: CJ 784 Sententiën, 1717-1725, ff. 64-71.
 ---
-
-# DOULAT VAN BALIJ
-
-**CJ 784** Sententiën, 1717-1725, ff. 64-71.
 
 As Doulat of Balij, 30 years old at a guess, bondsman of Denge Mamouti, Prince of Ternate, and currently their honours’ prisoner, has freely and volutarily confessed and admitted, without any pain or coercion of bonds, of irons, or any threat of suchlike; and moreover, as it has appeared totally evident to the honourable Council of Justice of this government:
 

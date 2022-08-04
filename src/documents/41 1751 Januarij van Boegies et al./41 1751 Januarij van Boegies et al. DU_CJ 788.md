@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 58-67.
+title: JANUARIJ VAN BOEGIES ET AL.
+citation: CJ 788 Sententiën, 1750-1755, ff. 58-67.
 ---
-
-# JANUARIJ VAN BOEGIES ET AL.
-
-**CJ 788** Sententiën, 1750-1755, ff. 58-67.
 
 Dewijl uijt de vrijwillige gerecolleerde confessiën van Tallone van Boegies, als bandiet in ’s edele Compagnies slaven logie beschijden geweest, oud omtrent 40, Jason van Boegies, lijfeijgen van den Capitain Lieutenant d’ edele Wijnand Willem Muijs, oud 36, Jephta van Boegies en Baatjoe van Balij, bijde slaaven van den cipier Hermanus Hermansz., den eenen oud 25 en den anderen 22, Fortuijn van Boegies, toebehoorende den Chinees Limpsinko, oud 24, Pomade van Macassar, slaaf van den soldaat Nicolaas van Blerk, oud 30, September van Padang, lijfeijgen van den meester knegt der waapenkamer Jochim Kannemijer, oud 25, Maij van Sambouwa, toebehoorende den burger Roelof Ruijgrok, oud 30, Baatjoe van Boegies, lijfeijgen van den burger Gijsbert Rogiers, oud 40, Baatjoe van Mandhaar, slaaf van de capitain ter zee d’ edele Gerrit Rijndertsz. de Vos, oud 25, en April van Boegies, toebehoorende Hendrick Pietersz. van Gale, meede naar gissing oud 40 jaaren, thans ’s heeren gevangens, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedrijging van dien gedaan, en andere stucken ten processe gefourneert, den edelagtbaare Raad van Justitie deeses gouvernements sonneklaar is gebleeken:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 787
-citation: Sententiën, 1744-1749, ff. 360-64.
+title: SALAOOS VAN SAMBOUWA
+citation: CJ 787 Sententiën, 1744-1749, ff. 360-64.
 ---
-
-# SALAOOS VAN SAMBOUWA
-
-**CJ 787** Sententiën, 1744-1749, ff. 360-64.
 
 Nademaal uijt de vrijwillige, gerecolleerde confessies van Salaoos van Sambouwa, lijfeijgen van den burger Gijsbert Rogier, oud 28, December van Sambouwa, slaaf van den baas der scheepstimmerlieden Barend van Dockum, oud 36, Baatjoe van Maccassar, toebehoorende den burger Jurriaan Jansz., oud 25, en den al hier gebannenen Chinees Limoeijko, oud naar gissing 40 jaaren, alle thans ’s heeren gevangens, en andere stucken te processe gevoegt, het den edelagtbaare Raad van Justitie des Casteels de Goede Hoop, duijdelijk is komen te blijken:
 

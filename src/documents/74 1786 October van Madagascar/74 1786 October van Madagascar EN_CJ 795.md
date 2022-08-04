@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 329-52.
+title: OCTOBER VAN MADAGASCAR ET AL.
+citation: CJ 795 Sententiën, 1782-1789, ff. 329-52.
 ---
-
-# OCTOBER VAN MADAGASCAR ET AL.
-
-**CJ 795** Sententiën, 1782-1789, ff. 329-52.
 
 Since October van Madagascar, bondsman of the burgher Simon van Blerck; Felix van Timor, slave of the burgher Jan Lavocade; Pieter van Manade, slave of the former burgher councillor, the honourable Jan Karnspek; Anthonij van Bengalen, bondsman of the burgher fire-master, *Sieur* Arend van Wielig, each thirty years old at a guess; Jan van Bengalen, slave of the aforementioned burgher fire-master, *Sieur* Arend van Wielig; Maij van Mosambicque, slave of the burgher Jan Krige, each twenty-five years old at a guess; Carolus van Madagascar, slave of the burgher Jacobus Louw, thirty years old at a guess; Damon van Bougies, slave of the burgher Jacobus Bierman, forty years old at a guess; and October van Nias, bondsman of the burgher Jan Bierman, twenty-five years old at a guess; currently their honours’ prisoners, voluntarily confessed and since it has appeared evident to the honourable Council of Justice:
 

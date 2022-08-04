@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 373
-citation: Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
+title: ACHILLES VAN DE WEST CUST ET AL.
+citation: CJ 373 Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
 ---
-
-# ACHILLES VAN DE WEST CUST ET AL.
-
-**CJ 373** Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
 
 Interrogatoriën, gedaan maaken en aan d’ edele gecommitteerde leeden uijt den edelegtbaare Raad van Justitie deeses gouvernements, overgegeeven, omme daarop, ter requisitie, van den Independent Fiscaal Pieter Reede van Oudshoorn, gehoort en ondervraagt te werden, den slaaf September, zullende sijne te geevene responsiven in margine deeses moeten bekent gestelt werden.
 

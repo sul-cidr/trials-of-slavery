@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 782
-citation: Sententiën, 1705-1713, ff. 136-141.
+title: JAN DE THUILOT
+citation: CJ 782 Sententiën, 1705-1713, ff. 136-141.
 ---
-
-# JAN DE THUILOT
-
-**CJ 782** Sententiën, 1705-1713, ff. 136-141.
 
 Aangesien den provisioneel landdrost aan ons, voor eenigen tijd verleeden, heeft vertoond hoe dat den landbouwer Jan de Thuilot, woonagtig in de Wagemaakers Valeij onder het district van Draakenstein, in de maand December lestleeden, in zijn eigen huis, zig hadde schuldig gemaakt aan twee abominable manslagen aan een zijner slaaven Andries, en van bij hem in dienst zijnde Hottentot, Caffer genaamd, waarop hem landdrost, t’ zijner verzoeken, vermits zijn aufugie, is verleend provisie, beneevens een eerste, tweede en derde citatie bij edicte, mitsgaders een vierde mandament *ex superabundanti*,[^1] met een premie van vijfentwintig rijxdaalders voor degeene die hem mog te komen te apprehendeeren en in handen van de justitie te leeveren, beneevens een interdictie penaal voor alzulke die hem opgehouden, helpen verbergen of eenige leevensmiddelen mogte toegevoegd hebben, zonder dat hij egter ten geprefigeerden dage verscheenen, maar als nog latiteerende is, zulks die delicten niet alleen na regten voor bekend, maar hij Jan de Thuilot voor den daader, als daarvan geconvinceerd en overtuigd, werd gehouden dezelve te hebben geperpetreerd, des den genoemde landdrost vervolgens heeft gediend van *intendit*, mitsgaders de verificatien daartoe specteerende, waar uit den edelagtbare Raade van Justitie klaar en evident consteerd, alsook ten genoegen gebleeken is:
 

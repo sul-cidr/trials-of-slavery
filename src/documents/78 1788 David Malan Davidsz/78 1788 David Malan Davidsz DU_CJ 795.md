@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 531-36.
+title: DAVID MALAN DAVIDSZ
+citation: CJ 795 Sententiën, 1782-1789, ff. 531-36.
 ---
-
-# DAVID MALAN DAVIDSZ
-
-**CJ 795** Sententiën, 1782-1789, ff. 531-36.
 
 Nademaal den cornet der burgercavallerij aan Stellenbosch, David Malan Davidsz, in de nagt tusschen den 11^e^ en 12^e^ Augustus des jongst verloopen jaars 1788, voorzien van een schietgeweer, kruijd, loot en voorraad van kleederen, van zijn plaats Vergeleegen in stilte vertrokken zijnde, zig begeven heeft naar de wooning van den onderhouder der Hottentots Hollandsche kloof, in name Jan de Vos, bij wien zig doentertijd de slavin Sara, toebehoorende den burger Jurgen Radijn (met welke slavin gerepte Malan te vooren reeds, volgens daarvan zijnde ontwijffelbare blijken, in overspel geleefd had) bevond.
 

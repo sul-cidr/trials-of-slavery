@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 794
-citation: Sententiën, 1777-1781, ff. 161-70.
+title: ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
+citation: CJ 794 Sententiën, 1777-1781, ff. 161-70.
 ---
-
-# ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
-
-**CJ 794** Sententiën, 1777-1781, ff. 161-70.
 
 Since Ontong van Boegies, slave of the farmer Johannes Nieuwout, 50 years old at a guess, currently their honours’ prisoner, has voluntarily confessed and, since from the other documents produced in the case, it has appeared clear as daylight to the honourable Council of Justice:
 

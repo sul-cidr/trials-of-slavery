@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: COENRAAD APPEL
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# COENRAAD APPEL
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Today, 25 January 1775, there appears before me, Abraham Faure, secretary of Stellenbosch and Drakenstein, in the presence of the witnesses named below, the slave October van Bougies, of competent age, belonging to the farmer Coenraad Appel, who, on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, declares it to be true:
 

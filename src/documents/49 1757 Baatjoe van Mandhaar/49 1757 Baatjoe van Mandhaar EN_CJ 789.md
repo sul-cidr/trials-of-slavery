@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 80-91.
+title: BAATJOE VAN MANDHAAR
+citation: CJ 789 Sententiën, 1756-1760, ff. 80-91.
 ---
-
-# BAATJOE VAN MANDHAAR
-
-**CJ 789** Sententiën, 1756-1760, ff. 80-91.
 
 It has come to appear evident to the honourable Council of Justice of this government, both from the voluntary confession of Baatjoe van Mandhaar, bondsman of the burgher Jan Christoffel Broderik, 30 years old at a guess, currently their honours’ prisoner, as well as from the other documents, all properly verified, added to the case:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JEPHTA VAN MADAGASCAR
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JEPHTA VAN MADAGASCAR
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Relaas gegeven, ter requisitie van den heer landdrost, Marthinus Adrianus Bergh, door de slavinne Carolina van Madagascar, van competenten ouderdom, toebehorende den burger Pieter de Villiers Abramsz, inhoudende als volgt:
 

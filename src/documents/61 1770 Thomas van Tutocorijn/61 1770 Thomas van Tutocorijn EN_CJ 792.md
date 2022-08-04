@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 792
-citation: Sententiën, 1768-1771, ff. 154-76.
+title: THOMAS VAN TUTOCORIJN
+citation: CJ 792 Sententiën, 1768-1771, ff. 154-76.
 ---
-
-# THOMAS VAN TUTOCORIJN
-
-**CJ 792** Sententiën, 1768-1771, ff. 154-76.
 
 Since Thomas van Tutocorijn, slave of Adriana Debits, widow of the late farmer Andries Bester junior, forty years old at a guess, currently their honours’ prisoner, has voluntarily confessed and since, from the other documents produced in the case, it has appeared evident to the honourable Council of Justice:
 

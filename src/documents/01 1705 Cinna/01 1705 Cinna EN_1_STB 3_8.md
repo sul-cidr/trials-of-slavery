@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/8
-citation: Criminele Verklaringen, 1702-1749, unpaginated.
+title: CINNA
+citation: 1/STB 3/8 Criminele Verklaringen, 1702-1749, unpaginated.
 ---
-
-# CINNA
-
-**1/STB 3/8** Criminele Verklaringen, 1702-1749, unpaginated.
 
 On Saturday, 29 August in the year 1705.
 

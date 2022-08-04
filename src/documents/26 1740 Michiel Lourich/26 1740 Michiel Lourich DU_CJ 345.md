@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 345
-citation: Criminele Process Stukken, 1740, ff. 581-83.
+title: MICHIEL DANIEL LOURICH
+citation: CJ 345 Criminele Process Stukken, 1740, ff. 581-83.
 ---
-
-# MICHIEL DANIEL LOURICH
-
-**CJ 345** Criminele Process Stukken, 1740, ff. 581-83.
 
 Huijden, den 11^e^ October 1740, compareerde voor mij, Daniel Godfried Carnspek, secretaris van den edelagtbare Raad van Justitie des Casteels de Goede Hoop, ter presentie van de naargenoemde getuijgen, de soldaat Jan Christoffel Fabricius van competenten ouderdom, denwelken, ter requisitie van den heer Independent Fiscaal, meester Daniel van den Henghel, verclaarde de waaragtige waarheijt te behelsen:
 

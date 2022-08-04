@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 323
-citation: Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
+title: JONAS VAN MANADO
+citation: CJ 323 Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
 ---
-
-# JONAS VAN MANADO
-
-**CJ 323** Criminele Process Stukken, 1719, ff. 535-39 \[modern pagination\].
 
 Today, 16 October 1719, there appears before me, Daniel Thibault, secretary of the honourable Council of Justice of this government, in the presence of the witnesses named below, Hermina Herwig of Amsterdam, widow of the late burgher here, Jan Basilius Creitsmar, who, on the requisition of the honourable independent fiscal, Cornelis van Beaumont, declares it to be true:
 

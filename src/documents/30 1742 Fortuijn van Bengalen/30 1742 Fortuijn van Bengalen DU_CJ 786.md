@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 377-83.
+title: FORTUIJN VAN BENGALEN
+citation: CJ 786 Sententiën, 1736-1743, ff. 377-83.
 ---
-
-# FORTUIJN VAN BENGALEN
-
-**CJ 786** Sententiën, 1736-1743, ff. 377-83.
 
 Nademaal uijt de vrijwillige gerecolleerde confessie van Fortuijn van Bengalen, lijfeigen van den landbouwer Abraham de Villiers, oud naar gissing 28 jaaren, thans ’s heeren gevangen, buijten pijn of dwang van banden, van ijsers, dan wel de minste bedreijging van dien, gedaan, en andere stucken ter saken diendende, evidentelijk is gebleeken:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 2485
-citation: Inkoomende Brieven, 1729-1759, Deel 1, ff. 130-33.
+title: JANUARIJ VAN BOEGIES ET AL.
+citation: CJ 2485 Inkoomende Brieven, 1729-1759, Deel 1, ff. 130-33.
 ---
-
-# JANUARIJ VAN BOEGIES ET AL.
-
-**CJ 2485** Inkoomende Brieven, 1729-1759, Deel 1, ff. 130-33.
 
 Cabo de Goede Hoop.
 

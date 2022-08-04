@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 357
-citation: Criminele Process Stukken, 1749, ff. 7-9v.
+title: REIJNIER VAN MADAGASCAR
+citation: CJ 357 Criminele Process Stukken, 1749, ff. 7-9v.
 ---
-
-# REIJNIER VAN MADAGASCAR
-
-**CJ 357** Criminele Process Stukken, 1749, ff. 7-9v.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of the Castle of Good Hope, Reijnier van Madagascar, bondsman of the heirs of the late farmer Matthijs Krugel, 60 years old at a guess, who on the requisition of the landdrost of Stellenbosch and Draakensteijn, *Sieur* Adriaan van Schoor, confesses it to be true:
 

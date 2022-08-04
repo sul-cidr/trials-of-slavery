@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/10
-citation: Criminele Verklaringen, 1749-1758, unpaginated.
+title: JAN LATEGAAN
+citation: 1/STB 3/10 Criminele Verklaringen, 1749-1758, unpaginated.
 ---
-
-# JAN LATEGAAN
-
-**1/STB 3/10** Criminele Verklaringen, 1749-1758, unpaginated.
 
 Today, 29 November 1749, there appears before me, Jean Benjamin d’Aillij, secretary of Stellenbosch and Drakenstein, in the presence of the witnesses named below, the slave Julij van Bengalen, being of competent age, bondsman of the farmer Jan Lategaan, living on the same’s farm situated in the Wagenmakersvallei, who, on the requisition of the honourable landdrost, Adriaan van Schoor, declares it to be true:
 

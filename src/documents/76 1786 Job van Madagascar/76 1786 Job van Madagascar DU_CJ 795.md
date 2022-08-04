@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 407-23.
+title: JOB VAN MADAGASCAR ET AL.
+citation: CJ 795 Sententiën, 1782-1789, ff. 407-23.
 ---
-
-# JOB VAN MADAGASCAR ET AL.
-
-**CJ 795** Sententiën, 1782-1789, ff. 407-23.
 
 Alsoo Job van Madagascar, lijfeijgen van de weduwe wijlen den manhafte Jan Hendrik Ekkerd, oud na gissing 30 jaren, Moses van Bougies, slaaf van den burger Jacobus Tesselaar, oud na gissing 40 jaren, Francies van Mosambique, toebehorende den burger Simon van Blerck, oud na gissing 20 jaren, Jek van Madagascar, lijfeijgen van den burger adjudant, den manhaften Francois de Necker, oud na gissing 22 jaren, Fortuijn van Madagascar, slaaf van den burger Petrus Johannes Hiebner, oud na gissing 25 jaren, Caesar van Madagascar, toebehoorende den oud koopman, de heer Johannes van Echten, oud na gissing 40 jaaren, en Brein van Ambon, vrijgegeevene lijfeijgen, oud na gissing 50 jaren, thans ’s heeren gevangens, vrijwillig beleeden en ’t den edelachtbare Raad van Justitie deeses gouvernements, uijt de ten processe gefourneerde stucken, evident gebleeken is:
 

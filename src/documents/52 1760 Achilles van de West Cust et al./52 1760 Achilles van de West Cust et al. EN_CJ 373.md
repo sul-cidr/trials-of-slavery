@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 373
-citation: Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
+title: ACHILLES VAN DE WEST CUST ET AL.
+citation: CJ 373 Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
 ---
-
-# ACHILLES VAN DE WEST CUST ET AL.
-
-**CJ 373** Criminele Process Stukken, 1760, Deel 2, ff. 85-95v.
 
 Interrogation drawn up, and given to the honourable deputised members from the honourable Council of Justice of this government so that the slave September can be heard and interrogated, on the requisition of the independent fiscal, Pieter Reede van Oudshoorn, while his given responses must be made known in the margins of this.
 

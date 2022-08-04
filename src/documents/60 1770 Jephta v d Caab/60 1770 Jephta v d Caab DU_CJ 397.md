@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 397
-citation: Criminele Process Stukken, 1770, ff. 172-81v.
+title: JEPHTA VAN DE CAAB
+citation: CJ 397 Criminele Process Stukken, 1770, ff. 172-81v.
 ---
-
-# JEPHTA VAN DE CAAB
-
-**CJ 397** Criminele Process Stukken, 1770, ff. 172-81v.
 
 Aan den edelagtbaare heer Jan Willem Cloppenburg, praesident, beneevens den edelagtbaare Raad van Justitie deeses gouvernements.
 

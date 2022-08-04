@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 321
-citation: Criminele Process Stukken, 1717, document 7.
+title: AARON VAN BENGALEN
+citation: CJ 321 Criminele Process Stukken, 1717, document 7.
 ---
-
-# AARON VAN BENGALEN
-
-**CJ 321** Criminele Process Stukken, 1717, document 7.
 
 To my lord, the honourable N. Beeomondt, independent fiscal at the Cape of Good Hope.
 

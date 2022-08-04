@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: LINDOR VAN MALLEBAAR
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# LINDOR VAN MALLEBAAR
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Compareerde voor de ondergeteekende gecommitteerde heemraaden, de edele Dirk Wouter Hofman en Jacob Eksteen, Jephta van Batavia, lijfeijgen van den oud oppermeester van ’s edele Compagnies hospitaal aan Cabo, de edele Pieter Domus, dewelken, ter requisitie van den landdrost alhier, de heer Hendrik Lodewijk Bletterman, verklaarde hoe waar is:
 

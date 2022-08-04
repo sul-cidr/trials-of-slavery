@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 346
-citation: Criminele Process Stukken, 1741, ff. 115-16.
+title: ALEXANDER VAN COUCHIN
+citation: CJ 346 Criminele Process Stukken, 1741, ff. 115-16.
 ---
-
-# ALEXANDER VAN COUCHIN
-
-**CJ 346** Criminele Process Stukken, 1741, ff. 115-16.
 
 Relaas gegeeven, ter requisitie van den landdrost, sieur Pieter Lourensz, door den oud heemraad Daniel van der Lith, zijnde hetselve van deese volgende inhoud, als:
 

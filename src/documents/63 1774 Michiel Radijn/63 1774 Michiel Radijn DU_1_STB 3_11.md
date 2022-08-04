@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: MICHIEL RADIJN
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MICHIEL RADIJN
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Relaas gegeven, ter requisitie van den heer landdrost, Marthinus Adrianus Bergh, door den slaaf Julij van de Caab, van competenten ouderdom, lijfeigen van den burger Jacobus Malan, zijnde van den volgenden inhoud, namentlijk:
 

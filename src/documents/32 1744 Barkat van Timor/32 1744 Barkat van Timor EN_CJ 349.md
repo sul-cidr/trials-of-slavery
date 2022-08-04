@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 349
-citation: Criminele Process Stukken, 1744, ff. 104-8.
+title: BARKAT VAN TIMOR
+citation: CJ 349 Criminele Process Stukken, 1744, ff. 104-8.
 ---
-
-# BARKAT VAN TIMOR
-
-**CJ 349** Criminele Process Stukken, 1744, ff. 104-8.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of the Castle of Good Hope, Barkat van Timor, bondsman of the former burgher councillor, *Sinjeur* Abraham Cloppenburg, 30 years old at a guess, who, on the requisition of the honourable independent fiscal, Pieter Reede van Oudshoorn, confesses it to be true:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: BAATJOE
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# BAATJOE
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Statement, given in the presence of the undersigned deputised *heemraden* and on the requisition of landdrost here, the honourable *koopman* Hendrik Lodewijk Bletterman, by Rosetta van de Caab, 24 years old at a guess, bondswoman of the former first chief surgeon of this government, the honourable Pieter Domus, which goes as follows:
 

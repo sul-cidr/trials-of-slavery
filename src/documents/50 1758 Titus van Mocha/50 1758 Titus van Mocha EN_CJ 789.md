@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 121-25.
+title: TITUS VAN MOCHA
+citation: CJ 789 Sententiën, 1756-1760, ff. 121-25.
 ---
-
-# TITUS VAN MOCHA
-
-**CJ 789** Sententiën, 1756-1760, ff. 121-25.
 
 Since from the voluntary, verified confession of Titus van Mocha[^1], bondsman of the farmer Jacobus du Toij \[*sic*\], 27 years old at a guess, currently their honours’ prisoner, and from the other evidence furnished in the case, it has come to appear as clear as daylight to the honourable Council of Justice of this government:
 

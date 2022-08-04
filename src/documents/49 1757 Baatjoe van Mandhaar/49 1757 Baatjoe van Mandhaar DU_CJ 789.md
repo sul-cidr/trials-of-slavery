@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 80-91.
+title: BAATJOE VAN MANDHAAR
+citation: CJ 789 Sententiën, 1756-1760, ff. 80-91.
 ---
-
-# BAATJOE VAN MANDHAAR
-
-**CJ 789** Sententiën, 1756-1760, ff. 80-91.
 
 Den edeleagtbaaren Raad van Justitie deezes gouvernements, soo uijt de vrijwillige confessie van Baatjoe van Mandhaar, lijfeijgen van den burger Jan Christoffel Broderik, oud naar gissing 30 jaaren, thans ’s heeren gevangen, als andere ten processe gevoegde stukken, alle behoorlijk gerecolleert, duijdelijk zijnde koomen te blijken:
 

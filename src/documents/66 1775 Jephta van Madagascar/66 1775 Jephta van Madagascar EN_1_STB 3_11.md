@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JEPHTA VAN MADAGASCAR
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JEPHTA VAN MADAGASCAR
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given, on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the slave Carolina van Madagascar, of competent age, belonging to the burgher Pieter de Villiers Abramsz, of the following content:
 

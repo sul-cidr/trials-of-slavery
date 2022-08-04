@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: MENEL VAN MADAGASCAR
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MENEL VAN MADAGASCAR
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given, on the requisition of the honourable landdrost, Martinus Adrianus Bergh, by the slave Julij van Bengalen, of competent age, bondsman of the burgher Christoffel Lombard, which is of the following content, namely:
 

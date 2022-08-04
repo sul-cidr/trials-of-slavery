@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 88-93.
+title: ARON VAN MADAGASCAR
+citation: CJ 786 Sententiën, 1736-1743, ff. 88-93.
 ---
-
-# ARON VAN MADAGASCAR
-
-**CJ 786** Sententiën, 1736-1743, ff. 88-93.
 
 Since, from the voluntary, verified confession of Aron van Madagascar, 30 years old, slave of the farmer Paul Jourdan, given without any torture or coercion of bonds, of irons, or the least threat of suchlike, it has appeared evident to the honourable Council of Justice of the Castle of Good Hope:
 

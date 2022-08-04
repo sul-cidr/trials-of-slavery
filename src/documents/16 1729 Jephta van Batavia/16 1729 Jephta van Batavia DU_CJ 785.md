@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 785
-citation: Sententiën, 1726-1735, ff. 178-82.
+title: JEPHTA VAN BATAVIA
+citation: CJ 785 Sententiën, 1726-1735, ff. 178-82.
 ---
-
-# JEPHTA VAN BATAVIA
-
-**CJ 785** Sententiën, 1726-1735, ff. 178-82.
 
 Alsoo Jephta van Batavia, leijfeijgen van den burger Johannes Heufke, oud 30 jaaren, thans ’s heeren gevangen, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedreijging van dien, vrijwillig heeft beleeden ende den edelagtbare Raad van Justitie deeses gouvernements ook duijdelijk is gebleeken:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: DAVID MALAN DAVIDSZ
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# DAVID MALAN DAVIDSZ
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt de edelagtbaare Raad van Justitie deeses gouvernements, Anna Dorothea Otto, huijsvrouw van de burger Jurgen Radijn, dewelke, ter requisitie van landdrost van Stellenbosch en Drakensteijn, de heer Hendrik Lodewijk Bletterman, verklaarde hoe waar is:
 

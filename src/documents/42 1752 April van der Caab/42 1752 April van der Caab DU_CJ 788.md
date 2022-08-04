@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 103-8.
+title: APRIL VAN DE CAAB
+citation: CJ 788 Sententiën, 1750-1755, ff. 103-8.
 ---
-
-# APRIL VAN DE CAAB
-
-**CJ 788** Sententiën, 1750-1755, ff. 103-8.[^1]
 
 Aangesien April van de Caab, lijfeijgen van den landbouwer Pieter Therron \[*sic*\], oud naar gissing 20 jaaren, thans ’s heeren gevangen, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedrijging van dien, vrijwillig heeft beleeden, ende het den edelagtbaare Raad van Justitie deeses gouvernements ook evidentelijk is koomen te blijken:
 

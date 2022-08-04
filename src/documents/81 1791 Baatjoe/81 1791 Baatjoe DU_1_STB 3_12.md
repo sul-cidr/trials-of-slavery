@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: BAATJOE
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# BAATJOE
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Relaas gegeeven, ten overstaan van de ondergeteekende gecomitteerde heemraden, ende ter requisitie van den koopman en landdrost alhier, de heer Hendrik Lodewijk Bletterman, door ende van wegens Rosetta van de Caab, oud na gissing vier en twintig jaren, lijfeige \[*sic*\] van den oud eerste oppermeester deeses gouvernements, de heer Pieter Domus, luijdende hetselven als volgt:
 

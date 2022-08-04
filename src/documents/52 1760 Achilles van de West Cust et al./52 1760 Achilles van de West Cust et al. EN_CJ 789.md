@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 268-93.
+title: ACHILLES VAN DE WEST CUST ET AL.
+citation: CJ 789 Sententiën, 1756-1760, ff. 268-93.
 ---
-
-# ACHILLES VAN DE WEST CUST ET AL.
-
-**CJ 789** Sententiën, 1756-1760, ff. 268-93.
 
 Since Achilles van de West Cust, 36 years old at a guess, slave of the late *boekhouder* Michiel Smuts, Januarij van Boegies, age 40, bondsman of the burgher Abraham Kraaijwinkel, September van Boegies, age 50, Januarij van Maccasser, age 33, Isaac van Boegies, age 44, Adam van Sambouwa, age 40, Manus van Mandhaar, age 40, Matthijs van Mallebaar, age 30, Jacob van Madagascar, age 45, and Gedult van de Caab, 17 years old, all eight slaves of the widow of the late burgher Adriaan Heuning, besides Februarij van Boegies, age 30, November van Boegies, 25 years old, both bondsmen of the burgher Jan le Roux, junior, and Cupido van Bengalen, slave of the burgher councillor, *sieur* Jan Meijndertsz Cruijwagen, 40 years old at a guess, all currently their honours’ prisoners, have voluntarily confessed, without torture or force of bonds, of irons, or even the least threat of suchlike, and since it has also appeared evident to the honourable Council of Justice of this government:
 

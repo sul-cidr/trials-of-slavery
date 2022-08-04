@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 345
-citation: Criminele Process Stukken, 1740, ff. 581-83.
+title: MICHIEL DANIEL LOURICH
+citation: CJ 345 Criminele Process Stukken, 1740, ff. 581-83.
 ---
-
-# MICHIEL DANIEL LOURICH
-
-**CJ 345** Criminele Process Stukken, 1740, ff. 581-83.
 
 Today, 11 October 1740, there appears before me, Daniel Godfried Carnspek, secretary of the honourable Council of Justice of the Castle of Good Hope, in the presence of the witnesses named below, the soldier Jan Christoffel Fabricius, of competent age, who, on the requisition of the honourable independent fiscal, *Meester* Daniel van den Henghel, declares it to be the whole truth:
 

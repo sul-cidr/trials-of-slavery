@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: MENTOR VAN MOSAMBIQUE
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# MENTOR VAN MOSAMBIQUE
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Relaas gegeven, ten overstaan van de ondergeteekende gecommitteerde heemraden, de edele Johan Bernhard Hoffman en Pieter Gerhard Wium, ende ter requisitie van den landdrost van Stellenbosch en Drakenstein, de heer Hendrik Lodewijk Bletterman, door den burger Tieleman Roos Jansz, van competenten ouderdom, luijdende hetselve als volgt:
 

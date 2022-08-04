@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: LINDOR VAN MALLEBAAR
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# LINDOR VAN MALLEBAAR
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 There appears before the undersigned deputised *heemraden*, the honourables Dirk Wouter Hofman and Jacob Eksteen, Jephta van Batavia, bondsman of the former chief surgeon of the honourable Company’s hospital at the Cape, the honourable Pieter Domus,[^1] who declares, on the requisition of the landdrost here, the honourable Hendrik Lodewijk Bletterman, it to be true:
 

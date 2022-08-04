@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 312
-citation: Criminele Process Stukken, 1708, document 28.
+title: JAN DE THUILOT
+citation: CJ 312 Criminele Process Stukken, 1708, document 28.
 ---
-
-# JAN DE THUILOT
-
-**CJ 312** Criminele Process Stukken, 1708, document 28.
 
 Since, some time ago, the provisional landdrost has demonstrated to us how, during the month of last December, the farmer Jan de Thuilot, living in the Wagemaakers Valeij in the district of Drakenstein, had made himself guilty in his own house of two abominable homicides to one of his slaves, Andries, and to a Hottentot working for him, named Caffer. The landdrost was then, at his own request and because of his \[De Thuilot’s\] flight, granted the right to act in anticipation,[^1] together with a first, second and third writ of summons, as well as a fourth mandate in superabundance,[^2] with a premium of twenty-five rixdollars for whoever may apprehend him and deliver him into the hands of justice, besides a penal prohibition against all who support, help to hide or may provide him with any provisions; that if he did not appear on the day advertised but still remained hidden, then these offences will not only be considered to be admitted, in accordance with law, but that he, Jan de Thuilot, would also be considered, being convinced and persuaded of it, the author and perpetrator of the same. So the said landdrost then brought his action, as well as the evidence which supported it, from which the honourable Council of Justice determined it to be clear and evident, as also to have appeared sufficiently:
 

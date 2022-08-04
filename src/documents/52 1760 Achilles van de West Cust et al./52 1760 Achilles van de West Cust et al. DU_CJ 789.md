@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 789
-citation: Sententiën, 1756-1760, ff. 268-93.
+title: ACHILLES VAN DE WEST CUST ET AL.
+citation: CJ 789 Sententiën, 1756-1760, ff. 268-93.
 ---
-
-# ACHILLES VAN DE WEST CUST ET AL.
-
-**CJ 789** Sententiën, 1756-1760, ff. 268-93.
 
 Nademaal Achilles van de West Cust, oud naar gissing 36 jaaren, slaaf van wijlen den boekhouder Michiel Smuts, Januarij van Boegies, oud 40, lijfeijgen van den burger Abraham Kraaijwinkel, September van Boegies, oud 50, Januarij van Maccasser, oud 33, Isaac van Boegies, oud 44, Adam van Sambouwa, oud 40, Manus van Mandhaar, oud 40, Matthijs van Mallebaar, oud 30, Jacob van Madagascar, oud 45, en Gedult van de Caab, oud 17 jaaren, alle agt slaven van de weeduwe wijlen den burger Adriaan Heuning, mitsgaders Februarij van Boegies, oud 30, November van Boegies, oud 25 jaaren, beijde lijfeijgen van den burger Jan le Roux de jonge, en Cupido van Bengalen, slaaf van den burgerraad sieur Jan Meijndertsz Cruijwagen, oud naar gissing 40 jaaren, alle thans ’s heeren gevangens, buijten pijn of dwang van banden, van ijsers, dan wel de minste bedreijging van dien, vrijwillig hebben beleeden, ende ’t den edelagtbaaren Raad van Justitie deeses gouvernements ook evidentelijk is gebleeken:
 

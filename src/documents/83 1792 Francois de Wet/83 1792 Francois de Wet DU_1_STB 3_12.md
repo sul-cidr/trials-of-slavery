@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB
-citation: **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
+title: FRANCOIS DE WET
+citation: 1/STB **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# FRANCOIS DE WET
-
-**1/STB** **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Relaas gegeeven, ten overstaan van de ondergeteekende gecommitteerde heemraden, d’ edele Pieter Gerhard Wium en Christman Joël Ackerman, ende ter requisitie van den koopman en landdrost alhier de heer Hendrik Lodewijk Bletterman, door ende van weegens David van de Caab, oud naar gissing dertig jaaren, lijfeigen van den oud burger lieutenant, de manhafte Francois de Wet, luijdende hetzelve als volgt:
 

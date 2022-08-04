@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: ISAAK DE VILLIERS JANSZ
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# ISAAK DE VILLIERS JANSZ
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Statement given, on the requisition of the titular merchant and landdrost, the honourable Hendrik Lodewijk Bletterman, and in the presence of the undersigned *heemraden*, the honourables, Christman Joël Ackerman and Pieter Gerhard Wium, by the little slave boy Lakij, about 12 years old, belonging to the burgher Isaak de Villiers Jansz, going as follows:
 

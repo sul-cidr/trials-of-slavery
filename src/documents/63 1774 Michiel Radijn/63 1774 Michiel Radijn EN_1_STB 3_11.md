@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: MICHIEL RADIJN
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# MICHIEL RADIJN
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given, on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the slave Julij van de Caab, of competent age, bondsman of the burgher Jacobus Malan, which is of the following content, namely:
 

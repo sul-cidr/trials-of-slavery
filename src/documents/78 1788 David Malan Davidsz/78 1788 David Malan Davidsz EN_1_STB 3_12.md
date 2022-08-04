@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: DAVID MALAN DAVIDSZ
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# DAVID MALAN DAVIDSZ
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of this government, Anna Dorothea Otto, wife of the burgher Jurgen Radijn, who, on the requisition of the landdrost of Stellenbosch and Drakenstein, the honourable Hendrik Lodewijk Bletterman, declares it to be true:
 

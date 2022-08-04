@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 796
-citation: Sententiën, 1790-1794, ff. 279-284.
+title: CAESAR VAN MADAGASCAR
+citation: CJ 796 Sententiën, 1790-1794, ff. 279-284.
 ---
-
-# CAESAR VAN MADAGASCAR
-
-**CJ 796** Sententiën, 1790-1794, ff. 279-284.
 
 Since Caesar van Madagascar, bondsman of the burgher Daniel Malan, 30 years old at a guess, currently their honours’ prisoner, has voluntarily confessed, and since, from the documents furnished in the case, it has appeared evident to the honourable Council of Justice:
 

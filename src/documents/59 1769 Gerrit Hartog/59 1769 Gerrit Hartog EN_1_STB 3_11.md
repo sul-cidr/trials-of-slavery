@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: GERRIT HARTOG
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# GERRIT HARTOG
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given, on the requisition of the honourable landdrost, Lucas Sigimundus Faber, by the slave Juliana van de Caab, of competent age, belonging to the *heemraad*, *Monsieur* Hercules Adriaan Malan, of the following content, namely:
 

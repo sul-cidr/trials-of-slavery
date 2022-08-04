@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 784
-citation: Sententiën, 1717-1725, ff. 81-4.
+title: ANTHONIJ VAN MALLABAAR
+citation: CJ 784 Sententiën, 1717-1725, ff. 81-4.
 ---
-
-# ANTHONIJ VAN MALLABAAR
-
-**CJ 784** Sententiën, 1717-1725, ff. 81-4.
 
 Since Anthonij van Mallabaar, 24 years old at a guess, bondsman of the farmer Hendrik Moel, currently their honours’ prisoner, has voluntarily and freely confessed, without torture or coercion of bonds, of irons, or any threat of suchlike; and also since it has appeared evident to the honourable Council of Justice of this government:
 

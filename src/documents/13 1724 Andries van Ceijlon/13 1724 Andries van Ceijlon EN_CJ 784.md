@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 784
-citation: Sententiën, 1717-1725, ff. 225-30.
+title: ANDRIES VAN CEIJLON
+citation: CJ 784 Sententiën, 1717-1725, ff. 225-30.
 ---
-
-# ANDRIES VAN CEIJLON
-
-**CJ 784** Sententiën, 1717-1725, ff. 225-30.
 
 As Andries van Ceilon, 53 years old, bondsman of the farmer Barend Buijs, currently their honours’ prisoner, voluntarily confessed, without any torture of bonds, of irons, or even the least threat of suchlike, and since it has appeared evident to the honourable Council of Justice of this government:
 

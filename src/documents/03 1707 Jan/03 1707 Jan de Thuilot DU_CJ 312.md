@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 312
-citation: Criminele Process Stukken, 1708, document 28.
+title: JAN DE THUILOT
+citation: CJ 312 Criminele Process Stukken, 1708, document 28.
 ---
-
-# JAN DE THUILOT
-
-**CJ 312** Criminele Process Stukken, 1708, document 28.
 
 Ick, ondergetekende Jean de Thuile, gedagvaert sijnde wegens den landdrost om te verschijnen aen de Caab voor de heer d’Ableing en sijnen acthbare Raad tegens de naeste Donderdagh, den 22^e^ December, maer door mijn indispositie is ’t mij onmogelijk en dierhalve heb ick nodigh geacht mijne redenen bij geschrifft te senden aen de heer d’Ableing en sijne achtbare Raad – mijn redenen sijn dese:
 

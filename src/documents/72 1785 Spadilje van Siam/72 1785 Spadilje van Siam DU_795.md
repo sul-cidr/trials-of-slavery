@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 239-49.
+title: SPADILJE VAN SIAM
+citation: CJ 795 Sententiën, 1782-1789, ff. 239-49.
 ---
-
-# SPADILJE VAN SIAM
-
-**CJ 795** Sententiën, 1782-1789, ff. 239-49.
 
 Nademaal Spadilje, slaaf van den vrijswart Albert Isaaksz, oud na gissing vijf en twintig jaaren, thans ’s heeren gevange vrijwillig beleeden heeft, en den edelagtbaare Raad van Justitie uijt de verdere, ten processe gevoegde, stucken evident gebleeken is:
 

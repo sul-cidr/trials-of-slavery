@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/9
-citation: Criminele Verklaringen, 1740-1746, unpaginated.
+title: JAN HENDRIK HOP
+citation: 1/STB 3/9 Criminele Verklaringen, 1740-1746, unpaginated.
 ---
-
-# JAN HENDRIK HOP
-
-**1/STB 3/9** Criminele Verklaringen, 1740-1746, unpaginated.
 
 Today, 26 November 1742, there appears before me, Arnold Schephausen, secretary of Stellenbosch and Drakenstein, in the presence of the witnesses named below, the burgher Daniël Bokkelenberg, who, on the requisition of the landdrost, *Sieur* Pieter Lourensz, declares it to be true:
 

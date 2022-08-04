@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 263-70.
+title: CUPIDO VAN MALLABAAR
+citation: CJ 786 Sententiën, 1736-1743, ff. 263-70.
 ---
-
-# CUPIDO VAN MALLABAAR
-
-**CJ 786** Sententiën, 1736-1743, ff. 263-70.
 
 Alsoo Cupido van Mallabaar, slaaf van den burger Jan van der Straeten, oud naar gissing 28 jaaren, thans ’s heeren gevangen, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedreijging van dien, vrijwillig heeft geconfesseert, en den edelagtbare Raad van Justitie deeses gouvernements sonneklaer is gebleeken:
 

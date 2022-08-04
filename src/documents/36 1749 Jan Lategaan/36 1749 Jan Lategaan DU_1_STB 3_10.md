@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/10
-citation: Criminele Verklaringen, 1749-1758, unpaginated.
+title: JAN LATEGAAN
+citation: 1/STB 3/10 Criminele Verklaringen, 1749-1758, unpaginated.
 ---
-
-# JAN LATEGAAN
-
-**1/STB 3/10** Criminele Verklaringen, 1749-1758, unpaginated.
 
 Huijden, den 24^e^ November 1749, compareerde voor mij, Jean Benjamin d’Aillij, secretaris van Stellenbosch en Draakensteijn, ter presentie der naargenoemde getuijgen, den slaaf Julij van Bengalen, zijnde van competenten ouderdom, lijfeijgen van den landbouwer Jan Lategaan, woonagtig op desselfs plaats aan de Wagemakersvallij geleegen, denwelken, ter requisitie van den heer landdrost Adriaan van Schoor, verclaarde hoe waar is:
 

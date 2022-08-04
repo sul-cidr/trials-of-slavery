@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 34
-citation: Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
+title: JACOB VAN DE CAAB
+citation: CJ 34 Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
 ---
-
-# JACOB VAN DE CAAB
-
-**CJ 34** Crimineele Regtsrolle des Casteels de Goede Hoop, 1752, ff. 28-30.
 
 Thursday, 20 April 1752, in the morning, present the honourable Isack Meinertzhagen and all the members, except the honourable lord president Sergius Swellengrebel and the honourable Hendrik Ruiter, because of their occupations, besides the honourable Willem van Kerckhoff, through indisposition.
 

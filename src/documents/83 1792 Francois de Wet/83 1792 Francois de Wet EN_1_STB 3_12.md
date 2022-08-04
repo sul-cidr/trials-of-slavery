@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB
-citation: **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
+title: FRANCOIS DE WET
+citation: 1/STB **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# FRANCOIS DE WET
-
-**1/STB** **3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Statement, given in the presence of the undersigned deputised *heemraden*, the honourables Pieter Gerhard Wium and Christman Joël Ackerman, and on the requisition of the landdrost here, the honourable *koopman* Hendrik Lodewijk Bletterman, by and on behalf of David van de Caab, thirty years old at a guess, bondsman of the former burgher lieutenant, the *manhafte* Francois de Wet, which goes as follows: That after having been with and on the farm of the *manhafte* Johannes de Waal for about four months to suckle the youngest child of the said De Waal,[^1] the slave of the testifier’s owner, by the name of Jacomijn and with whom the testifier has a relationship, returned home on a certain Sunday, about fourteen days before the last New Year. Whenever the said Jacomijn picked up her child, who that whole day had been doing nothing but crying, and held it to her bosom, the testifier’s owner forbade it, saying in essence: “You shouldn’t think you’re with De Waal where you can sit all day long with the child on your lap”, which utterance he repeated a couple of times and when he did so again on the Tuesday thereafter, the said Jacomijn then answered him: “At *Sieur* De Waal’s I at least always had somebody to look after my child, but now there’s nobody; one day she will cry herself to death”. Whereupon the testifier’s owner became so angry over this that he took the *sjambok* for the back horses, which was hanging in the kitchen, and dealt the aforementioned Jacomijn, while she was holding the child in her arms, several blows with it, besides also dealing some blows to the child (in particular two visible wounds on its forehead) on this occasion, as a result of which the testifier’s child, who before this had been well and healthy, passed away the night of that very Tuesday, and was buried the following day. At which incident were present: the widow Jan Theron, a slave *jongen* of the said widow Theron, by the name of Goliad, a female Hottentot living at his owner’s, by the name of Anna, and a fellow slave of the testifier’s owner, named Fortuijn.
 

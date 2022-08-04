@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 424
-citation: Criminele Process Stukken, 1786, deel 2, ff. 699 & 701.
+title: AUGUSTUS VAN DE CAAB ET AL.
+citation: CJ 424 Criminele Process Stukken, 1786, deel 2, ff. 699 & 701.
 ---
-
-# AUGUSTUS VAN DE CAAB ET AL.
-
-**CJ 424** Criminele Process Stukken, 1786, deel 2, ff. 699 & 701.[^1]
 
 Laat deze jongen passeren genaampt Aandries Augus Zalomon Jonas Welkomp Loewies Klaas De Hottentot tot na Sondag revier na David Koen en B \[*sic*\] schaape en Bees te gaan haale.
 

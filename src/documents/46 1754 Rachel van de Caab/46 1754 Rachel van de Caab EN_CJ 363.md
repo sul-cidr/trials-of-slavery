@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 363
-citation: Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
+title: RACHEL VAN DE CAAB
+citation: CJ 363 Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
 ---
-
-# RACHEL VAN DE CAAB
-
-**CJ 363** Criminele Process Stukken, Deel 2, 1754, ff. 6-9v.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of this government, Raachel van de Caab, slave of the burgher Jacobus van Reenen junior, 20 to 21 years old, who on the requisition of the honourable independent fiscal, Pieter Reede van Oudshoorn, confesses it to be true:
 

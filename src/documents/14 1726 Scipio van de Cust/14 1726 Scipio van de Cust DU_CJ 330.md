@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 330
-citation: Criminele Process Stukken, 1726, ff. 939-44.
+title: SCIPIO VAN DE CUST
+citation: CJ 330 Criminele Process Stukken, 1726, ff. 939-44.
 ---
-
-# SCIPIO VAN DE CUST
-
-**CJ 330** Criminele Process Stukken, 1726, ff. 939-44.
 
 Relaas gegeven ter requisitie van den heer Independent Fiscaal Adriaan van Kervel, door den slaaf Scipio van de Cust, toebehoorende juffrrouw Helena Gulix, weduwe wijlen den alhier geweest zijnde opperchirurgijn Willem ten Damme, in sig behelsende als volgt:
 

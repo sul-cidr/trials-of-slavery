@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 785
-citation: Sententiën, 1726-1735, ff. 333-38.
+title: VARKEN, TOONTJE AND RUIJTER
+citation: CJ 785 Sententiën, 1726-1735, ff. 333-38.
 ---
-
-# VARKEN, TOONTJE AND RUIJTER
-
-**CJ 785** Sententiën, 1726-1735, ff. 333-38.
 
 As the honourable Council of Justice of this government, from the voluntary, verified confessions of the Hottentots Varken, 17 years old at a guess, Toontje, about 22 years old and Ruijter, 20 years old at a guess, made without any torture or coercion of bonds, of irons, or even the least threat of suchlike, and from the other papers produced in court; has determined it to be evident:
 

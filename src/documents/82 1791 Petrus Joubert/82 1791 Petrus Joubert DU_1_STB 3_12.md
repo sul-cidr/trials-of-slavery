@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/12
-citation: Criminele Verklaringen, 1786-1793, unpaginated.
+title: PETRUS JOUBERT
+citation: 1/STB 3/12 Criminele Verklaringen, 1786-1793, unpaginated.
 ---
-
-# PETRUS JOUBERT
-
-**1/STB 3/12** Criminele Verklaringen, 1786-1793, unpaginated.
 
 Relaas gegeven ten overstaan van de ondergeteekende gecommitteerde heemraden d’ edele Johan Bernard Hoffman en Pieter Gerh. Wium, ende ter requisitie van den koopman en landdrost alhier, de heer Hendrik Lodewijk Bletterman, door ende van wegens den burger Johs. Hendrik Roux, van competenten ouderdom, luijdende hetselve als volgd:
 

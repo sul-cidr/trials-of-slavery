@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 2485
-citation: Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
+title: DAVID VAN BENGALEN
+citation: CJ 2485 Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
 ---
-
-# DAVID VAN BENGALEN
-
-**CJ 2485** Inkoomende Brieven, 1729-1759, Deel 1, ff. 123-25.
 
 Report to the right honourable lord Rijk Tulbagh, nominated[^1] governor of the Cape of
 

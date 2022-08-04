@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 413
-citation: Criminele Process Stukken, 1779, deel 2, ff. 315-19.
+title: ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
+citation: CJ 413 Criminele Process Stukken, 1779, deel 2, ff. 315-19.
 ---
-
-# ONTONG VAN BOEGIES AND ADONIS VAN DE CAAB
-
-**CJ 413** Criminele Process Stukken, 1779, deel 2, ff. 315-19.
 
 There appears before us, the undersigned delegates, from the honourable Council of Justice of this government, the slave *jongen* Adonis van de Caab, belonging to the burgher Jan Nieuwout, of competent age, who, on the requisition of the landdrost of Stellenbosch, the honourable *onderkoopman* Olof Godlieb de Wet, declares it to be true:
 

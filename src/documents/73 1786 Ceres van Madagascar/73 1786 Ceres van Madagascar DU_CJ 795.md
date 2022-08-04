@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 795
-citation: Sententiën, 1782-1789, ff. 286-96.
+title: CERES VAN MADAGASCAR & APRIL VAN CEIJLON
+citation: CJ 795 Sententiën, 1782-1789, ff. 286-96.
 ---
-
-# CERES VAN MADAGASCAR & APRIL VAN CEIJLON
-
-**CJ 795** Sententiën, 1782-1789, ff. 286-96.
 
 Alsoo Ceres van Madagascar, oud na gissing dertig jaaren, en April van Ceijlon, na gissing oud veertig jaaren, beijde slaaven van den burger Olthman Ahlers, thans ’s heeren gevangens, vrijwillig beleeden hebben, en den edelagtbaare Raad van Justitie deeses gouvernements, wijders evident gebleeken is:
 

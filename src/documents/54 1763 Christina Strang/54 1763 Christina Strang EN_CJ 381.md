@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 381
-citation: Criminele Process Stukken, 1764, ff. 32-5.
+title: CHRISTINA STRANG
+citation: CJ 381 Criminele Process Stukken, 1764, ff. 32-5.
 ---
-
-# CHRISTINA STRANG
-
-**CJ 381** Criminele Process Stukken, 1764, ff. 32-5.
 
 Statement given, on the requisition of the landdrost of Stellenbosch and Drakensteijn, *Sieur* Johannes le Sueur, by Januarij van Ceijlon, slave of the farmer Jacobus Kruger, of competent age, going as follows: That, as the testifier believes, more than two years, or two or three times,[^1] ago, when the testifier’s owner, who resides on his farm situated in the Bocke Veld, rode away from his house and, as the testifier supposes, set out to Stellenbosch to drill,[^2] the testifier and his fellow slave called Augustus – without the testifier knowing for sure of what nation he was but he suspects that he must have been a Batavian *jongen* as he was yellow in colour[^3] – had to labour, with the help of some Hottentots, on the building of a stone corral, the stones for which they had to search for in the vicinity and had to drag them there with oxen, while the aforesaid Augustus moreover also had to lead these draught oxen.
 

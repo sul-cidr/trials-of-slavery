@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 343
-citation: Criminele Process Stukken, 1739, ff. 123r-v.
+title: JURGEN SCHOLTS ET AL.
+citation: CJ 343 Criminele Process Stukken, 1739, ff. 123r-v.
 ---
-
-# JURGEN SCHOLTS ET AL.
-
-**CJ 343** Criminele Process Stukken, 1739, ff. 123r-v.
 
 Testimony given, on the requisition of the *onderkoopman*, *Sieur* Johannes Needer, acting as fiscal for the interim, by the slave Coridon, belonging to the head of *De Schuur*, Gibbelaar, being of the following contents:
 

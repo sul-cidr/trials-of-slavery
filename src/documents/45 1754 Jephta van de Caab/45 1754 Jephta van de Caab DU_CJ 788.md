@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 179-183.
+title: JEPHTA VAN DE CAAB
+citation: CJ 788 Sententiën, 1750-1755, ff. 179-183.
 ---
-
-# JEPHTA VAN DE CAAB
-
-**CJ 788** Sententiën, 1750-1755, ff. 179-183.
 
 Also het den edelagtbaren Raad van Justitie deeses gouvernements, so uijt den door den heer Independent Fiscaal Pieter Reede van Oudshoorn overgeleeverden schriftelijken eijsch, als de in judicio gedaane bekentenisse door Jephta van de Caab, lijfeijgen van den eersten oppermeester deeses hospitaal, sieur Bartho de St. Jean, oud naar gissing 16 jaaren, thans ’s heeren gevangen, volkoomen is gebleeken:
 

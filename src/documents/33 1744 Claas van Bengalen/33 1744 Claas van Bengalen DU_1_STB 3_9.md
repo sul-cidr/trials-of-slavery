@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/9
-citation: Criminele Verklaringen, 1740-1746, unpaginated.
+title: CLAAS VAN BENGALEN
+citation: 1/STB 3/9 Criminele Verklaringen, 1740-1746, unpaginated.
 ---
-
-# CLAAS VAN BENGALEN
-
-**1/STB 3/9** Criminele Verklaringen, 1740-1746, unpaginated.
 
 Relaas gegeeven, ter requisitie van den landdrost, sieur Pieter Lourensz, door Januarij van Rio de la Goa, oud naar gissing 20 jaaren, lijfeijgen van den burger Francois Retief, sijnde van den volgenden inhoud, namentlijk:
 

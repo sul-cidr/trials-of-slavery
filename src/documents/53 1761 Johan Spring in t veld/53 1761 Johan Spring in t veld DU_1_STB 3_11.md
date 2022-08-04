@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: JOHAN CHRISTIAN SPRING IN ’T VELD
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# JOHAN CHRISTIAN SPRING IN ’T VELD
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Relaas gegeven, ter requisitie van den heer landdrost, Adriaan van Schoor, door den soldaat Johan Christiaan Spring in ’t Veld, van competenten ouderdom, zijnde van den volgenden inhoud, namentlijk:
 

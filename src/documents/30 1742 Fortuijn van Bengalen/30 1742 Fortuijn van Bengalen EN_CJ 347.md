@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 347
-citation: Criminele Process Stukken, 1742, ff. 18-19v.
+title: FORTUIJN VAN BENGALEN
+citation: CJ 347 Criminele Process Stukken, 1742, ff. 18-19v.
 ---
-
-# FORTUIJN VAN BENGALEN
-
-**CJ 347** Criminele Process Stukken, 1742, ff. 18-19v.
 
 Today, 26 December 1741, there appears before me, Arnold Schephausen, secretary of Stellenbosch and Drakenstein, in the presence of the witnesses named below, Christijn van de Caab, bondswoman of the farmer Pieter Venter, about 25 years old, who, on the requisition of the landdrost, *Sieur* Pieter Lourensz, declares it to be true:
 

@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 796
-citation: Sententiën, 1790-1794, ff. 279-284.
+title: CAESAR VAN MADAGASCAR
+citation: CJ 796 Sententiën, 1790-1794, ff. 279-284.
 ---
-
-# CAESAR VAN MADAGASCAR
-
-**CJ 796** Sententiën, 1790-1794, ff. 279-284.
 
 Alzoo Caesar van Madagscar, lijfeijgen van den burger Daniel Malan, oud naar gissing derthig jaren, thans ’s heeren gevangen, vrijwillig heeft beleeden, en het den edelachtbaare Raade van Justitie, uit de ten processe gefurneerde \[*sic*\] stukken, evident is komen te blijken:
 

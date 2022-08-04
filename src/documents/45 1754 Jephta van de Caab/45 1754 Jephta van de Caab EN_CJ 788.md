@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 179-183.
+title: JEPHTA VAN DE CAAB
+citation: CJ 788 Sententiën, 1750-1755, ff. 179-183.
 ---
-
-# JEPHTA VAN DE CAAB
-
-**CJ 788** Sententiën, 1750-1755, ff. 179-183.
 
 Since, from both the written *eijsch* supplied by the honourable independent fiscal, Pieter Reede van Oudshoorn, as well as the confession made in court by Jephta van de Caab, bondsman of the first chief surgeon of the hospital here, *sieur* Bartho de St. Jean, 16 years old at a guess, currently their honours’ prisoner, it has appeared evident to the honourable Council of Justice of this governement:
 

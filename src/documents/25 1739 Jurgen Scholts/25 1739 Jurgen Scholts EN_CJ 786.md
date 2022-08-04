@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 786
-citation: Sententiën, 1736-1743, ff. 234-241.
+title: JURGEN SCHOLTS ET AL.
+citation: CJ 786 Sententiën, 1736-1743, ff. 234-241.
 ---
-
-# JURGEN SCHOLTS ET AL.
-
-**CJ 786** Sententiën, 1736-1743, ff. 234-241.
 
 Since, from the answered questions in the torture or pain room[^1] by the woodcutter Jurgen Scholts of Dantsig, 26 years old, as well as from the voluntary confessions of his fellow woodcutters Willem Brock of Bockholt, ... years old,[^2] Christoffel Coelmeijer of Paterborn, 28 years old, and Christoffel Hoorneft of Roosdorp, 32 years old[^3] – which confessions were verified voluntarily, willingly and without any torture or coercion of bonds, of irons, or even the least threat of suchlike – all four currently their honours’ prisoners, and from other papers furnished in the case, it has appeared evident:
 

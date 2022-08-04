@@ -1,11 +1,7 @@
 ---
-doc_no: 1/STB 3/11
-citation: Criminele Verklaringen, 1759-1782, unpaginated.
+title: GERRIT MARITS
+citation: 1/STB 3/11 Criminele Verklaringen, 1759-1782, unpaginated.
 ---
-
-# GERRIT MARITS
-
-**1/STB 3/11** Criminele Verklaringen, 1759-1782, unpaginated.
 
 Statement given on the requisition of the honourable landdrost, Marthinus Adrianus Bergh, by the burgher Gerrit Marits, of competent age, which is of the following content, namely:
 

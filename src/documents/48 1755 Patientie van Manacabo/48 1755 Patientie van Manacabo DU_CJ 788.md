@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 788
-citation: Sententiën, 1750-1755, ff. 212-19.
+title: PATIENTIE VAN MANACABO AND DECEMBER VAN BOEGIES
+citation: CJ 788 Sententiën, 1750-1755, ff. 212-19.
 ---
-
-# PATIENTIE VAN MANACABO AND DECEMBER VAN BOEGIES
-
-**CJ 788** Sententiën, 1750-1755, ff. 212-19.
 
 Also Patientie van Manacabo, lijfeijgen van den burger Jan Brouwer, oud naar gissing 30, en December van Boegies, slaaf van den burger Frederick Simon Plaagman, oud omtrent 26 jaaren, thans ’s heeren gevangens, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedreijging van dien, vrijwillig hebben beleeden, ende het den edeleagtbaare Raad van Justitie deeses gouvernements ook volkoomen is gebleeken:
 

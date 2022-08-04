@@ -1,11 +1,7 @@
 ---
-doc_no: CJ 394
-citation: Criminele Process Stukken, 1768, ff. 516-17v.
+title: FRANS VAN MADAGASCAR
+citation: CJ 394 Criminele Process Stukken, 1768, ff. 516-17v.
 ---
-
-# FRANS VAN MADAGASCAR
-
-**CJ 394** Criminele Process Stukken, 1768, ff. 516-17v.
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of this government, the slave Frans van Madagascar, belonging to the former *heemraad*, *Monsieur* Marten Melk, 23 years old at a guess, who, on the requisition of the landdrost of Stellenbosch and Drakenstein, *Meester* Jacobus Johannes le Suëur, confesses it to be true:
 
