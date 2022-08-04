@@ -1,6 +1,4 @@
-# JANUARIJ VAN BOEGIES ET AL.
-
-*In this case eight slaves aimed to escape from the colony and to head for the ‘land of the Caffers’.[^1] The plan was initiated by a slave working as a charcoal burner in Hout Bay under the supervision of a slave* mandoor*,[^2] and he persuaded other Cape Town slaves to join him. The runaways stole a boat and headed first of all for Hangklip. But they encountered major problems of obtaining food, of an unseaworthy boat and were reported by a Khoi who saw their footprints on the beach.[^3]*
+In this case eight slaves aimed to escape from the colony and to head for the ‘land of the Caffers’.[^1] The plan was initiated by a slave working as a charcoal burner in Hout Bay under the supervision of a slave* mandoor*,[^2] and he persuaded other Cape Town slaves to join him. The runaways stole a boat and headed first of all for Hangklip. But they encountered major problems of obtaining food, of an unseaworthy boat and were reported by a Khoi who saw their footprints on the beach.[^3]
 
 [^1]: By this they meant the region of the Eastern Cape. For other examples of runaway slaves aiming to reach this area, outside the reach of the Cape authorities, see 1751 Januarij van Boegies et al. and 1760 Achilles van de West Cust et al.
 

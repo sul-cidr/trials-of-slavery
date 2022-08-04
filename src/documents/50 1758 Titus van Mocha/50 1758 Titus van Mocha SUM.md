@@ -1,6 +1,4 @@
-# TITUS VAN MOCHA
-
-*This episode shows that runaway slaves could not always rely upon other slaves to help them.[^1] Titus escaped from his rural owner in Roodezand[^2] to Cape Town, but was given up to the authorities by some of the Company slaves to whom he appealed for help. The case is also interesting for the details that it provides of the housing of slaves at the Company brickworks. They stayed in a hut near the furnace, not in the Slave Lodge in town, perhaps because they needed to tend the furnace during the night.[^3]*
+This episode shows that runaway slaves could not always rely upon other slaves to help them.[^1] Titus escaped from his rural owner in Roodezand[^2] to Cape Town, but was given up to the authorities by some of the Company slaves to whom he appealed for help. The case is also interesting for the details that it provides of the housing of slaves at the Company brickworks. They stayed in a hut near the furnace, not in the Slave Lodge in town, perhaps because they needed to tend the furnace during the night.[^3]
 
 [^1]: For other cases in which slaves support the law rather than other slaves, see 1709 Samel and 1726 Scipio van de Cust.
 

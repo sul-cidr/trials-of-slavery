@@ -1,6 +1,4 @@
-# MENEL VAN MADAGASCAR
-
-*A mid-winter fight between slaves over who would sleep by the fire gives a brief insight into living conditions on this farm at Riebeek-Kasteel. Unusually, the farm had a separate ‘slave house’.[^1] The case was considered serious enough to be sent to the Council of Justice and Menel was given a life sentence on Robben Island.[^2]*
+A mid-winter fight between slaves over who would sleep by the fire gives a brief insight into living conditions on this farm at Riebeek-Kasteel. Unusually, the farm had a separate ‘slave house’.[^1] The case was considered serious enough to be sent to the Council of Justice and Menel was given a life sentence on Robben Island.[^2]
 
 [^1]: Most Cape farms did not have a slave labour force large enough to warrant separate slave living quarters of the kind found in Atlantic plantation slave societies, but there were, as in this case, exceptions (see 1768 Frans van Madagascar for unusually extensive slave quarters). See 1745 Cupido van Bengalen, n. 1 for a discussion.
 

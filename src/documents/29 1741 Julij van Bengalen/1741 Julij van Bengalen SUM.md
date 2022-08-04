@@ -1,6 +1,4 @@
-# JULIJ VAN BENGALEN
-
-*Julij van Bengalen accidentally set fire to the veld when cooking fish out of doors. The case was not considered serious enough to send to the Council of Justice,[^1] but Julij received a whipping and a stern warning from the landdrost. Fire was a particular danger in a community where wood was used extensively in building, and detailed measures were taken to punish those who caused it, either deliberately or by accident.[^2]*
+Julij van Bengalen accidentally set fire to the veld when cooking fish out of doors. The case was not considered serious enough to send to the Council of Justice,[^1] but Julij received a whipping and a stern warning from the landdrost. Fire was a particular danger in a community where wood was used extensively in building, and detailed measures were taken to punish those who caused it, either deliberately or by accident.[^2]
 
 [^1]: There is no record for this case in the criminal *regtsrollen* or criminal case documents for 1741, CJ 23 and CJ 346.
 

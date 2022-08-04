@@ -1,6 +1,4 @@
-# MENTOR VAN MOSAMBIQUE
-
-*A fight broke out between Mentor and the burgher Tielman Roos because Mentor refused to greet Tielman, saying he was only obliged to greet his owner and wife. This episode is a rare example of verbal resistance by slaves, although it also led to physical conflict.[^1] It also illustrates the importance attached to symbolic acts in the maintenance of social distinctions between masters and servants.[^2] It appears as if no further action was taken.[^3]*
+A fight broke out between Mentor and the burgher Tielman Roos because Mentor refused to greet Tielman, saying he was only obliged to greet his owner and wife. This episode is a rare example of verbal resistance by slaves, although it also led to physical conflict.[^1] It also illustrates the importance attached to symbolic acts in the maintenance of social distinctions between masters and servants.[^2] It appears as if no further action was taken.[^3]
 
 [^1]: For a similar example of the refusal of a slave to greet a burgher, see 1794 Abraham van Macassar.
 

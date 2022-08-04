@@ -1,8 +1,6 @@
-# COENRAAD APPEL
+In this case, slaves reported seeing the farmer Coenraad Appel repeatedly having sex with his stepdaughter, Elsie Anna: omnipresent slaves were well positioned to reveal the illicit actions of their owners.[^1] The admonitions of Elsie by the slave Filida, in defence of her mistress, and Elsie’s confession of her predicament, give an insight into the complex interactions of three women on the farm which transcended the divisions of slave and free and which give a rare insight into slave perceptions of their owners’ behaviour.[^2]
 
-*In this case, slaves reported seeing the farmer Coenraad Appel repeatedly having sex with his stepdaughter, Elsie Anna: omnipresent slaves were well positioned to reveal the illicit actions of their owners.[^1] The admonitions of Elsie by the slave Filida, in defence of her mistress, and Elsie’s confession of her predicament, give an insight into the complex interactions of three women on the farm which transcended the divisions of slave and free and which give a rare insight into slave perceptions of their owners’ behaviour.[^2]*
-
-*Appel was convicted of incest and banished from the colony, while Elsie Anna was (at the suggestion of the Council of Justice) incarcerated for life in the Company’s Slave Lodge.[^3]*
+Appel was convicted of incest and banished from the colony, while Elsie Anna was (at the suggestion of the Council of Justice) incarcerated for life in the Company’s Slave Lodge.[^3]
 
 [^1]: . These witnesses included both male and female slaves on the farm, although significantly it was the female Filida who showed the most concern, notably at the shame that Appel’s activities brought on his wife, Filida’s mistress.
 

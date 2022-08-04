@@ -1,8 +1,6 @@
-# CLAAS VAN BENGALEN
+Claas van Bengalen and Augustus van Malabar[^1] both worked on the same farm and regularly fought each other over the female slave Aurora, to the extent that their owner’s wife, Anna Marais, had been forced out of the house[^2]. In this episode, the rivalry took a ritualised as well as literal form. It was also surrounded with racial and sexual slurs by both Anna Marais and Claas van Bengalen, revealing the complexity of tensions that could arise when slaves (from different regions and of both sexes), a free black and a farmer’s wife lived in close and tense proximity.[^3]
 
-*Claas van Bengalen and Augustus van Malabar[^1] both worked on the same farm and regularly fought each other over the female slave Aurora, to the extent that their owner’s wife, Anna Marais, had been forced out of the house[^2]. In this episode, the rivalry took a ritualised as well as literal form. It was also surrounded with racial and sexual slurs by both Anna Marais and Claas van Bengalen, revealing the complexity of tensions that could arise when slaves (from different regions and of both sexes), a free black and a farmer’s wife lived in close and tense proximity.[^3]*
-
-*It is noteworthy that Claas was punished by the Council of Justice primarily for his threats to his owner’s wife rather than for planning to escape.[^4]*
+It is noteworthy that Claas was punished by the Council of Justice primarily for his threats to his owner’s wife rather than for planning to escape.[^4]
 
 [^1]: Augustus’s toponym is not given in these records, but according to the account of this case by Pretorius (1979), which gives more background on the participants, he was from Malabar.
 

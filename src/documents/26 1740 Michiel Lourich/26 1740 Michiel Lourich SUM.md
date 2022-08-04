@@ -1,10 +1,8 @@
-# MICHIEL DANIEL LOURICH
+Slaves were often caught up in the domestic disputes of their owners. Michiel Lourich[^1] was clearly a violent man who both beat his wife and ordered his slave January to whip his female slave Diana, causing the latter’s death. The reasons for his abuse of Diana are not clear, but they may have been linked to his dispute with his wife, whom he had thrown out of the house[^2]. Fabricius, the Company soldier who was lodging at Lourich’s house,[^3] was clearly shocked by his behaviour, towards both his wife and Diana, and left the household.
 
-*Slaves were often caught up in the domestic disputes of their owners. Michiel Lourich[^1] was clearly a violent man who both beat his wife and ordered his slave January to whip his female slave Diana, causing the latter’s death. The reasons for his abuse of Diana are not clear, but they may have been linked to his dispute with his wife, whom he had thrown out of the house[^2]. Fabricius, the Company soldier who was lodging at Lourich’s house,[^3] was clearly shocked by his behaviour, towards both his wife and Diana, and left the household.*
+The fiscal did not recommend a sentence, but the court decided that Lourich should be banished from the Cape ‘as soon as possible’ and sent back to the Netherlands at his own cost ‘as a useless subject’.[^4]
 
-*The fiscal did not recommend a sentence, but the court decided that Lourich should be banished from the Cape ‘as soon as possible’ and sent back to the Netherlands at his own cost ‘as a useless subject’.[^4]*
-
-*Included here are two testimonies, those of the lodger soldier Jan Fabricius, and that of one of Lourich’s slaves, Januarij, both of whom witnessed the events, as well as a report on the autopsy.[^5]*
+Included here are two testimonies, those of the lodger soldier Jan Fabricius, and that of one of Lourich’s slaves, Januarij, both of whom witnessed the events, as well as a report on the autopsy.[^5]
 
 [^1]: Michiel Daniel Lourich was born in Germany and arrived at the Cape as soldier in 1727, served as loan *knecht* during 1730-31, and became a free burgher in 1734. In 1736 he obtained the *pacht* to sell malt beer for a year (Hoge 1946: 248-49 and Leibbrandt 1906: 670). In this case it appears that by 1740 he was running some sort of public house, with his slave having to wait upon people who were drinking there. The place was also a lodging house, hence Fabricius’s presence. Running lodging houses was one of the main occupations of Cape burghers in the eighteenth century (Worden et al. 1998: 57).
 

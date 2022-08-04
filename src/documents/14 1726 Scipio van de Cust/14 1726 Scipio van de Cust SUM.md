@@ -1,6 +1,4 @@
-# SCIPIO VAN DE CUST
-
-*This testimony by Scipio van de Cust[^1] is part of the voluminous records of the trial of a group of slaves who had escaped from their owners and hid out in the Blaauwberg, Tygerberg and Koeberg areas, from where they raided several farms over a period of six months, and other slaves who had aided them in the process.[^2] It vividly describes their night attack on the widow Ten Damme’s farmhouse and the responses of the slaves and the* knecht *who lived there. Scipio felt no affinity with the slave runaways, whom he describes as ‘bad men’.[^3] The chief target of the slave attackers was the* knecht *Adam van Dijk who, to their frustration, escaped into the night.[^4]*
+This testimony by Scipio van de Cust[^1] is part of the voluminous records of the trial of a group of slaves who had escaped from their owners and hid out in the Blaauwberg, Tygerberg and Koeberg areas, from where they raided several farms over a period of six months, and other slaves who had aided them in the process.[^2] It vividly describes their night attack on the widow Ten Damme’s farmhouse and the responses of the slaves and the* knecht *who lived there. Scipio felt no affinity with the slave runaways, whom he describes as ‘bad men’.[^3] The chief target of the slave attackers was the* knecht *Adam van Dijk who, to their frustration, escaped into the night.[^4]
 
 [^1]: ‘Van de Cust’ referred to the east coast of India, or the Coromandel region (Bradlow & Cairns 1978: 126).
 

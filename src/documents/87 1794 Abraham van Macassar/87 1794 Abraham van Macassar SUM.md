@@ -1,6 +1,4 @@
-# ABRAHAM VAN MACASSAR
-
-*This case of conflict between a slave and his owners, leading to arson, was provoked by the demand that Abraham van Macassar[^1] should acknowledge and greet his owner after returning from a day’s work. Clearly there was more behind Abraham’s discontent and an apparently minor demand such as this may have been the final straw.[^2] Abraham was captured and executed immediately in Stellenbosch.[^3]*
+This case of conflict between a slave and his owners, leading to arson, was provoked by the demand that Abraham van Macassar[^1] should acknowledge and greet his owner after returning from a day’s work. Clearly there was more behind Abraham’s discontent and an apparently minor demand such as this may have been the final straw.[^2] Abraham was captured and executed immediately in Stellenbosch.[^3]
 
 [^1]: Abraham is referred to as ‘van Macassar’ in the report of the Stellenbosch landdrost, CJ 449, f. 395, but as ‘van Madagascar’ in the report of Abraham’s cross-examination and in the *regtstrollen* of the Council of Justice, CJ 449, f. 423 and CJ 76, f. 74. This was doubtless a transcription error, but it does indicate how slave toponyms could be readily confused.
 

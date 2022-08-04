@@ -1,6 +1,4 @@
-# JOB VAN MADAGASCAR ET AL.
-
-*This case provides details of the ways in which a group of runaways hiding out on Table Mountain were able to sustain themselves.[^1] They had links with the runaway community at Hangklip,[^2] as well as with slaves in Cape Town, who provided them with food and a hiding place. They moved between the mountain and the town, raiding houses and farms, and at one stage brought captured cattle to the mountain. That such a network existed in the vicinity of the town as late as the 1780s shows how tentative was the Company’s control over its slave population, even in the heart of the colony.[^3]*
+This case provides details of the ways in which a group of runaways hiding out on Table Mountain were able to sustain themselves.[^1] They had links with the runaway community at Hangklip,[^2] as well as with slaves in Cape Town, who provided them with food and a hiding place. They moved between the mountain and the town, raiding houses and farms, and at one stage brought captured cattle to the mountain. That such a network existed in the vicinity of the town as late as the 1780s shows how tentative was the Company’s control over its slave population, even in the heart of the colony.[^3]
 
 [^1]: On the popularity of Table Mountain as a refuge for slave runaways, see 1735 Company slaves n. 1.
 

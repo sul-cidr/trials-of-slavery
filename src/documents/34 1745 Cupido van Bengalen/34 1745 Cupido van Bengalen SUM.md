@@ -1,8 +1,6 @@
-# CUPIDO VAN BENGALEN
+This episode of burglary and murder of a slave is revealing as much for the incidental details about slave and Khoi life on a settler farm as it is for the main crime. These include the existence of specific slave sleeping and living quarters on a large farm,[^1] the use of Khoi labourers for ploughing alongside slaves, the transfer of slaves between relatives during a peak labour season, and the authority of the* knecht *in the owner’s absence.[^2]
 
-*This episode of burglary and murder of a slave is revealing as much for the incidental details about slave and Khoi life on a settler farm as it is for the main crime. These include the existence of specific slave sleeping and living quarters on a large farm,[^1] the use of Khoi labourers for ploughing alongside slaves, the transfer of slaves between relatives during a peak labour season, and the authority of the* knecht *in the owner’s absence.[^2]*
-
-*It is not clear why Cupido van Bengalen killed the slave Francina, possibly because she was in the way when he burgled the farmhouse.[^3] His subsequent suicide may have been out of remorse, as he claimed before he died, or because he realised that he would be captured. His accomplice, the Khoi Louis, was reported as ‘mad’ and denied responsibility.[^4]*
+It is not clear why Cupido van Bengalen killed the slave Francina, possibly because she was in the way when he burgled the farmhouse.[^3] His subsequent suicide may have been out of remorse, as he claimed before he died, or because he realised that he would be captured. His accomplice, the Khoi Louis, was reported as ‘mad’ and denied responsibility.[^4]
 
 [^1]: This was relatively rare, since most farmers did not possess enough slaves to warrant a special building for them. Slave ‘houses’ are only recorded on the largest farms, Worden 1985: 92-3; Markell 1993:74-6; Shell 1994: 257-58; and Schoeman 2001: 586-88. Note that Francina, the female slave, slept in the main farmhouse, separate from the men.
 

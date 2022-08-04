@@ -1,6 +1,4 @@
-# SPADILJE VAN SIAM
-
-*Spadilje was an unusual slave for two reasons: he came from Thailand,[^1] and he was owned by a free black.[^2] He also was a deserter, and met up with other runaways in the Hangklip area[^3] with whom he carried out a robbery on the Company* slagthuijs *in Simon’s Town. He attracted suspicion of being a runaway when he tried to use some of the stolen money at a nearby tavern.*
+Spadilje was an unusual slave for two reasons: he came from Thailand,[^1] and he was owned by a free black.[^2] He also was a deserter, and met up with other runaways in the Hangklip area[^3] with whom he carried out a robbery on the Company* slagthuijs *in Simon’s Town. He attracted suspicion of being a runaway when he tried to use some of the stolen money at a nearby tavern.
 
 [^1]: Only a very few slaves at the Cape came from Siam (modern Thailand). The VOC had a trading post at Ayutthaya, which flourished in the seventeenth century, was closed down in 1740 but had a brief revival in 1748-65 (Gaastra 2003: 124-25; Raben & Pombejra 1997: 74-5).
 

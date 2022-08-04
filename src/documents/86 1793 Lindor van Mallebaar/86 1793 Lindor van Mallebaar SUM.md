@@ -1,6 +1,4 @@
-# LINDOR VAN MALLEBAAR
-
-*Sexual contacts between slaves and their owners were viewed with disfavour by the authorities, and sometimes, as in this case, by other slaves as well.[^1] The 26-year-old Lindor van Mallebaar was reported to his owner by a fellow slave who saw him with the 22-year-old daughter of his owner in highly compromising circumstances. Although Lindor avoided the death penalty by his claim that it was her incitement that led to the incident, he was sentenced to life on Robben Island for his actions.[^2]*
+Sexual contacts between slaves and their owners were viewed with disfavour by the authorities, and sometimes, as in this case, by other slaves as well.[^1] The 26-year-old Lindor van Mallebaar was reported to his owner by a fellow slave who saw him with the 22-year-old daughter of his owner in highly compromising circumstances. Although Lindor avoided the death penalty by his claim that it was her incitement that led to the incident, he was sentenced to life on Robben Island for his actions.[^2]
 
 [^1]: For a discussion of sexual relations between colonist women and their slaves, see Upham 2001a.
 

@@ -1,8 +1,6 @@
-# JULIJ VAN TIMOR
+Julij van Timor[^1] stole items from his owner’s bedroom at night and then attacked other members of the family, slaves and a* knecht *who tried to apprehend him. He had been recently purchased in order to do blacksmith work on the farm, under the unusual arrangement that he could be returned if he did not prove satisfactory.[^2]
 
-*Julij van Timor[^1] stole items from his owner’s bedroom at night and then attacked other members of the family, slaves and a* knecht *who tried to apprehend him. He had been recently purchased in order to do blacksmith work on the farm, under the unusual arrangement that he could be returned if he did not prove satisfactory.[^2]*
-
-*Julij fled after these events and was only recaptured several days later on the beach in Cape Town.[^3] Although the events took place in April, some of the testimonies were only collected several weeks later and sentence was not passed until August.[^4]*
+Julij fled after these events and was only recaptured several days later on the beach in Cape Town.[^3] Although the events took place in April, some of the testimonies were only collected several weeks later and sentence was not passed until August.[^4]
 
 [^1]: Julij gave his name as Julij van Boegies in his interrogation, CJ 410, f. 305, article 1, and was referred to as such in the *regtsrollen* and the *sententie*, but in all of the documentation in the Stellenbosch landdrost archive he is consistently called Julij van Timor. This is an indication of the inconsistency of slave toponyms.
 
