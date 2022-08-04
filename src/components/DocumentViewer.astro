@@ -1,11 +1,6 @@
 ---
 import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
 
-const summary = await documentMdToHtml(
-  "src/documents/01_Summary.md",
-  "summary",
-);
-
 const dutch = await documentMdToHtml("src/documents/01_Dutch.md", "dutch");
 
 const translation = await documentMdToHtml(
@@ -13,11 +8,6 @@ const translation = await documentMdToHtml(
   "translation",
 );
 ---
-
-<section id="summary" class="md summary">
-  <header>Summary</header>
-  <div set:html={summary}></div>
-</section>
 
 <section id="documents" class="md document">
   <header>
@@ -63,12 +53,6 @@ const translation = await documentMdToHtml(
 </script>
 
 <style>
-  .summary {
-    background-color: var(--palette-0);
-    border-radius: var(--radius-2);
-    padding: var(--size-4) var(--size-5);
-  }
-
   .document {
     background-color: var(--palette-0);
     background-image: url("/paper.png");
@@ -107,74 +91,5 @@ const translation = await documentMdToHtml(
   .document :global(p) {
     font-family: var(--font-serif);
     font-size: var(--font-size-3);
-  }
-
-  .md {
-    :global(p) {
-      line-height: 1.8;
-    }
-
-    :global(p + p) {
-      margin-top: var(--size-3);
-    }
-
-    :global(section.footnotes) {
-      border-top: 1px solid var(--palette-9);
-      padding-top: var(--size-3);
-      margin-top: var(--size-5);
-    }
-
-    :global(section.footnotes p) {
-      font-size: var(--font-size-1);
-    }
-
-    :global(section.footnotes h2) {
-      display: none;
-    }
-
-    :global(li[id]) {
-      scroll-margin-top: var(--size-10);
-      transition: background-color 0.2s ease-in-out;
-
-      &.anchor-hovered,
-      &:target {
-        background-color: var(--palette-1);
-        border-radius: var(--radius-2);
-      }
-    }
-
-    :global(.glossary) {
-      border-bottom: 2px dashed var(--palette-8);
-      cursor: help;
-      display: inline-block;
-    }
-
-    :global(.gloss) {
-      background: var(--surface-1);
-      border: 5px solid var(--palette-3);
-      border-radius: var(--custom-border);
-      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
-      font-family: var(--font-sans);
-      font-size: var(--font-size-2);
-      font-style: normal;
-      max-width: 40%;
-      opacity: 0;
-      padding: var(--size-3) var(--size-4) var(--size-3);
-      pointer-events: none;
-      position: absolute;
-      transition: opacity 300ms ease-in-out;
-
-      :global(.header) {
-        color: var(--palette-8);
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-
-      &.shown {
-        opacity: 1;
-        pointer-events: all;
-      }
-    }
   }
 </style>

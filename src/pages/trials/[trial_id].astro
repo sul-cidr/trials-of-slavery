@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/base.astro";
+import TrialSummary from "../../components/TrialSummary.astro";
 import DocumentViewer from "../../components/DocumentViewer.astro";
 import TrialPlaces from "../../components/TrialPlaces.astro";
 import MetadataPanel from "../../components/MetadataPanel.astro";
@@ -73,6 +74,8 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
 
   <MetadataPanel {record} {tags} />
 
+  <TrialSummary {record} />
+
   <DocumentViewer {record} />
 
   {record["trial_locations"].length ? <TrialPlaces record={record} /> : null}
@@ -137,6 +140,76 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
 
   header {
     margin: var(--size-4) 0;
+  }
+
+  /* Styles for rendered markdown (from <TrialSummary/> and <DocumentViewer />) */
+  :global(.md) {
+    :global(p) {
+      line-height: 1.8;
+    }
+
+    :global(p + p) {
+      margin-top: var(--size-3);
+    }
+
+    :global(section.footnotes) {
+      border-top: 1px solid var(--palette-9);
+      padding-top: var(--size-3);
+      margin-top: var(--size-5);
+    }
+
+    :global(section.footnotes p) {
+      font-size: var(--font-size-1);
+    }
+
+    :global(section.footnotes h2) {
+      display: none;
+    }
+
+    :global(li[id]) {
+      scroll-margin-top: var(--size-10);
+      transition: background-color 0.2s ease-in-out;
+
+      &.anchor-hovered,
+      &:target {
+        background-color: var(--palette-1);
+        border-radius: var(--radius-2);
+      }
+    }
+
+    :global(.glossary) {
+      border-bottom: 2px dashed var(--palette-8);
+      cursor: help;
+      display: inline-block;
+    }
+
+    :global(.gloss) {
+      background: var(--surface-1);
+      border: 5px solid var(--palette-3);
+      border-radius: var(--custom-border);
+      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
+      font-family: var(--font-sans);
+      font-size: var(--font-size-2);
+      font-style: normal;
+      max-width: 40%;
+      opacity: 0;
+      padding: var(--size-3) var(--size-4) var(--size-3);
+      pointer-events: none;
+      position: absolute;
+      transition: opacity 300ms ease-in-out;
+
+      :global(.header) {
+        color: var(--palette-8);
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      &.shown {
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
   }
 
   /* lift the secondary nav up into the header area */
