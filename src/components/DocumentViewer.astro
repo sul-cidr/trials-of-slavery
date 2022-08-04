@@ -1,39 +1,94 @@
 ---
 import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
 
-const dutch = await documentMdToHtml("src/documents/01_Dutch.md", "dutch");
+import Icon from "./Icon.astro";
 
-const translation = await documentMdToHtml(
-  "src/documents/01_Translation.md",
-  "translation",
-);
+const { record } = Astro.props;
 ---
 
-<section id="documents" class="md document">
+<section class="documents">
   <header>
-    <span data-doc="translation" class="active">Translation</span>
-    <span data-doc="dutch">Dutch</span>
+    {Object.entries(record.files.documents).map(async ([citation], idx) => {
+      return (
+        <span data-doc={citation} class={idx === 0 ? "active" : ""}>
+          <Icon name="document" />
+          {citation}
+        </span>
+      )
+    })}
   </header>
-  <div class="translation shown"><div set:html={translation}></div></div>
-  <div class="dutch"><div set:html={dutch}></div></div>
+
+  {Object.entries(record.files.documents).map(
+    async ([citation, { DU, EN }], idx) => {
+      const dutch = await documentMdToHtml(DU, "dutch")
+      const translation = await documentMdToHtml(EN, "translation")
+
+      return (
+        <section
+          data-citation={citation}
+          class={`md document${idx === 0 ? " shown" : ""}`}
+        >
+          <header>
+            <span data-lang="translation" class="active">
+              Translation
+            </span>
+            <span data-lang="dutch">Dutch</span>
+          </header>
+          <div data-doc-lang="translation" class="shown">
+            <div set:html={translation} />
+          </div>
+          <div data-doc-lang="dutch">
+            <div set:html={dutch} />
+          </div>
+        </section>
+      )
+    },
+  )}
 </section>
 
 <script>
-  const panels = document.querySelectorAll(".document > div");
-  const tabs: NodeListOf<HTMLElement> = document.querySelectorAll(
-    ".document header span",
-  );
+  const initDocumentTabs = () => {
+    const panels = document.querySelectorAll(".document");
+    const tabs: NodeListOf<HTMLElement> =
+      document.querySelectorAll("[data-doc]");
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      tabs.forEach((_tab) => _tab.classList.remove("active"));
-      panels.forEach((panel) => panel.classList.remove("shown"));
-      tab.classList.add("active");
-      document
-        .querySelector(".document ." + tab.dataset.doc)
-        .classList.add("shown");
+    tabs.forEach((tab: HTMLElement) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach((_tab) => _tab.classList.remove("active"));
+        panels.forEach((panel) => panel.classList.remove("shown"));
+        tab.classList.add("active");
+        [...panels]
+          .find(
+            (panel: HTMLElement) => panel.dataset.citation === tab.dataset.doc,
+          )
+          .classList.add("shown");
+      });
     });
-  });
+  };
+
+  const initTranslationTabs = () => {
+    document.querySelectorAll("section[data-citation]").forEach((section) => {
+      const tabs = section.querySelectorAll("[data-lang]");
+      const panels = section.querySelectorAll("[data-doc-lang]");
+
+      tabs.forEach((tab: HTMLElement) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((_tab) => _tab.classList.remove("active"));
+          panels.forEach((panel) => panel.classList.remove("shown"));
+          tab.classList.add("active");
+          [...panels]
+            .find(
+              (panel: HTMLElement) =>
+                panel.dataset.docLang === tab.dataset.lang,
+            )
+            .classList.add("shown");
+        });
+      });
+    });
+  };
+
+  initDocumentTabs();
+  initTranslationTabs();
 
   document
     .querySelectorAll("a[data-footnote-ref]")
@@ -53,6 +108,16 @@ const translation = await documentMdToHtml(
 </script>
 
 <style>
+  .documents > header {
+    display: flex;
+    flex-direction: column;
+
+    span:not(.active) {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
   .document {
     background-color: var(--palette-0);
     background-image: url("/paper.png");
@@ -60,6 +125,10 @@ const translation = await documentMdToHtml(
     border: 5px solid var(--palette-3);
     border-radius: var(--custom-border);
     padding: var(--size-5) var(--size-10);
+
+    &:not(.shown) {
+      display: none;
+    }
   }
 
   .document > div:not(.shown) {
