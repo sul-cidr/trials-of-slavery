@@ -1,11 +1,5 @@
 ---
-const {
-  name,
-  width = "1.5rem",
-  height = "1.5rem",
-  customAttribs = {},
-  className,
-} = Astro.props;
+const { name, customAttribs = {}, className } = Astro.props;
 
 const defaultAttribs = {
   viewBox: "0 0 24 24",
@@ -98,6 +92,12 @@ const icons = {
       <line x1="21" y1="6" x2="21" y2="19" />
     `,
   },
+  document: {
+    svg: `
+      <path d="M16 5v4a1 1 0 0 0 1 1h4"></path>
+      <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-7l-5 -5h-11a2 2 0 0 0 -2 2z"></path>
+    `,
+  },
 };
 const { attribs = {}, svg } = icons[name];
 ---
@@ -109,13 +109,13 @@ const { attribs = {}, svg } = icons[name];
   class={className ? className : ""}
   set:html={svg}></svg>
 
-<style define:vars={{ height, width }}>
+<style>
   svg {
     display: inline-block;
     fill: transparent;
-    height: var(--height);
+    height: 1.5rem;
     stroke: currentColor;
     vertical-align: middle;
-    width: var(--width);
+    width: 1.5rem;
   }
 </style>
