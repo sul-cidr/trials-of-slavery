@@ -1,0 +1,20 @@
+---
+import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
+
+const { record } = Astro.props;
+
+const summary = await documentMdToHtml(record.files.summary);
+---
+
+<section id="summary" class="md summary">
+  <header>Summary</header>
+  <div set:html={summary}></div>
+</section>
+
+<style>
+  .summary {
+    background-color: var(--palette-0);
+    border-radius: var(--radius-2);
+    padding: var(--size-4) var(--size-5);
+  }
+</style>

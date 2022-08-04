@@ -1,49 +1,94 @@
 ---
 import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
 
-const summary = await documentMdToHtml(
-  "src/documents/01_Summary.md",
-  "summary",
-);
+import Icon from "./Icon.astro";
 
-const dutch = await documentMdToHtml("src/documents/01_Dutch.md", "dutch");
-
-const translation = await documentMdToHtml(
-  "src/documents/01_Translation.md",
-  "translation",
-);
+const { record } = Astro.props;
 ---
 
-<section id="summary" class="md summary">
-  <header>Summary</header>
-  <div set:html={summary}></div>
-</section>
-
-<section id="documents" class="md document">
+<section class="documents">
   <header>
-    <span data-doc="translation" class="active">Translation</span>
-    <span data-doc="dutch">Dutch</span>
+    {Object.entries(record.files.documents).map(async ([citation], idx) => {
+      return (
+        <span data-doc={citation} class={idx === 0 ? "active" : ""}>
+          <Icon name="document" />
+          {citation}
+        </span>
+      )
+    })}
   </header>
-  <div class="translation shown"><div set:html={translation}></div></div>
-  <div class="dutch"><div set:html={dutch}></div></div>
+
+  {Object.entries(record.files.documents).map(
+    async ([citation, { DU, EN }], idx) => {
+      const dutch = await documentMdToHtml(DU, "dutch")
+      const translation = await documentMdToHtml(EN, "translation")
+
+      return (
+        <section
+          data-citation={citation}
+          class={`md document${idx === 0 ? " shown" : ""}`}
+        >
+          <header>
+            <span data-lang="translation" class="active">
+              Translation
+            </span>
+            <span data-lang="dutch">Dutch</span>
+          </header>
+          <div data-doc-lang="translation" class="shown">
+            <div set:html={translation} />
+          </div>
+          <div data-doc-lang="dutch">
+            <div set:html={dutch} />
+          </div>
+        </section>
+      )
+    },
+  )}
 </section>
 
 <script>
-  const panels = document.querySelectorAll(".document > div");
-  const tabs: NodeListOf<HTMLElement> = document.querySelectorAll(
-    ".document header span",
-  );
+  const initDocumentTabs = () => {
+    const panels = document.querySelectorAll(".document");
+    const tabs: NodeListOf<HTMLElement> =
+      document.querySelectorAll("[data-doc]");
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      tabs.forEach((_tab) => _tab.classList.remove("active"));
-      panels.forEach((panel) => panel.classList.remove("shown"));
-      tab.classList.add("active");
-      document
-        .querySelector(".document ." + tab.dataset.doc)
-        .classList.add("shown");
+    tabs.forEach((tab: HTMLElement) => {
+      tab.addEventListener("click", () => {
+        tabs.forEach((_tab) => _tab.classList.remove("active"));
+        panels.forEach((panel) => panel.classList.remove("shown"));
+        tab.classList.add("active");
+        [...panels]
+          .find(
+            (panel: HTMLElement) => panel.dataset.citation === tab.dataset.doc,
+          )
+          .classList.add("shown");
+      });
     });
-  });
+  };
+
+  const initTranslationTabs = () => {
+    document.querySelectorAll("section[data-citation]").forEach((section) => {
+      const tabs = section.querySelectorAll("[data-lang]");
+      const panels = section.querySelectorAll("[data-doc-lang]");
+
+      tabs.forEach((tab: HTMLElement) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((_tab) => _tab.classList.remove("active"));
+          panels.forEach((panel) => panel.classList.remove("shown"));
+          tab.classList.add("active");
+          [...panels]
+            .find(
+              (panel: HTMLElement) =>
+                panel.dataset.docLang === tab.dataset.lang,
+            )
+            .classList.add("shown");
+        });
+      });
+    });
+  };
+
+  initDocumentTabs();
+  initTranslationTabs();
 
   document
     .querySelectorAll("a[data-footnote-ref]")
@@ -63,10 +108,14 @@ const translation = await documentMdToHtml(
 </script>
 
 <style>
-  .summary {
-    background-color: var(--palette-0);
-    border-radius: var(--radius-2);
-    padding: var(--size-4) var(--size-5);
+  .documents > header {
+    display: flex;
+    flex-direction: column;
+
+    span:not(.active) {
+      opacity: 0.5;
+      cursor: pointer;
+    }
   }
 
   .document {
@@ -76,6 +125,10 @@ const translation = await documentMdToHtml(
     border: 5px solid var(--palette-3);
     border-radius: var(--custom-border);
     padding: var(--size-5) var(--size-10);
+
+    &:not(.shown) {
+      display: none;
+    }
   }
 
   .document > div:not(.shown) {
@@ -107,74 +160,5 @@ const translation = await documentMdToHtml(
   .document :global(p) {
     font-family: var(--font-serif);
     font-size: var(--font-size-3);
-  }
-
-  .md {
-    :global(p) {
-      line-height: 1.8;
-    }
-
-    :global(p + p) {
-      margin-top: var(--size-3);
-    }
-
-    :global(section.footnotes) {
-      border-top: 1px solid var(--palette-9);
-      padding-top: var(--size-3);
-      margin-top: var(--size-5);
-    }
-
-    :global(section.footnotes p) {
-      font-size: var(--font-size-1);
-    }
-
-    :global(section.footnotes h2) {
-      display: none;
-    }
-
-    :global(li[id]) {
-      scroll-margin-top: var(--size-10);
-      transition: background-color 0.2s ease-in-out;
-
-      &.anchor-hovered,
-      &:target {
-        background-color: var(--palette-1);
-        border-radius: var(--radius-2);
-      }
-    }
-
-    :global(.glossary) {
-      border-bottom: 2px dashed var(--palette-8);
-      cursor: help;
-      display: inline-block;
-    }
-
-    :global(.gloss) {
-      background: var(--surface-1);
-      border: 5px solid var(--palette-3);
-      border-radius: var(--custom-border);
-      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.7);
-      font-family: var(--font-sans);
-      font-size: var(--font-size-2);
-      font-style: normal;
-      max-width: 40%;
-      opacity: 0;
-      padding: var(--size-3) var(--size-4) var(--size-3);
-      pointer-events: none;
-      position: absolute;
-      transition: opacity 300ms ease-in-out;
-
-      :global(.header) {
-        color: var(--palette-8);
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-
-      &.shown {
-        opacity: 1;
-        pointer-events: all;
-      }
-    }
   }
 </style>
