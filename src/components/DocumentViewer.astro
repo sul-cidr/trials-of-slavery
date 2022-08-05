@@ -22,8 +22,8 @@ const lastIdx = Object.keys(record.files.documents).length - 1;
 
   {Object.entries(record.files.documents).map(
     async ([citation, { DU, EN }], idx) => {
-      const dutch = await documentMdToHtml(DU, "dutch");
-      const translation = await documentMdToHtml(EN, "translation");
+      const dutch = await documentMdToHtml(DU, `${idx}-dutch`);
+      const translation = await documentMdToHtml(EN, `${idx}-translation`);
       return (
         <section
           data-citation={citation}
