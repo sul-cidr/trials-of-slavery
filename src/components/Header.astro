@@ -1,9 +1,12 @@
 ---
+import config from "../../astro.config.mjs";
 import Nav from "../components/Nav.astro";
+
+const base = config.base || "/";
 ---
 
 <header role="banner">
-  <h1><a href={Astro.site.pathname}>Trials of Slavery</a></h1>
+  <h1><a href={base}>Trials of Slavery</a></h1>
   <Nav />
 </header>
 
