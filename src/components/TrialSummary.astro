@@ -3,7 +3,7 @@ import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
 
 const { record } = Astro.props;
 
-const summary = await documentMdToHtml(record.files.summary);
+const summary = await documentMdToHtml(record.files.summary, "summary");
 ---
 
 <section id="summary" class="md summary">
