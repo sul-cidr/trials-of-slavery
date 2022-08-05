@@ -1,4 +1,5 @@
 ---
+import config from "../../../astro.config.mjs";
 import BaseLayout from "../../layouts/base.astro";
 import TrialSummary from "../../components/TrialSummary.astro";
 import DocumentViewer from "../../components/DocumentViewer.astro";
@@ -30,6 +31,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
+const base = config.base || "/";
 const { record, tags, prev, next } = Astro.props;
 const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
   record["Name on Document"]
@@ -50,7 +52,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
     </div>
     <div>
       {prev ? (
-        <a href={`${Astro.site.pathname}trials/${prev}/`}>
+        <a href={`${base}trials/${prev}/`}>
           <Icon name="caret-left" />
         </a>
       ) : (
@@ -59,7 +61,7 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
         </a>
       )}
       {next ? (
-        <a href={`${Astro.site.pathname}trials/${next}/`}>
+        <a href={`${base}trials/${next}/`}>
           <Icon name="caret-right" />
         </a>
       ) : (
