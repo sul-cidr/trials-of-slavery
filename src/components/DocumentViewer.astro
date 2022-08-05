@@ -4,29 +4,30 @@ import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
 import Icon from "./Icon.astro";
 
 const { record } = Astro.props;
+
+const lastIdx = Object.keys(record.files.documents).length - 1;
 ---
 
-<section class="documents">
+<section id="documents" class="documents">
   <header>
     {Object.entries(record.files.documents).map(async ([citation], idx) => {
       return (
-        <span data-doc={citation} class={idx === 0 ? "active" : ""}>
-          <Icon name="document" />
+        <span data-doc={citation} class={idx === lastIdx ? "active" : ""}>
+          <Icon name="file-text" />
           {citation}
         </span>
-      )
+      );
     })}
   </header>
 
   {Object.entries(record.files.documents).map(
     async ([citation, { DU, EN }], idx) => {
-      const dutch = await documentMdToHtml(DU, "dutch")
-      const translation = await documentMdToHtml(EN, "translation")
-
+      const dutch = await documentMdToHtml(DU, "dutch");
+      const translation = await documentMdToHtml(EN, "translation");
       return (
         <section
           data-citation={citation}
-          class={`md document${idx === 0 ? " shown" : ""}`}
+          class={`md document${idx === lastIdx ? " shown" : ""}`}
         >
           <header>
             <span data-lang="translation" class="active">
@@ -41,7 +42,7 @@ const { record } = Astro.props;
             <div set:html={dutch} />
           </div>
         </section>
-      )
+      );
     },
   )}
 </section>
@@ -54,9 +55,38 @@ const { record } = Astro.props;
 
     tabs.forEach((tab: HTMLElement) => {
       tab.addEventListener("click", () => {
-        tabs.forEach((_tab) => _tab.classList.remove("active"));
+        // record tab starting positions
+        const tabsBeforeRects = [...tabs].map((_tab) =>
+          _tab.getBoundingClientRect(),
+        );
+
+        // perform DOM mutation
+        tab.parentElement.appendChild(tab);
+
+        requestAnimationFrame(() => {
+          // get end positions and use css (no transition) to move tabs
+          //  back to their original positions
+          tabs.forEach((_tab, idx) => {
+            const beforeRect = tabsBeforeRects[idx];
+            const afterRect = _tab.getBoundingClientRect();
+            const deltaX = beforeRect.left - afterRect.left;
+            const deltaY = beforeRect.top - afterRect.top;
+            _tab.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
+            _tab.style.transition = "";
+          });
+
+          requestAnimationFrame(() => {
+            // now remove transform and apply transition
+            tabs.forEach((_tab) => _tab.classList.remove("active"));
+            tab.classList.add("active");
+            tabs.forEach((_tab) => {
+              _tab.style.transform = "";
+              _tab.style.transition = "all 500ms ease";
+            });
+          });
+        });
+
         panels.forEach((panel) => panel.classList.remove("shown"));
-        tab.classList.add("active");
         [...panels]
           .find(
             (panel: HTMLElement) => panel.dataset.citation === tab.dataset.doc,
@@ -112,9 +142,30 @@ const { record } = Astro.props;
     display: flex;
     flex-direction: column;
 
-    span:not(.active) {
-      opacity: 0.5;
-      cursor: pointer;
+    span {
+      line-height: 2.5em;
+      margin-left: 0;
+
+      :global(svg) {
+        height: 3rem;
+        width: 3rem;
+      }
+
+      &.active {
+        margin-left: 1em;
+        pointer-events: none;
+      }
+
+      &:not(.active) {
+        cursor: pointer;
+        font-size: 0.8em;
+        opacity: 0.5;
+
+        &:hover {
+          color: var(--alt);
+          opacity: 1;
+        }
+      }
     }
   }
 
@@ -154,6 +205,7 @@ const { record } = Astro.props;
       border-bottom: 2px solid var(--palette-8);
       cursor: default;
       opacity: 1;
+      pointer-events: none;
     }
   }
 
