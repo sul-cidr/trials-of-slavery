@@ -1,49 +1,37 @@
 ---
+import config from "../../astro.config.mjs";
 import Icon from "./Icon.astro";
+
+const pathname = Astro.url.pathname;
+const base = config.base || "/";
 ---
 
 <nav>
   <a
-    class={Astro.canonicalURL.pathname === Astro.site.pathname
-      ? "active"
-      : null}
-    href={Astro.canonicalURL.pathname === Astro.site.pathname
-      ? null
-      : Astro.site.pathname}><Icon name="home" className="home-icon" />Home</a
-  >
+    class={pathname === base ? "active" : null}
+    href={pathname === base ? null : base}
+    ><Icon name="home" className="home-icon" />Home
+  </a>
   <a
-    class={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
-      ? "active"
-      : null}
-    href={Astro.canonicalURL.pathname === Astro.site.pathname + "trials/"
-      ? null
-      : Astro.site.pathname + "trials/"}><Icon name="scales" />Trials</a
-  >
+    class={pathname === base + "trials/" ? "active" : null}
+    href={pathname === base + "trials/" ? null : base + "trials/"}
+    ><Icon name="scales" />Trials
+  </a>
   <a
-    class={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
-      ? "active"
-      : null}
-    href={Astro.canonicalURL.pathname === Astro.site.pathname + "map/"
-      ? null
-      : Astro.site.pathname + "map/"}><Icon name="map" />Map</a
-  >
+    class={pathname === base + "map/" ? "active" : null}
+    href={pathname === base + "map/" ? null : base + "map/"}
+    ><Icon name="map" />Map
+  </a>
   <a
-    class={Astro.canonicalURL.pathname === Astro.site.pathname + "glossary/"
-      ? "active"
-      : null}
-    href={Astro.canonicalURL.pathname === Astro.site.pathname + "glossary/"
-      ? null
-      : Astro.site.pathname + "glossary/"}><Icon name="book" />Glossary</a
-  >
+    class={pathname === base + "glossary/" ? "active" : null}
+    href={pathname === base + "glossary/" ? null : base + "glossary/"}
+    ><Icon name="book" />Glossary
+  </a>
   <a
-    class={Astro.canonicalURL.pathname === Astro.site.pathname + "bibliography/"
-      ? "active"
-      : null}
-    href={Astro.canonicalURL.pathname === Astro.site.pathname + "bibliography/"
-      ? null
-      : Astro.site.pathname + "bibliography/"}
-    ><Icon name="books" />Bibliography</a
-  >
+    class={pathname === base + "bibliography/" ? "active" : null}
+    href={pathname === base + "bibliography/" ? null : base + "bibliography/"}
+    ><Icon name="books" />Bibliography
+  </a>
 </nav>
 
 <style>
