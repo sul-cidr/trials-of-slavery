@@ -8,41 +8,45 @@ const { record } = Astro.props;
 
 <section class="documents">
   <header>
-    {Object.entries(record.files.documents).map(async ([citation], idx) => {
-      return (
-        <span data-doc={citation} class={idx === 0 ? "active" : ""}>
-          <Icon name="file-horizontal" />
-          {citation}
-        </span>
-      );
-    })}
+    {
+      Object.entries(record.files.documents).map(async ([citation], idx) => {
+        return (
+          <span data-doc={citation} class={idx === 0 ? "active" : ""}>
+            <Icon name="file-horizontal" />
+            {citation}
+          </span>
+        );
+      })
+    }
   </header>
 
-  {Object.entries(record.files.documents).map(
-    async ([citation, { DU, EN }], idx) => {
-      const dutch = await documentMdToHtml(DU, "dutch");
-      const translation = await documentMdToHtml(EN, "translation");
-      return (
-        <section
-          data-citation={citation}
-          class={`md document${idx === 0 ? " shown" : ""}`}
-        >
-          <header>
-            <span data-lang="translation" class="active">
-              Translation
-            </span>
-            <span data-lang="dutch">Dutch</span>
-          </header>
-          <div data-doc-lang="translation" class="shown">
-            <div set:html={translation} />
-          </div>
-          <div data-doc-lang="dutch">
-            <div set:html={dutch} />
-          </div>
-        </section>
-      );
-    },
-  )}
+  {
+    Object.entries(record.files.documents).map(
+      async ([citation, { DU, EN }], idx) => {
+        const dutch = await documentMdToHtml(DU, `${idx}-dutch`);
+        const translation = await documentMdToHtml(EN, `${idx}-translation`);
+        return (
+          <section
+            data-citation={citation}
+            class={`md document${idx === 0 ? " shown" : ""}`}
+          >
+            <header>
+              <span data-lang="translation" class="active">
+                Translation
+              </span>
+              <span data-lang="dutch">Dutch</span>
+            </header>
+            <div data-doc-lang="translation" class="shown">
+              <div set:html={translation} />
+            </div>
+            <div data-doc-lang="dutch">
+              <div set:html={dutch} />
+            </div>
+          </section>
+        );
+      },
+    )
+  }
 </section>
 
 <script>
