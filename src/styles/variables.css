@@ -43,6 +43,12 @@ html {
 
 @media (--lg-n-above) {
   html {
+    --wrap: 80vw;
+  }
+}
+
+@media (--xl-n-above) {
+  html {
     --wrap: 70vw;
   }
 }
