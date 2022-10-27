@@ -10,21 +10,21 @@
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
-    "astro": "1.0.0-rc.6",
-    "autoprefixer": "^10.4.8",
+    "astro": "1.6.0",
+    "autoprefixer": "^10.4.13",
     "postcss-custom-media": "^8.0.2",
-    "postcss-nested": "^5.0.6",
-    "prettier-plugin-astro": "^0.3.0",
+    "postcss-nested": "^6.0.0",
+    "prettier-plugin-astro": "^0.6.0",
     "remark-extract-frontmatter": "^3.2.0",
     "remark-frontmatter": "^4.0.1",
     "remark-stringify": "^10.0.2",
     "remark-supersub": "^1.0.0"
   },
   "dependencies": {
-    "@floating-ui/dom": "^1.0.0",
-    "leaflet": "^1.8.0",
+    "@floating-ui/dom": "^1.0.3",
+    "leaflet": "^1.9.2",
     "neat-csv": "^7.0.0",
-    "open-props": "^1.4.5",
+    "open-props": "^1.4.16",
     "simple-datatables": "^3.2.2"
   }
 }
