@@ -1,4 +1,4 @@
-import { records } from "../dataset.mjs";
+import { records } from "@dataset";
 
 const locations = records.map((record) => record["trial_locations"]).flat();
 

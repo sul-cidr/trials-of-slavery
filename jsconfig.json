@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["src/styles/*"],
+      "@local/*": ["src/local/*"],
+      "@lib/*": ["lib/*"],
+      "@dataset": ["src/dataset.mjs"]
+    }
+  }
+}

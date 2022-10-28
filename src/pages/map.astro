@@ -1,6 +1,8 @@
 ---
-import BaseLayout from "../layouts/base.astro";
-import Icon from "../components/Icon.astro";
+import BaseLayout from "@layouts/base.astro";
+import Icon from "@components/Icon.astro";
+import "leaflet/dist/leaflet.css";
+import "@styles/leaflet-overrides.css";
 ---
 
 <BaseLayout bodyClass="map">
@@ -10,7 +12,9 @@ import Icon from "../components/Icon.astro";
   <section id="map">
     <Icon name="marker" className="marker" />
   </section>
-  <script type="module" hoist>await import("./main-map.mjs");</script>
+  <script type="module" hoist>
+    await import("@local/main-map.mjs");
+  </script>
 </BaseLayout>
 
 <style>
@@ -40,7 +44,4 @@ import Icon from "../components/Icon.astro";
       }
     }
   }
-</style><style is:global>
-  @import "leaflet/dist/leaflet.css";
-  @import "../styles/leaflet-overrides.css";
 </style>

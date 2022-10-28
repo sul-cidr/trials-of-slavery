@@ -1,7 +1,7 @@
 ---
-import { documentMdToHtml } from "../../lib/markdown-parsing.mjs";
+import { documentMdToHtml } from "@lib/markdown-parsing.mjs";
 
-import Icon from "./Icon.astro";
+import Icon from "@components/Icon.astro";
 
 const { record } = Astro.props;
 ---
@@ -14,15 +14,14 @@ const { record } = Astro.props;
           <Icon name="document" />
           {citation}
         </span>
-      )
+      );
     })}
   </header>
 
   {Object.entries(record.files.documents).map(
     async ([citation, { DU, EN }], idx) => {
-      const dutch = await documentMdToHtml(DU, "dutch")
-      const translation = await documentMdToHtml(EN, "translation")
-
+      const dutch = await documentMdToHtml(DU, "dutch");
+      const translation = await documentMdToHtml(EN, "translation");
       return (
         <section
           data-citation={citation}
@@ -41,7 +40,7 @@ const { record } = Astro.props;
             <div set:html={dutch} />
           </div>
         </section>
-      )
+      );
     },
   )}
 </section>

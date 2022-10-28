@@ -1,5 +1,5 @@
 ---
-import Icon from "../components/Icon.astro";
+import Icon from "@components/Icon.astro";
 
 const { record, sectionId = "places", title = "Places" } = Astro.props;
 const locations = record["trial_locations"].map((location) => ({
@@ -26,7 +26,7 @@ const locations = record["trial_locations"].map((location) => ({
 
 <script>
   import * as L from "leaflet/dist/leaflet-src.esm.js";
-  import { initMap, icon } from "../lib/leaflet-shared.js";
+  import { initMap, icon } from "@local/leaflet-shared.js";
 
   const locations = document.querySelectorAll("[data-location]");
   const locationData = [...locations].map((location) =>

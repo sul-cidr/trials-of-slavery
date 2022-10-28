@@ -1,4 +1,4 @@
-import { FilteringDataTable } from "../lib/filterable-datatable.js";
+import { FilteringDataTable } from "@local/filterable-datatable.js";
 
 const trialsTable = document.getElementById("trials");
 trialsTable.style.opacity = "0";

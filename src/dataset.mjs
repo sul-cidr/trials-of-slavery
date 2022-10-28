@@ -3,7 +3,7 @@ import path from "path";
 
 import neatCsv from "neat-csv";
 
-import { getFrontmatter } from "../lib/markdown-parsing.mjs";
+import { getFrontmatter } from "@lib/markdown-parsing.mjs";
 
 const sheetIds = {
   trials: "998295052",

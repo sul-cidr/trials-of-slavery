@@ -1,9 +1,9 @@
 ---
 import { execSync } from "node:child_process";
 
-import siteConfig from "../../site-config.json";
+import siteConfig from "@/site-config.json";
 
-import "../styles/styles.css";
+import "@styles/styles.css";
 
 const commit = execSync("git rev-parse --short HEAD").toString().trim();
 const datetime = new Date().toISOString();
@@ -36,5 +36,7 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
     rel="stylesheet"
   />
 
-  <script>document.documentElement.className = "js";</script>
+  <script>
+    document.documentElement.className = "js";
+  </script>
 </head>

@@ -1,10 +1,10 @@
 ---
-import BaseLayout from "../layouts/base.astro";
-import Icon from "../components/Icon.astro";
-import "../../node_modules/simple-datatables/dist/style.css";
-import "./trials-datatable.css"; // overrides for simple-datatables styles
+import BaseLayout from "@layouts/base.astro";
+import Icon from "@components/Icon.astro";
+import "simple-datatables/dist/style.css";
+import "@styles/trials-datatable.css"; // overrides for simple-datatables styles
 
-import { records } from "../dataset.mjs";
+import { records } from "@dataset";
 
 const tags = {};
 records.forEach((record) =>
@@ -42,9 +42,9 @@ records.forEach((record) =>
     </div>
   </section>
 
-  <table id="trials" style="display:none;">
-    <span id="prev"><Icon name="caret-left" /></span>
-    <span id="next"><Icon name="caret-right" /></span>
+  <span id="prev"><Icon name="caret-left" /></span><span id="next"
+    ><Icon name="caret-right" />
+  </span><table id="trials" style="display:none;">
     <thead>
       <tr>
         <th>ID</th>
@@ -83,7 +83,9 @@ records.forEach((record) =>
     }
   }}
 
-  <script type="module" hoist>await import("./trials.mjs");</script>
+  <script type="module" hoist>
+    await import("@local/trials.mjs");
+  </script>
 </BaseLayout>
 
 <style>
