@@ -1,5 +1,4 @@
 ---
-import config from "@/astro.config.mjs";
 import BaseLayout from "@layouts/base.astro";
 import TrialSummary from "@components/TrialSummary.astro";
 import DocumentViewer from "@components/DocumentViewer.astro";
@@ -31,7 +30,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const base = config.base || "/";
+const base = import.meta.env.BASE_URL;
 const { record, tags, prev, next } = Astro.props;
 const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
   record["Name on Document"]

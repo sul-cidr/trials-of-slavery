@@ -1,8 +1,7 @@
 ---
-import config from "@/astro.config.mjs";
 import Nav from "@components/Nav.astro";
 
-const base = config.base || "/";
+const base = import.meta.env.BASE_URL;
 ---
 
 <header role="banner">
