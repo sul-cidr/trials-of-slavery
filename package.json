@@ -12,6 +12,7 @@
   "devDependencies": {
     "astro": "1.6.0",
     "autoprefixer": "^10.4.13",
+    "glob": "^8.0.3",
     "postcss-custom-media": "^8.0.2",
     "postcss-nested": "^6.0.0",
     "prettier-plugin-astro": "^0.6.0",
