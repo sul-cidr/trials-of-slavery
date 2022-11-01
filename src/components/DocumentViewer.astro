@@ -6,7 +6,7 @@ import Icon from "@components/Icon.astro";
 const { record } = Astro.props;
 ---
 
-<section class="documents">
+<section class="documents" id="documents">
   {
     Object.entries(record.files.documents).map(
       async ([citation, { DU, EN }], idx) => {
