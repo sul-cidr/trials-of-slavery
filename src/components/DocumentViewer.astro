@@ -63,7 +63,6 @@ const { record } = Astro.props;
       });
     });
   };
-
   initTranslationTabs();
 
   document
@@ -77,6 +76,11 @@ const { record } = Astro.props;
         document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
       });
     });
+
+  import { AnimatedDetails } from "../local/animated-details.js";
+  document.querySelectorAll(".documents details").forEach((el) => {
+    new AnimatedDetails(el, { contentSelector: ".document" });
+  });
 </script>
 
 <script type="module" hoist>
