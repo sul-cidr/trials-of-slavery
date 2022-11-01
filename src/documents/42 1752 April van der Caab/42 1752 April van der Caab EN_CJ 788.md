@@ -1,6 +1,6 @@
 ---
 title: APRIL VAN DE CAAB
-citation: CJ 788 Sententiën, 1750-1755, ff. 103-8
+citation: CJ 788 Sententiën, 1750-1755, ff. 103-8.
 ---
 
 Since April van de Caab, bondsman of the farmer Pieter Therron \[*sic*\], 20 years old at a guess, currently their honours’ prisoner, has voluntarily confessed, without any torture or coercion of bonds, of irons, or even the least threat of suchlike, and since it has also come to appear evident to the honourable Council of Justice of this government:
