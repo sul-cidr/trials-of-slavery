@@ -65,18 +65,6 @@ const { record } = Astro.props;
   };
   initTranslationTabs();
 
-  document
-    .querySelectorAll("a[data-footnote-ref]")
-    .forEach((anchor: HTMLAnchorElement) => {
-      const id = anchor.href.split("#")[1];
-      anchor.addEventListener("mouseover", () => {
-        document.querySelector(`li#${id}`).classList.add("anchor-hovered");
-      });
-      anchor.addEventListener("mouseout", () => {
-        document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
-      });
-    });
-
   import { AnimatedDetails } from "../local/animated-details.js";
   document.querySelectorAll(".documents details").forEach((el) => {
     new AnimatedDetails(el, { contentSelector: ".document" });

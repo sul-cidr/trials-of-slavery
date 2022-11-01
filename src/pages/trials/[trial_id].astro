@@ -102,6 +102,31 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
   }
 </BaseLayout>
 
+<script>
+  document
+    .querySelectorAll("a[data-footnote-ref]")
+    .forEach((anchor: HTMLAnchorElement) => {
+      const id = anchor.href.split("#")[1];
+      anchor.addEventListener("mouseover", () => {
+        document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+      });
+      anchor.addEventListener("mouseout", () => {
+        document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
+      });
+    });
+
+  document.querySelectorAll("li[id*='-fn-']").forEach((fn) => {
+    fn.addEventListener("mouseover", () => {
+      document.querySelector(`a[href='#${fn.id}']`).classList.add("fn-hovered");
+    });
+    fn.addEventListener("mouseout", () => {
+      document
+        .querySelector(`a[href='#${fn.id}']`)
+        .classList.remove("fn-hovered");
+    });
+  });
+</script>
+
 <style>
   nav {
     align-self: center;
@@ -189,6 +214,18 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
       border-bottom: 2px dashed var(--palette-8);
       cursor: help;
       display: inline-block;
+    }
+
+    :global(a[data-footnote-ref]) {
+      transition: background-color 0.2s ease-in-out;
+
+      &.fn-hovered,
+      &:target {
+        background-color: var(--palette-1);
+        border-radius: var(--radius-2);
+        outline: 2px solid var(--palette-4);
+        outline-offset: 4px;
+      }
     }
 
     :global(.gloss) {
