@@ -7,6 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
+    "build-index": "node bin/build-index.mjs",
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {

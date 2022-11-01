@@ -1,5 +1,6 @@
 {
   "baseTitle": "Trials of Slavery",
   "defaultDescription": "Trials of Slavery",
-  "documentsBasePath": "src/documents/"
+  "documentsBasePath": "src/documents/",
+  "idxDir": "_idx"
 }
