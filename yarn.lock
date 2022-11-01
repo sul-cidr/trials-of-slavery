@@ -372,6 +372,16 @@
   dependencies:
     "@floating-ui/core" "^1.0.1"
 
+"@fontsource/martel-sans@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/martel-sans/-/martel-sans-4.5.10.tgz#7b34187d1e16115de4183ce72d9a1e58e90521ef"
+  integrity sha512-DDdxuRxDNJwcfPV7xXNcd5rPaBEHt4FUf2lGwS4YzbNUdQaDtPpNCnMNVTKtwzbIJaC756r1T3e4OsIHXNK2SQ==
+
+"@fontsource/martel@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/martel/-/martel-4.5.10.tgz#c723d2fe9cc0736117d19e3fa8db3efe1cc051d4"
+  integrity sha512-Iounh6JREC0gUisxvmgAgDG+Z6BiJSb5aJRQzolmwEFKDE28ABeDUqb10YLlDH4kpwgA0s222xw+PyhbbdhNLg==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
