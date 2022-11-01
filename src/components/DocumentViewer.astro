@@ -10,8 +10,8 @@ const { record } = Astro.props;
   {
     Object.entries(record.files.documents).map(
       async ([citation, { DU, EN }], idx) => {
-        const dutch = await documentMdToHtml(DU, `${idx}-dutch`);
-        const translation = await documentMdToHtml(EN, `${idx}-translation`);
+        const dutch = await documentMdToHtml(DU, `d${idx}-dutch`);
+        const translation = await documentMdToHtml(EN, `d${idx}-translation`);
         return (
           <details>
             <summary data-doc={citation} class={idx === 0 ? "active" : ""}>
