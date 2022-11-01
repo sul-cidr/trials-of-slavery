@@ -43,31 +43,37 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
       <a href="#details">Details</a>
       <a href="#summary">Summary</a>
       <a href="#documents">Documents</a>
-      {() => {
-        if (record["trial_locations"].length) {
-          return <a href="#places">Places</a>;
+      {
+        () => {
+          if (record["trial_locations"].length) {
+            return <a href="#places">Places</a>;
+          }
         }
-      }}
+      }
     </div>
     <div>
-      {prev ? (
-        <a href={`${base}trials/${prev}/`}>
-          <Icon name="caret-left" />
-        </a>
-      ) : (
-        <a>
-          <Icon name="caret-left" />
-        </a>
-      )}
-      {next ? (
-        <a href={`${base}trials/${next}/`}>
-          <Icon name="caret-right" />
-        </a>
-      ) : (
-        <a>
-          <Icon name="caret-right" />
-        </a>
-      )}
+      {
+        prev ? (
+          <a href={`${base}trials/${prev}/`}>
+            <Icon name="caret-left" />
+          </a>
+        ) : (
+          <a>
+            <Icon name="caret-left" />
+          </a>
+        )
+      }
+      {
+        next ? (
+          <a href={`${base}trials/${next}/`}>
+            <Icon name="caret-right" />
+          </a>
+        ) : (
+          <a>
+            <Icon name="caret-right" />
+          </a>
+        )
+      }
     </div>
   </nav>
 
@@ -81,18 +87,45 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
 
   {record["trial_locations"].length ? <TrialPlaces record={record} /> : null}
 
-  {() => {
-    if (import.meta.env.DEV) {
-      return (
-        <details>
-          <summary style="box-sizing: content-box;">debug</summary>
-          <pre>{JSON.stringify(record, null, 2)}</pre>
-          <pre>{JSON.stringify(tags, null, 2)}</pre>
-        </details>
-      );
+  {
+    () => {
+      if (import.meta.env.DEV) {
+        return (
+          <details>
+            <summary style="box-sizing: content-box;">debug</summary>
+            <pre>{JSON.stringify(record, null, 2)}</pre>
+            <pre>{JSON.stringify(tags, null, 2)}</pre>
+          </details>
+        );
+      }
     }
-  }}
+  }
 </BaseLayout>
+
+<script>
+  document
+    .querySelectorAll("a[data-footnote-ref]")
+    .forEach((anchor: HTMLAnchorElement) => {
+      const id = anchor.href.split("#")[1];
+      anchor.addEventListener("mouseover", () => {
+        document.querySelector(`li#${id}`).classList.add("anchor-hovered");
+      });
+      anchor.addEventListener("mouseout", () => {
+        document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
+      });
+    });
+
+  document.querySelectorAll("li[id*='-fn-']").forEach((fn) => {
+    fn.addEventListener("mouseover", () => {
+      document.querySelector(`a[href='#${fn.id}']`).classList.add("fn-hovered");
+    });
+    fn.addEventListener("mouseout", () => {
+      document
+        .querySelector(`a[href='#${fn.id}']`)
+        .classList.remove("fn-hovered");
+    });
+  });
+</script>
 
 <style>
   nav {
@@ -168,7 +201,6 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
     }
 
     :global(li[id]) {
-      scroll-margin-top: var(--size-10);
       transition: background-color 0.2s ease-in-out;
 
       &.anchor-hovered,
@@ -182,6 +214,18 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
       border-bottom: 2px dashed var(--palette-8);
       cursor: help;
       display: inline-block;
+    }
+
+    :global(a[data-footnote-ref]) {
+      transition: background-color 0.2s ease-in-out;
+
+      &.fn-hovered,
+      &:target {
+        background-color: var(--palette-1);
+        border-radius: var(--radius-2);
+        outline: 2px solid var(--palette-4);
+        outline-offset: 4px;
+      }
     }
 
     :global(.gloss) {

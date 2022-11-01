@@ -18,6 +18,10 @@ a[href]:hover {
   color: var(--text-1);
 }
 
+:target {
+  scroll-margin-top: var(--size-10);
+}
+
 h1,
 h2,
 h3,
@@ -28,10 +32,6 @@ h4 {
 
 main > header {
   margin-bottom: var(--size-fluid-2);
-}
-
-main > section {
-  scroll-margin-top: var(--size-6);
 }
 
 section > header {
