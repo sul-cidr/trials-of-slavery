@@ -126,6 +126,10 @@ const { record } = Astro.props;
 
   .document {
     margin-top: var(--size-8);
+
+    & > div:not(.shown) {
+      display: none;
+    }
   }
 
   .document header {
