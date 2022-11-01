@@ -15,5 +15,8 @@
     "frontmatters",
     "latlong",
     "pagefind"
-  ]
+  ],
+  "markdownlint.config": {
+    "first-line-heading": false
+  }
 }
