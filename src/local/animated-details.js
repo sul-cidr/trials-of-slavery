@@ -1,5 +1,8 @@
 export class AnimatedDetails {
   constructor(el, options = {}) {
+    if (window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true)
+      return;
+
     const defaultOptions = {
       contentSelector: ".content",
       duration: 400,
