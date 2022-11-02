@@ -1,13 +1,10 @@
-// Full Astro Configuration API Documentation:
-// https://docs.astro.build/reference/configuration-reference
+import svelte from "@astrojs/svelte";
 
-// @ts-check
-export default /** @type {import('astro').AstroUserConfig} */ ({
-  // Comment out "renderers: []" to enable Astro's default component support.
+export default {
   site: "https://sul-cidr.github.io/",
   base: "/trials-of-slavery/",
   trailingSlash: "always",
-  integrations: [],
+  integrations: [svelte()],
   vite: {
     ssr: {
       external: [
@@ -23,4 +20,4 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
     },
     optimizeDeps: { exclude: ["neat-csv"] },
   },
-});
+};
