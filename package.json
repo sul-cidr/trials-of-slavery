@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
-    "build-index": "node bin/build-index.mjs",
+    "build-index": "node bin/build-index.mjs && npx -y pagefind --source _idx",
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
