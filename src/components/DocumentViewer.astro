@@ -13,12 +13,15 @@ const { record } = Astro.props;
         const dutch = await documentMdToHtml(DU, `d${idx}-dutch`);
         const translation = await documentMdToHtml(EN, `d${idx}-translation`);
         return (
-          <details id={citation}>
+          <details>
             <summary>
               <Icon name="file-horizontal" />
               {citation}
             </summary>
-            <section class={`md document${idx === 0 ? " shown" : ""}`}>
+            <section
+              id={citation}
+              class={`md document${idx === 0 ? " shown" : ""}`}
+            >
               <header>
                 <span data-lang="translation" class="active">
                   Translation
@@ -115,6 +118,7 @@ const { record } = Astro.props;
 
   .document {
     margin-top: var(--size-8);
+    scroll-margin-top: calc(var(--size-10) * 3);
 
     & > div:not(.shown) {
       display: none;
