@@ -12,19 +12,27 @@ const filePaths = glob.sync(`${documentsBasePath}/**/*.md`);
 fs.mkdirSync(idxDir, { recursive: true });
 
 for (let filePath of filePaths) {
-  const filename = path.parse(filePath).name;
-  const frontmatter = getFrontmatter(filePath);
-  const title = /^\d+\s/.test(filename)
-    ? path.basename(path.dirname(filePath)).slice(3)
-    : filename;
-  const html = await documentMdToHtml(filePath);
+  let title;
+  let citation;
 
-  fs.writeFileSync(
-    `${idxDir}/${filename}.html`,
-    `<html lang="en">
-      <h1>${title}</h1>
-      <span data-pagefind-meta="citation:${frontmatter.citation}"></span>
-      ${html}
-    </html>`,
-  );
+  const filename = path.parse(filePath).name;
+  if (/^\d+\s/.test(filename)) {
+    // trials files
+    title = path.basename(path.dirname(filePath)).slice(3);
+    const frontmatter = getFrontmatter(filePath);
+    citation = frontmatter.citation || "summary";
+  } else {
+    // apparatus (glossary, bibliography...)
+    title = filename;
+  }
+
+  const htmlContent = await documentMdToHtml(filePath);
+
+  let html = `<html lang="en"><h1>${title}</h1>`;
+  if (citation) {
+    html += `<span data-pagefind-meta="citation:${citation}"></span>`;
+  }
+  html += `${htmlContent}</html>`;
+
+  fs.writeFileSync(`${idxDir}/${filename}.html`, html);
 }
