@@ -13,15 +13,12 @@ const { record } = Astro.props;
         const dutch = await documentMdToHtml(DU, `d${idx}-dutch`);
         const translation = await documentMdToHtml(EN, `d${idx}-translation`);
         return (
-          <details>
-            <summary data-doc={citation} class={idx === 0 ? "active" : ""}>
+          <details id={citation}>
+            <summary>
               <Icon name="file-horizontal" />
               {citation}
             </summary>
-            <section
-              data-citation={citation}
-              class={`md document${idx === 0 ? " shown" : ""}`}
-            >
+            <section class={`md document${idx === 0 ? " shown" : ""}`}>
               <header>
                 <span data-lang="translation" class="active">
                   Translation
@@ -44,7 +41,7 @@ const { record } = Astro.props;
 
 <script>
   const initTranslationTabs = () => {
-    document.querySelectorAll("section[data-citation]").forEach((section) => {
+    document.querySelectorAll(".document").forEach((section) => {
       const tabs = section.querySelectorAll("[data-lang]");
       const panels = section.querySelectorAll("[data-doc-lang]");
 
