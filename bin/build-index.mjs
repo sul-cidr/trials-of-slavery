@@ -13,6 +13,12 @@ fs.mkdirSync(idxDir, { recursive: true });
 
 for (let filePath of filePaths) {
   const filename = path.parse(filePath).name;
+  const title = /^\d+\s/.test(filename)
+    ? path.basename(path.dirname(filePath)).slice(3)
+    : filename;
   const html = await documentMdToHtml(filePath);
-  fs.writeFileSync(`${idxDir}/${filename}.html`, `<html>${html}</html`);
+  fs.writeFileSync(
+    `${idxDir}/${filename}.html`,
+    `<html><h1>${title}</h1>${html}</html`,
+  );
 }
