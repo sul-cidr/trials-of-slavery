@@ -27,7 +27,7 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
     href={`${Astro.site.pathname}favicon.ico`}
   />
 
-  <script>
+  <script is:inline>
     document.documentElement.className = "js";
   </script>
 </head>
