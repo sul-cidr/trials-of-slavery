@@ -3,8 +3,6 @@ import { execSync } from "node:child_process";
 
 import siteConfig from "@/site-config.json";
 
-import "@styles/styles.css";
-
 const commit = execSync("git rev-parse --short HEAD").toString().trim();
 const datetime = new Date().toISOString();
 
