@@ -1,6 +1,10 @@
 <script>
   import SearchResult from "@components/SearchResult.svelte";
 
+  import { idxDir } from "@/site-config.json";
+
+  const baseUrl = import.meta.env.BASE_URL;
+
   let initializing = false;
   let pagefind;
 
@@ -15,8 +19,10 @@
     if (initializing) return;
     initializing = true;
     if (!pagefind) {
-      pagefind = await import("_idx/_pagefind/pagefind.js");
-      await pagefind.options({ baseUrl: "/" });
+      const { Pagefind } = await import("@local/pagefind/pagefind.js");
+      pagefind = new Pagefind({
+        basePath: `${baseUrl}${idxDir}/_pagefind/`,
+      });
     }
   };
 

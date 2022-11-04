@@ -1,7 +1,7 @@
 <script>
   export let result;
-  const base = import.meta.env.BASE_URL;
-  let url = `${base}trials${result.url.slice(0, 3)}/`;
+  const baseUrl = import.meta.env.BASE_URL;
+  let url = `${baseUrl}trials${result.url.slice(0, 3)}/`;
   if (result.meta.citation) url += `#${result.meta.citation}`;
 </script>
 
