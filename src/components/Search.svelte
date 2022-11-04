@@ -1,7 +1,7 @@
 <script>
   import SearchResult from "@components/SearchResult.svelte";
-
   import { idxDir } from "@/site-config.json";
+  import loader from "@img/loading.gif";
 
   const baseUrl = import.meta.env.BASE_URL;
 
@@ -65,10 +65,16 @@
   />
 </form>
 
-{#if searched}
+{#if initializing && !pagefind}
+  <p>
+    Preparing search <img src={loader} alt="waiting..." />
+  </p>
+{:else if searched}
   <div>
     {#if loading}
-      searching for ...
+      <p>
+        Searching for {searchTerm} <img src={loader} alt="waiting..." />
+      </p>
     {:else}
       <p>
         {#if searchResults.results.length === 0}
@@ -82,9 +88,11 @@
       <ol>
         {#each searchResults.results.slice(0, show) as result, i (i)}
           {#await result.data()}
-            <li data-waiting>Fetching result...</li>
+            <li>
+              Fetching result <img src={loader} alt="waiting..." />
+            </li>
           {:then result}
-            <li data-ct={i + 1}><SearchResult {result} /></li>
+            <li><SearchResult {result} /></li>
           {:catch error}
             <li>Something went wrong: {error.message}</li>
           {/await}
@@ -115,6 +123,11 @@
     text-align: right;
     font-size: 1em;
     font-weight: 400;
+  }
+
+  img {
+    display: inline-block;
+    margin-left: 1em;
   }
 
   ol {
