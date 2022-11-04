@@ -7,7 +7,7 @@
     "build": "astro build && yarn create-index && cp -r _idx dist && rm dist/_idx/*.html",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
-    "create-index": "rm -r _idx && node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx",
+    "create-index": "rm -rf _idx && node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx",
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
