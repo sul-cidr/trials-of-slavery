@@ -10,11 +10,11 @@ import "@fontsource/martel-sans";
 
 import "@styles/styles.css";
 
-let { bodyClass } = Astro.props;
+let { title, description, bodyClass } = Astro.props;
 ---
 
 <html lang="en" class="nojs">
-  <Head title="Home" />
+  <Head {title} {description} />
   <body class:list={["overflow", bodyClass]}>
     <Header />
     <main>

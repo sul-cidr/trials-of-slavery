@@ -1,8 +1,10 @@
 ---
 import BaseLayout from "@layouts/base.astro";
 import Search from "@components/Search.svelte";
+
+const title = "Search";
 ---
 
-<BaseLayout>
+<BaseLayout {title}>
   <Search initOnLoad={true} client:load />
 </BaseLayout>

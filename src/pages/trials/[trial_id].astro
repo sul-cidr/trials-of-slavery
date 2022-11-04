@@ -35,9 +35,10 @@ const { record, tags, prev, next } = Astro.props;
 const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
   record["Name on Document"]
 }`;
+const title = pageTitle;
 ---
 
-<BaseLayout>
+<BaseLayout {title}>
   <nav>
     <div>
       <a href="#details">Details</a>
