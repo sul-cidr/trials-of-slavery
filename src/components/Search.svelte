@@ -137,15 +137,12 @@
 {/if}
 
 <style>
-  div {
-    margin: 0 var(--size-fluid-2);
-  }
-
   p {
     color: var(--palette-7);
-    text-align: right;
     font-size: 1em;
     font-weight: 400;
+    margin-right: var(--size-2);
+    text-align: right;
   }
 
   img {
@@ -155,7 +152,7 @@
 
   ol {
     padding: 0;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-top: 1em;
   }
 

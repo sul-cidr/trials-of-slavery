@@ -28,14 +28,19 @@
 
 <style>
   a {
-    text-decoration: none;
     display: block;
+    margin: 0;
+    text-decoration: none;
   }
 
   section {
     border-radius: 8px;
     padding: 0.5em;
     transition: background-color 0.2s ease;
+
+    @media (max-width: 800px) {
+      padding: 0.5em 0;
+    }
   }
 
   section:hover {
@@ -62,6 +67,10 @@
       background-color: var(--palette-0);
       color: inherit;
       transition: background-color 0.2s ease;
+    }
+
+    @media (max-width: 800px) {
+      padding: 0.5em 0;
     }
   }
 </style>
