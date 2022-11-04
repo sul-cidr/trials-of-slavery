@@ -7,6 +7,7 @@
   const baseUrl = import.meta.env.BASE_URL;
 
   export let initOnLoad = false;
+  export let showIncrement = 5;
 
   let initializing = false;
   let pagefind;
@@ -16,7 +17,7 @@
   let searched = false;
   let search_id = 0;
   let searchTerm = "";
-  let show = 5;
+  let show = 0;
 
   const init = async () => {
     if (initializing) return;
@@ -50,11 +51,11 @@
       }
       searchResults = results;
       loading = false;
-      show = 5;
+      show = showIncrement;
     }
   };
 
-  const showMore = async () => (show += 5);
+  const showMore = () => (show += showIncrement);
 
   onMount(() => {
     if (initOnLoad) init();
@@ -99,7 +100,12 @@
               Fetching result <img src={loader} alt="waiting..." />
             </li>
           {:then result}
-            <li><SearchResult {result} /></li>
+            <li>
+              <SearchResult
+                {result}
+                scrollIntoView={i > 0 && i === show - showIncrement}
+              />
+            </li>
           {:catch error}
             <li>Something went wrong: {error.message}</li>
           {/await}
