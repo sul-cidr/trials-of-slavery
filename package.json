@@ -4,14 +4,16 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && yarn create-index && cp -r _idx dist && rm dist/_idx/*.html",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
+    "create-index": "rm -r _idx && node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx",
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
     "astro": "1.6.0",
     "autoprefixer": "^10.4.13",
+    "glob": "^8.0.3",
     "postcss-custom-media": "^8.0.2",
     "postcss-nested": "^6.0.0",
     "prettier-plugin-astro": "^0.6.0",

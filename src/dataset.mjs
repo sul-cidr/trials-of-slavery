@@ -3,6 +3,7 @@ import path from "path";
 
 import neatCsv from "neat-csv";
 
+import { documentsBasePath } from "@/site-config.json";
 import { getFrontmatter } from "@lib/markdown-parsing.mjs";
 
 const sheetIds = {
@@ -12,8 +13,6 @@ const sheetIds = {
 
 const sheetUrlBase =
   "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv&gid=";
-
-const documentsBasePath = "src/documents/";
 
 // Given a caseId, fetch and parse all the files from `documentsBasePath`
 //  for that case.  Returns an object of the form:

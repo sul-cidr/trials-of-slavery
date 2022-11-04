@@ -1,6 +1,9 @@
 # build output
 dist
 
+# indexing
+_idx
+
 # dependencies
 node_modules/
 
