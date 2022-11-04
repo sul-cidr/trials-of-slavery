@@ -7,11 +7,6 @@ const base = import.meta.env.BASE_URL;
 
 <nav>
   <a
-    class={pathname === base ? "active" : null}
-    href={pathname === base ? null : base}
-    ><Icon name="home" className="home-icon" />Home
-  </a>
-  <a
     class={pathname === base + "trials/" ? "active" : null}
     href={pathname === base + "trials/" ? null : base + "trials/"}
     ><Icon name="scales" />Trials
@@ -30,6 +25,11 @@ const base = import.meta.env.BASE_URL;
     class={pathname === base + "bibliography/" ? "active" : null}
     href={pathname === base + "bibliography/" ? null : base + "bibliography/"}
     ><Icon name="books" />Bibliography
+  </a>
+  <a
+    class={pathname === base + "search/" ? "active" : null}
+    href={pathname === base + "search/" ? null : base + "search/"}
+    ><Icon name="search" />Search
   </a>
 </nav>
 
