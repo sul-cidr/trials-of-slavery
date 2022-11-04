@@ -21,6 +21,7 @@
     if (!pagefind) {
       const { Pagefind } = await import("@local/pagefind/pagefind.js");
       pagefind = new Pagefind({
+        baseUrl: "/", // so that urls returned by the api aren't prefixed
         basePath: `${baseUrl}${idxDir}/_pagefind/`,
       });
     }
