@@ -4,10 +4,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && yarn create-index && cp -r _idx dist",
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
-    "build-index": "node bin/build-index.mjs && npx -y pagefind --source _idx",
+    "create-index": "node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx",
     "gh-deploy": "bin/astro-gh-deploy.sh"
   },
   "devDependencies": {
