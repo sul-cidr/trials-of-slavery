@@ -1,9 +1,12 @@
 <script>
+  import { onMount } from "svelte";
   import SearchResult from "@components/SearchResult.svelte";
   import { idxDir } from "@/site-config.json";
   import loader from "@img/loading.gif";
 
   const baseUrl = import.meta.env.BASE_URL;
+
+  export let initOnLoad = false;
 
   let initializing = false;
   let pagefind;
@@ -52,6 +55,10 @@
   };
 
   const showMore = async () => (show += 5);
+
+  onMount(() => {
+    if (initOnLoad) init();
+  });
 
   $: search(searchTerm);
 </script>
