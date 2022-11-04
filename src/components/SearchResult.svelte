@@ -1,8 +1,15 @@
 <script>
   export let result;
   const baseUrl = import.meta.env.BASE_URL;
-  let url = `${baseUrl}trials${result.url.slice(0, 3)}/`;
-  if (result.meta.citation) url += `#${result.meta.citation}`;
+  let url;
+  if (/^\/\d{2}/.test(result.url)) {
+    // construct a URL for a trials page
+    url = `${baseUrl}trials${result.url.slice(0, 3)}/`;
+    if (result.meta.citation) url += `#${result.meta.citation}`;
+  } else {
+    // non-trials pages (lowercase and strip file extension)
+    url = `${baseUrl}${result.url.slice(1).toLowerCase().split(".")[0]}/`;
+  }
 </script>
 
 <a href={url}>
