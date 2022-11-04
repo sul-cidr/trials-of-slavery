@@ -18,6 +18,7 @@
   let search_id = 0;
   let searchTerm = "";
   let show = 0;
+  let resultsContainerEl;
 
   const init = async () => {
     if (initializing) return;
@@ -55,7 +56,19 @@
     }
   };
 
-  const showMore = () => (show += showIncrement);
+  const showMore = () => {
+    show += showIncrement;
+    const interval = setInterval(() => {
+      if (
+        resultsContainerEl.querySelectorAll("li[data-fetching]").length === 0
+      ) {
+        resultsContainerEl.children[
+          resultsContainerEl.children.length - showIncrement
+        ].scrollIntoView();
+        clearInterval(interval);
+      }
+    }, 50);
+  };
 
   onMount(() => {
     if (initOnLoad) init();
@@ -93,18 +106,15 @@
           {searchResults.results.length} results for {searchTerm}
         {/if}
       </p>
-      <ol>
+      <ol bind:this={resultsContainerEl}>
         {#each searchResults.results.slice(0, show) as result, i (i)}
           {#await result.data()}
-            <li>
+            <li data-fetching>
               Fetching result <img src={loader} alt="waiting..." />
             </li>
           {:then result}
             <li>
-              <SearchResult
-                {result}
-                scrollIntoView={i > 0 && i === show - showIncrement}
-              />
+              <SearchResult {result} />
             </li>
           {:catch error}
             <li>Something went wrong: {error.message}</li>

@@ -1,11 +1,7 @@
 <script>
-  import { afterUpdate } from "svelte";
   export let result;
-  export let scrollIntoView;
 
   const baseUrl = import.meta.env.BASE_URL;
-
-  let el;
   let url;
 
   if (/^\/\d{2}/.test(result.url)) {
@@ -16,17 +12,9 @@
     // non-trials pages (lowercase and strip file extension)
     url = `${baseUrl}${result.url.slice(1).toLowerCase().split(".")[0]}/`;
   }
-
-  afterUpdate(() => {
-    if (scrollIntoView) {
-      // hack to give better odds of other search results being rendered
-      //  before scrolling
-      setTimeout(() => el.scrollIntoView(), 50);
-    }
-  });
 </script>
 
-<a href={url} bind:this={el}>
+<a href={url}>
   <section>
     <header>
       {result.meta.title}
