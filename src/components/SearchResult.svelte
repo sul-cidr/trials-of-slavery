@@ -5,19 +5,36 @@
   if (result.meta.citation) url += `#${result.meta.citation}`;
 </script>
 
-<section>
-  <header>
-    <a href={url}>{result.meta.title}</a>
-    {#if result.meta.citation}
-      <p>{result.meta.citation}</p>
-    {/if}
-  </header>
-  <div>{@html result.excerpt}</div>
-</section>
+<a href={url}>
+  <section>
+    <header>
+      {result.meta.title}
+      {#if result.meta.citation}
+        <p>{result.meta.citation}</p>
+      {/if}
+    </header>
+    <div>{@html result.excerpt}</div>
+  </section>
+</a>
 
 <style>
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
   section {
-    margin: 2em 0;
+    border-radius: 8px;
+    padding: 0.5em;
+    transition: background-color 0.2s ease;
+  }
+
+  section:hover {
+    background-color: var(--palette-0);
+
+    & :global(mark) {
+      background-color: var(--palette-1);
+    }
   }
 
   header {
@@ -35,6 +52,7 @@
     :global(mark) {
       background-color: var(--palette-0);
       color: inherit;
+      transition: background-color 0.2s ease;
     }
   }
 </style>

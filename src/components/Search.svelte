@@ -90,6 +90,12 @@
           {/await}
         {/each}
       </ol>
+      {#if searchResults.results.length}
+        <p>
+          Showing {Math.min(show, searchResults.results.length)} of {searchResults
+            .results.length} results
+        </p>
+      {/if}
       {#if searchResults.results.length > show}
         <button type="button" on:click|preventDefault={showMore}
           >Load more results</button
@@ -103,13 +109,39 @@
   div {
     margin: 0 var(--size-fluid-2);
   }
+
+  p {
+    color: var(--palette-7);
+    text-align: right;
+    font-size: 1em;
+    font-weight: 400;
+  }
+
   ol {
-    list-style: none;
     padding: 0;
+    margin-left: 1em;
+    margin-top: 1em;
   }
 
   li {
     padding: 0;
+    position: relative;
+
+    &::marker {
+      font-size: 22px;
+    }
+
+    & + li::before {
+      content: " ";
+      display: block;
+      width: 80%;
+      position: relative;
+      background: var(--palette-1);
+      left: 50%;
+      transform: translateX(-50%);
+      height: 1px;
+      margin: 0.5em 0;
+    }
   }
 
   form {
