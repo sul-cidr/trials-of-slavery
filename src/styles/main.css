@@ -27,7 +27,7 @@ h2,
 h3,
 h4 {
   font-family: var(--font-serif);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 main > header {
@@ -95,6 +95,24 @@ h2.page-heading {
 .pill.active:hover,
 .pill.active:focus {
   background-color: var(--palette-4);
+}
+
+input,
+select,
+button {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid var(--palette-0);
+  line-height: 1;
+  position: relative;
+
+  &::placeholder {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    outline-color: var(--palette-3);
+  }
 }
 
 @media (max-width: 640px) {

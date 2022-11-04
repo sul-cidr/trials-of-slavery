@@ -203,8 +203,9 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
     :global(li[id]) {
       transition: background-color 0.2s ease-in-out;
 
-      &.anchor-hovered,
-      &:target {
+      &:hover,
+      &:target,
+      &.anchor-hovered {
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
       }
@@ -214,13 +215,15 @@ const pageTitle = `${record["Date (Y/M/D)"].split("-")[0]} ${
       border-bottom: 2px dashed var(--palette-8);
       cursor: help;
       display: inline-block;
+      line-height: 1;
     }
 
     :global(a[data-footnote-ref]) {
       transition: background-color 0.2s ease-in-out;
 
-      &.fn-hovered,
-      &:target {
+      &:hover,
+      &:target,
+      &.fn-hovered {
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
         outline: 2px solid var(--palette-4);

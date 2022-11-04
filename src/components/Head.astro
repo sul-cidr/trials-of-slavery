@@ -3,8 +3,6 @@ import { execSync } from "node:child_process";
 
 import siteConfig from "@/site-config.json";
 
-import "@styles/styles.css";
-
 const commit = execSync("git rev-parse --short HEAD").toString().trim();
 const datetime = new Date().toISOString();
 
@@ -29,14 +27,7 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
     href={`${Astro.site.pathname}favicon.ico`}
   />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Martel:wght@400;600&display=swap"
-    rel="stylesheet"
-  />
-
-  <script>
+  <script is:inline>
     document.documentElement.className = "js";
   </script>
 </head>

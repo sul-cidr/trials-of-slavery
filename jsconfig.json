@@ -3,12 +3,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@layouts/*": ["src/layouts/*"],
       "@components/*": ["src/components/*"],
-      "@styles/*": ["src/styles/*"],
-      "@local/*": ["src/local/*"],
+      "@dataset": ["src/dataset.mjs"],
+      "@img/*": ["src/img/*"],
+      "@layouts/*": ["src/layouts/*"],
       "@lib/*": ["lib/*"],
-      "@dataset": ["src/dataset.mjs"]
+      "@local/*": ["src/local/*"],
+      "@styles/*": ["src/styles/*"]
     }
   }
 }

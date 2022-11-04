@@ -22,9 +22,11 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.0.3",
+    "@fontsource/martel": "^4.5.10",
+    "@fontsource/martel-sans": "^4.5.10",
     "leaflet": "^1.9.2",
     "neat-csv": "^7.0.0",
-    "open-props": "^1.4.16",
+    "open-props": "^1.4.20",
     "simple-datatables": "^3.2.2"
   }
 }

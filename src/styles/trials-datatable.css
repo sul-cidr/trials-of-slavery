@@ -1,7 +1,5 @@
 .dataTable-selector {
-  background-color: var(--palette-2);
-  border-radius: var(--radius-2);
-  padding: var(--size-1) var(--size-2);
+  margin-right: 0.5em;
 }
 
 .dataTable-pagination a {

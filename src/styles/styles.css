@@ -1,6 +1,6 @@
 @import "../../node_modules/open-props/open-props.min.css";
 @import "../../node_modules/open-props/media.min.css";
-@import "../../node_modules/open-props/normalize.min.css";
+@import "../../node_modules/open-props/normalize.light.min.css";
 
 @import "baseline.css";
 @import "variables.css";

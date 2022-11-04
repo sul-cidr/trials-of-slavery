@@ -7,6 +7,7 @@ trialsTable.style.display = "table";
 const dataTable = new FilteringDataTable("#trials", {
   prevText: document.getElementById("prev").innerHTML,
   nextText: document.getElementById("next").innerHTML,
+  labels: { placeholder: "Filter…" },
 });
 
 const goToTrial = (event) =>
