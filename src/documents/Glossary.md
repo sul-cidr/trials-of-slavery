@@ -145,7 +145,7 @@ The form *sieur* is derived from *sinjeur*, but it is uncertain whether the latt
 
 - sinjeur
 - sinjeurs
-It is uncertain whether *sinjeur* came into colonial Dutch from French *seigneur* or Creole Portuguese *sinjoor*(both from Latin, *senior*, ‘older’). The word was commonly used by slaves at the Cape to address European males but was also the official title for lower-ranking VOC officials. The word lived on in Afrikaans in the form of *seur* until the early twentieth century but is now obsolete.
+It is uncertain whether *sinjeur* came into colonial Dutch from French *seigneur* or Creole Portuguese *sinjoor* (both from Latin, *senior*, ‘older’). The word was commonly used by slaves at the Cape to address European males but was also the official title for lower-ranking VOC officials. The word lived on in Afrikaans in the form of *seur* until the early twentieth century but is now obsolete.
 
 
 - sjambok

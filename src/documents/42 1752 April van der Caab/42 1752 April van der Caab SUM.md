@@ -1,4 +1,4 @@
-April van de Caab ran away from his master but was obliged after some time to take up employment on another farm, passing himself off as a* Bastaard-Hottentot*.[^1] He was recognised by Khoi workers and returned to his master, but on the way back escaped and stabbed one of the Khoi.
+April van de Caab ran away from his master but was obliged after some time to take up employment on another farm, passing himself off as a*Bastaard-Hottentot*.[^1] He was recognised by Khoi workers and returned to his master, but on the way back escaped and stabbed one of the Khoi.
 
 The case reveals the problems faced by runaway slaves, and the complexity of their interactions with Khoi and other slaves whom they met when on the run. It is striking that April, as a locally born slave, did not attempt to leave the colony, as did many slaves who had known another life before being brought to the Cape, but rather stayed in the only region with which he was familiar.[^2]
 
