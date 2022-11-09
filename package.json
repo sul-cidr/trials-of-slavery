@@ -12,24 +12,24 @@
   },
   "devDependencies": {
     "@astrojs/svelte": "^1.0.2",
-    "astro": "1.6.0",
+    "astro": "1.6.3",
     "autoprefixer": "^10.4.13",
     "glob": "^8.0.3",
     "postcss-custom-media": "^8.0.2",
     "postcss-nested": "^6.0.0",
-    "prettier-plugin-astro": "^0.6.0",
+    "prettier-plugin-astro": "^0.7.0",
     "remark-extract-frontmatter": "^3.2.0",
     "remark-frontmatter": "^4.0.1",
     "remark-stringify": "^10.0.2",
     "remark-supersub": "^1.0.0"
   },
   "dependencies": {
-    "@floating-ui/dom": "^1.0.3",
+    "@floating-ui/dom": "^1.0.4",
     "@fontsource/martel": "^4.5.10",
     "@fontsource/martel-sans": "^4.5.10",
     "leaflet": "^1.9.2",
     "neat-csv": "^7.0.0",
-    "open-props": "^1.4.20",
+    "open-props": "^1.4.21",
     "simple-datatables": "^3.2.2",
     "svelte": "^3.52.0"
   }

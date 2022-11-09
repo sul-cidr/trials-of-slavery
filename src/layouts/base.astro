@@ -2,6 +2,7 @@
 import Head from "@components/Head.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
+import BackToTop from "@components/BackToTop.astro";
 
 import "@fontsource/martel/400.css";
 import "@fontsource/martel/600.css";
@@ -9,16 +10,17 @@ import "@fontsource/martel-sans";
 
 import "@styles/styles.css";
 
-let { bodyClass } = Astro.props;
+let { title, description, bodyClass } = Astro.props;
 ---
 
 <html lang="en" class="nojs">
-  <Head title="Home" />
-  <body class={bodyClass}>
+  <Head {title} {description} />
+  <body class:list={["overflow", bodyClass]}>
     <Header />
     <main>
       <slot />
     </main>
     <Footer />
+    <BackToTop />
   </body>
 </html>

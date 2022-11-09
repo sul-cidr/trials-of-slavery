@@ -3,6 +3,8 @@ import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 import { glossary } from "@lib/glossary-md-parser.mjs";
 
+const title = "Glossary";
+
 // The only markup in the glosses is emphasis, so this is simpler than invoking
 //  the entire remark-rehype pipeline.
 const renderEmphasis = (text) => {
@@ -16,7 +18,7 @@ const renderEmphasis = (text) => {
 };
 ---
 
-<BaseLayout>
+<BaseLayout {title}>
   <header><h2 class="page-heading"><Icon name="book" />Glossary</h2></header>
   <section>
     <dl>

@@ -6,6 +6,8 @@ import "@styles/trials-datatable.css"; // overrides for simple-datatables styles
 
 import { records } from "@dataset";
 
+const title = "Trials";
+
 const tags = {};
 records.forEach((record) =>
   record.Tags?.split("; ").forEach((tag) => {
@@ -19,7 +21,7 @@ records.forEach((record) =>
 );
 ---
 
-<BaseLayout bodyClass="trials">
+<BaseLayout {title} bodyClass="trials">
   <!-- anything bundled by Astro is injected into the head, regardless of whether
        it's in <noscript/> or not, so we're using a static external stylesheet here :( -->
   <noscript><link rel="stylesheet" href="/nojs.css" /></noscript>

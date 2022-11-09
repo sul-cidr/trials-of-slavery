@@ -3,9 +3,11 @@ import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 import "leaflet/dist/leaflet.css";
 import "@styles/leaflet-overrides.css";
+
+const title = "Map of Places";
 ---
 
-<BaseLayout bodyClass="map">
+<BaseLayout {title} bodyClass="map">
   <header>
     <h2 class="page-heading"><Icon name="map" />Map of Places</h2>
   </header>
