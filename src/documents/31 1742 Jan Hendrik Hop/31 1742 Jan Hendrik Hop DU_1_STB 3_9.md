@@ -7,7 +7,7 @@ Huijden, den 26^e^ November 1742, compareerde voor mij, Arnold Schephausen, secr
 
 Dat hij comparant in dit loopende jaar, sonder den eijgentlijken tijd te weeten, met den burger Albert van Zeijl naar sijn plaats, geleegen onder in de Lange Valleij, rijdende, met denselven aangereeden is op de post van den oud burgerraad, sieur Jan Hendrik Hop, geleegen aan de Piquetbergen, in de wandeling genaamd de Drooge Rijs Kloof, alwaar ter dier tijd niet anders als slaaven van gemelten sieur Hop laagen.
 
-Dat hij comparant alsdoen, in een camer die open stond, gesien heeft, eenige schietgeweeren, alsmeede stelroers, waarbij insgelijk een bandelier met een kruijthooren en kogel\[…\][^1] was, hebbende hij comparant verscheijde maalen tevooren gesien aldaar ook kruijt en kogels waren.
+Dat hij comparant alsdoen, in een camer die open stond, gesien heeft, eenige schietgeweeren, alsmeede stelroers, waarbij insgelijk een bandelier met een kruijthooren en kogel\[…\]​[^1] was, hebbende hij comparant verscheijde maalen tevooren gesien aldaar ook kruijt en kogels waren.
 
 Nog betuijgt den comparant dat hij eenige tijd geleeden van den burger Erasmus Smit verstaan heeft dat denselven op een Sondag, voormelten plaats van sieur Hop voorbij rijdende, gesien hadde, dat er twee jongens met geweer na een teijken schooten, en dat hij een Hottentotsmeijd, die van het huijs bij hem quam, gevraagt hadde, wie dat daar na een teijken schoot, daarop deselve hem op geantwoord hadde, dat het twee jongens waren.
 
