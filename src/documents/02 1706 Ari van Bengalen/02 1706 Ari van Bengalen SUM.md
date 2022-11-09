@@ -1,3 +1,5 @@
+[^1]
+
 This account of the experiences of the slave Ari is reported by one of his fellow prisoners, the free burgher Jacobus van der Heijden.[^2] Ari’s story is revealing on several counts.[^3] It is one of the very few sources which gives an indication – however fleeting – of how a Cape slave had originally been captured in Asia. It then gives insights into the tense relationship between a lone deserter and other slave runaways he encountered, in which competition for food and rivalries over leadership played a part. Some details are given on how arson, a frequent means of slave resistance, was carried out.[^4] The text is also of great linguistic interest, since the reported words of the slaves provide some of the earliest forms of the restructuring of Dutch at the Cape which eventually resulted in the formation of Afrikaans.
 
 Ari was subsequently tortured and confessed, though he also blamed the other slaves who had encouraged him to commit arson, and he was placed on Robben Island in heavy chains ‘until he was more informative’ about his accomplices and pending sentence.[^5] He died there in 1708.[^6]
