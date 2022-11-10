@@ -9,7 +9,7 @@ That the prisoner, during March of this year, went to the farm of the former lan
 
 That the prisoner went forth from there but, some days afterwards, he again set out there during the evening, on which occasion the prisoner did not scruple to open with a piece of wood the door of the said small room, which (as he claims) was not locked properly. Thereupon he dragged the same chest from which the slave Daniel had handed him the rixdollar out of the house to the back and broke it open from behind with a bit of wood, which he had cut for this purpose; and stole from it nineteen rixdollars in cash, without knowing the specie, as well as an old jacket and six skeins of yarn, leaving the chest there.
 
-That the prisoner, shortly after leaving there, had shown the money to a certain slave of one Christoffel Wit, saying that it was his own. That afterwards the prisoner gave some of this stolen money to his aforementioned master to pay his *maandgeld[^1] * of five rixdollars, as he had been in agreement with him to earn that much every month.
+That the prisoner, shortly after leaving there, had shown the money to a certain slave of one Christoffel Wit, saying that it was his own. That afterwards the prisoner gave some of this stolen money to his aforementioned master to pay his *maandgeld*[^1] of five rixdollars, as he had been in agreement with him to earn that much every month.
 
 Moreover that the prisoner not only spent the remaining money, but also dumped the jacket and the yarn into the bushes, after which he once again set out (as he admits) to several farms to earn his keep by working.
 
@@ -19,7 +19,7 @@ That the prisoner, being afraid, took flight to a wild vineyard close by, from w
 
 That the prisoner set off from there to the farm of the farmer Christoffel Groenewalt, also situated close to the Clapmuts, where he was found by the deputy of the honourable landdrost who wanted to apprehend the prisoner, who, however, escaped from him through the window, wearing only his shirt; in the course of which the prisoner received a wound on his little finger, the result of a blow which the aforesaid deputy gave the prisoner. He left behind a sword, which he had on the bed with him, without though (as he confesses) having any intention to injure anybody.
 
-That the prisoner fled to the bushes around the mountain of Clapmuts and sustained himself with *uijntjes[^2] * until, after nineteen days, he was apprehended on the farm of the aforementioned Christoffel Groenewald \[*sic*\] by Groenewald’s son, one Claas Leckerwijn,[^3] and Pieter Simonsz. Plooij who, after struggling with him for a while, overpowered him and delivered him into the hands of justice.
+That the prisoner fled to the bushes around the mountain of Clapmuts and sustained himself with *uijntjes*[^2] until, after nineteen days, he was apprehended on the farm of the aforementioned Christoffel Groenewald \[*sic*\] by Groenewald’s son, one Claas Leckerwijn,[^3] and Pieter Simonsz. Plooij who, after struggling with him for a while, overpowered him and delivered him into the hands of justice.
 
 All of which are matters of the most evil and pernicious consequences, being to the detriment of all good inhabitants and their prosperity, which cannot, under any circumstances, be tolerated in a country where justice is administered, but must be averted and punished most severely, as a deterrent to all such villains.
 

@@ -1,0 +1,13 @@
+line-length: false
+
+no-multiple-blanks:
+  maximum: 2
+
+blanks-around-headings:
+  lines_above: 2
+
+first-line-heading: false
+
+no-inline-html:
+  allowed_elements:
+    - u
