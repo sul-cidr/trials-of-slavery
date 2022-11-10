@@ -220,15 +220,19 @@ const title = pageTitle;
     }
 
     :global(a[data-footnote-ref]) {
-      transition: background-color 0.2s ease-in-out;
+      outline-offset: 10px;
+      transition: none;
 
       &:hover,
       &:target,
       &.fn-hovered {
-        background-color: var(--palette-1);
         border-radius: var(--radius-2);
-        outline: 2px solid var(--palette-4);
-        outline-offset: 4px;
+        outline: 1px solid var(--palette-7);
+        outline-offset: 0px;
+      }
+
+      &.fn-hovered {
+        transition: outline-offset 0.5s ease;
       }
     }
 
