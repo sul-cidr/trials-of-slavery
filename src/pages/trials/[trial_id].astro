@@ -114,6 +114,16 @@ const title = pageTitle;
       anchor.addEventListener("mouseout", () => {
         document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
       });
+
+      anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        const target = document.querySelector(`li#${id}`);
+        if (target.scrollIntoViewIfNeeded) {
+          target.scrollIntoViewIfNeeded(false);
+        } else {
+          target.scrollIntoView(false);
+        }
+      });
     });
 
   document.querySelectorAll("li[id*='-fn-']").forEach((fn) => {
@@ -124,6 +134,15 @@ const title = pageTitle;
       document
         .querySelector(`a[href='#${fn.id}']`)
         .classList.remove("fn-hovered");
+    });
+    fn.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = document.querySelector(`a[href='#${fn.id}']`);
+      if (target.scrollIntoViewIfNeeded) {
+        target.scrollIntoViewIfNeeded(false);
+      } else {
+        target.scrollIntoView(true);
+      }
     });
   });
 </script>
@@ -202,6 +221,7 @@ const title = pageTitle;
     }
 
     :global(li[id]) {
+      scroll-margin-block: 1em;
       transition: background-color 0.2s ease-in-out;
 
       &:hover,
@@ -221,6 +241,7 @@ const title = pageTitle;
 
     :global(a[data-footnote-ref]) {
       outline-offset: 10px;
+      scroll-margin-top: 100px;
       transition: none;
 
       &:hover,
