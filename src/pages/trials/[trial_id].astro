@@ -114,6 +114,18 @@ const title = pageTitle;
       anchor.addEventListener("mouseout", () => {
         document.querySelector(`li#${id}`).classList.remove("anchor-hovered");
       });
+
+      anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        const target = document.querySelector(`li#${id}`);
+        target.classList.remove("target");
+        if (target.scrollIntoViewIfNeeded) {
+          target.scrollIntoViewIfNeeded(false);
+        } else {
+          target.scrollIntoView(false);
+        }
+        target.classList.add("target");
+      });
     });
 
   document.querySelectorAll("li[id*='-fn-']").forEach((fn) => {
@@ -125,7 +137,29 @@ const title = pageTitle;
         .querySelector(`a[href='#${fn.id}']`)
         .classList.remove("fn-hovered");
     });
+    fn.style.cursor = "pointer"; // only appropriate if JS enabled
+    fn.addEventListener("click", (event) => {
+      event.preventDefault();
+      const target = document.querySelector(`a[href='#${fn.id}']`);
+      target.classList.remove("target");
+      if (target.scrollIntoViewIfNeeded) {
+        target.scrollIntoViewIfNeeded(false);
+      } else {
+        target.scrollIntoView(true);
+      }
+      target.classList.add("target");
+    });
   });
+
+  window.addEventListener(
+    "click",
+    () => {
+      document
+        .querySelectorAll(".target")
+        .forEach((el) => el.classList.remove("target"));
+    },
+    true,
+  );
 </script>
 
 <style>
@@ -202,10 +236,12 @@ const title = pageTitle;
     }
 
     :global(li[id]) {
+      scroll-margin-block: 1em;
       transition: background-color 0.2s ease-in-out;
 
       &:hover,
       &:target,
+      &.target,
       &.anchor-hovered {
         background-color: var(--palette-1);
         border-radius: var(--radius-2);
@@ -220,15 +256,21 @@ const title = pageTitle;
     }
 
     :global(a[data-footnote-ref]) {
-      transition: background-color 0.2s ease-in-out;
+      border-radius: var(--radius-2);
+      outline-offset: 10px;
+      scroll-margin-top: 100px;
+      transition: none;
 
       &:hover,
       &:target,
+      &.target,
       &.fn-hovered {
-        background-color: var(--palette-1);
-        border-radius: var(--radius-2);
-        outline: 2px solid var(--palette-4);
-        outline-offset: 4px;
+        outline: 3px solid rgba(84, 106, 77, 0.6); /* var(--palette-7); */
+        outline-offset: 2px;
+      }
+
+      &.fn-hovered {
+        transition: outline-offset 0.5s ease;
       }
     }
 
