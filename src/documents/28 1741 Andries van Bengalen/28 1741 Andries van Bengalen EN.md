@@ -5,7 +5,7 @@ citation: CJ 2485 Inkoomende Brieven, 1729-1759, Deel 1, ff. 52-4.
 
 The Cape of Good Hope.
 
-To the honourable lord Rijk Tulbagh, *opperkoopman* and *secunde[^1]* of this government, and also the president of the honourable Council of Justice.
+To the honourable lord Rijk Tulbagh, *opperkoopman* and *secunde*[^1] of this government, and also the president of the honourable Council of Justice.
 
 Honourable Lord!
 
