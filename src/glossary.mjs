@@ -1,7 +1,7 @@
 import { computePosition, flip, shift, offset } from "@floating-ui/dom";
 
 const documents = document.querySelectorAll(
-  ".document [data-doc-lang='translation'], .summary > div",
+  ".document [data-doc-lang], .summary > div",
 );
 
 const showGloss = (event) => {
