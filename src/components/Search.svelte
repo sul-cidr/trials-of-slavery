@@ -36,6 +36,7 @@
     const filters = {};
     if (!searchTerm) {
       searched = false;
+      searchResults = [];
       return;
     }
     loading = true;
@@ -52,29 +53,43 @@
       }
       searchResults = results;
       loading = false;
-      show = showIncrement;
+      show = Math.min(showIncrement, searchResults.results.length);
     }
   };
 
-  const showMore = () => {
+  const showMore = async () => {
     show += showIncrement;
-    const interval = setInterval(() => {
-      if (
-        resultsContainerEl.querySelectorAll("li[data-fetching]").length === 0
-      ) {
-        resultsContainerEl.children[
-          resultsContainerEl.children.length - showIncrement
-        ].scrollIntoView();
-        clearInterval(interval);
-      }
-    }, 50);
+    await resultsRendered();
+    resultsContainerEl.children[
+      resultsContainerEl.children.length - showIncrement
+    ].scrollIntoView();
   };
+
+  const resultsRendered = async (pollingInterval = 50) =>
+    new Promise((resolve) => {
+      const interval = setInterval(() => {
+        if (!resultsContainerEl?.querySelectorAll("li[data-fetching]").length) {
+          clearInterval(interval);
+          resolve();
+        }
+      }, pollingInterval);
+    });
 
   onMount(() => {
     if (initOnLoad) init();
   });
 
   $: search(searchTerm);
+  // toggling the "overflow" class on <body/> enables/disables the
+  //  <BackToTop/> widget (external to this component -- non-Svelte)
+  $: if (resultsContainerEl && searchResults) {
+    resultsRendered().then(() =>
+      document.body.classList.toggle(
+        "overflow",
+        window.outerHeight < document.body.clientHeight,
+      ),
+    );
+  }
 </script>
 
 <form>
