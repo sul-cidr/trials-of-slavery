@@ -22,5 +22,12 @@ let { title, description, bodyClass } = Astro.props;
     </main>
     <Footer />
     <BackToTop />
+    <script is:inline>
+      document.documentElement.className = "js";
+      window.addEventListener("DOMContentLoaded", () => {
+        if (window.outerHeight >= document.body.clientHeight)
+          document.body.classList.remove("overflow");
+      });
+    </script>
   </body>
 </html>

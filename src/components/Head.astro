@@ -23,12 +23,4 @@ title = title ? `${title} :: ${siteConfig.baseTitle}` : siteConfig.baseTitle;
   <meta name="dcterms.modified" content={datetime} />
 
   <link rel="icon" type="image/x-icon" href={`${base}favicon.ico`} />
-
-  <script is:inline>
-    document.documentElement.className = "js";
-    window.addEventListener("DOMContentLoaded", () => {
-      if (window.outerHeight >= document.body.clientHeight)
-        document.body.classList.remove("overflow");
-    });
-  </script>
 </head>
