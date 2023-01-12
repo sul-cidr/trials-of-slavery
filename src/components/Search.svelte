@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { fade } from 'svelte/transition'
   import SearchResult from "@components/SearchResult.svelte";
   import { idxDir } from "@/site-config.json";
   import loader from "@img/loading.gif";
@@ -124,7 +125,7 @@
       <ol bind:this={resultsContainerEl}>
         {#each searchResults.results.slice(0, show) as result, i (i)}
           {#await result.data()}
-            <li data-fetching>
+            <li data-fetching in:fade="{{ duration: 200, delay: 500 }}">
               Fetching result <img src={loader} alt="waiting..." />
             </li>
           {:then result}
