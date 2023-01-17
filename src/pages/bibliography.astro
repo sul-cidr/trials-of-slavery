@@ -52,9 +52,16 @@ const fileContents = fs.readFileSync("src/documents/Bibliography.md", "utf-8");
 
 const bibliography = [];
 
+let currentInitial: string;
 fileContents.split(/\r?\n/).forEach((line) => {
   if (line === "") return;
-  bibliography.push(renderMarkdown(line.replace(/^-\s*/, "")));
+  let initial: string | boolean = line.match(/^(?:[\W]*)(\w)/)[1];
+  if (initial === currentInitial) {
+    initial = false;
+  } else {
+    currentInitial = initial;
+  }
+  bibliography.push([initial, renderMarkdown(line.replace(/^-\s*/, ""))]);
 });
 ---
 
@@ -62,14 +69,77 @@ fileContents.split(/\r?\n/).forEach((line) => {
   <header>
     <h2 class="page-heading"><Icon name="books" />Bibliography</h2>
   </header>
-  <section>
+  <section class="jumplinks">
+    {
+      bibliography
+        .map(([initial, _]) => initial)
+        .filter((initial) => initial)
+        .map((initial) => <a href={`#${initial}`} set:text={initial} />)
+    }
+  </section>
+  <section class="bibliography">
     <ul>
-      {bibliography.map((item) => <li set:html={item} />)}
+      {
+        bibliography.map(([initial, item]) => (
+          <li id={initial} set:html={item} />
+        ))
+      }
     </ul>
   </section>
 </BaseLayout>
 
+<script>
+  (() => {
+    const jumplinks = document.querySelector(".jumplinks");
+    const sections = document.querySelectorAll(".bibliography li[id]");
+    const fudgeFactor = 5;
+
+    window.onscroll = () => {
+      const scrollPos =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      sections.forEach((section) => {
+        if (
+          section.offsetTop -
+            section.computedStyleMap().get("scroll-margin-top").value -
+            fudgeFactor <=
+          scrollPos
+        ) {
+          jumplinks.querySelector(".active")?.classList.remove("active");
+          jumplinks
+            .querySelector(`[href*=${section.id}]`)
+            .classList.add("active");
+        }
+      });
+    };
+  })();
+</script>
+
 <style>
+  section.jumplinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    background: var(--surface-1);
+    z-index: 2;
+    top: 0;
+    padding: 1em 0;
+    margin-top: calc((var(--size-fluid-2) + 1em) * -1);
+
+    a {
+      display: block;
+      width: var(--size-fluid-4);
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+
+      &.active,
+      &:hover {
+        background-color: var(--palette-0);
+      }
+    }
+  }
+
   ul {
     list-style: none;
     padding: 0 var(--size-fluid-2);
