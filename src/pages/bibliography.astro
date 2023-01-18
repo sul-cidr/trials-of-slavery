@@ -150,6 +150,12 @@ fileContents.split(/\r?\n/).forEach((line) => {
       text-indent: -4vw;
       padding-left: 4vw;
       font-size: var(--font-size-3);
+
+      &[id]:not(:first-child) {
+        border-top: 1px solid var(--palette-1);
+        margin-top: var(--size-fluid-4);
+        padding-top: var(--size-fluid-4);
+      }
     }
 
     :global(strong) {
