@@ -100,7 +100,7 @@ fileContents.split(/\r?\n/).forEach((line) => {
       sections.forEach((section) => {
         if (
           section.offsetTop -
-            section.computedStyleMap().get("scroll-margin-top").value -
+            parseInt(getComputedStyle(section)["scroll-margin-top"], 10) -
             fudgeFactor <=
           scrollPos
         ) {

@@ -67,7 +67,7 @@ const glossaryItems = Object.entries(glossary).map(([key, value]) => {
       targets.forEach((target: HTMLElement) => {
         if (
           target.offsetTop -
-            target.computedStyleMap().get("scroll-margin-top").value -
+            parseInt(getComputedStyle(target)["scroll-margin-top"], 10) -
             fudgeFactor <=
           scrollPos
         ) {
