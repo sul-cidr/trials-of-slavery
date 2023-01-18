@@ -2,6 +2,8 @@
 import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 
+import "@styles/jump-links.css";
+
 import fs from "node:fs";
 
 const title = "Bibliography";
@@ -69,7 +71,7 @@ fileContents.split(/\r?\n/).forEach((line) => {
   <header>
     <h2 class="page-heading"><Icon name="books" />Bibliography</h2>
   </header>
-  <section class="jumplinks">
+  <section class="jump-links">
     {
       bibliography
         .map(([initial, _]) => initial)
@@ -77,7 +79,7 @@ fileContents.split(/\r?\n/).forEach((line) => {
         .map((initial) => <a href={`#${initial}`} set:text={initial} />)
     }
   </section>
-  <section class="bibliography">
+  <section class="jump-targets">
     <ul>
       {
         bibliography.map(([initial, item]) => (
@@ -88,58 +90,11 @@ fileContents.split(/\r?\n/).forEach((line) => {
   </section>
 </BaseLayout>
 
-<script>
-  (() => {
-    const jumplinks = document.querySelector(".jumplinks");
-    const sections = document.querySelectorAll(".bibliography li[id]");
-    const fudgeFactor = 5;
-
-    window.onscroll = () => {
-      const scrollPos =
-        document.documentElement.scrollTop || document.body.scrollTop;
-      sections.forEach((section) => {
-        if (
-          section.offsetTop -
-            parseInt(getComputedStyle(section)["scroll-margin-top"], 10) -
-            fudgeFactor <=
-          scrollPos
-        ) {
-          jumplinks.querySelector(".active")?.classList.remove("active");
-          jumplinks
-            .querySelector(`[href*=${section.id}]`)
-            .classList.add("active");
-        }
-      });
-    };
-  })();
+<script type="module" hoist>
+  await import("@local/jump-links.ts");
 </script>
 
 <style>
-  section.jumplinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    position: sticky;
-    background: var(--surface-1);
-    z-index: 2;
-    top: 0;
-    padding: 1em 0;
-    margin-top: calc((var(--size-fluid-2) + 1em) * -1);
-
-    a {
-      display: block;
-      width: var(--size-fluid-4);
-      text-align: center;
-      transition: all 0.2s ease-in-out;
-
-      &.active,
-      &:hover {
-        background-color: var(--palette-0);
-      }
-    }
-  }
-
   ul {
     list-style: none;
     padding: 0 var(--size-fluid-2);

@@ -1,0 +1,25 @@
+section.jump-links {
+  align-items: center;
+  background: var(--surface-1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: calc((var(--size-fluid-2) + 1em) * -1);
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  a {
+    border-radius: var(--radius-2);
+    display: block;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    width: var(--size-fluid-4);
+
+    &.active,
+    &:hover {
+      background-color: var(--palette-0);
+    }
+  }
+}

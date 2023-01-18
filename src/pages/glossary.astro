@@ -3,6 +3,8 @@ import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 import { glossary } from "@lib/glossary-md-parser.mjs";
 
+import "@styles/jump-links.css";
+
 const title = "Glossary";
 
 // The only markup in the glosses is emphasis, so this is simpler than invoking
@@ -33,7 +35,7 @@ const glossaryItems = Object.entries(glossary).map(([key, value]) => {
 
 <BaseLayout {title}>
   <header><h2 class="page-heading"><Icon name="book" />Glossary</h2></header>
-  <section class="jumplinks">
+  <section class="jump-links">
     {
       glossaryItems
         .map(([initial]) => initial)
@@ -42,7 +44,7 @@ const glossaryItems = Object.entries(glossary).map(([key, value]) => {
     }
   </section>
   <section>
-    <dl class="jumptargets">
+    <dl class="jump-targets">
       {
         glossaryItems.map(([initial, dt, dd]) => (
           <>
@@ -55,60 +57,11 @@ const glossaryItems = Object.entries(glossary).map(([key, value]) => {
   </section>
 </BaseLayout>
 
-<script>
-  (() => {
-    const jumplinksContainer = document.querySelector(".jumplinks");
-    const targets = document.querySelectorAll(".jumptargets [id]");
-    const fudgeFactor = 5;
-
-    window.onscroll = () => {
-      const scrollPos =
-        document.documentElement.scrollTop || document.body.scrollTop;
-      targets.forEach((target: HTMLElement) => {
-        if (
-          target.offsetTop -
-            parseInt(getComputedStyle(target)["scroll-margin-top"], 10) -
-            fudgeFactor <=
-          scrollPos
-        ) {
-          jumplinksContainer
-            .querySelector(".active")
-            ?.classList.remove("active");
-          jumplinksContainer
-            .querySelector(`[href*=${target.id}]`)
-            .classList.add("active");
-        }
-      });
-    };
-  })();
+<script type="module" hoist>
+  await import("@local/jump-links.ts");
 </script>
 
 <style>
-  section.jumplinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    position: sticky;
-    background: var(--surface-1);
-    z-index: 2;
-    top: 0;
-    padding: 1em 0;
-    margin-top: calc((var(--size-fluid-2) + 1em) * -1);
-
-    a {
-      display: block;
-      width: var(--size-fluid-4);
-      text-align: center;
-      transition: all 0.2s ease-in-out;
-
-      &.active,
-      &:hover {
-        background-color: var(--palette-0);
-      }
-    }
-  }
-
   dl {
     padding: 0 var(--size-fluid-2);
     margin-bottom: var(--size-fluid-4);
