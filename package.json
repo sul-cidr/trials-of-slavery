@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "print-dataset": "node --experimental-fetch src/dataset.mjs",
     "create-index": "rm -rf _idx && node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx",
-    "gh-deploy": "bin/astro-gh-deploy.sh"
+    "gh-deploy": "bin/astro-gh-deploy.sh",
+    "lint": "prettier --check 'src/**/*.{js,mjs,ts,json,css,scss,md,html,astro}'"
   },
   "devDependencies": {
     "@astrojs/svelte": "^1.0.2",

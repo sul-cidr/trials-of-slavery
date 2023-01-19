@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/base.astro
 ---
+
 <br>
 <header>
   <h2 class="page-heading">Description of project and scope of website</h2>
