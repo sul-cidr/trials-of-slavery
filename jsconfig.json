@@ -8,7 +8,7 @@
       "@img/*": ["src/img/*"],
       "@layouts/*": ["src/layouts/*"],
       "@lib/*": ["lib/*"],
-      "@local/*": ["src/local/*"],
+      "@scripts/*": ["src/scripts/*"],
       "@styles/*": ["src/styles/*"]
     }
   }
