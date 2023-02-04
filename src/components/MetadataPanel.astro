@@ -29,17 +29,19 @@ const fields = {
 <section id="details">
   <header>Details</header>
   <div class="details">
-    {Object.entries(fields).map(
-      ([key, { label, className, func = (text) => text }]) => (
-        <div class={`details-item ${className}`}>
-          <div class="details-item-label">{label}:</div>
-          <div
-            class="details-item-value"
-            set:html={func(record[key]) || "--"}
-          ></div>
-        </div>
-      ),
-    )}
+    {
+      Object.entries(fields).map(
+        ([key, { label, className, func = (text) => text }]) => (
+          <div class={`details-item ${className}`}>
+            <div class="details-item-label">{label}:</div>
+            <div
+              class="details-item-value"
+              set:html={func(record[key]) || "--"}
+            />
+          </div>
+        ),
+      )
+    }
   </div>
 </section>
 

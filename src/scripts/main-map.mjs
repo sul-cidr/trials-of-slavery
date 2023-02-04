@@ -1,5 +1,5 @@
 import * as L from "leaflet/dist/leaflet-src.esm.js";
-import { initMap, icon } from "@local/leaflet-shared.js";
+import { initMap, icon } from "@/src/scripts/leaflet-shared.js";
 
 const response = await fetch("../locations-by-latlong.json");
 const locationsByLatlong = await response.json();

@@ -2,6 +2,8 @@
 import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 
+import "@styles/jump-links.css";
+
 import fs from "node:fs";
 
 const title = "Bibliography";
@@ -52,9 +54,16 @@ const fileContents = fs.readFileSync("src/documents/Bibliography.md", "utf-8");
 
 const bibliography = [];
 
+let currentInitial: string;
 fileContents.split(/\r?\n/).forEach((line) => {
   if (line === "") return;
-  bibliography.push(renderMarkdown(line.replace(/^-\s*/, "")));
+  let initial: string | boolean = line.match(/^(?:[\W]*)(\w)/)[1];
+  if (initial === currentInitial) {
+    initial = false;
+  } else {
+    currentInitial = initial;
+  }
+  bibliography.push([initial, renderMarkdown(line.replace(/^-\s*/, ""))]);
 });
 ---
 
@@ -62,12 +71,26 @@ fileContents.split(/\r?\n/).forEach((line) => {
   <header>
     <h2 class="page-heading"><Icon name="books" />Bibliography</h2>
   </header>
-  <section>
+  <section class="jump-links">
+    {
+      bibliography
+        .map(([initial, _]) => initial)
+        .filter((initial) => initial)
+        .map((initial) => <a href={`#${initial}`} set:text={initial} />)
+    }
+  </section>
+  <section class="jump-targets">
     <ul>
-      {bibliography.map((item) => <li set:html={item} />)}
+      {
+        bibliography.map(([initial, item]) => (
+          <li id={initial} set:html={item} />
+        ))
+      }
     </ul>
   </section>
 </BaseLayout>
+
+<script src="@scripts/jump-links.ts"></script>
 
 <style>
   ul {
@@ -77,9 +100,15 @@ fileContents.split(/\r?\n/).forEach((line) => {
 
     :global(li) {
       margin: 0 0 var(--size-fluid-2);
-      text-indent: calc(var(--size-fluid-5) * -1);
-      padding-left: var(--size-fluid-5);
+      text-indent: -4vw;
+      padding-left: 4vw;
       font-size: var(--font-size-3);
+
+      &[id]:not(:first-child) {
+        border-top: 1px solid var(--palette-1);
+        margin-top: var(--size-fluid-4);
+        padding-top: var(--size-fluid-4);
+      }
     }
 
     :global(strong) {

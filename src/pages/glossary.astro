@@ -3,6 +3,8 @@ import BaseLayout from "@layouts/base.astro";
 import Icon from "@components/Icon.astro";
 import { glossary } from "@lib/glossary-md-parser.mjs";
 
+import "@styles/jump-links.css";
+
 const title = "Glossary";
 
 // The only markup in the glosses is emphasis, so this is simpler than invoking
@@ -16,21 +18,46 @@ const renderEmphasis = (text) => {
     })
     .join("");
 };
+
+let currentInitial: string;
+const glossaryItems = Object.entries(glossary).map(([key, value]) => {
+  let initial: string | boolean = key[0].toUpperCase();
+  const dt = key.split(",").join(", ");
+  const dd = renderEmphasis(value);
+  if (initial === currentInitial) {
+    initial = false;
+  } else {
+    currentInitial = initial;
+  }
+  return [initial, dt, dd];
+});
 ---
 
 <BaseLayout {title}>
   <header><h2 class="page-heading"><Icon name="book" />Glossary</h2></header>
+  <section class="jump-links">
+    {
+      glossaryItems
+        .map(([initial]) => initial)
+        .filter((initial) => initial)
+        .map((initial) => <a href={`#${initial}`} set:text={initial} />)
+    }
+  </section>
   <section>
-    <dl>
-      {Object.entries(glossary).map(
-      ([key, value]) => (
-        <dt>{key.split(",").join(", ")}</dt>
-        <dd set:html={renderEmphasis(value)}></dd>
-      ),
-    )}
+    <dl class="jump-targets">
+      {
+        glossaryItems.map(([initial, dt, dd]) => (
+          <>
+            <dt id={initial}>{dt}</dt>
+            <dd set:html={dd} />
+          </>
+        ))
+      }
     </dl>
   </section>
 </BaseLayout>
+
+<script src="@scripts/jump-links.ts"></script>
 
 <style>
   dl {
@@ -43,6 +70,12 @@ const renderEmphasis = (text) => {
     color: var(--palette-8);
     font-weight: bold;
     font-size: var(--font-size-4);
+
+    &[id]:not(:first-child) {
+      border-top: 1px solid var(--palette-1);
+      margin-top: var(--size-fluid-4);
+      padding-top: var(--size-fluid-4);
+    }
   }
 
   dd + dt {

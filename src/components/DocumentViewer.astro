@@ -65,15 +65,13 @@ const { record } = Astro.props;
   };
   initTranslationTabs();
 
-  import { AnimatedDetails } from "../local/animated-details.js";
+  import { AnimatedDetails } from "@scripts/animated-details.js";
   document.querySelectorAll(".documents details").forEach((el) => {
     new AnimatedDetails(el, { contentSelector: ".document" });
   });
 </script>
 
-<script type="module" hoist>
-  await import("../glossary.mjs");
-</script>
+<script src="@scripts/glossary.mjs"></script>
 
 <style>
   details {

@@ -33,14 +33,16 @@ records.forEach((record) =>
   <section class="tags">
     <header>Top 10 Tags ({Object.keys(tags).length} total)</header>
     <div>
-      {Object.entries(tags)
-        .sort(([, a], [, b]) => b.length - a.length)
-        .slice(0, 10)
-        .map(([tag, ids]) => (
-          <span class="pill" data-tag={tag} data-records={ids.join(",")}>
-            {tag} ({ids.length})
-          </span>
-        ))}
+      {
+        Object.entries(tags)
+          .sort(([, a], [, b]) => b.length - a.length)
+          .slice(0, 10)
+          .map(([tag, ids]) => (
+            <span class="pill" data-tag={tag} data-records={ids.join(",")}>
+              {tag} ({ids.length})
+            </span>
+          ))
+      }
     </div>
   </section>
 
@@ -56,38 +58,40 @@ records.forEach((record) =>
       </tr>
     </thead>
     <tbody>
-      {records.map((record) => (
-        <tr
-          data-row-id={record.ID}
-          data-tags={record.Tags?.split("; ").join("|")}
-        >
-          <td>
-            <a href={`${Astro.site.pathname}trials/${record.ID}/`}>
-              {record.ID}
-            </a>
-          </td>
-          <td>{record["Name on Document"]}</td>
-          <td>{record["Date (Y/M/D)"]}</td>
-          <td>{record["Trial Location"]}</td>
-        </tr>
-      ))}
+      {
+        records.map((record) => (
+          <tr
+            data-row-id={record.ID}
+            data-tags={record.Tags?.split("; ").join("|")}
+          >
+            <td>
+              <a href={`${Astro.site.pathname}trials/${record.ID}/`}>
+                {record.ID}
+              </a>
+            </td>
+            <td>{record["Name on Document"]}</td>
+            <td>{record["Date (Y/M/D)"]}</td>
+            <td>{record["Trial Location"]}</td>
+          </tr>
+        ))
+      }
     </tbody>
   </table>
 
-  {() => {
-    if (import.meta.env.DEV) {
-      return (
-        <details>
-          <summary style="box-sizing: content-box;">debug</summary>
-          <pre>{JSON.stringify(tags, null, 2)}</pre>
-        </details>
-      );
+  {
+    () => {
+      if (import.meta.env.DEV) {
+        return (
+          <details>
+            <summary style="box-sizing: content-box;">debug</summary>
+            <pre>{JSON.stringify(tags, null, 2)}</pre>
+          </details>
+        );
+      }
     }
-  }}
+  }
 
-  <script type="module" hoist>
-    await import("@local/trials.mjs");
-  </script>
+  <script src="@scripts/trials.mjs"></script>
 </BaseLayout>
 
 <style>

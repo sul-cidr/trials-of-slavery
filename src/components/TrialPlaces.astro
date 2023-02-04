@@ -13,20 +13,22 @@ const locations = record["trial_locations"].map((location) => ({
 <section id={sectionId}>
   <header>{title}</header>
   <div class="location-rows">
-    {locations.map((location) => (
-      <div class="location-row" data-location={JSON.stringify(location)}>
-        <Icon name="marker" className="marker" />
-        <span class="location-name">{location.name}</span>
-        <span class="location-desc">{location.desc}</span>
-      </div>
-    ))}
+    {
+      locations.map((location) => (
+        <div class="location-row" data-location={JSON.stringify(location)}>
+          <Icon name="marker" className="marker" />
+          <span class="location-name">{location.name}</span>
+          <span class="location-desc">{location.desc}</span>
+        </div>
+      ))
+    }
   </div>
   <div id="map"></div>
 </section>
 
 <script>
   import * as L from "leaflet/dist/leaflet-src.esm.js";
-  import { initMap, icon } from "@local/leaflet-shared.js";
+  import { initMap, icon } from "@scripts/leaflet-shared.js";
 
   const locations = document.querySelectorAll("[data-location]");
   const locationData = [...locations].map((location) =>
