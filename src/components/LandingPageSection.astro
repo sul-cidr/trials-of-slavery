@@ -1,0 +1,64 @@
+---
+import Icon from "@components/Icon.astro";
+let { title, lastSection } = Astro.props;
+---
+
+<article>
+  <header>
+    <h2 class="page-heading" set:text={title} />
+  </header>
+  <slot />
+  {
+    !lastSection && (
+      <a href="#" aria-label="Scroll to Next Section" class="overlay-button">
+        <Icon name="arrow-narrow-down" />
+      </a>
+    )
+  }
+</article>
+
+<style lang="postcss">
+  article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-fluid-4);
+    margin-top: var(--size-fluid-4);
+    max-height: 100%;
+    min-height: 100%;
+    overflow-y: auto;
+    scroll-margin-top: var(--size-fluid-4);
+    scroll-snap-align: start;
+
+    > :global(p) {
+      font-size: var(--font-size-fluid-1);
+      font-weight: 300;
+      line-height: var(--font-lineheight-3);
+      margin-bottom: var(--size-8);
+      margin-inline: var(--size-fluid-3);
+    }
+  }
+
+    a {
+      align-items: center;
+      background-color: var(--palette-4);
+      border-radius: 50%;
+      color: var(--palette-0);
+      display: flex;
+      font-size: 2rem;
+      height: 3rem;
+      justify-content: center;
+      pointer-events: all;
+      transition: box-shadow 0.2s ease;
+      width: 3rem;
+
+      &:visited {
+        color: var(--palette-0);
+      }
+
+      &:hover {
+        color: var(--palette-0);
+        box-shadow: 0px 0px 6px inset white;
+      }
+    }
+</style>

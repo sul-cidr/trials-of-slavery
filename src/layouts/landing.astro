@@ -1,0 +1,59 @@
+---
+import Head from "@components/Head.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import BackToTop from "@components/BackToTop.astro";
+
+import "@fontsource/martel/400.css";
+import "@fontsource/martel/600.css";
+import "@fontsource/martel-sans";
+
+import "@styles/styles.css";
+
+let { title, description, bodyClass } = Astro.props;
+---
+
+<html lang="en" class="nojs">
+  <Head {title} {description} />
+  <body class:list={["overflow", bodyClass]}>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <BackToTop />
+    <script is:inline>
+      document.documentElement.className = "js";
+      window.addEventListener("DOMContentLoaded", () => {
+        if (window.outerHeight >= document.body.clientHeight)
+          document.body.classList.remove("overflow");
+      });
+      document.querySelectorAll("article a.overlay-button").forEach((button) =>
+        button.addEventListener("click", () => {
+          button.parentElement.nextElementSibling.scrollIntoView({
+            behavior: "smooth",
+          });
+        }),
+      );
+    </script>
+    <style is:global>
+      body {
+        grid-template-rows: auto 1fr auto;
+        display: grid;
+        justify-items: center;
+        height: 100vh;
+        overflow-y: hidden;
+      }
+
+      main {
+        height: 100%;
+        scroll-snap-type: y mandatory;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    </style>
+  </body>
+</html>
