@@ -2,6 +2,7 @@
 import { renderMarkdown } from "@astrojs/markdown-remark";
 
 import people from "../contributors/contributors.yaml";
+import missingImage from "../contributors/missing.svg";
 
 export async function parseMarkdown(toParse = "") {
   // @ts-ignore
@@ -12,7 +13,7 @@ export async function parseMarkdown(toParse = "") {
 // This whole shenanigans is required to use dynamic imports in the SSR/build step.
 const images = import.meta.glob("../contributors/*");
 for (const person of people) {
-  person.imagePath = "/src/contributors/missing.svg";
+  person.imagePath = missingImage;
   if (person.image) {
     const { default: imagePath } = await (
       await images[`../contributors/${person.image}`]
@@ -68,6 +69,7 @@ for (const person of people) {
     height: 100%;
     width: 100%;
     overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
   section {
