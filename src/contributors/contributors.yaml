@@ -1,0 +1,82 @@
+- name: Fiona Clunan
+  sort: Clunan
+  title: Undergraduate class of 2024, majoring in Classics and International Relations, Stanford University
+  image:
+  link: https://profiles.stanford.edu/fiona-clunan
+  email:
+  text: |
+    Fiona worked on natural language processing and mapping.
+
+- name: Gerald Groenewald
+  sort: Groenewald
+  title: Original editor of Trials
+  image:
+  link:
+  text:
+
+- name: Kiana Hu
+  sort: Hu
+  title: Undergraduate class of 2023, majoring in Classics and minoring in Archaeology, Stanford University
+  image:
+  link: https://profiles.stanford.edu/kiana-hu
+  email:
+  text: |
+    Kiana worked on natural language processing.
+
+- name: Stefania Manfio
+  sort: Manfio
+  title: PhD candidate, Archaeology, Stanford University
+  image: stefania_manfio.png
+  link: https://profiles.stanford.edu/stefania-manfio
+  email:
+  text: |
+    Stefania is investigating the slave trade in the Indian Ocean through the lens of shipwrecks, using Mauritius as a case study. Served as project manager.
+
+- name: Laura J. Mitchell
+  sort: Mitchell
+  title:
+  image:
+  link:
+  text:
+
+- name: Juna Nagle
+  sort: Nagle
+  title: Undergraduate class of 2024, majoring in Psychology and minoring in Communications, Stanford University
+  image:
+  link: https://profiles.stanford.edu/juna-nagle
+  email:
+  text: |
+    Juna worked on language data collection and analysis.
+
+- name: Grant Parker
+  sort: Parker
+  title: Stanford University, California, USA and Stellenbosch University, South Africa
+  link: https://profiles.stanford.edu/grant-parker
+  image: grant_parker.jpg
+  email: grparker@stanford.edu
+  text: |
+    Grant studies commemoration in its various media. Convener of the team.
+
+- name: Kerry Ward
+  sort: Ward
+  title: Rice University, Houston, Texas, USA
+  link:
+  image:
+  email: kward@rice.edu
+  text: |
+    Kerry has a long-term commitment to engaged research with Cape communities who trace their heritage to experiences of slavery and bondage.
+
+- name: Nigel Worden
+  sort: Worden
+  title: Original editor of Trials
+  image:
+  link:
+  text:
+
+- name: Victoria (Vicky) Wu
+  sort: Wu
+  title: Undergraduate class of 2024, majoring in Computer Science and minoring in Economics, Stanford University
+  image:
+  link:
+  text: |
+    Vicky worked on natural language processing.
