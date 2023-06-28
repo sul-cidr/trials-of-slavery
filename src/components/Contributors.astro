@@ -1,0 +1,176 @@
+---
+import { renderMarkdown } from "@astrojs/markdown-remark";
+
+import people from "../contributors/contributors.yaml";
+
+export async function parseMarkdown(toParse = "") {
+  // @ts-ignore
+  const output = await renderMarkdown(toParse, {});
+  return output.code;
+}
+
+// This whole shenanigans is required to use dynamic imports in the SSR/build step.
+const images = import.meta.glob("../contributors/*");
+for (const person of people) {
+  person.imagePath = "/src/contributors/missing.svg";
+  if (person.image) {
+    const { default: imagePath } = await (
+      await images[`../contributors/${person.image}`]
+    )();
+    person.imagePath = imagePath;
+  }
+
+  // might as well parse and render any markdown asynchronously here too,
+  //  while we're at it.
+  const html = await parseMarkdown(person.text);
+  person.html = html;
+}
+---
+
+{
+  people
+    .sort((a, b) => a.sort.localeCompare(b.sort))
+    .map((person) => (
+      <section>
+        <header>
+          <h3>
+            {(person.link && <a href={person.link}>{person.name}</a>) ||
+              person.name}
+          </h3>
+          <span>{person.title}</span>
+        </header>
+        <article set:html={person.html} />
+        {(person.link && (
+          <a href={person.link} class="image">
+            <img
+              src={person.imagePath}
+              alt={person.name}
+              width="120"
+              height="160"
+            />
+          </a>
+        )) || (
+          <img
+            src={person.imagePath}
+            alt={person.name}
+            width="120"
+            height="160"
+            class="image"
+          />
+        )}
+      </section>
+    ))
+}
+
+<style>
+  section {
+    align-items: end;
+    display: grid;
+    gap: 0.5em 1em;
+    grid-template-areas: "header image" "text text";
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr;
+    max-width: 800px;
+    width: 100%;
+    text-align: right;
+    position: relative;
+
+    & + section {
+      margin-top: var(--size-fluid-4);
+    }
+
+    header {
+      margin-top: 0.25em;
+      margin-bottom: 0;
+
+      h3 {
+        color: var(--brand);
+        font-size: 1.6rem;
+        line-height: 1;
+        text-transform: initial;
+        min-height: 36px;
+      }
+
+      span {
+        display: block;
+        font-size: 01rem;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-top: 0.25rem;
+        text-transform: initial;
+      }
+    }
+
+    /* &:not(:first-of-type)::before {
+      position: absolute;
+      content: "–•–";
+      display: block;
+      left: 50%;
+      top: -40px;
+      font-size: 2em;
+      letter-spacing: -4px;
+      opacity: 0.5;
+    } */
+  }
+
+  article {
+    border-top: 1px solid var(--palette-4);
+    grid-area: text;
+    padding-top: var(--size-fluid-1);
+    text-align: justify;
+
+    p {
+      font-size: var(--font-size-fluid-1);
+    }
+  }
+
+  .image {
+    grid-area: image;
+  }
+
+  img {
+    aspect-ratio: 1;
+    border: 2px solid var(--palette-4);
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 18%);
+    box-sizing: content-box;
+    margin-inline: 4px;
+    padding: 2px;
+    max-width: 80px;
+  }
+
+  section:nth-child(even) {
+    grid-template-areas: "image header" "text text";
+    grid-template-columns: auto 1fr;
+
+    header {
+      text-align: left;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    section {
+      align-items: start;
+      grid-template-areas: "header image" "text image";
+    }
+
+    section:nth-child(even) {
+      grid-template-areas: "image header" "image text";
+    }
+
+    img {
+      max-width: unset;
+    }
+
+    section header {
+      h3 {
+        font-size: 2rem;
+      }
+
+      span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+</style>
