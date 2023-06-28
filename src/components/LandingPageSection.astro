@@ -1,6 +1,6 @@
 ---
 import Icon from "@components/Icon.astro";
-let { title, lastSection } = Astro.props;
+let { title, firstSection, lastSection } = Astro.props;
 ---
 
 <article>
@@ -10,8 +10,23 @@ let { title, lastSection } = Astro.props;
   <slot />
   {
     !lastSection && (
-      <a href="#" aria-label="Scroll to Next Section" class="overlay-button">
+      <a
+        href="#"
+        aria-label="Scroll to Next Section"
+        class="overlay-button next"
+      >
         <Icon name="arrow-narrow-down" />
+      </a>
+    )
+  }
+  {
+    !firstSection && (
+      <a
+        href="#"
+        aria-label="Scroll to Previous Section"
+        class="overlay-button previous"
+      >
+        <Icon name="arrow-narrow-up" />
       </a>
     )
   }
@@ -27,6 +42,8 @@ let { title, lastSection } = Astro.props;
     max-height: 100%;
     min-height: 100%;
     overflow-y: initial;
+    padding-bottom: 8rem;
+    position: relative;
     scroll-margin-top: var(--size-fluid-4);
     scroll-snap-align: start;
 
@@ -42,6 +59,7 @@ let { title, lastSection } = Astro.props;
     a {
       align-items: center;
       background-color: var(--palette-4);
+      bottom: 4rem;
       border-radius: 50%;
       color: var(--palette-0);
       display: flex;
@@ -49,6 +67,7 @@ let { title, lastSection } = Astro.props;
       height: 3rem;
       justify-content: center;
       pointer-events: all;
+      position: absolute;
       transition: box-shadow 0.2s ease;
       width: 3rem;
 
@@ -59,6 +78,18 @@ let { title, lastSection } = Astro.props;
       &:hover {
         color: var(--palette-0);
         box-shadow: 0px 0px 6px inset white;
+      }
+
+      &.next {
+        transform: translateX(-2rem);
+      }
+
+      &.next + &.previous {
+        transform: translateX(2rem);
+      }
+
+      &.next:last-child {
+        transform: translateX(0);
       }
     }
 </style>

@@ -28,14 +28,26 @@ let { title, description, bodyClass } = Astro.props;
         if (window.outerHeight >= document.body.clientHeight)
           document.body.classList.remove("overflow");
       });
-      document.querySelectorAll("article a.overlay-button").forEach((button) =>
-        button.addEventListener("click", (event) => {
-          event.preventDefault();
-          button.parentElement.nextElementSibling.scrollIntoView({
-            behavior: "smooth",
-          });
-        }),
-      );
+      document
+        .querySelectorAll("article a.overlay-button.next")
+        .forEach((button) =>
+          button.addEventListener("click", (event) => {
+            event.preventDefault();
+            button.parentElement.nextElementSibling.scrollIntoView({
+              behavior: "smooth",
+            });
+          }),
+        );
+      document
+        .querySelectorAll("article a.overlay-button.previous")
+        .forEach((button) =>
+          button.addEventListener("click", (event) => {
+            event.preventDefault();
+            button.parentElement.previousElementSibling.scrollIntoView({
+              behavior: "smooth",
+            });
+          }),
+        );
     </script>
     <style is:global>
       body {
