@@ -25,10 +25,10 @@
     "remark-supersub": "^1.0.0"
   },
   "dependencies": {
-    "@floating-ui/dom": "^1.1.0",
+    "@floating-ui/dom": "^1.6.13",
     "@fontsource/martel": "^4.5.10",
     "@fontsource/martel-sans": "^4.5.10",
-    "leaflet": "^1.9.3",
+    "leaflet": "^1.9.4",
     "neat-csv": "^7.0.0",
     "open-props": "^1.5.3",
     "simple-datatables": "^3.2.2",
