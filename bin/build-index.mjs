@@ -3,7 +3,7 @@ import path from "path";
 import glob from "glob";
 
 import { documentMdToHtml, getFrontmatter } from "../lib/markdown-parsing.mjs";
-import siteConfig from "../site-config.json" assert { type: "json" };
+import siteConfig from "../site-config.json" with { type: "json" };
 
 const { documentsBasePath, idxDir } = siteConfig;
 
@@ -36,3 +36,6 @@ for (let filePath of filePaths) {
 
   fs.writeFileSync(`${idxDir}/${filename}.html`, html);
 }
+
+
+// yarn node bin/build-index.mjs && npx -y pagefind@0.9.1 --source _idx
