@@ -7,12 +7,12 @@ import { documentsBasePath } from "@/site-config.json";
 import { getFrontmatter } from "@lib/markdown-parsing.mjs";
 
 const sheetIds = {
-  trials: "998295052",
-  locations: "1922392383",
+  trials: "756847545",
+  locations: "318358300",
 };
 
 const sheetUrlBase =
-  "https://docs.google.com/spreadsheets/d/1CPoMh-fUaKcKFmzMUxQWNsFpriO-WIRG/export?format=csv&gid=";
+  "https://docs.google.com/spreadsheets/d/1Gw9dMMjQWtEG-tO6lRrwxZbpWQhKdyT0kcrhR6ut9fE/export?format=csv&gid=";
 
 // Given a caseId, fetch and parse all the files from `documentsBasePath`
 //  for that case.  Returns an object of the form:
