@@ -14,14 +14,14 @@
   "devDependencies": {
     "@astrojs/svelte": "^1.0.2",
     "astro": "1.9.2",
-    "autoprefixer": "^10.4.13",
-    "glob": "^8.0.3",
-    "postcss-custom-media": "^9.0.1",
-    "postcss-nested": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "glob": "^8.1.0",
+    "postcss-custom-media": "^9.1.5",
+    "postcss-nested": "^6.2.0",
     "prettier-plugin-astro": "^0.7.2",
     "remark-extract-frontmatter": "^3.2.0",
     "remark-frontmatter": "^4.0.1",
-    "remark-stringify": "^10.0.2",
+    "remark-stringify": "^10.0.3",
     "remark-supersub": "^1.0.0"
   },
   "dependencies": {
