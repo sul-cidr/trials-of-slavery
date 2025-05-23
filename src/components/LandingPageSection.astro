@@ -3,7 +3,7 @@ import Icon from "@components/Icon.astro";
 let { title, firstSection, lastSection } = Astro.props;
 ---
 
-<article>
+<article id={title}>
   <div class="lp-content">
     <header>
       <h2 class="page-heading" set:text={title} />
@@ -50,17 +50,21 @@ let { title, firstSection, lastSection } = Astro.props;
   div.lp-content {
     display: flex;
     flex-direction: column;
-    gap: var(--size-8);
+    gap: var(--size-4);
     margin-inline: var(--size-fluid-3);
     flex-grow: 1;
     /* justify-content: center; */
-  
-    > :global(p), > :global(ul) {
+
+    
+    header { margin-bottom: var(--size-4); }
+    
+    :global(p), :global(ul), {
       font-size: var(--font-size-fluid-1);
-      font-weight: 300;
       line-height: var(--font-lineheight-3);
       margin-inline: var(--size-fluid-3);
+    }
 
+    > :global(p), > :global(ul) {
       &:last-child {
         margin-bottom: var(--size-8);
       }
