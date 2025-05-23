@@ -1,12 +1,13 @@
 import * as L from "leaflet/dist/leaflet-src.esm.js";
 
-export const icon = L.divIcon({
-  className: "marker",
-  html: document.querySelector("svg.marker").outerHTML,
-  iconSize: [40, 40],
-  iconAnchor: [20, 40],
-  popupAnchor: [0, -45],
-});
+export const getIcon = () =>
+  L.divIcon({
+    className: "marker",
+    html: document.querySelector("svg.marker").outerHTML,
+    iconSize: [40, 40],
+    iconAnchor: [20, 40],
+    popupAnchor: [0, -45],
+  });
 
 const tileLayer = L.tileLayer(
   "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",

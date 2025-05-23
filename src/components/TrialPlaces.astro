@@ -28,14 +28,14 @@ const locations = record["trial_locations"].map((location) => ({
 
 <script>
   import * as L from "leaflet/dist/leaflet-src.esm.js";
-  import { initMap, icon } from "@scripts/leaflet-shared.js";
+  import { initMap, getIcon } from "@scripts/leaflet-shared.js";
 
   const locations = document.querySelectorAll("[data-location]");
   const locationData = [...locations].map((location) =>
     JSON.parse(location.dataset.location),
   );
 
-  if (locationData) {
+  if (locationData.length) {
     const setInitialView = (map) => {
       map.fitBounds(
         [locationData.map((location) => [location.lat, location.long])],
@@ -47,7 +47,7 @@ const locations = record["trial_locations"].map((location) => ({
 
     locations.forEach((location) => {
       const { lat, long, name, desc } = JSON.parse(location.dataset.location);
-      const marker = L.marker([lat, long], { icon: icon });
+      const marker = L.marker([lat, long], { icon: getIcon() });
       marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
       location.classList.add("clickable");
       location.addEventListener("click", () => map.setView([lat, long]));

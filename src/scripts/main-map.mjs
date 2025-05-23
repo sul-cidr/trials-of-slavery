@@ -1,5 +1,5 @@
 import * as L from "leaflet/dist/leaflet-src.esm.js";
-import { initMap, icon } from "@/src/scripts/leaflet-shared.js";
+import { initMap, getIcon } from "@/src/scripts/leaflet-shared.js";
 
 const response = await fetch("../locations-by-latlong.json");
 const locationsByLatlong = await response.json();
@@ -20,7 +20,7 @@ Object.entries(locationsByLatlong).forEach(([latlong, locations]) => {
     {},
   );
 
-  L.marker(latlong.split(","), { icon: icon })
+  L.marker(latlong.split(","), { icon: getIcon() })
     .addTo(map)
     .bindPopup(
       Object.entries(locationsByName)
