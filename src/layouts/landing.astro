@@ -33,9 +33,11 @@ let { title, description, bodyClass } = Astro.props;
         .forEach((button) =>
           button.addEventListener("click", (event) => {
             event.preventDefault();
-            button.parentElement.nextElementSibling.scrollIntoView({
-              behavior: "smooth",
-            });
+            button.parentElement.parentElement.nextElementSibling.scrollIntoView(
+              {
+                behavior: "smooth",
+              },
+            );
           }),
         );
       document
@@ -43,9 +45,11 @@ let { title, description, bodyClass } = Astro.props;
         .forEach((button) =>
           button.addEventListener("click", (event) => {
             event.preventDefault();
-            button.parentElement.previousElementSibling.scrollIntoView({
-              behavior: "smooth",
-            });
+            button.parentElement.parentElement.previousElementSibling.scrollIntoView(
+              {
+                behavior: "smooth",
+              },
+            );
           }),
         );
     </script>
@@ -62,6 +66,7 @@ let { title, description, bodyClass } = Astro.props;
         height: 100%;
         scroll-snap-type: y mandatory;
         overflow-y: auto;
+        display: block;
 
         &::-webkit-scrollbar {
           display: none;

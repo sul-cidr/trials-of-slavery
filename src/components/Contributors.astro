@@ -66,10 +66,10 @@ for (const person of people) {
 </div>
 <style>
   div {
-    height: 100%;
-    width: 100%;
-    overflow-y: auto;
     overscroll-behavior: contain;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-fluid-4);
   }
 
   section {
@@ -111,17 +111,6 @@ for (const person of people) {
         text-transform: initial;
       }
     }
-
-    /* &:not(:first-of-type)::before {
-      position: absolute;
-      content: "–•–";
-      display: block;
-      left: 50%;
-      top: -40px;
-      font-size: 2em;
-      letter-spacing: -4px;
-      opacity: 0.5;
-    } */
   }
 
   article {

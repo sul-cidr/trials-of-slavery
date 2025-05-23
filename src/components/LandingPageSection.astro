@@ -4,62 +4,91 @@ let { title, firstSection, lastSection } = Astro.props;
 ---
 
 <article>
-  <header>
-    <h2 class="page-heading" set:text={title} />
-  </header>
-  <slot />
-  {
-    !lastSection && (
-      <a
-        href="#"
-        aria-label="Scroll to Next Section"
-        class="overlay-button next"
-      >
-        <Icon name="arrow-narrow-down" />
-      </a>
-    )
-  }
-  {
-    !firstSection && (
-      <a
-        href="#"
-        aria-label="Scroll to Previous Section"
-        class="overlay-button previous"
-      >
-        <Icon name="arrow-narrow-up" />
-      </a>
-    )
-  }
+  <div class="lp-content">
+    <header>
+      <h2 class="page-heading" set:text={title} />
+    </header>
+    <slot />
+  </div>
+
+  <div class="buttons">
+    <a
+      href="#"
+      aria-label="Scroll to Next Section"
+      class="overlay-button next"
+      data-disabled={lastSection}
+    >
+      <Icon name="arrow-narrow-down" />
+    </a>
+
+    <a
+      href="#"
+      aria-label="Scroll to Previous Section"
+      class="overlay-button previous"
+      data-disabled={firstSection}
+    >
+      <Icon name="arrow-narrow-up" />
+    </a>
+  </div>
 </article>
 
 <style lang="postcss">
   article {
-    align-items: center;
     display: flex;
     flex-direction: column;
     gap: var(--size-fluid-4);
     margin-top: var(--size-fluid-4);
-    max-height: 100%;
     min-height: 100%;
-    overflow-y: initial;
     padding-bottom: 8rem;
     position: relative;
     scroll-margin-top: var(--size-fluid-4);
     scroll-snap-align: start;
+    justify-content: space-between;
 
-    > :global(p) {
+  }
+
+  div.lp-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-8);
+    margin-inline: var(--size-fluid-3);
+    flex-grow: 1;
+    /* justify-content: center; */
+  
+    > :global(p), > :global(ul) {
       font-size: var(--font-size-fluid-1);
       font-weight: 300;
       line-height: var(--font-lineheight-3);
-      margin-bottom: var(--size-8);
       margin-inline: var(--size-fluid-3);
+
+      &:last-child {
+        margin-bottom: var(--size-8);
+      }
     }
+
+    h2 {
+      background-color: var(--palette-0);
+      background-image: url(/src/img/paper.png);
+      background-repeat: repeat;
+      border: 5px solid var(--palette-3);
+      border-radius: var(--custom-border);
+      padding: var(--size-5) var(--size-8);
+
+      &::before, &::after {
+        display: none;
+      }
+    }
+  }
+
+  div.buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--size-6);
   }
 
     a {
       align-items: center;
       background-color: var(--palette-4);
-      bottom: 4rem;
       border-radius: 50%;
       color: var(--palette-0);
       display: flex;
@@ -67,7 +96,6 @@ let { title, firstSection, lastSection } = Astro.props;
       height: 3rem;
       justify-content: center;
       pointer-events: all;
-      position: absolute;
       transition: box-shadow 0.2s ease;
       width: 3rem;
 
@@ -80,16 +108,12 @@ let { title, firstSection, lastSection } = Astro.props;
         box-shadow: 0px 0px 6px inset white;
       }
 
-      &.next {
-        transform: translateX(-2rem);
-      }
-
-      &.next + &.previous {
-        transform: translateX(2rem);
-      }
-
       &.next:last-child {
         transform: translateX(0);
+      }
+
+      &[data-disabled] {
+        visibility: hidden;
       }
     }
 </style>
