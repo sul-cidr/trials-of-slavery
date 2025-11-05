@@ -1,6 +1,6 @@
 ---
 title: AARON VAN BENGALEN
-citation: CJ 784 Sententiën, 1717-1725, ff. 7-11.
+citation: CJ 784 Sententiën, 1717-1725, ref. 1, ff. 7-11.
 ---
 
 Since Aaron van Bengalen, 40 years old at a guess, bondsman of the burgher and farmer Pieter van der Westhuijsen, currently their lordships’ prisoner, voluntarily confessed and admitted, without torture or force of bonds, of irons, or the least threat of suchlike, and it has fully appeared to the honourable Council of Justice:

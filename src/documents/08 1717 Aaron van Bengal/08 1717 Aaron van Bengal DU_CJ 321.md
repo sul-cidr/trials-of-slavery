@@ -1,6 +1,6 @@
 ---
 title: AARON VAN BENGALEN
-citation: CJ 321 Criminele Process Stukken, 1717, document 7.
+citation: CJ 321 Criminele Process Stukken, 1717, ref. 7-9.
 ---
 
 Aan men Heer de Heer N. Beeomondt, Viskaal Independent an Cabo de Goede Hoop.

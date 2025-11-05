@@ -1,6 +1,6 @@
 ---
 title: AARON VAN BENGALEN
-citation: CJ 784 Sententiën, 1717-1725, ff. 7-11.
+citation: CJ 784 Sententiën, 1717-1725, ref. 1, ff. 7-11.
 ---
 
 Alsoo Aaron van Bengale, oud naar gissing 40 jaaren, lijfeijgen van den burger en landbouwer Pieter van der Westhuijse, althans ’s heeren gevangen, buijten pijn of dwang van banden of eijsers, ofte eenige der minste bedrijging van dien, vrijwillig heeft geconfesseert ende beleeden, mitsgaders den agtbare Raad van Justitie ten vollen gebleeken is:
