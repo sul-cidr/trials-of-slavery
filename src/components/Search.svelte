@@ -98,22 +98,22 @@
     on:focus={init}
     bind:value={searchTerm}
     type="text"
-    placeholder="Search"
+    placeholder="Enter search term(s)..."
   />
 </form>
 
 {#if initializing && !pagefind}
-  <p>
+  <p class="status">
     Preparing search <img src={loader} alt="waiting..." />
   </p>
 {:else if searched}
   <div>
     {#if loading}
-      <p>
+      <p class="status">
         Searching for {searchTerm} <img src={loader} alt="waiting..." />
       </p>
     {:else}
-      <p>
+      <p class="status">
         {#if searchResults.results.length === 0}
           No results for {searchTerm}
         {:else if searchResults.results.length === 1}
@@ -138,7 +138,7 @@
         {/each}
       </ol>
       {#if searchResults.results.length}
-        <p>
+        <p class="status">
           Showing {Math.min(show, searchResults.results.length)} of {searchResults
             .results.length} results
         </p>
@@ -150,10 +150,35 @@
       {/if}
     {/if}
   </div>
+{:else}
+  <ul class="instructions">
+    <li>Search for terms in documents</li>
+    <li>
+      To search for exact terms or phrases, enclose them in quotes, e.g.
+      <ul>
+        <li>
+          <code>gun</code> matches <em><u>gun</u></em> and
+          <em><u>gunpowder</u></em> etc.
+        </li>
+        <li>
+          <code>"gun"</code> matches only <em><u>gun</u></em> (and
+          <em><u>guns</u></em>)
+        </li>
+        <li>
+          <code>judicial records</code> matches <em><u>judicial</u></em> and/or
+          <em><u>records</u></em>
+        </li>
+        <li>
+          <code>"judicial records"</code> matches the exact phrase
+          <em><u>judicial records</u></em>
+        </li>
+      </ul>
+    </li>
+  </ul>
 {/if}
 
 <style>
-  p {
+  p.status {
     color: var(--palette-7);
     font-size: 1em;
     font-weight: 400;
@@ -161,9 +186,18 @@
     text-align: right;
   }
 
+  p.instructions {
+    color: var(--palette-7);
+    margin: var(--size-2);
+  }
+
   img {
     display: inline-block;
     margin-left: 1em;
+  }
+
+  ul li {
+    margin: var(--size-2) 0;
   }
 
   ol {
@@ -172,7 +206,7 @@
     margin-top: 1em;
   }
 
-  li {
+  ol > li {
     padding: 0;
     position: relative;
 
