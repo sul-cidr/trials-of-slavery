@@ -16,7 +16,14 @@ const locations = record["trial_locations"].map((location) => ({
     {
       locations.map((location) => (
         <div class="location-row" data-location={JSON.stringify(location)}>
-          <Icon name="marker" className="marker" />
+          <Icon
+            name={
+              location.lat && location.long ? "marker" : "pin-question-mark"
+            }
+            className={
+              location.lat && location.long ? "marker" : "location-unknown"
+            }
+          />
           <span class="location-name">{location.name}</span>
           <span class="location-desc">{location.desc}</span>
         </div>
@@ -31,9 +38,9 @@ const locations = record["trial_locations"].map((location) => ({
   import { initMap, getIcon } from "@scripts/leaflet-shared.js";
 
   const locations = document.querySelectorAll("[data-location]");
-  const locationData = [...locations].map((location) =>
-    JSON.parse(location.dataset.location),
-  );
+  const locationData = [...locations]
+    .map((location) => JSON.parse(location.dataset.location))
+    .filter((location) => !(!location.lat || !location.long));
 
   if (locationData.length) {
     const setInitialView = (map) => {
@@ -47,6 +54,7 @@ const locations = record["trial_locations"].map((location) => ({
 
     locations.forEach((location) => {
       const { lat, long, name, desc } = JSON.parse(location.dataset.location);
+      if (!lat || !long) return;
       const marker = L.marker([lat, long], { icon: getIcon() });
       marker.addTo(map).bindPopup(`<header>${name}</header><p>${desc}</p>`);
       location.classList.add("clickable");
@@ -73,10 +81,15 @@ const locations = record["trial_locations"].map((location) => ({
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-bottom: var(--size-3);
 
-    .marker {
+    .marker,
+    .location-unknown {
       grid-row: span 2;
       height: var(--size-9);
       width: var(--size-9);
+    }
+
+    .location-unknown {
+      opacity: 0.5;
     }
   }
 
