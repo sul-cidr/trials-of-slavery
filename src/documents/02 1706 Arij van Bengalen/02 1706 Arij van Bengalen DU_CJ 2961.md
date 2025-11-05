@@ -1,6 +1,6 @@
 ---
 title: ARI
-citation: CJ 2961 Minuut Justitieële Attestatiën, Actens etc., 1706, ff. 73-76.
+citation: CJ 2961 Minuut Justitieële Attestatiën, Actens etc., 1706, ff. 73-77.
 ---
 
 Huijden, den 28^e^ Meij 1706, compareerde voor mij, Abraham Poulle, secretaris van den edelagtbare Raed van Justitie dezes gouvernements, ter presentie van de naergenoemde getuijgen, Jacobus van der Heijden, heemraed aan Stellinbos \[*sic*\], dewelke ter requisitie van den edele Independent Fiscael Joan Blesius verklaerde hoe waer is:
