@@ -1,6 +1,6 @@
 ---
 title: VARKEN, TOONTJE AND RUIJTER
-citation: CJ 785 Sententiën, 1726-1735, ff. 333-38.
+citation: CJ 785 Sententiën, 1726-1735, ref. 91, ff. 333-38.
 ---
 
 Alsoo den edelachtbare Raed van Justitie deeses gouvernements, uijt de libere, gerecolleerde confessie \[*sic*\] van de Hottentots Varken, oud naer gissing 17, Toontje, oud omtrent 22, en Ruijter, oud naer gissing 20 jaeren, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedreijging van dien, gedaen, en andere stucken in juditio geproduceert, evidentelijk is geconsteert:
