@@ -1,6 +1,6 @@
 ---
 title: JANUARIJ VAN TUTOCORIJN
-citation: CJ 341 Criminele Process Stukken, 1737, ff. 397-98.
+citation: CJ 341 Criminele Process Stukken, 1737, ff. 394-98.
 ---
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of the Castle of Good Hope, Januarij van Tutocorijn, slave of the widow of Melt van der Spuij, 20 years old at a guess, who, on requisition of the honourable independent fiscal, *Meester* Daniel van den Henghel, confesses it to be true:
