@@ -1,6 +1,6 @@
 ---
 title: TABLE VALLEY SLAVES
-citation: CJ 340 Criminele Process Stukken, 1736, ff. 97-103 [modern pagination].
+citation: CJ 340 Criminele Process Stukken, 1736, ref. 41, ff. 97-103, 223-225.
 ---
 
 Dictum ter rolle[^1]
