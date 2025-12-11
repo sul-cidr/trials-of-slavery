@@ -1,6 +1,6 @@
 ---
 title: JURGEN SCHOLTS ET AL.
-citation: CJ 786 Sententiën, 1736-1743, ff. 234-241.
+citation: CJ 786 Sententiën, 1736-1743, ref. 37, ff. 234-241.
 ---
 
 Nademaal uijt de beantwoorde vraagpointen in de boeijen ofte pijn camer door den houtkapper Jurgen Scholts van Dantsig, oud 26, mitsgaders uijt de vrijwillige confessiën van de meede houtkappers, Willem Brock van Bockholt, oud …[^1], Christoffel Coelmeijer van Paterborn, oud 28 en Christoffel Hoorneft van Roosdorp bij Darmstad, oud 32 jaaren, welke confessiën liber, vrij en buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedreijging van dien, zijn gerecolleert, alle vier thans ’s heeren gevangens, en andere stucken ten processe gefourneert, evidentelijk is koomen te blijken:
