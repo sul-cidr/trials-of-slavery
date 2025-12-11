@@ -1,6 +1,6 @@
 ---
 title: ANTHONIJ VAN GOA
-citation: CJ 784 Sententiën, 1717-1725, ff. 164-69.
+citation: CJ 784 Sententiën, 1717-1725, ref. 21, ff. 164-69.
 ---
 
 Alsoo Anthoni \[*sic*\] van Goa, oud naar gissing dertig jaren, lijfeijgen van de burgeresse Beatrix Verweij,[^1] althans ’s heeren gevangen, buijten pijn of dwang van banden, van ijsers, ofte eenige de minste bedrijging van dien, vrijwillig heeft geconfesseert, en den edelagtbare Raad van Justitie deeses gouvernements evident en ten vollen gebleeken is:

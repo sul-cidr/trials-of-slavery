@@ -1,6 +1,6 @@
 ---
 title: ANTHONIJ VAN GOA
-citation: CJ 784 Sententiën, 1717-1725, ff. 164-69.
+citation: CJ 784 Sententiën, 1717-1725, ref. 21, ff. 164-69.
 ---
 
 Since Anthonij van Goa, 30 years old at a guess, bondsman of the burgher Beatrix Verweij, currently their honours’ prisoner, has voluntarily confessed, without torture or force of bonds, of irons, or even the least threat of suchlike, and since it has appeared evident and clear to the honourable Council of Justice of this government:
