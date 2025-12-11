@@ -1,6 +1,6 @@
 ---
 title: ALEXANDER VAN MACCASSER
-citation: CJ 786 Sententiën, 1736-1743, ff. 303-11.
+citation: CJ 786 Sententiën, 1736-1743, ref. 97, ff. 303-11.
 ---
 
 Since Alexander van Maccasser, 30 years old at a guess, bondsman of the *onderkoopman* and *negotie overdrager*,[^1] the honourable Abraham Decker, currently their honours’ prisoner, has voluntarily confessed without torture or force of bonds, of irons, or even the least threat of suchlike, and it appeared evident:

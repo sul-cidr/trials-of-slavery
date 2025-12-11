@@ -1,6 +1,6 @@
 ---
 title: ALEXANDER VAN MACCASSER
-citation: CJ 786 Sententiën, 1736-1743, ff. 303-11.
+citation: CJ 786 Sententiën, 1736-1743, ref. 97, ff. 303-11.
 ---
 
 Alsoo Alexander van Maccasser, oud naar gissing 30 jaaren, lijfeijgen van den ondercoopman en negotie overdraeger d’ edele Abraham Decker, thans ’s heeren gevangen, buijten pijn en dwang van banden, van ijsers, ofte eenige de minste bedreijging van dien, vrijwillig heeft beleeden, en ook ten vollen is gebleeken:
