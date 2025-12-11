@@ -1,6 +1,6 @@
 ---
 title: ANDRIES VAN CEIJLON
-citation: CJ 784 Sententiën, 1717-1725, ff. 225-30.
+citation: CJ 784 Sententiën, 1717-1725, ref. 29, ff. 225-30.
 ---
 
 Alsoo Andries van Ceilon, oud 53 jaaren, lijfeijgen van den landbouwer Barend Buijs, althans ’s heeren gevangen, buijten pijn van banden, van ijsers, ofte eenige de minste bedrijging van dien, vrijwillig heeft beleeden, oversulx den edelagtbare Raad van Justitie deeses gouvernements ten vollen gebleeken is:
