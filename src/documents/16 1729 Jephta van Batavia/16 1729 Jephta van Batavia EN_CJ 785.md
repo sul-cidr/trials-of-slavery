@@ -1,6 +1,6 @@
 ---
 title: JEPHTA VAN BATAVIA
-citation: CJ 785 Sententiën, 1726-1735, ff. 178-82.
+citation: CJ 785 Sententiën, 1726-1735, ref. 22, ff. 178-82.
 ---
 
 As Jephta van Batavia, bondsman of the burgher Johannes Heufke, 30 years old, currently their honours’ prisoner, has voluntary confessed without any torture or coercion of bonds, of irons, or the least threat of suchlike, and since it also appeared evident to the honourable Council of Justice of this government:
