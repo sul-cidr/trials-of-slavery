@@ -1,6 +1,6 @@
 ---
 title: DOULAT VAN BALIJ
-citation: CJ 784 Sententiën, 1717-1725, ff. 64-71.
+citation: CJ 784 Sententiën, 1717-1725, ref. 9, ff. 64-71.
 ---
 
 Alzoo Doulat van Balij, oud naar gissing 30 jaaren, lijfeijgen van den Ternatensche prins Denge Mamouti, althans ’s heeren gevange, buijten pijn of dwang van banden van ijsers, ofte eenige bedrijging van dien, liber en vrij heeft geconfesseert ende beleeden, mitsgaders den agtbaaren Raade van Justitie deeses gouvernements volkomen gebleeken is:
