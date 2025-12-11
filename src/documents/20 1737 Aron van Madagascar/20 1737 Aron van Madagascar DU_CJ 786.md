@@ -1,6 +1,6 @@
 ---
 title: ARON VAN MADAGASCAR
-citation: CJ 786 Sententiën, 1736-1743, ff. 88-93.
+citation: CJ 786 Sententiën, 1736-1743, ref. 12, ff. 88-93.
 ---
 
 Nademaal uijt de libere, gerecolleerde confessie van Aron van Madagascar, oud 30 jaaren, slaaff van den landbouwer Paul Jourdan, buijten pijn ofte dwang van banden, van ijsers, dan wel de minste bedrijging van dien, gedaan, den edelachtbaren Raad van Justitie des Casteels de Goede Hoop evidentelijk is gebleeken:
