@@ -1,6 +1,6 @@
 ---
 title: JONAS VAN MANADO
-citation: CJ 784 Sententiën, 1717-1725, ff. 131-38.
+citation: CJ 784 Sententiën, 1717-1725, ref. 1, ff. 131-38.
 ---
 
 As Jonas van Manado, 30 years old at a guess, bondsman of Hermina Herwigh, widow of Jan Basilius Creitsmar,[^1] currently their honours’ prisoner, has voluntarily confessed and admitted, without any torture or coercion of bonds, of irons, or any threat of suchlike; and since it has appeared most evident to the honourable Council of Justice:
