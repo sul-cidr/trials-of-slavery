@@ -1,6 +1,6 @@
 ---
 title: COMPANY SLAVES
-citation: CJ 339 Criminele Process Stukken, 1735, ff. 177-78.
+citation: CJ 339 Criminele Process Stukken, 1735, ff. 177-178, 181-184, 187-188.
 ---
 
 Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelachtbare Raad van Justitie deeses gouvernements, Claas van de Caab, slaaf der edele Compagnie, oud naar gissing 24 jaaren, dewelke, ter requisitie van den heer Independent Fiscaal, meester Daniel van den Henghel, confesseerde hoe waar is:

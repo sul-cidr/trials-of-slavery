@@ -1,6 +1,6 @@
 ---
 title: COMPANY SLAVES
-citation: CJ 339 Criminele Process Stukken, 1735, ff. 177-78.
+citation: CJ 339 Criminele Process Stukken, 1735, ff. 177-178, 181-184, 187-188.
 ---
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of this government, Claas van de Caab, slave of the honourable Company, 24 years old at a guess, who, on the requisition of the honourable independent fiscal, *Meester* Daniel van den Henghel, confesses it to be true:
