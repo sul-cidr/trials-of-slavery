@@ -1,6 +1,6 @@
 ---
 title: SALAOOS VAN SAMBOUWA
-citation: CJ 357 Criminele Process Stukken, 1749, ff. 428-29.
+citation: CJ 357 Criminele Process Stukken, 1749, ref. 16, ff. 415-433.
 ---
 
 There appears before us, the undersigned delegates from the honourable Council of Justice of the Castle of Good Hope, the Chinese Limoeijko, 40 years old at a guess, who, on the requisition of the honourable independent fiscal, Pieter Reede van Oudshoorn, confesses it to be true:
