@@ -10,4 +10,4 @@ The second group was hierarchically structured, with an appointed leader. Their 
 
 [^2]: An old Dutch colonial word meaning a community, or village, of black people.
 
-[^3]: The documentation in this case also includes the *eijsch* and the testimonies of each of the accused, as well as that of *veldcorporaal* Burgert Van Dijk junior and the burgher Willem Pool, CJ 359, ff. 118-62. For a similar example of ethnic links among slave runaways, see 1760 Achilles van de West Cust et al.
+[^3]: The documentation in this case also includes the *eijsch* and the testimonies of each of the accused, as well as that of *veldcorporaal* Burgert Van Dijk junior and the burgher Willem Pool, CJ 359, ref. 7, ff. 118-62. For a similar example of ethnic links among slave runaways, see 1760 Achilles van de West Cust et al.
