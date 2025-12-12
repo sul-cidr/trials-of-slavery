@@ -1,6 +1,6 @@
 ---
 title: JAN HENDRIK HOP
-citation: 1/STB 3/9 Criminele Verklaringen, 1740-1746, unpaginated.
+citation: 1/STB 3/9 ​​docs. 26 November 1742, 24 December 1742.
 ---
 
 Huijden, den 26^e^ November 1742, compareerde voor mij, Arnold Schephausen, secretaris van Stellenbosch en Draakensteijn, in ’t bijweesen van de naartenoemene getuijgen, den burger Daniël Bokkelenberg, dewelke, ter requisitie van den Landdrost, sieur Pieter Lourensz, verklaarde de waarheijd te zijn:
