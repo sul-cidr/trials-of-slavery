@@ -1,6 +1,6 @@
 ---
 title: REIJNIER VAN MADAGASCAR
-citation: CJ 357 Criminele Process Stukken, 1749, ff. 7-9v.
+citation: CJ 357 Criminele Process Stukken, 1749, ref. 1, ff. 7-9v, 14-15.
 ---
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbaaren Raad van Justitie des Casteels de Goede Hoop, Reijnier van Madagascar, lijfeijgen der erfgenamen van wijlen den landbouwer Matthijs Krugel, naar gissing 60 jaaren, denwelken, ter requisitie van den landdrost van Stellenbosch en Draakensteijn, sieur Adriaan van Schoor, confesseerde hoe waar is:
