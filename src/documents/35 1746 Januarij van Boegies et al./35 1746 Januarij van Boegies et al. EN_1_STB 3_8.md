@@ -1,6 +1,6 @@
 ---
 title: JANUARIJ VAN BOEGIES ET AL.
-citation: 1/STB **3/8** Criminele Verklaringen, 1702-1749, unpaginated.
+citation: 1/STB 3/8 Criminele Verklaringen, 1702-1749, 23 April 1746.
 ---
 
 Right honourable Lord!

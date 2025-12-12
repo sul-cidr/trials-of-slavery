@@ -1,6 +1,6 @@
 ---
 title: JANUARIJ VAN BOEGIES ET AL.
-citation: CJ 354 Criminele Process Stukken, 1746, Deel 2, ff. 464-67.
+citation: CJ 354 Criminele Process Stukken, 1746, Deel 2, ff. 464-67, 484–87, 498–99.
 ---
 
 Compareerde voor ons, ondergeteekende gecommitteerdens uijt den edelagtbare Raad van Justitie deeses gouvernements, Baatjoe van Samboua, lijfeijgen van den burger Christiaan Victor, oud naar gissing 40 jaaren, denwelken, ter requisitie van den heer Independent Fiscaal Pieter Reede van Oudshoorn, confesseerde waar ende waaragtig te zijn:
