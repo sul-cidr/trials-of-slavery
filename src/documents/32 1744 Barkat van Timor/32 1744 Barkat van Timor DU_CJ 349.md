@@ -1,6 +1,6 @@
 ---
 title: BARKAT VAN TIMOR
-citation: CJ 349 Criminele Process Stukken, 1744, ff. 104-8.
+citation: CJ 349 Criminele Process Stukken, 1744, ff. 104-8, 109-10, 115-6.
 ---
 
 Compareerde voor ons, ondergetekende gecommitteerdens uijt den edelagtbaren Raad van Justitie des Casteels de Goede Hoop, Parkat van Timor[^1] lijfeijgen van den oud burgerraad, sieur Abraham Cloppenburg, oud naar gissing 30 jaar, denwelken, ter requisitie van den Heer Independent Fiscaal Pieter Reede van Oudshoorn, confesseerde hoe waar is:
