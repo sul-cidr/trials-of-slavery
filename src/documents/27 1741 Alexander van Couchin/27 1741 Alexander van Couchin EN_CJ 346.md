@@ -1,6 +1,6 @@
 ---
 title: ALEXANDER VAN COUCHIN
-citation: CJ 346 Criminele Process Stukken, 1741, ff. 115-16.
+citation: CJ 346 Criminele Process Stukken, 1741, ff. 115-16 & 121-126.
 ---
 
 Statement given on the requisition of the landdrost, *Sieur* Pieter Lourensz, by the former *heemraad* Daniel van der Lith, the same being of the following contents, namely:
