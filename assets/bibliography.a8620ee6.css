@@ -1269,7 +1269,7 @@ html {
   --link: var(--brand);
   --link-visited: var(--brand);
   --wrap: 90vw;
-  --custom-border: 255px 15px 225px 15px/15px 225px 15px 255px
+  --custom-border: 1px 1px 1px 1px/1px 1px 1px 1px
 }
 @media (min-width: 1024px) {
   html {
