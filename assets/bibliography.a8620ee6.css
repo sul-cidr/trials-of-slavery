@@ -1240,16 +1240,16 @@ a {
   text-decoration-skip-ink:auto
 }
 :root {
-  --russian-green-0: #e9eee7;
-  --russian-green-1: #d3ddd0;
-  --russian-green-2: #bdccb8;
-  --russian-green-3: #a7baa0;
-  --russian-green-4: #91a989;
-  --russian-green-5: #77966d;
-  --russian-green-6: #67825e;
-  --russian-green-7: #546a4d;
-  --russian-green-8: #42533c;
-  --russian-green-9: #2f3b2b
+  --russian-green-0: #E7F3FB;
+  --russian-green-1: #CFDBE4;
+  --russian-green-2: #B7C3CE;
+  --russian-green-3: #9FACB8;
+  --russian-green-4: #8896A3;
+  --russian-green-5: #71808E;
+  --russian-green-6: #5B6A7A;
+  --russian-green-7: #455567;
+  --russian-green-8: #2F4154;
+  --russian-green-9: #1A2D41;
 }
 html {
   --palette-0: var(--russian-green-0);
