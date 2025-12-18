@@ -1264,7 +1264,7 @@ html {
   --palette-9: var(--russian-green-9);
   --brand: var(--palette-9);
   --alt: rebeccapurple;
-  --font-serif: "Martel", serif;
+  --font-serif: "Montserrat", sans-serif;
   --font-sans: "Montserrat", sans-serif;
   --link: var(--brand);
   --link-visited: var(--brand);
