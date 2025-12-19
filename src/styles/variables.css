@@ -1,27 +1,14 @@
-:root {
-  --russian-green-0: #E7F3FB;
-  --russian-green-1: #CFDBE4;
-  --russian-green-2: #B7C3CE;
-  --russian-green-3: #9FACB8;
-  --russian-green-4: #8896A3;
-  --russian-green-5: #71808E;
-  --russian-green-6: #5B6A7A;
-  --russian-green-7: #455567;
-  --russian-green-8: #2F4154;
-  --russian-green-9: #1A2D41;
-}
-
 html {
-  --palette-0: var(--russian-green-0);
-  --palette-1: var(--russian-green-1);
-  --palette-2: var(--russian-green-2);
-  --palette-3: var(--russian-green-3);
-  --palette-4: var(--russian-green-4);
-  --palette-5: var(--russian-green-5);
-  --palette-6: var(--russian-green-6);
-  --palette-7: var(--russian-green-7);
-  --palette-8: var(--russian-green-8);
-  --palette-9: var(--russian-green-9);
+  --palette-0: #e7f3fb;
+  --palette-1: #cfdbe4;
+  --palette-2: #b7c3ce;
+  --palette-3: #9facb8;
+  --palette-4: #8896a3;
+  --palette-5: #71808e;
+  --palette-6: #5b6a7a;
+  --palette-7: #455567;
+  --palette-8: #2f4154;
+  --palette-9: #1a2d41;
 
   --brand: var(--palette-9);
   --alt: rebeccapurple;
@@ -31,7 +18,7 @@ html {
   --link-visited: var(--brand);
   --wrap: 90vw;
 
-  --custom-border: 255px 15px 225px 15px/15px 225px 15px 255px;
+  --custom-border: 1px;
 }
 
 @media (--lg-n-above) {
