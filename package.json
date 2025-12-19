@@ -27,8 +27,7 @@
   "dependencies": {
     "@astrojs/mdx": "^0.16.0",
     "@floating-ui/dom": "^1.6.13",
-    "@fontsource/martel": "^4.5.10",
-    "@fontsource/martel-sans": "^4.5.10",
+    "@fontsource/montserrat": "^5.2.8",
     "@rollup/plugin-yaml": "^4.0.1",
     "leaflet": "^1.9.4",
     "neat-csv": "^7.0.0",
